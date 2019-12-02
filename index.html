@@ -5453,25 +5453,30 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ebuild</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs"># Copyright 1999-2008 Gentoo Foundation
+# Distributed under the terms of the GNU General Public License v2
+# $Header: $
 
-            </div>
+DESCRIPTION="Hello World"
+HOMEPAGE="http://hello-world.org/"
+SRC_URI="http://hello-world.org/"
 
-            <div class="card" id ="">
+LICENSE="GPL"
+SLOT="0"
+KEYWORDS="~x86"
+IUSE=""
 
-                <div class="card-title">
-                    <div class="card-title">
-                        <h4 class="lang-name"></h4>
-                        <br>
-                    </div>
-                </div>
+DEPEND=""
+RDEPEND=""
 
-                <pre><code class=" hljs"></code></pre>
+src_compile() {
+    einfo "Hello World"
+}</code></pre>
 
             </div>
 
@@ -5479,25 +5484,29 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Eiffel</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">indexing "Hello World in Eiffel , from http://roesler-ac.de/wolfram/hello.htm#Eiffel"
 
-            </div>
+class HELLO
 
-            <div class="card" id ="">
+creation
+    run
 
-                <div class="card-title">
-                    <div class="card-title">
-                        <h4 class="lang-name"></h4>
-                        <br>
-                    </div>
-                </div>
+feature
 
-                <pre><code class=" hljs"></code></pre>
+    run is
+        local
+            io : BASIC_IO;
+        do
+            !!io;
+            io.put_string("Hello World!");
+            io.put_newline
+        end; -- run
+end; -- class HELLO</code></pre>
 
             </div>
 
@@ -5505,12 +5514,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ELANG</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"" .H .e .l .l .o ., ._ .w .o .r .l .d .! ()</code></pre>
 
             </div>
 
@@ -5518,12 +5527,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">elixir</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs"> IO.puts "Defining the function world"</code></pre>
 
             </div>
 
@@ -5531,12 +5540,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">elixir</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/usr/bin/env elixir
+IO.puts "Hello world"</code></pre>
 
             </div>
 
@@ -5544,25 +5554,30 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">elm</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">import Html exposing (text)
 
+main =
+    text "Hello, World!"</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">EmacsLisp</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">;;for emacs elisp
 
-                <pre><code class=" hljs"></code></pre>
+(message "hello,world")</code></pre>
 
             </div>
 
@@ -5570,12 +5585,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">emmental</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#100#108#114#111#119#32#44#111#108#108#101#72$</code></pre>
 
             </div>
 
@@ -5583,12 +5598,66 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Emoji gramming</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">😊🕐💖
+😇🕐🕐
+😊🕑🕐
+😇🕑🕑
+😊🕒🕑
+😇🕒🕒
+😊♈💖
+😇♈🕒
+😊📢♈
+😊♈💜
+😇♈💞
+😇♈🕑
+😇♈🕒
+😊📢♈
+😊♉💞
+😇♉💖
+😇♉🕑
+😇♉🕒
+😊📢♉
+😊📢♉
+😊♊💜
+😇♊💕
+😇♊💞
+😇♊💖
+😇♊🕑
+😇♊🕒
+😊📢♊
+😊♈💞
+😇♈💖
+😇♈🕑
+😊📢♈
+😊📢🕑
+😊♈💜
+😇♈💕
+😇♈💞
+😇♈🕐
+😇♈🕒
+😊📢♈
+😊📢♊
+😊♈💕
+😇♈🕐
+😇♈🕑
+😇♈🕒
+😊📢♈
+😊📢♉
+😊♈💞
+😇♈🕑
+😇♈🕒
+😊📢♈
+😊♈💜
+😇♈🕑
+😊📢♈
+😊♈💖
+😇♈💕
+😊📢♈</code></pre>
 
             </div>
 
@@ -5596,12 +5665,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Emoji</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">💬Hello World💬➡</code></pre>
 
             </div>
 
@@ -5609,12 +5678,17 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Emoji Code</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">🐇 🐼 🍇
+    🐇🐖 🏁 ➡️ 🚂 🍇
+        😀 �Hello, World🔤
+        🍎 0
+    🍉
+🍉</code></pre>
 
             </div>
 
@@ -5622,12 +5696,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">emoticon</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello World! :Q S::P :P</code></pre>
 
             </div>
 
@@ -5635,12 +5709,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Enigma 2D</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">&gt;+++++++++[&lt;++++++++&gt;-]&lt;.&gt;+++++++[&lt;++++&gt;-]&lt;+.+++++++..+++.&gt;&gt;&gt;++++++++[&lt;++++&gt;-]D
+        .+&gt;&gt;.--------.------.+++.&lt;&lt;&lt;&lt;.---&lt;]-&gt;+++++++++&lt;[++++++++++&gt;&gt;&gt;.&lt;L</code></pre>
 
             </div>
 
@@ -5648,12 +5723,37 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">EnScript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">LDA A, 72
+OUT A
+LDA A, 101
+OUT A
+LDA A, 108
+OUT A
+OUT A
+LDA A, 111
+OUT A
+LDA A, 44
+OUT A
+LDA A, 32
+OUT A
+LDA A, 119
+OUT A
+LDA A, 111
+OUT A
+LDA A, 114
+OUT A
+LDA A, 108
+OUT A
+LDA A, 100
+OUT A
+LDA A, 33
+OUT A
+LDA A, 9</code></pre>
 
             </div>
 
@@ -5661,12 +5761,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Eodermdrome</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">this (Hello, World!) says... hi!</code></pre>
 
             </div>
 
@@ -5674,12 +5774,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">EOOOL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">,{,{89+(59+~1&(7~+1&2&2&((3~+1&(4~(32_((6~+((8+(38_(},}</code></pre>
 
             </div>
 
@@ -5687,38 +5787,57 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">erlang escript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/usr/bin/env escript
 
+main(_) -&gt;
+    io:format("Hello World~n").</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">erlang</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">-module(erlang_hw).
+-export([start/0]).
 
+start() -&gt;
+    io:format("Hello World~n").</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">evil</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">    zaeeeaeeew
+    zaeeaeeaeaw
+    zaeaeeaeeaew
+    zaeaeeaeeaew
+    zuueeueew
+    zaeeeeew
+    zuueueueeeew
+    zuueeueew
+    zaeeaeeaeaeew
+    zaeaeeaeeaew
+    zaeeaeeaew
+    zaeeeeeaw
+    zaeeeeeaeawuuuw</code></pre>
 
             </div>
 
@@ -5726,12 +5845,22 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Exp</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">{&lt;|^^^^^^^^^| x |^^^^^^^^|&gt;}
+{&lt;|^^^^^^^^^^| x |^^^^^^^| - |^|&gt;}
+{&lt;|^^^^^^^^^| x |^^^^^^^^| + |^^^^|&gt;}
+{&lt;|^^^^^^^^^| x |^^^^^^^^| + |^^^^|&gt;}
+{&lt;|^^^^^^^^^^| x |^^^^^^^^| - |^|&gt;}
+{&lt;|^^^^^^^^| x |^^^^| - |^|&gt;}
+{&lt;|^^^^^^^^^^| x |^^^^^^^^^| - |^^^|&gt;}
+{&lt;|^^^^^^^^^^| x |^^^^^^^^| - |^|&gt;}
+{&lt;|^^^^^^^^^^| x |^^^^^^^^| + |^^|&gt;}
+{&lt;|^^^^^^^^^| x |^^^^^^^^| + |^^^^|&gt;}
+{&lt;|^^^^^^^^^^^^^^^^^| x |^^^^|&gt;}</code></pre>
 
             </div>
 
@@ -5739,12 +5868,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">F-PULSE</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS CBGN[ NXT PLS PLS PLS PLS PLS PLS PLS NXT PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS NXT PLS PLS PLS LST LST LST MNS ]CEND NXT PLS PLS OUT NXT PLS OUT PLS PLS PLS PLS PLS PLS PLS OUT OUT PLS PLS PLS OUT NXT PLS PLS OUT LST LST PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS PLS OUT NXT OUT PLS PLS PLS OUT MNS MNS MNS MNS MNS MNS OUT MNS MNS MNS MNS MNS MNS MNS MNS OUT NXT PLS OUT NXT PTN OUT</code></pre>
 
             </div>
 
@@ -5752,12 +5881,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">factor</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">USING: io ;
+"Hello World" print</code></pre>
 
             </div>
 
@@ -5765,12 +5895,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">FakeASM</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs"> ECHO "Hello, world!"
+ STP</code></pre>
 
             </div>
 
@@ -5778,12 +5909,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">falcon</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">#!/usr/bin/env falcon
 
-                <pre><code class=" hljs"></code></pre>
+&gt; "Hello, World"</code></pre>
 
             </div>
 
@@ -5791,12 +5924,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">false</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World!
+"</code></pre>
 
             </div>
 
@@ -5804,12 +5938,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fancy</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, world!" println </code></pre>
 
             </div>
 
@@ -5817,12 +5951,17 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fantom</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">// Hello from Fantom!
+class HelloWorld {
+    static Void main() {
+        echo("Hello, World!")
+    }
+}</code></pre>
 
             </div>
 
@@ -5830,12 +5969,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ferite</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">uses "console";
+Console.println( "Hello World" );</code></pre>
 
             </div>
 
@@ -5843,12 +5983,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fetlang</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Make slave scream "Hello World!"</code></pre>
 
             </div>
 
@@ -5856,12 +5996,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">FiM++</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs"> Dear Princess Celestia: Hello World!</code></pre>
 
             </div>
 
@@ -5869,12 +6009,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fish</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/usr/bin/env fish
+echo "Hello, World!"</code></pre>
 
             </div>
 
@@ -5882,12 +6023,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Fishing</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">v+CCCCCCCCCCCCCCCC
+    `Hello, World!`N</code></pre>
 
             </div>
 
@@ -5895,12 +6037,22 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fjoelnir</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"hello" &lt; main
+{
+    main -&gt;
+    stef(;)
+    stofn
+        skrifastreng(;"Hello World!"),
+    stofnlok
+}
+*
+"GRUNNUR"
+;</code></pre>
 
             </div>
 
@@ -5908,12 +6060,22 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Flip</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs"> &gt;0&gt; 5+  \
+@'+  
+    &gt;0&gt;4*+\
++,  /    /
+vXv/   /
+    \   \  \  \  \  \  \  \  \  \  \  \  \  \ 
+        4@ 6@ 7@ 7@ 7@ 0@ 5@ 7@ 8@ 7@ 6@ 0@ 2@
+    *&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~&lt;&lt;
+    P++&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~&lt;&lt;
+    Q  0@ 9@ 6@ 6@ 9@ 0@ 5@ 9@ 2@ 6@ 8@ 1@ 2@
+\     /  /  /  /  /  /  /  /  /  /  /  /  /</code></pre>
 
             </div>
 
@@ -5921,12 +6083,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fob</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs"> $:#&$Hello, World!:#&lt;&gt;#=</code></pre>
 
             </div>
 
@@ -5934,12 +6096,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">focal</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">0.1.0.1 TYPE "HELLO WORLD" , !</code></pre>
 
             </div>
 
@@ -5947,12 +6109,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fog.fog</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="xml hljs">&lt;ins&gt;Hello, World!&lt;/ins&gt;</code></pre>
 
             </div>
 
@@ -5960,12 +6122,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">foo</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World!"</code></pre>
 
             </div>
 
@@ -5973,12 +6135,25 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Foobar and Foobaz and Barbaz, oh my!</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">72 and 27 and 27, oh my.
+101 and 101 and 101, oh my.
+108 and 108 and 108, oh my.
+108 and 108 and 108, oh my.
+111 and 111 and 111, oh my.
+44 and 44 and 44, oh my.
+32 and 32 and 32, oh my.
+119 and 119 and 119, oh my.
+111 and 111 and 111, oh my.
+114 and 114 and 114, oh my.
+108 and 108 and 108, oh my.
+100 and 100 and 100, oh my.
+33 and 33 and 33, oh my.
+10 and 10 and 10, oh my.</code></pre>
 
             </div>
 
@@ -5986,12 +6161,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">forobj</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello world!\n"d</code></pre>
 
             </div>
 
@@ -5999,12 +6174,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">forth</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">.( Hello, world!)</code></pre>
 
             </div>
 
@@ -6012,12 +6187,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fortob</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">@print[$!.readcom.println;$\.push:'\;]\;
+print "Hello world!"\;</code></pre>
 
             </div>
 
@@ -6025,12 +6201,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fortran</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">program helloworld
+print *,'Hello World'
+end program helloworld</code></pre>
 
             </div>
 
@@ -6038,12 +6216,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fortran77</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">    PROGRAM HELLOW
+    WRITE(UNIT=*, FMT=*) 'Hello World'
+    END</code></pre>
 
             </div>
 
@@ -6051,12 +6231,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fourier</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">72a101a108aa111a44a32a119a111a114a108a100a33a10a</code></pre>
 
             </div>
 
@@ -6064,14 +6244,35 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
-                        <p>
-
-                        </p>
+                        <h4 class="lang-name">FRAK</h4>
+                        <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">LI 0,C'H'
+PUT 0
+LI 0,C'e'
+PUT 0
+LI 0,C'l'
+PUT 0
+LI 0,C'l'
+PUT 0
+LI 0,C'o'
+PUT 0
+LI 0,32
+PUT 0
+LI 0,C'w'
+PUT 0
+LI 0,C'o'
+PUT 0
+LI 0,C'r'
+PUT 0
+LI 0,C'l'
+PUT 0
+LI 0,C'd'
+PUT 0
+LI 0,C'!'
+PUT 0</code></pre>
 
             </div>
 
@@ -6079,12 +6280,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">FrancePROG</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Alors en gros, on va commencer un programme.
+Ce serait bien si on écrivait «Hello, world!».
+Après, on arrête le programme un instant! C'est bien ça.</code></pre>
 
             </div>
 
@@ -6092,12 +6295,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fsharp</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">printfn "Hello World!"</code></pre>
 
             </div>
 
@@ -6105,12 +6308,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">fstar</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">module Hello
 
-                <pre><code class=" hljs"></code></pre>
+let main = FStar.IO.print_string "Hello World\n"</code></pre>
 
             </div>
 
@@ -6118,12 +6323,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Fueue</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">72 101 108 108 111 44 32 119 111 114 108 100 33 10 H</code></pre>
 
             </div>
 
@@ -6131,12 +6336,18 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Full 0</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">{6}[(a0)(?H)]{3}[a0]{2}[(a0)(?e)]{3}[a0]
+{2}[(a0)(?l)]{3}[a0]~{1}[a0]~{4}[(a0)(?o)]
+{3}[a0]{2}[(a0)(?,)]{3}[a0]{2}[(a0)(? )]
+{3}[a0]{2}[(a0)(?w)]{3}[a0]{2}[(a0)(?o)]
+{3}[a0]{2}[(a0)(?r)]{3}[a0]{2}[(a0)(?l)]
+{3}[a0]{2}[(a0)(?d)]{3}[a0]{2}[(a0)(?!)]
+{3}[a0]</code></pre>
 
             </div>
 
@@ -6144,12 +6355,20 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Funciton</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">    ╔═══════════════╗
+    ║ 2388215291394 ║
+    ║ 5970717094395 ║
+    ║ 9830070909071 ║
+    ║ 3359207734160 ║
+    ║ 6896177782105 ║
+    ║ 7169552834632 ║
+    ╚═══════╤═══════╝
+            │</code></pre>
 
             </div>
 
@@ -6157,12 +6376,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gammaplex</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">X"Hello World!"XXSXrRE</code></pre>
 
             </div>
 
@@ -6170,12 +6389,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">GASOIL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">main
+("Hello World!"; WRITE)</code></pre>
 
             </div>
 
@@ -6183,12 +6403,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gecho</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print 'hello '&lt;&gt; 'world</code></pre>
 
             </div>
 
@@ -6196,12 +6416,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gentzen</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">&lt;- "stdlib";
+&lt;- "iolib";
+main : () / ($1(iosys) |- $2(++));
+main = [x,y] cut "Hello, World!" [z] outtext x z y;
+-&gt; main;</code></pre>
 
             </div>
 
@@ -6209,12 +6433,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">geojson</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="json hljs">{"type":"FeatureCollection","features":[{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[-103.35937499999999,66.93006025862448],[-104.4140625,39.90973623453719],[-94.21875,39.36827914916011],[-93.8671875,50.28933925329178],[-85.78125,50.28933925329178],[-85.78125,39.639537564366684],[-75.5859375,39.639537564366684],[-77.6953125,67.06743335108298],[-86.484375,66.79190947341796],[-85.78125,57.7041472343419],[-92.8125,57.32652122521709],[-94.21875,66.51326044311188],[-103.35937499999999,66.93006025862448]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[-71.3671875,67.47492238478702],[-40.42968749999999,67.60922060496382],[-40.78125,64.01449619484472],[-61.52343749999999,63.548552232036414],[-61.52343749999999,57.89149735271031],[-50.625,57.89149735271031],[-50.625,51.39920565355378],[-60.1171875,51.39920565355378],[-61.17187499999999,42.032974332441405],[-42.1875,42.293564192170095],[-42.1875,36.87962060502676],[-68.203125,34.88593094075317],[-71.3671875,67.47492238478702]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[-32.6953125,67.60922060496382],[-32.34375,39.36827914916011],[-4.21875,40.713955826286046],[-4.21875,47.754097979680026],[-20.7421875,47.040182144806664],[-21.796875,67.87554134672945],[-32.6953125,67.60922060496382]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[4.5703125,68.78414378041504],[5.9765625,42.553080288955826],[37.265625,43.83452678223682],[37.265625,49.61070993807422],[18.6328125,50.28933925329178],[15.468749999999998,69.03714171275197],[4.5703125,68.78414378041504]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[41.8359375,43.068887774169625],[41.8359375,68.65655498475735],[95.625,68.65655498475735],[95.625,43.068887774169625],[41.8359375,43.068887774169625]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[50.9765625,47.27922900257082],[50.9765625,66.93006025862448],[89.296875,66.93006025862448],[89.296875,47.27922900257082],[50.9765625,47.27922900257082]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[-115.6640625,18.312810846425442],[-98.7890625,18.979025953255267],[-84.72656249999999,-15.961329081596634],[-75.5859375,-4.565473550710278],[-69.2578125,-4.214943141390639],[-65.7421875,-15.284185114076433],[-53.0859375,19.973348786110602],[-39.7265625,21.28937435586041],[-65.0390625,-41.244772343082076],[-73.828125,-42.0329743324414],[-76.640625,-28.613459424004414],[-84.375,-41.50857729743933],[-94.921875,-42.0329743324414],[-115.6640625,18.312810846425442]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[-34.80468749999999,-39.09596293630548],[-34.80468749999999,21.28937435586041],[14.414062499999998,21.28937435586041],[14.414062499999998,-39.09596293630548],[-34.80468749999999,-39.09596293630548]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[-28.125,-31.05293398570514],[-28.125,14.944784875088372],[8.7890625,14.944784875088372],[8.7890625,-31.05293398570514],[-28.125,-31.05293398570514]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[23.203125,21.616579336740603],[22.148437499999996,-38.27268853598096],[32.34375,-37.99616267972812],[33.75,-15.961329081596634],[45.3515625,-36.597889133070204],[59.765625,-36.03133177633187],[39.0234375,-5.266007882805485],[54.84375,-3.513421045640032],[53.0859375,23.241346102386135],[23.203125,21.616579336740603]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[28.828124999999996,2.811371193331128],[28.828124999999996,16.972741019999035],[46.7578125,16.972741019999035],[46.7578125,2.811371193331128],[28.828124999999996,2.811371193331128]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[65.0390625,22.917922936146045],[66.09375,-34.30714385628803],[111.4453125,-34.30714385628803],[110.390625,-25.79989118208832],[78.3984375,-24.206889622398023],[76.9921875,23.56398712845123],[65.0390625,22.917922936146045]]]}},{"type":"Feature","properties":{},"geometry":{"type":"Polygon","coordinates":[[[117.0703125,25.165173368663954],[121.640625,-33.13755119234615],[135.35156249999997,-31.653381399663985],[146.25,-20.3034175184893],[148.7109375,-9.79567758282973],[148.359375,0],[145.1953125,7.36246686553575],[140.2734375,14.604847155053898],[135.703125,20.632784250388028],[128.671875,24.206889622398023],[121.9921875,26.11598592533351],[117.0703125,25.165173368663954]]]}}]}</code></pre>
 
             </div>
 
@@ -6222,12 +6446,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gibberish</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">[Hello, world!
+]eo</code></pre>
 
             </div>
 
@@ -6235,12 +6460,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Gibberish JavaScript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="js hljs">${echo:Hello, World!}</code></pre>
 
             </div>
 
@@ -6248,12 +6473,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">glass</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">+{M[m(_o)O!"Hello World!"(_o)o.?]}</code></pre>
 
             </div>
 
@@ -6261,12 +6486,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gml</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">// Draws "Hello, world!" onto the screen at position 1, 1
+draw_text(1, 1, "Hello, world!");</code></pre>
 
             </div>
 
@@ -6274,25 +6500,29 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">go</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="go hljs">package main
 
+func main() {
+    println("Hello, World")
+}</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Goldfish</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">0 iisiiiisiiiiiiiioniiisisioiiiiiiiooiiioniisiisddddoniisiiiiisiiiiiioniiisiisddddddddddoiiioddddddoddddddddoniiisio</code></pre>
 
             </div>
 
@@ -6300,12 +6530,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">golfscript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello World"</code></pre>
 
             </div>
 
@@ -6313,12 +6543,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">golfuck</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">'Hello, world!</code></pre>
 
             </div>
 
@@ -6326,12 +6556,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">golo</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">module hello.world
 
-                <pre><code class=" hljs"></code></pre>
+function main = |args| { 
+    println("Hello world")
+}</code></pre>
 
             </div>
 
@@ -6339,12 +6573,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">google app script</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">function helloWorld() {
+    Logger.log('Hello World');
+}</code></pre>
 
             </div>
 
@@ -6352,12 +6588,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gosu</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print("Hello World from Gosu!!")</code></pre>
 
             </div>
 
@@ -6365,12 +6601,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gravity</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">func main() {
+    System.print("Hello World");
+}</code></pre>
 
             </div>
 
@@ -6378,12 +6616,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Green Marl</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">procedure hello_world() {
+    println("Hello World");
+}</code></pre>
 
             </div>
 
@@ -6391,12 +6631,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">gri</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">show "hello world"</code></pre>
 
             </div>
 
@@ -6404,27 +6644,31 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">GridScript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#HELLO WORLD.
 
+@width 3
+@height 1
+
+(1,1):START
+(3,1):PRINT 'Hello World' </code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
-                        <p>
-
-                        </p>
+                        <h4 class="lang-name">grin</h4>
+                        <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(Hello, world!)</code></pre>
 
             </div>
 
@@ -6432,12 +6676,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">groovy</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">println "Hello World"</code></pre>
 
             </div>
 
@@ -6445,12 +6689,19 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Gui4Cli</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">G4C MyGui
+Window 10 10 200 300 "My window"
+
+xOnLoad
+    GuiOpen MyGui
 
-                <pre><code class=" hljs"></code></pre>
+xButton 10 10 100 20 "Hello World"
+    GuiQuit MyGui</code></pre>
 
             </div>
 
@@ -6458,12 +6709,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Gulp</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">'Hello, world!</code></pre>
 
             </div>
 
@@ -6471,12 +6722,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">hack</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">&lt;?hh 
+echo 'Hello World';</code></pre>
 
             </div>
 
@@ -6484,12 +6736,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Hanoi Love</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">.'...,;';';;';';';'.,...;"'.'...,;;';;';';;'.,...;"';;;;;;;"'"';;;
+"'.'.,...'...,;';';';';'.,...;"'..'...,'...,;;';';';'.,...`"'.'...,
+;;';';';'.,...;"';;;"'``````"'````````"'.'.,..;"'.'.,..;;;;;;;;;;"'</code></pre>
 
             </div>
 
@@ -6497,25 +6751,31 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">haskell</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">module Main where
 
+main = putStrLn "Hello, World!"</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">haxe</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">class HelloWorld {
+    static function main() {
+        trace("Hello World!");
+    }
+}</code></pre>
 
             </div>
 
@@ -6523,12 +6783,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Hello</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">h</code></pre>
 
             </div>
 
@@ -6536,14 +6796,15 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
-                        <p>
-
-                        </p>
+                        <h4 class="lang-name">HEX</h4>
+                        <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">GBL;
+Bug("1", "Hello, World!");
+Scuttle("1");
+Write;</code></pre>
 
             </div>
 
@@ -6551,12 +6812,38 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Hexadecimal Stacking Pseudo-Assembly Language</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">200021
+400000
+200064
+400000
+20006C
+400000
+200072
+400000
+20006F
+400000
+200057
+400000
+200020
+400000
+20002C
+400000
+20006F
+400000
+20006C
+400000
+20006C
+400000
+200065
+400000
+200048
+400000
+140000</code></pre>
 
             </div>
 
@@ -6564,12 +6851,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Hexagony</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">H;e;l;d;*;r;o;Wl;;o;*433;@.&gt;;23&lt;\4;*/</code></pre>
 
             </div>
 
@@ -6577,12 +6864,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">hexish</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">0902160E48656C6C6F20776F726C6421001001161508</code></pre>
 
             </div>
 
@@ -6590,12 +6877,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Higher Subleq</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">int printf();
+int main()
+{
+    printf("Hello, World!\n");
+}</code></pre>
 
             </div>
 
@@ -6603,12 +6894,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">HighFive</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">-----------------------------------////++++++++////
+/+++++++++/+++++++++++++/++++/-////*/
+./---.+++++++..+++././/////+++++++++++++++./.+++.------.--------./+.</code></pre>
 
             </div>
 
@@ -6616,12 +6909,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">hodor</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">hodor.hod('Hhodor? Hodor!? Hodor!? o, Hooodorrhodor orHodor!? d!');</code></pre>
 
             </div>
 
@@ -6629,12 +6922,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">hollow</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">{Hello, world!.9}:?</code></pre>
 
             </div>
 
@@ -6642,12 +6935,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">holyc</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, world!";</code></pre>
 
             </div>
 
@@ -6655,12 +6948,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">homespring</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Universe bear hatchery powers world.
+    bear hatchery powers o.      bear hatchery powers hell     marshy marshy marshy a snowmelt</code></pre>
 
             </div>
 
@@ -6668,12 +6962,17 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">HOP</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(define-service (hello-world)
+(&lt;HTML&gt;
+    (&lt;HEAD&gt;
+        (&lt;TITLE&gt; "Hello, world!"))
+    (&lt;BODY&gt;
+        "Hello, world!")))</code></pre>
 
             </div>
 
@@ -6681,12 +6980,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">hq9+</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">h</code></pre>
 
             </div>
 
@@ -6694,12 +6993,20 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">html</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="html hljs">&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;Hello World HTML&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;h1&gt;Hello World&lt;/h1&gt;
+    &lt;/body&gt;
+&lt;/html&gt;</code></pre>
 
             </div>
 
@@ -6707,12 +7014,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">hy</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(print "Hello World!")</code></pre>
 
             </div>
 
@@ -6720,12 +7027,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">hypertalk</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">put "Hello, World!"</code></pre>
 
             </div>
 
@@ -6733,12 +7040,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ibm1401</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">,008015,022029,036043,050054,055062,063065,066077/333/M0762502F1.HELLO
+WORLD</code></pre>
 
             </div>
 
@@ -6746,12 +7054,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">IcedCoffeeScript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">console.log "Hello, World!"</code></pre>
 
             </div>
 
@@ -6759,12 +7067,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ici</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">printf("Hello World\n");</code></pre>
 
             </div>
 
@@ -6772,12 +7080,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">icon</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">procedure main()
+    write("Hello World");
+end</code></pre>
 
             </div>
 
@@ -6785,12 +7095,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">IDL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print, "Hello, world!"
+end</code></pre>
 
             </div>
 
@@ -6798,51 +7109,93 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">idris</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">module Main
 
+main : IO ()
+main = putStrLn "Hello World"</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">il</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">// compile:
+// ilasm &lt;this file's name&gt;
+// (if ilasm cannot be found, it's in the .NET directory (%windir%\Microsoft.NET\Framework\v4.0.30319\ilasm.exe))
 
-            </div>
+// assembly references
+.assembly extern mscorlib
+{
+    .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         // .z\V.4..
+    .ver 4:0:0:0
+}
 
-            <div class="card" id ="">
+// assembly manifest
+.assembly ilhw
+{
+    // target framework
+    // this is always a pain in the ass (thus copy it from another assembly by using ildasm)
+    .custom instance void [mscorlib]System.Runtime.Versioning.TargetFrameworkAttribute::.ctor(string)
+    = ( 01 00 1C 2E 4E 45 54 46 72 61 6D 65 77 6F 72 6B   // ....NETFramework
+        2C 56 65 72 73 69 6F 6E 3D 76 34 2E 35 2E 33 01   // ,Version=v4.5.3.
+        00 54 0E 14 46 72 61 6D 65 77 6F 72 6B 44 69 73   // .T..FrameworkDis
+        70 6C 61 79 4E 61 6D 65 14 2E 4E 45 54 20 46 72   // playName..NET Fr
+        61 6D 65 77 6F 72 6B 20 34 2E 35 2E 33 )          // amework 4.5.3
 
-                <div class="card-title">
-                    <div class="card-title">
-                        <h4 class="lang-name"></h4>
-                        <br>
-                    </div>
-                </div>
+
+    .hash algorithm 0x00008004
+    .ver 0:0:0:0
+}
+
+.module         ilhw.dll
+.imagebase      0x00400000
+.file alignment 0x00000200
+.stackreserve   0x00100000
+.subsystem      0x0003     // WINDOWS_CUI
+.corflags       0x00000001 //  ILONLY
+
+
+.class public abstract auto ansi sealed ILHW.Program
+    extends [mscorlib]System.Object // nope, not implicit P:
+{
 
-                <pre><code class=" hljs"></code></pre>
+    .method public hidebysig static void Main(class [mscorlib]System.String[] args) cil managed
+    {
+    .entrypoint // this method is the entry point of the program
+    .maxstack 1 // the maximum amount of objects on the stack is 1.
 
+    ldstr "Hello, world!" // loads a string on the stack (it actually allocates it and puts the GC handle on the stack)
+    call void [mscorlib]System.Console::WriteLine(string) // this should be straightforward enough
+
+    ret // even void methods need a return statement
+    }
+
+}</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">INCAL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">send,66#111#102#&lt;101#42#93#101#120#102#110#43#
+die</code></pre>
 
             </div>
 
@@ -6850,12 +7203,41 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Incident</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">A1.A2.A3,A4.A5,A6,A7;A8;B1;B2,B3.B4,B5;B6.B7.B8;C1,C2.C3;C4.C5,C6;C7,
+C8.D1;D2,D3.D4,D5.D6;D7.D8,E1;E2;E3;E4,E5,E6.E7,E8.F1;F2.F3.F4,F5.F6;
+F7.F8;G1,G2;G3,G4;G5.G6.G7.G8;H1.H2;H3.H4.H5.H6,H7;H8;I1,I2.I3;I4,I5.
+I6,I7.I8,J1;J2,J3,J4,J5;J6;J7.J8;K1;K2;K3;K4,K5,K6;K7.K8,L1;L2,L3;L4,
+L5;L6;L7,L8,M1.M2.M3.M4,M5,M6,M7,M8,N1.N2;N3,N4.N5;N6,N7.N8,Z4;a1,a1.
+Z3.A1,a1;a2,a2,A1,A2.a2,a3.a3.A2,A3,a3.a5,a5,A3;A5.a5,a6,a6.A5;A6.a6.
+a8.a8.A6;A8.a8;b2,b2.A8;B2.b2,b4.b4,B2,B4;b4.b5;b5;B4;B5;b5.b8.b8,B5.
+B8.b8.c1;c1,B8,C1;c1,c2,c2;C1;C2,c2.c5,c5;C2,C5,c5.c8.c8,C5;C8;c8,d1;
+d1.C8,D1;d1.d2;d2.D1.D2.d2.d5,d5,D2.D5.d5.d8,d8;D5;D8.d8,e5.e5.D8;E5,
+e5,e8,e8,E5,E8;e8,f1.f1.E8.F1;f1;f2,f2;F1.F2.f2;f5.f5;F2;F5,f5;f7;f7.
+F5,F7,f7;f8.f8;F7.F8,f8,g1;g1.F8;G1.g1,g2;g2.G1,G2,g2,g3;g3;G2,G3;g3,
+g4,g4.G3;G4.g4.g5.g5,G4,G5.g5;g7;g7.G5;G7,g7,g8;g8.G7,G8;g8;h4.h4,G8;
+H4,h4;h8,h8,H4.H8,h8.i5.i5;H8;I5;i5.i8;i8.I5,I8,i8.j1;j1;I8,J1;j1.j3.
+j3;J1,J3;j3;j4,j4.J3,J4.j4,j8,j8.J4;J8,j8.k1.k1.J8.K1,k1,k2.k2;K1,K2;
+k2.k5;k5;K2,K5.k5,k8;k8,K5.K8,k8;l1,l1;K8;L1;l1,Z1;Z2;Z2,Z3.Z2;Z1.Z1,
+l2;l2;L1;L2,l2;l4.l4.L2.L4;l4.l5.l5.L4;L5;l5.l8.l8,L5.L8;l8;m2;m2.L8;
+M2.m2,m3,m3,M2,M3,m3;m4.m4.M3;M4.m4,m5.m5.M4,M5,m5;m7,m7.M5.M7;m7.m8.
+m8,M7,M8,m8,n1;n1.M8,N1;n1.n3,n3;N1;N3,n3.n5,n5;N3,N5;n5,n6.n6.N5.N6.
+n6,n7;n7;N6.N7;n7.n8,n8;N7,N8;n8,a4,a4;Z3;A4,a4;a7.a7.A4.A7;a7,b1.b1;
+A7;B1,b1;b3;b3,B1,B3.b3,b6.b6;B3;B6,b6;b7;b7,B6,B7,b7;c3,c3.B7,C3,c3.
+c4.c4,C3,C4.c4;c6.c6,C4,C6.c6;c7,c7;C6.C7,c7.d3;d3.C7,D3,d3;d4;d4.D3,
+D4,d4;d6,d6,D4,D6.d6;d7,d7,D6,D7.d7,e1,e1;D7,E1.e1,e2,e2;E1;E2,e2.e3;
+e3,E2,E3,e3.e4;e4.E3.E4;e4,e6;e6;E4,E6,e6.e7.e7;E6.E7.e7,f3,f3.E7,F3;
+f3.f4;f4,F3;F4,f4;f6;f6.F4.F6,f6,g6.g6;F6.G6.g6.h1;h1;G6;H1,h1.h2;h2.
+H1;H2,h2.h3,h3,H2,H3,h3.h5.h5;H3,H5;h5;h6;h6;H5.H6.h6,h7.h7.H6,H7.h7;
+i1,i1,H7.I1,i1.i2;i2;I1;I2,i2,i3.i3,I2,I3.i3;i4;i4;I3,I4,i4.i6,i6,I4.
+I6,i6.i7.i7,I6;I7;i7.j2;j2;I7.J2;j2,j5;j5.J2.J5;j5.j6,j6.J5,J6,j6;j7;
+j7;J6,J7.j7;k3,k3;J7.K3.k3.k4.k4,K3.K4;k4,k6;k6,K4.K6;k6,k7.k7;K6,K7.
+k7,l3.l3.K7;L3;l3.l6;l6,L3;L6,l6;l7,l7,L6;L7.l7,m1.m1,L7;M1;m1,m6;m6,
+M1;M6,m6;n2;n2;M6,N2,n2;n4.n4,N2;N4,n4.N8.N4,Z4,Z4</code></pre>
 
             </div>
 
@@ -6863,12 +7245,28 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">InDec</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">add2   @ N { N ++   ++ }
+add4  @ N { N add2  add2 } 
+add8   @ N { N add4  add4 }
+add16 @ N { N add8  add8 }
+add32  @ N { N add16 add16 }
+add64 @ N { N add32 add32 }
+
+SPACE add32 
+H   add64 add8
+d,H add add16 add8 add4
+e,d add ++
+l,e add add4 add2 ++
+o,l add add2 ++
+W,H add add8 add4 add2 ++
+r,o add add2 ++
 
-                <pre><code class=" hljs"></code></pre>
+H&,e&,l&,l&,o&,SPACE&,W&,o&,r&,l&,d& .</code></pre>
 
             </div>
 
@@ -6876,25 +7274,29 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">inform</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello World" by "I.F. Author"
 
+The world is a room.
+
+When play begins, say "Hello, world."</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ink</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello, world!</code></pre>
 
             </div>
 
@@ -6902,12 +7304,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Integ</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">](104)](101)](108)](108)](111)](44)](32)](119)](111)](114)](108)](100)](10)</code></pre>
 
             </div>
 
@@ -6915,12 +7317,27 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">intercal</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">DO ,1 &lt;- #13
+PLEASE DO ,1 SUB #1 &lt;- #238
+DO ,1 SUB #2 &lt;- #108
+DO ,1 SUB #3 &lt;- #112
+DO ,1 SUB #4 &lt;- #0
+DO ,1 SUB #5 &lt;- #64
+DO ,1 SUB #6 &lt;- #194
+DO ,1 SUB #7 &lt;- #48
+PLEASE DO ,1 SUB #8 &lt;- #22
+DO ,1 SUB #9 &lt;- #248
+DO ,1 SUB #10 &lt;- #168
+DO ,1 SUB #11 &lt;- #24
+DO ,1 SUB #12 &lt;- #16
+DO ,1 SUB #13 &lt;- #162
+PLEASE READ OUT ,1
+PLEASE GIVE UP</code></pre>
 
             </div>
 
@@ -6928,12 +7345,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Io</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, world!\n" print</code></pre>
 
             </div>
 
@@ -6941,12 +7358,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ioke</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World!" println</code></pre>
 
             </div>
 
@@ -6954,12 +7371,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">irc</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">/timer 1 9999 1 Hello World</code></pre>
 
             </div>
 
@@ -6967,12 +7384,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">iscom</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, world!" @=10</code></pre>
 
             </div>
 
@@ -6980,12 +7397,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ISLISP</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(format (standard-output) "Hello, world!")</code></pre>
 
             </div>
 
@@ -6993,12 +7410,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">J</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/opt/local/bin/jc
+echo 'Hello World'
+exit ''</code></pre>
 
             </div>
 
@@ -7006,12 +7425,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">jade</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">helloWorld();
 
-                <pre><code class=" hljs"></code></pre>
+begin
+    write "Hello World";
+end;</code></pre>
 
             </div>
 
@@ -7019,12 +7442,18 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">jai</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">#import "Print"
+
+main::(){
+
+    print("hello world!");
 
-                <pre><code class=" hljs"></code></pre>
+}</code></pre>
 
             </div>
 
@@ -7032,25 +7461,35 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Jasmin</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">.class public Jasmin
+.super java/lang/Object
 
+.method public static main([Ljava/lang/String;)V
+    .limit stack 2
+    getstatic java/lang/System/out Ljava/io/PrintStream;
+    ldc "Hello world!"
+    invokevirtual java/io/PrintStream/println(Ljava/lang/String;)V
+    return	
+.end method</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">jason</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">!greeting.
++!greeting : true &lt;- .print("Hello World").</code></pre>
 
             </div>
 
@@ -7058,12 +7497,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Java</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="java hljs">public class Java {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}</code></pre>
 
             </div>
 
@@ -7071,12 +7514,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">javascript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="js hljs">console.log("Hello World");</code></pre>
 
             </div>
 
@@ -7084,12 +7527,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">jess</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(printout t "Hello World")</code></pre>
 
             </div>
 
@@ -7097,12 +7540,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">json</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="json hljs">{ "hello": "world" }</code></pre>
 
             </div>
 
@@ -7110,12 +7553,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">JSONiq</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World!"</code></pre>
 
             </div>
 
@@ -7123,12 +7566,19 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">jsx</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class="js hljs">var React = require('react');
+
+var HelloWorld = function() {
+    return &lt;span&gt;Hello World&lt;/span&gt;;
+};
+HelloWorld.displayName = 'HelloWorld';
 
-                <pre><code class=" hljs"></code></pre>
+console.log(React.renderToString(&lt;HelloWorld /&gt;));</code></pre>
 
             </div>
 
@@ -7136,12 +7586,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">julia</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">println("Hello World")</code></pre>
 
             </div>
 
@@ -7149,12 +7599,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">K</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello World\n"</code></pre>
 
             </div>
 
@@ -7162,12 +7612,15 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">karel</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">PROGRAM hello_world
+BEGIN
+    WRITE('Hello, world!', CR)
+END hello_world</code></pre>
 
             </div>
 
@@ -7175,12 +7628,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Keg</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello\, World\!</code></pre>
 
             </div>
 
@@ -7188,12 +7641,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">KimL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">io.out "Hello World!"</code></pre>
 
             </div>
 
@@ -7201,12 +7654,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">kipple</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">33&gt;o&lt;100 108&gt;o&lt;114 111&gt;o&lt;87 32&gt;o&lt;111 108&gt;o&lt;108 101&gt;o&lt;72</code></pre>
 
             </div>
 
@@ -7214,12 +7667,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">kitten</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World" say</code></pre>
 
             </div>
 
@@ -7227,12 +7680,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">kotlin</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">package hello
+ 
+fun main(args: Array&lt;String&gt;) {
+    println("Hello, world!")
+}</code></pre>
 
             </div>
 
@@ -7240,12 +7697,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ksh</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/bin/ksh
+echo "Hello, World!"</code></pre>
 
             </div>
 
@@ -7253,12 +7711,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Labyrinth</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">72.101.108:..111.44.32.87.111.114.108.100.33.@</code></pre>
 
             </div>
 
@@ -7266,12 +7724,21 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Lazy K</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">`k``s``si`k``s`k```sii``s``s`kski``s``s`ksk``s``s`ksk```s``siii``s``s`kski`k``s``si`k``s``s`ksk```s``s`ksk
+i``s`k``s``s`kski``s``s`ksk```sii``s``s`kski`k``s``si`k``s`k```sii``s``s`kski```sii``s``s`ksk``s``s`kski`k
+``s``si`k``s`k```sii``s``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k``s``s`ksk``s`k``s``s`kski``s``s`ksk`
+`s`k``s``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k````s``s`ksk```s``siii``s``s`kski`s``s`ksk```sii``s``
+s`ksk``s``s`kski`k``s``si`k``s`k``s``s`kski```s``siii``s``s`kski`k``s``si`k``s`k``s``s`ksk``s`k``s``s`kski
+``s``s`ksk``s``s`kski``s``s`ksk```s``siii``s``s`kski`k``s``si`k``s``s`ksk``s`k``s``s`kski``s``s`ksk``s`k``
+s``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k``s`k``s``s`kski``s``s`ksk``s`k``s``s`kski``s``s`ksk```sii`
+`s``s`ksk``s``s`kski`k``s``si`k``s`k```sii``s``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k```s``s`kski``s
+`k``s``s`kski``s``s`ksk```sii``s``s`kski`k``s``si`k``s``s`ksk``s`k``s``s`kski```s``siii``s``s`kski`k``s``s
+i`k``s`k``s``s`kski``s``s`ksk```sii``s``s`kski`k``s``si`k```sii```sii``s``s`kski`k```sii```sii``s``s`kski</code></pre>
 
             </div>
 
@@ -7279,12 +7746,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Licorne</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">hurler.$.aux licornes; $Hello, world!
+s'arrêter discrétos</code></pre>
 
             </div>
 
@@ -7292,12 +7760,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Linguine</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs"> 1[0=72,0$,0+29,0$,0+7,0$,0$,0+3,0$,1=32,1$,0-24,0$,0+24,0$,0+3,0$,0-6,0$,0-8,0$,1+1,1$,1-23,1$]0</code></pre>
 
             </div>
 
@@ -7305,12 +7773,62 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">LNUSP</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">--- Hello World!
+---
+000        .INPUT          .OUTPUT          .STOP
+001 .                      .                .
+001  .                     .                .
+001   .                    .                .
+001    . !.!               .                .
+001     .   !              .                .
+001    ! .  !              .                .
+001    .  !!               .                .
+001    *                   .                .
+072    + H                 .                .
+001    *                   .                .
+101    + e                 .                .
+001    *                   .                .
+108    + l                 .                .
+001    *                   .                .
+108    + l                 .                .
+001    *                   .                .
+111    + o                 .                .
+001    *                   .                .
+032    + (sp)              .                .
+001    *                   .                .
+087    + W                 .                .
+001    *                   .                .
+111    + o                 .                .
+001    *                   .                .
+114    + r                 .                .
+001    *                   .                .
+108    + l                 .                .
+001    *                   .                .
+100    + d                 .                .
+001    *                   .                .
+033    + !                 .                .
+001    *                   .                .
+013    + (cr)              . -------------- .
+001    *                   .                .
+001    !                   .                .
+001     .                  .                .
+001      .        !!       .                .
+001       . !.!  !  !      .    !......!    .
+001        .   ! .  !   ?......!.....?  !   .
+001       ! .  ! . @   ?   .   .??    ? .   .
+001       .  !!  ./.   .   .   ?  ?   . .   .
+016       .      . * --.-- . --.  .---.-.-- .
+001       .      ! .   ?   .   *  ?   . !   .
+001       .       !.....?..@.....?.....!....@
+001       .        .           ?      ?    .
+001       !        !           ..    .    .
+001        !......!            ! ?..?    .
+001                             !.......!</code></pre>
 
             </div>
 
@@ -7318,12 +7836,59 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Log</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(A)
+((A))
+(A)
+(A)
+((A))
+(A)
+(A)
+(A)
+(A)
+((A))
+((A))
+(A)
+(A)
+((A))
+(A)
+((A))
+(A)
+((A))
+((A))
+(A)
+((A))
+((A))
+(A)
+(A)
+(A)
+((A))
+((A))
+(A)
+((A))
+((A))
+(A)
+(A)
+(A)
+((A))
+((A))
+(A)
+((A))
+((A))
+((A))
+((A))
+(A)
+(A)
+((A))
+(A)
+(A)
+(A)
+(A)
+(A)</code></pre>
 
             </div>
 
@@ -7331,12 +7896,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Logical</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">COMET DEFN !DLROW_,OLLEH</code></pre>
 
             </div>
 
@@ -7344,12 +7909,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">logOS</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print [Hello World]</code></pre>
 
             </div>
 
@@ -7357,12 +7922,15 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">lolcode</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">HAI
+CAN HAS STDIO?
+VISIBLE "Hello World"
+KTHXBYE</code></pre>
 
             </div>
 
@@ -7370,12 +7938,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">lolpython</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">VISIBLE "Hello World"</code></pre>
 
             </div>
 
@@ -7383,12 +7951,18 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">lsl</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">default
+{
+    state_entry()
+    {
+        llSay(0, "Hello World");
+    }
+}</code></pre>
 
             </div>
 
@@ -7396,12 +7970,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">lua</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print("Hello World")</code></pre>
 
             </div>
 
@@ -7409,12 +7983,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">M code</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">4[28]j[4]}[15].i[5]}[5]?[4];_Hello,[32]world!</code></pre>
 
             </div>
 
@@ -7422,12 +7996,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">M4</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello</code></pre>
 
             </div>
 
@@ -7435,12 +8009,24 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Macmac</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">put(72)
+put(101)
+put(108)
+put(108)
+put(111)
+put(44)
+put(32)
+put(119)
+put(111)
+put(114)
+put(108)
+put(100)
+put(33)</code></pre>
 
             </div>
 
@@ -7448,12 +8034,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">macsyma</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">/* Macsyma */
+print("Hello World");</code></pre>
 
             </div>
 
@@ -7461,25 +8048,31 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">magic</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">HELLO.WORLD
 
+"Hello, world!"^#;</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">MailBox</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">box 0
+(once)
+send "outputHello, world!" to 0
+(contains "output")
+output without "output"</code></pre>
 
             </div>
 
@@ -7487,12 +8080,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">malbolge</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(=&lt;`:9876Z4321UT.-Q+*)M'&%$H"!~}|Bzy?=|{z]KwZY44Eq0/{mlk**
+hKs_dG5[m_BA{?-Y;;Vb'rR5431M}/.zHGwEDCAA@98\6543W10/.R,+O&lt; </code></pre>
 
             </div>
 
@@ -7500,12 +8094,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">markdown</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello, World!</code></pre>
 
             </div>
 
@@ -7513,12 +8107,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mathematica online</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Notebook[{Cell[
+BoxData[RowBox[{"Print","[","\"Hello World\"","]"}]],"Input",CellID-&gt;1]},
+StyleDefinitions-&gt;"Default.nb",FrontEndVersion-&gt;"10.0 for Wolfram Cloud Platform (June 2 2014)"]</code></pre>
 
             </div>
 
@@ -7526,12 +8122,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">MATL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">'Hello, World!'</code></pre>
 
             </div>
 
@@ -7539,12 +8135,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">matlab</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="c hljs">disp('hello world')</code></pre>
 
             </div>
 
@@ -7552,12 +8148,18 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">maxscript</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">print "Hello, world!"
+-- "Hello, world!"
+
 
-                <pre><code class=" hljs"></code></pre>
+-- Note that MAXScript is expression-based, so simply writing "Hello, world!" is
+-- sufficient to echo it for the reader. Like Haskell, all MAXScript expressions
+-- *must* return values, even if they're unused.</code></pre>
 
             </div>
 
@@ -7565,25 +8167,35 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Maze</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">##,##,##
+##,^^,## //Car Starts
+##,AA,## //Do AA to Car
+##,&gt;&gt;,## //Print Car
+##,(),## //Destroy Car
+##,##,##
 
+AA-&gt; ="Hello World!"</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mel</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">proc helloWorld () {
+    print "Hello World\n";
+}
+helloWorld;</code></pre>
 
             </div>
 
@@ -7591,12 +8203,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">meq</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">.==++&gt;:+&gt;+[&gt;:++++++++]&gt;:=+&gt;===++&gt;.===+++++++&gt;:=+&gt;:=++++&gt;:++++++++&gt;:rp&gt;p&gt;&gt;p&gt;p&gt;p&gt;p&gt;p&gt;p&gt;p&gt;p&gt;p!</code></pre>
 
             </div>
 
@@ -7604,25 +8216,31 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mercury</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="c hljs">:- interface.
+:- import_module io.
+:- pred main(io::di, io::uo) is det.
 
+:- implementation.
+main(!IO) :-
+    io.write_string("Hello, World!\n", !IO).</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Migol</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">'H&gt;,'e&gt;,'l&gt;,'l&gt;,'o&gt;,',&gt;,' &gt;,'w&gt;,'o&gt;,'r&gt;,'l&gt;,'d&gt;,'!&gt;,10&gt;</code></pre>
 
             </div>
 
@@ -7630,12 +8248,24 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">MiLambda</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">&gt;  EEEEEEEΔΔΘς       v
+v  ςΘΔEEEEEEEEEE     &lt;
+&gt;  EEEEEEEEEEEδδΘς   v
+v  ΘδδEEEEEEEEEEEς   &lt;
+&gt;  ς EEEEEEEEEEEΔΘ   v
+v  ΘΔΔΔΔEEEEς        &lt;
+&gt;  ςEEEΔΔΘ           v
+v  ΘδEEEEEEEEEEEEς   &lt;
+&gt;  ςEEEEEEEEEEEΔΘ    v
+v  ΘΔΔΔΔEEEEEEEEEEEς &lt;
+&gt;  ςEEEEEEEEEEEδδΘ   v
+v  ΘEEEEEEEEEEς      &lt;
+&gt;  ςEEEΔΔΔΘ          λ</code></pre>
 
             </div>
 
@@ -7643,12 +8273,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">minecraft</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">/tellraw @p ["",{"text":"Hello World"}]</code></pre>
 
             </div>
 
@@ -7656,12 +8286,17 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Mineso</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">-1 &lt;111111111111111111111111111111111111111111111111111111111111111111111111 &gt;111111
+&lt;11111111111111111111111111111 &gt;111111 &lt;1111111 &gt;111111 &gt;111111 &lt;111 &gt;111111
+=11111111111111111111111111111111 &gt;111111
+&lt;1111111111111111111111111111111111111111111111111111111 &gt;111111 &lt;111111111111111111111111
+&gt;111111 &lt;111 &gt;111111 &gt;11 -11 &lt;111111 &gt;111111 &lt;11111111 &gt;111111
+=111111111111111111111111111111111 &gt;111111</code></pre>
 
             </div>
 
@@ -7669,12 +8304,20 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mips</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">.data
+hello_world: .asciiz "Hello World!"
 
-                <pre><code class=" hljs"></code></pre>
+.text
+main:
+    li $v0, 4            # Load syscommand print_string
+    la $a0, hello_world  # Load hello_world string into register $a0
+    syscall              # Print the string
+    jr $ra               # Return</code></pre>
 
             </div>
 
@@ -7682,12 +8325,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mirc</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">echo -a Hello World!</code></pre>
 
             </div>
 
@@ -7695,12 +8338,71 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Mmmm()</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Mmm=m[m.m()].m(m.m());
+Mmmm=m[mm].m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();Mmmmm=mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();m[mmmm].m(mmm.m());
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();Mmmmmm=mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+Mmmmmmmmm=mmm.m();
+m[mmmm].m(mmm.m());
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();Mmmmmmm=mmm.m();
+m[mmmm].m(mmmmmm);m[mmmm].m(mmmmmm);
+mmm.m();mmm.m();
+Mmmmmmmm=mmm.m();
+m[mmmm].m(mmmmmmm);
+mmm.m();mmm.m();
+Mmmmmmmmmm=mmm.m();
+Mmmm=m[mm].m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();
+Mmmmmmmmmmm=mmm.m();
+Mmmmmmmmmmmm=mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();
+m[mmmm].m(mmm.m());
+m[mmmm].m(mmmmmmmmmm);
+m[mmmm].m(mmmmm);
+m[mmmm].m(mmmmmmm);
+m[mmmm].m(mmmmmmmmm);
+m[mmmm].m(mmmmmm);
+m[mmmm].m(mmmmmmmm);
+m[mmmm].m(mmmmmmmmmmm);</code></pre>
 
             </div>
 
@@ -7708,12 +8410,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">modiscript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">mitroon
+bhaiyo aur behno "ek nambar do</code></pre>
 
             </div>
 
@@ -7721,12 +8424,21 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">modula 2</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">MODULE HelloWorld;
+
+FROM Terminal2 IMPORT WriteString, WriteLn;
+
+BEGIN
 
-                <pre><code class=" hljs"></code></pre>
+    WriteString("Hello World");
+    WriteLn;
+    
+END HelloWorld.</code></pre>
 
             </div>
 
@@ -7734,12 +8446,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">modula 3</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">MODULE HelloWorld;
+IMPORT Io;
+BEGIN
+    IO.Put ("Hello World\n")
+END HelloWorld.</code></pre>
 
             </div>
 
@@ -7747,12 +8463,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mongo</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print("Hello World!")</code></pre>
 
             </div>
 
@@ -7760,12 +8476,130 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Monkeys</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">1 RIGHT
+1 RIGHT
+1 RIGHT
+1 RIGHT
+1 RIGHT
+1 RIGHT
+1 DOWN
+1 DOWN
+1 LEFT
+1 LEFT
+2 LEFT
+2 UP
+2 RIGHT
+2 LEFT
+2 DOWN
+2 UP
+2 RIGHT
+2 LEFT
+2 DOWN
+2 RIGHT
+2 BOND
+1 YELL
+1 LEFT
+1 LEFT
+1 UP
+1 UP
+1 LEFT
+1 LEFT
+1 UP
+1 UP
+1 LEFT
+1 DOWN
+1 DOWN
+1 LEFT
+1 UP
+1 UP
+1 LEFT
+1 DOWN
+1 DOWN
+1 RIGHT
+1 DOWN
+1 LEFT
+1 TEACH
+1 DOWN
+1 RIGHT
+1 UP
+1 UP
+1 UP
+1 RIGHT
+1 DOWN
+1 DOWN
+1 DOWN
+1 DOWN
+1 UP
+1 RIGHT
+1 RIGHT
+1 DOWN
+1 DOWN
+1 TEACH
+4 YELL
+1 RIGHT
+1 RIGHT
+1 DOWN
+1 DOWN
+1 DOWN
+1 LEFT
+1 YELL
+1 YELL
+1 LEFT
+1 LEFT
+1 LEFT
+2 LEFT
+2 DOWN
+2 RIGHT
+2 UP
+2 UP
+2 LEFT
+2 LEFT
+2 LEFT
+2 DOWN
+2 DOWN
+2 DOWN
+2 RIGHT
+2 RIGHT
+2 RIGHT
+2 RIGHT
+2 UP 
+2 UP
+2 UP
+2 LEFT
+2 LEFT
+2 DOWN
+2 RIGHT
+2 YELL
+3 YELL
+1 YELL
+1 RIGHT
+1 RIGHT
+1 RIGHT
+1 YELL
+4 DOWN
+4 TEACH
+4 DOWN
+4 DOWN
+4 DOWN
+4 DOWN
+4 DOWN
+2 RIGHT
+6 LEFT
+6 DOWN
+6 RIGHT
+6 UP
+6 UP
+6 LEFT
+6 DOWN
+6 RIGHT
+6 YELL
+4 YELL
+2 YELL</code></pre>
 
             </div>
 
@@ -7773,12 +8607,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">moonscript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print 'hello world'</code></pre>
 
             </div>
 
@@ -7786,12 +8620,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">morsecode</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">.... . .-.. .-.. ---   .-- --- .-. .-.. -..</code></pre>
 
             </div>
 
@@ -7799,12 +8633,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mouse</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World"
+'! !'
+$</code></pre>
 
             </div>
 
@@ -7812,12 +8648,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">move</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">alert 'Hello World'</code></pre>
 
             </div>
 
@@ -7825,12 +8661,19 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mozart</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">functor
+import
+    Application
+    System
+define
+    {System.showInfo 'Hello World!'}
+    {Application.exit 0} 
+end</code></pre>
 
             </div>
 
@@ -7838,12 +8681,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">MSG</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">main 'passon stdout 'Hello, world!' '</code></pre>
 
             </div>
 
@@ -7851,12 +8694,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">MSM</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">!dlrow ',olleH............</code></pre>
 
             </div>
 
@@ -7864,12 +8707,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">muf</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">: main
+    me @ "Hello World" notify
+;</code></pre>
 
             </div>
 
@@ -7877,12 +8722,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mumps</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="c hljs"> w "Hello World!",!</code></pre>
 
             </div>
 
@@ -7890,12 +8735,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Muriel</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">."Hello, World!";</code></pre>
 
             </div>
 
@@ -7903,12 +8748,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mushcode</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">say Hello World.</code></pre>
 
             </div>
 
@@ -7916,25 +8761,29 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">myrddin</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="c hljs">use std
 
+const main = {
+    std.put("Hello world!\n")
+}</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mysql</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="mysql hljs">SELECT 'Hello World!';</code></pre>
 
             </div>
 
@@ -7942,12 +8791,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Myth</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">{"_":"Hello, world!"}</code></pre>
 
             </div>
 
@@ -7955,12 +8804,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">mathematica</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Print["Hello world"]</code></pre>
 
             </div>
 
@@ -7968,12 +8817,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">neko</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">$print("hello world\n");</code></pre>
 
             </div>
 
@@ -7981,12 +8830,18 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">nemerle</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="cpp hljs">class Hello
+{
+    static Main () : void
+    {
+        System.Console.WriteLine ("Hello world!");
+    }
+}</code></pre>
 
             </div>
 
@@ -7994,12 +8849,26 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">newtonscript</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">baseview :=
+{viewBounds: {left: -3, top: 71, right: 138, bottom: 137},
+    viewFlags: 581,
+    declareSelf: 'base,
+    _proto: protoFloatNGo,
+    debug: "baseview"
+};
 
-                <pre><code class=" hljs"></code></pre>
+textview := * child of baseview *
+{text: "Hello World!",
+    viewBounds: {left: 33, top: 24, right: 113, bottom: 46},
+    viewFlags: 579,
+    _proto: protoStaticText,
+    debug: "textview"
+};</code></pre>
 
             </div>
 
@@ -8007,12 +8876,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">nice</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">void main(String[] args){ 
+    println("hello world"); 
+}</code></pre>
 
             </div>
 
@@ -8020,12 +8891,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">nim</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">echo("hello world")</code></pre>
 
             </div>
 
@@ -8033,12 +8904,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">nit</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print "Hello World"</code></pre>
 
             </div>
 
@@ -8046,25 +8917,141 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">No Literals, Gotos Only, Final Destination!</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">\,1
+1+1,2
+2+1,3
+3+1,4
+4+1,5
+5+1,6
+6+2,8
+
+8+1,9
+9+1,A
+A+1,B
+B+2,D
+
+D+1,E
+E+1,F
+F+1,G
+G+10
+0,0
+
+0,0
+5D
+5D
+15,b
+55
+5G
+26
+60
+
+
+
+
+
+0:D9*0+4B
+0:D9*0+18
+
+3F
+
+
+
+
+
+
+
+
+0:D9*0+1D
+
+
+
 
-                <pre><code class=" hljs"></code></pre>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0:D9*0+56
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0:D9*0+5G
+
+
+
+
+
+
+
+
+
+
+
+
+0:D9*0+1E
+0:D9*0+11,a
+
+
+
+
+
+
+0:D9*0+a+1,a
+
+
+0:D9*0+b+1,b
+
+
+0:D9*0+5D</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">nodejs</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class="nodejs hljs">#!/usr/bin/env node
 
-                <pre><code class=" hljs"></code></pre>
+console.log('Hello world!');</code></pre>
 
             </div>
 
@@ -8072,12 +9059,83 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">NOR</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">1
+0 REM store the H in line values
+    10 NOR 0, 1
+    20 NOR 0, 0
+    30 NOR 0, 1
+    40 NOR 0, 1
+    50 NOR 0, 0
+    60 NOR 0, 1
+    70 NOR 0, 1
+    80 NOR 0, 1
+90 REM print it all out
+    100 OUT #10:0
+    110 OUT #20:0
+    120 OUT #30:0
+    130 OUT #40:0
+    140 OUT #50:0
+    150 OUT #60:0
+    160 OUT #70:0
+    170 OUT #80:0
+    175 OLN
+180 REM Change to little e
+    190 NOR #30:0, 0
+    200 NOR #50:0, 0
+    210 NOR #60:0, 0
+    230 NOR #80:0, 0
+240 REM Output with replaced values
+    250 OUT #10:0
+    260 OUT #20:0
+    270 OUT #190:0
+    280 OUT #40:0
+    290 OUT #200:0
+    300 OUT #210:0
+    310 OUT #70:0
+    320 OUT #230:0
+    325 OLN
+330 REM Change to little l
+    340 NOR #200:0, 0
+    350 NOR #230:0, 0
+    360 REM Output little l twice
+    370 OUT #10:0
+    380 OUT #20:0
+    390 OUT #190:0
+    400 OUT #40:0
+    410 OUT #340:0
+    420 OUT #210:0
+    430 OUT #70:0
+    440 OUT #350:0
+    445 OLN
+    450 OUT #10:0
+    460 OUT #20:0
+    470 OUT #190:0
+    480 OUT #40:0
+    490 OUT #340:0
+    500 OUT #210:0
+    510 OUT #70:0
+    520 OUT #350:0
+    525 OLN
+530 REM Change to little o
+    540 NOR #70:0, 0
+    550 NOR #350:0, 0
+560 REM Output little o
+    570 OUT #10:0
+    580 OUT #20:0
+    590 OUT #190:0
+    600 OUT #40:0
+    610 OUT #340:0
+    620 OUT #210:0
+    630 OUT #540:0
+    640 OUT #550:0
+    645 OLN
+650 REM Pause at end
+    660 INP in0</code></pre>
 
             </div>
 
@@ -8085,12 +9143,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">novice</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">a
+a-Hello, world!_*
+Hello, world!_*</code></pre>
 
             </div>
 
@@ -8098,12 +9158,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Nqubl</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"!dlrow ,olleH"ex</code></pre>
 
             </div>
 
@@ -8111,12 +9171,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">nu</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">(puts "Hello World")</code></pre>
 
             </div>
 
@@ -8124,12 +9184,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Numberix</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">A0000159006CA9006C590057A9006F590064A90021000000000000000000000000000000000000
+59004809006559006F09002059007209006CFF0000</code></pre>
 
             </div>
 
@@ -8137,12 +9198,15 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">nxc</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">task main()
+{
+    TextOut(0, LCD_LINE1, "Hello world!");
+}</code></pre>
 
             </div>
 
@@ -8150,12 +9214,17 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">oberon 2</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">MODULE HelloWorld;                     
+IMPORT Out;
+BEGIN
+    Out.String( "Hello World" );
+    Out.Ln;
+END HelloWorld.</code></pre>
 
             </div>
 
@@ -8163,25 +9232,32 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">oberon</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">MODULE HelloWorld;
 
+IMPORT Out;
+
+BEGIN
+    Out.Open;
+    Out.String('Hello World');
+END HelloWorld.</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">obix</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">system.console.write_line ( "Hello, world!" )</code></pre>
 
             </div>
 
@@ -8189,12 +9265,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">obj</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">stdout println:'Hello World!'.</code></pre>
 
             </div>
 
@@ -8202,25 +9278,38 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">objc</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">/*
+    Build on OS X: 
+    clang -framework Foundation -fobjc-arc objc.m -o objc
 
-                <pre><code class=" hljs"></code></pre>
+    Build on Linux with GNUstep:
+    clang `gnustep-config --objc-flags` `gnustep-config --base-libs` -fobjc-nonfragile-abi -fobjc-arc objc.m -o objc
+*/
 
+#import &lt;Foundation/Foundation.h&gt;
+
+int main(void)
+{
+    NSLog(@"Hello World");
+}</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">objective j</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">document.write("Hello, World!");</code></pre>
 
             </div>
 
@@ -8228,12 +9317,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ObjectStar</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">CALL ENDMSG('HELLO WORLD');</code></pre>
 
             </div>
 
@@ -8241,12 +9330,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ocaml</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print_string "Hello World\n"</code></pre>
 
             </div>
 
@@ -8254,12 +9343,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">octave</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#Hello World in Octave (http://www.octave.org/)
+printf("Hello World\n");</code></pre>
 
             </div>
 
@@ -8267,12 +9357,34 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">omgrofl</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">lol iz 72
+rofl lol
+lol iz 101
+rofl lol
+lol iz 108
+rofl lol
+rofl lol
+lool iz 111
+rofl lool
+loool iz 44
+rofl loool
+loool iz 32
+rofl loool
+loool iz 87
+rofl loool
+rofl lool
+lool iz 114
+rofl lool
+rofl lol
+lol iz 100
+rofl lol
+lol iz 33
+rofl lol</code></pre>
 
             </div>
 
@@ -8280,12 +9392,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ooc</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">main: func {
+    "Hello World" println()
+}</code></pre>
 
             </div>
 
@@ -8293,12 +9407,29 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ook</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook! Ook? Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook! Ook! Ook? Ook! Ook? Ook.
+Ook! Ook. Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook! Ook? Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook?
+Ook! Ook! Ook? Ook! Ook? Ook. Ook. Ook. Ook! Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook. Ook! Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook! Ook. Ook. Ook? Ook. Ook? Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook? Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook? Ook! Ook! Ook? Ook! Ook? Ook. Ook! Ook.
+Ook. Ook? Ook. Ook? Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook! Ook? Ook? Ook. Ook. Ook.
+Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook. Ook? Ook! Ook! Ook? Ook! Ook? Ook. Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook.
+Ook? Ook. Ook? Ook. Ook? Ook. Ook? Ook. Ook! Ook. Ook. Ook. Ook. Ook. Ook. Ook.
+Ook! Ook. Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook.
+Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook! Ook!
+Ook! Ook. Ook. Ook? Ook. Ook? Ook. Ook. Ook! Ook.</code></pre>
 
             </div>
 
@@ -8306,12 +9437,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">OOLANG</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello, World!.println;</code></pre>
 
             </div>
 
@@ -8319,12 +9450,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">opa</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">jlog("Hello world")</code></pre>
 
             </div>
 
@@ -8332,12 +9463,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">OpenLaszlo</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">&lt;canvas&gt;
+    &lt;text&gt;Hello World!&lt;/text&gt;
+&lt;/canvas&gt;</code></pre>
 
             </div>
 
@@ -8345,12 +9478,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Oracle SQL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">SELECT 'Hello World!' FROM DUAL;</code></pre>
 
             </div>
 
@@ -8358,12 +9491,21 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Orc</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">{- HelloWorld.orc -- Orc program HelloWorld
+    -
+    - $Id$
+    -
+    - Created by xbony2 on Nov 8, 2014 8:30:25 PM
+    - Licensed under public domain.
+-}
 
-                <pre><code class=" hljs"></code></pre>
+Println("Hello World!") &gt;&gt;
+stop</code></pre>
 
             </div>
 
@@ -8371,12 +9513,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ORK</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">When this program starts:
+There is a scribe called Writer.
+Writer is to write "Hello, world!"</code></pre>
 
             </div>
 
@@ -8384,12 +9528,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Ouroboros</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World!"ooooooooooooo1(</code></pre>
 
             </div>
 
@@ -8397,12 +9541,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">OZ</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">{Show 'Hello World'}</code></pre>
 
             </div>
 
@@ -8410,25 +9554,52 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">P0pCrn</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">_P    _0    _p    _!
+@o    #o    $o    st
+p_    p_    p_    r_
+Th    ms    P0    op
+is    g_    pC 
+is    op    rn
+wh    P0    =_
+at    pC    He
+co    rn    ll
+mm          o_
+en          wo
+ts          rl
+lo          d!
+ok
+li 
+ke 
+in
+P0
+pC
+rn
+!
 
+Outputs "Hello, world!"</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Paintfuck</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">*s*s*s*s*enn*enn*s*s*s*s*ee*n*n*n*n*e*e*ssw
+*ss*e*ee*e*e*wwn*n*n*n*eeee*s*s*s*s*e*e*een
+*n*n*en*es*s*s*sw*eee*sw*wwwwwn[ww]seess*s*
+s*s*se*e*n*n*n*n*ee*s*s*s*sw*eeee*wn*n*n*ne
+*es*s*s*ees*n*n*n*n*e*es*ws*es*s*ee*n*n*n*n
+*[s]ne*e*ee*n*n*n*n*e*es*s*s*sw*eee*nn*n*n*</code></pre>
 
             </div>
 
@@ -8436,25 +9607,40 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">parenthetic</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Parenthetic - https://github.com/cammckinnon/Parenthetic
 
+((()()())(()(()()))((()(()))((())()()()()()()())((()()(()))((())()()()()()()()()())
+((())()()()()()()()()()()))))((()()())(()(()()()))((()(())(())())((())()()()()()()(
+)()()()()()()()()()()()()()()()()()()()()()()()()())))((()(()))((()(())(())())((()(
+()))(()(()()))((())()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()()
+)))((()(())(())())((()(()))(()(()()))((())()()()()()()()()()()())))((()(())(())())(
+(()(()))(()(()()))((())()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))(
+(())()()()()()()()()()()()()()())))(()(()()()))((()(())(())())((()(()))(()(()()))((
+())()()()()()()()()()()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()())
+)((())()()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()(
+)()()()()()()()()()()()()())))((()(())(())())((()(()))(()(()()))((())()()()()()()()
+()()()())))((()(())(())())((()(()))(()(()()))((())()()()))))</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">parser</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">@main[]
+    ^rem{Will print "Hello, World!" when run as CGI script}
+    $hello[Hello, World!]
+    $result[$hello]</code></pre>
 
             </div>
 
@@ -8462,12 +9648,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pascal</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">program HelloWorld(output);
+begin
+        writeln('Hello World');
+        readln;
+end.</code></pre>
 
             </div>
 
@@ -8475,12 +9665,28 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">PATH</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">\/\   /\          /\  /\ 
++++   ++          ++  ++
++++   ++  /++++\  ++  ++  /++++\ 
+++\++\++  +    +  ++  ++  +    +
+++   +++  +/+++/  ++  ++  +    +
+++   +++  ++      ++  ++  +    +
+\/   \/\  /\+++   /\  /\  /++.+/  
+                            \        \ 
+/++++.+++++++++++++++++++++++++++  /  \ 
+                            /\       -  -#
+                            ++       .  -.
++      /  \++++\  /++++\  ++  /---\-  -+
++  /\  +  +    +  +    +  +.  -   .-  -}
++  +.  +  +    +  +       +-  -   +-  
+.  +}  +  +    +  +       +-  -   +-  -.
+\.+/\++/  \++++/  +       +\  /-.+/-  --
+            \      /    \.{/   \    /  \/</code></pre>
 
             </div>
 
@@ -8488,12 +9694,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pawn</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#include &lt;core&gt;
+ 
+main(){
+    print("Hello World!");   
+}</code></pre>
 
             </div>
 
@@ -8501,51 +9711,120 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pb</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">; Hello World in "PowerBatch Plus+" from Computing Systems Design, Inc.
 
-                <pre><code class=" hljs"></code></pre>
+Variable        Msg,13,"Hello, World!"
 
+Write           Msg</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pbwin</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">#COMPILE EXE
+#DIM ALL
 
-                <pre><code class=" hljs"></code></pre>
+FUNCTION PBMAIN () AS LONG
 
+    MSGBOX "Hello World"
+
+END FUNCTION</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pebble</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class="c hljs">#include &lt;pebble.h&gt;
 
-                <pre><code class=" hljs"></code></pre>
+static Window* main_window;
+static TextLayer* text_layer, *world_layer;
 
+static void main_window_load(Window* window) {
+    Layer *window_layer = window_get_root_layer(window);
+    window_set_background_color(main_window, GColorBlack);
+    GRect bounds = layer_get_bounds(window_layer);
+    text_layer = text_layer_create(
+        GRect(0, bounds.size.h / 2 - 42, bounds.size.w, 120));
+    text_layer_set_text(text_layer, "Hello");
+    text_layer_set_background_color(text_layer, GColorClear);
+    text_layer_set_text_color(text_layer, GColorWhite);
+    text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
+    text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);
+
+    world_layer = text_layer_create(
+        GRect(0, bounds.size.h / 2, bounds.size.w, 120));
+    text_layer_set_background_color(world_layer, GColorClear);
+    text_layer_set_text(world_layer, "World");
+    text_layer_set_text_color(world_layer, GColorLightGray);
+    text_layer_set_font(world_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));
+    text_layer_set_text_alignment(world_layer, GTextAlignmentCenter);
+    
+    layer_add_child(window_layer, text_layer_get_layer(text_layer));
+    layer_add_child(window_layer, text_layer_get_layer(world_layer));
+}
+static void main_window_unload(Window* window) {
+    text_layer_destroy(text_layer);
+    text_layer_destroy(world_layer);
+}
+
+static void init() {
+    main_window = window_create();
+    window_set_window_handlers(main_window, (WindowHandlers) {
+        .load = main_window_load,
+        .unload = main_window_unload
+    });
+    window_stack_push(main_window, true);
+}
+
+static void deinit() {
+    window_destroy(main_window);
+}
+
+int main(void) {
+    init();
+    app_event_loop();
+    deinit();
+}</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">perl</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">   #!/usr/local/bin/perl -w
+    use CGI;                                # load CGI routines
+    $q = CGI->new;                          # create new CGI object
+    print $q->header,                       # create the HTTP header
+        $q->start_html('hello world'),      # start the HTML
+        $q->h1('hello world'),              # level 1 header
+        $q->end_html;                       # end the HTML
 
-                <pre><code class=" hljs"></code></pre>
+# http://perldoc.perl.org/CGI.html</code></pre>
 
             </div>
 
@@ -8553,12 +9832,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">perl</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/usr/bin/perl
+print "Hello World\n";</code></pre>
 
             </div>
 
@@ -8566,38 +9846,51 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">perl6</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/usr/bin/env perl6
 
+v6;
+
+say "Hello, World!";</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">perseus</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class="cpp hljs">link CUI entry main
 
-                <pre><code class=" hljs"></code></pre>
+include "Windows.inc"
+include "Console.inc"
 
+func main()
+{
+    Console.Init("Console")
+    Console.Write("Hello World!")
+}</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pharo</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">'Hello World' crLog</code></pre>
 
             </div>
 
@@ -8605,12 +9898,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">PHL 1.0</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">main[
+    println(Hello world!);
+]</code></pre>
 
             </div>
 
@@ -8618,25 +9913,34 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">PHP</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="php hljs">&lt;?php
 
+echo 'Hello World';</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Pi</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">3.1415926535897932384226433232725028841271693992751358239749245923072164062
+ 822089986780348053431120629821483865332223366470908446395535832317223594083
+ 284831172502841037019385311052596446029489529303219642288009756259134461214
+ 751482337817834652812009021456285664234613486134553226482133236073603491413
+ 737242870066363155841744815239239622292545917053643278925902605113301301488
+ 204625213821429519415316024320522703627595939530921261373219226137931021185
+ 580744023794627495273518257527348912274384830113491298346743644406563430865
+ 2133494633522473749030217386093370277033921317659317670238267581846066440</code></pre>
 
             </div>
 
@@ -8644,12 +9948,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">picat</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">main =&gt;
+    println('Hello World').</code></pre>
 
             </div>
 
@@ -8657,12 +9962,17 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Pieces</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">                                                                    #      #                                                             #                        #   +                                                +                     #      #                                                                            +                              #
+###+++# #+++# #+++# #+++# #+++####+++###+ +###+ +###+ +###+ +###+ +## #+ +## #++###+ +###+ +###+ +###++++###+++# #+++# #+++# #++ +# #+++## #+++###+ +###+ +###+ +## #++ +###+ +###++ +###++###+++# #+++# #+++# #+++# #++ +# #+++# #+++# #+ +## #+ +## #+++##+++###+ +###+ +###+ +###+ +###+++####+++###+ +###+ +###+ +###+ +## #++ +# #+ +## #++ +####+++# #+ +## #+ +## #++ +## #++ +## #++++## #++ +## #++ +## #++ +## #++ +## #+++##+++####
+####+++###+++###+++###+++###+++####+++###+++###+++###+++###+++##++++###+++####+++###+++###+++###+++###++++###+++###+++###++####+++###++++###++++###+++###+++###+++####++++###+++###++++##+++###+++###+++###+++###+++###++++##++####++####++####++++#####++###+++###+++###+++###+++###+++###+++####+++###+++###+++###+++###+++####+++###++++####++++####++###+++####++++####++++####++++####++++####++++####++++####++++####++++####++###+++####
+###++####++####++####++####++####++++##++++##++++##++++##++++##+++####+++####+++##++++##++++##++++##++++####++####++####++###++++###++++###++++##++++##++++##++++####++++##++++##+++++##+++###++####++####++####++####++++####+++###+++###+++###++++###++###+++##++++##++++##++++##++++##+++####++++##++++##++++##++++##++++###++++###+++####++++####+++###+++####+++####++++####++++####++++####++++####++++####++++####++++#####++###++####
+###+++###+++###+++###+++###+++# ##+++###+++###+++###+++###+++###+++# ##+++# ##++###+++###+++###+++###+ ++###+++###+++###+++###+ ++###+ +# ##+ +###+++###+++###+++# ##+ ++###+++###+ ++###++###+++###+++###+++###+++###+ ++###+++###+++###+++# ##+++# ##+++##+++###+++###+++###+++###+++###+++# ##+++###+++###+++###+++###+++####+ ++###+++####++++## #+++###+++# ##+++####++++####++++####+ ++####++++####++++####++++####++++# ##+++##+++# ##
+                                #                                     #                                +                         +                                                                                      +                      #                                               #                                  +</code></pre>
 
             </div>
 
@@ -8670,12 +9980,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pig</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello, World!PIGHello, World!</code></pre>
 
             </div>
 
@@ -8683,12 +9993,15 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pike</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">int main() {
+    write("Hello World!\n");
+    return 0;
+}</code></pre>
 
             </div>
 
@@ -8696,12 +10009,337 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pit</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">NOT 1
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 0
+SND 1
+SND 0
+SND 0
+SND 0
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+SND 2
+SND 1
+NOT 2
+SND 2
+SND 0
+OFF 0</code></pre>
 
             </div>
 
@@ -8709,12 +10347,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Pizza Delivery</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">21d64d72d57d20d2Cd6Fd6Cd65d48`a`a``a`a`a`a`ddd`aaaa`ddddd`aaaaaa`a`.</code></pre>
 
             </div>
 
@@ -8722,12 +10360,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pizza</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World");
+    }
+}</code></pre>
 
             </div>
 
@@ -8735,12 +10377,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">please porige hot</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">1 Please porige hot or cold Hello, World!</code></pre>
 
             </div>
 
@@ -8748,12 +10390,15 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">plSQL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="sql hljs">begin
+    dbms_output.put_line('Hello World');
+end;
+/</code></pre>
 
             </div>
 
@@ -8761,12 +10406,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pluvo</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">say "Hello World"</code></pre>
 
             </div>
 
@@ -8774,12 +10419,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">polynomial</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">f(x) = x^54 - 159014x^53 + 10832073396865804x^52 - 1722454995853645185024x^51 + 37968621468067227708480815104x^50 - 6048436172078846536054214083215360x^49 - 233513143301713321053926514246008438784x^48 + 1104146527973661777408036024159387365933056x^47 - 43427940760660892945598234855622393627754364928x^46 + 67688151387034834407174775878348678887678180065280x^45 - 2657323397811390386816113812836066598878541383083229182x^44 + 1750284245331664692109566288590033450135765470086567034878x^43 - 66462310637170791141330436813018840528707142797162918925303806x^42 + 20508128690597856095696899775729835128839331997155438812840591358x^41 - 664953230461190852547732663527306948596506725237756131883009775239166x^40 + 122666463513285791263166623998020333809641694974891527172108001766014974x^39 - 2290339732715482683303962242601771918911509803450296139283376474479399010302x^38 + 333681206682071257276765622169335904551081599525895157749622024410862633091070x^37 - 1691043431739585500544644861024318773165895772478850636648655229589277769014968318x^36 + 200506166911493278122043091578573690630915822238274576692536396738642535022472462334x^35 - 83725352136727902926962688002085013348571758969699327995437883996918505898393112412158x^34 + 8946701875864986004178866146568026543826377674206253421423964436944549188572512744636414x^33 - 1867315954108076983102178980404722124954606614812493711046674205982894462255753012843642878x^32 + 178324449027542424363250070678452160645175392388973092115587091266832446376253808451931602942x^31 - 24291196173290792733633389253959325279211027629620980716292664144523119832413508515604964835326x^30 + 2051361313277806101971735175010721323823623545474630082713676031861264604659894615015106038202366x^29 - 204163318930245521138048084566822704550940204786829904381641555821279624471050262962488593524719614x^28 + 15080204889675869155229234744312762198619136509808788153390711130175410235109921892971369525296496638x^27 - 1165291326138700992648690286268194728713765396851822888922293042494539382622438040850689893573528125438x^26 + 74455666269114358239917407447450883116392692238031999396368360323797637882097034155445411572501551513598x^25 - 4629813507931028276481888188824918837219940394558223324294713679828523226590836146159419165677988974952446x^24 + 253120956733554432342716622232076867923990466385729228242480842746036367109236814280617493808254752667992062x^23 - 12935074231319533186983493987243575840365401040882648745356769581430267310941451311894303395892917187039461374x^22 + 598913063059871613059857216856855349855419761967359474402923993393922286606408014770709182577971747789238960126x^21 - 25428508737739962276270688610109187572552304592436884974847563375647270022873810881862347086815806954727658225662x^20 + 988075525812553477917947118187566933771383003967243891018665745909746387720410669543775339912470070203350513614846x^19 - 34974169531686082193562459271768002009744513364736394486295709944600099597472906094246515756034869419547478867312638x^18 + 1131815654865400099721068380879494797357578573000978123266770256219841969966466292315303189575522430114658452248723454x^17 - 33333243367066790224431125737877702592396473433676485170092104273794119865956405762749777296265621241096608710368690174x^16 + 892264657182917347092519064707331396991280027881775637162618455630037117552251223731760472327631168507410442258403557374x^15 - 21741234185793763082357467767610152549960037645439852577400502876137832861902450604589029830428630800969050504520911552510x^14 + 477743401378059186285442060198126775727720768799991712595952810072435362385423036993075850469213290973558290972495134588926x^13 - 9542386958914044777985633223358827925072853726403754987291921876055021910330691028409034466645850263821631147144589476888574x^12 + 170373657119042581679392061752246883211700633236029252140524140404116909796029987541347425321627477671207061587436661802795006x^11 - 2749764955487032211189043031405167033392562632980461084259430732124101539469658631267867961079629561250003844967312558638759934x^10 + 39258870077914541482854786591008101985140318175933710685982149707499006040540918873742652203012485463461181385232920427641176062x^9 - 500368492335132183249328269334693420237229115021360007044007047308659390943642645302624438601527360932151837223729879018719150078x^8 + 5561474165691513638632263097940791619157749550438413179410744745968666079707113111702893276550591486283330334999248957967519711230x^7 - 53880783522289363454704538003114570363811073301017229192681339922824957590137011676197017433885609211428303922108095981658814021630x^6 + 445288801638974965851448060362741780190759776482802809915713807735430669749072211419415506701161594212827516720492113889326434091006x^5 - 3062244326655950294268213743871987045997296637980493381720979841832789151604468970705217772640392632442086114584286495283795927760894x^4 + 17350497861833021048265568696066512194485118861967772235263366259072517869159731356876777820098774378356979847504601682094845149052926x^3 - 74168531044100993077468285584515190766733489300066134507874699191841424986708021389184383419592112291881531106870872614137017669779454x^2 + 228571929129635500353661243768318776163922747079196359396738280844215833818180963007061674605170476519898831960207022976332263187283966x - 611392605770821583281602313540767104622218840531412047272348323116466189132132314542079626967192155939298340170675960484343482356334590 </code></pre>
 
             </div>
 
@@ -8787,12 +10432,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pony</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">actor Main
+new create(env: Env) =&gt;
+    env.out.print("Hello World")</code></pre>
 
             </div>
 
@@ -8800,12 +10447,23 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">portugol</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">algoritmo "Hello World"
+// Função: Hello World
+// Autor: d3z40
+// Data: 22/08/2018
+// Seção de Declarações
 
-                <pre><code class=" hljs"></code></pre>
+var
+    
+inicio
+// Seção de Comandos
+escreva ("Hello World!")
+fimalgoritmo</code></pre>
 
             </div>
 
@@ -8813,12 +10471,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">postgreSQL</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="sql hljs">SELECT 'Hello World' as hello_message;</code></pre>
 
             </div>
 
@@ -8826,25 +10484,36 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">postscript page</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">% run&gt; gs -q postscript_page.ps
+/pt {72 div} def
+/y 9 def
+/textdraw {/Courier findfont 12 pt scalefont setfont 8 pt y moveto show} def
 
+72 72 scale
+0 0 0 setrgbcolor
+
+(Hello world!) textdraw
+showpage
+quit</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">postscript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">% run&gt; gs -q -sDEVICE=nullpage postscript.ps
+(Hello world!\n) print quit</code></pre>
 
             </div>
 
@@ -8852,12 +10521,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">posxml</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="xml hljs">&lt;display line="0" column="0" message="Hello World" /&gt;</code></pre>
 
             </div>
 
@@ -8865,12 +10534,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">potigol</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">escreva "Hello World"</code></pre>
 
             </div>
 
@@ -8878,12 +10547,29 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Powder</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">{
+    "Output" :
+    {
+        "1" : 72,
+        "2" : 101,
+        "3" : 108,
+        "4" : 108,
+        "5" : 111,
+        "6" : 44,
+        "7" : 32,
+        "8" : 119,
+        "9" : 111,
+        "10" : 114,
+        "11" : 108,
+        "12" : 100
+        "13" : 33
+    }
+}</code></pre>
 
             </div>
 
@@ -8891,12 +10577,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">powershell</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">'Hello World'</code></pre>
 
             </div>
 
@@ -8904,12 +10590,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Prelude</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class="bf hljs">...8+.!v...4+.1+!..v!..vvv...4+.!vvv.....9+.3-!###!..v6-!..vv..v
+9+(1-)^#7+(1-)..^7+!^3+!##8+(1-)^###9+1+(1-)..^^^^^3+!..^8-!#1+!</code></pre>
 
             </div>
 
@@ -8917,12 +10604,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Printscript</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print "Hello, world!"</code></pre>
 
             </div>
 
@@ -8930,12 +10617,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">processing</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">size(128, 128);
+background(0);
+textAlign(CENTER, CENTER);
+fill(255);
+text("Hello World", width / 2, height / 2);</code></pre>
 
             </div>
 
@@ -8943,12 +10634,17 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">ProgFk</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">14 11 14 11 11 14 14 11 14 11 41 14 14 11 41 41 11 14 14 11 41 41 11 14 14 11 41 41 41 41 11 41 14 14 11 11
+14 11 11 11 14 14 14 11 41 41 41 14 14 11 41 41 41 41 14 14 14 11 14 11 14 14 11 41 41 11 14 14 11 14 11 11
+14 11 11 14 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22
+22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 27 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11
+11 17 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11
+11 17 11 11 11 11 F0</code></pre>
 
             </div>
 
@@ -8956,12 +10652,15 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">prolog</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">helloWorld :-
+    write('Hello World').
 
-                <pre><code class=" hljs"></code></pre>
+:- helloWorld.</code></pre>
 
             </div>
 
@@ -8969,25 +10668,50 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">PUBERTY</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">It is June 12, 2018, 03:02:04 PM. Izu is in his bed, bored. His secret kinks are vore, fatfurs, inflation, growth and kitsunes. 
+Then he spots fatfurs. Soon the following sounds become audible. 
 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap yes fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap yes yeah yeah yeah yes yes fap fap fap yes yEAH YeaH 
+fAtfURs,hNNg yEAH fap fap inflation,hnng yeah fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap vore,hnng 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap yeah fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap vore,hnng fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap yeah ugh fap fap fap fap fap
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fatfurs,hnng yeah fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap fap 
+fap fap fap fap fap fap fap fap fap vore,hnng yeah squirt ugh 
+growth,hnng kitsunes,fuck yes sigh</code></pre>
+
             </div>
 
             <div class="card" id ="">
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pure data</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#N canvas 1029 457 450 300 10;
+#X obj 127 132 print;
+#X msg 127 86 Hello world!;
+#X connect 1 0 0 0;</code></pre>
 
             </div>
 
@@ -8995,12 +10719,14 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">purebasic</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">If OpenConsole()
+    PrintN("Hello World")
+EndIf</code></pre>
 
             </div>
 
@@ -9008,12 +10734,16 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">purescript</h4>
                         <br>
                     </div>
                 </div>
+
+                <pre><code class=" hljs">module Main where
+
+import Debug.Trace
 
-                <pre><code class=" hljs"></code></pre>
+main = trace "Hello, World!"</code></pre>
 
             </div>
 
@@ -9021,12 +10751,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">PureStack</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello, World!"
+!~</code></pre>
 
             </div>
 
@@ -9034,12 +10765,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Purple</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">aA1aa1oA0bi0b0bb1bbbAiB0 Purple is the awesomest, so why haven't you tried it yet?
+!dlroW ,olleH</code></pre>
 
             </div>
 
@@ -9047,12 +10779,20 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Pxem</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">Hello.p	Prints "Hello"
+Aa.-	Makes ' '
+Am.-	Makes ','
+.p	Prints ", "
+world.p	Prints "world"
+ak.-	Makes '\n'
+Ab.-	Makes '!'
+.p	Prints "!\n"
+xe</code></pre>
 
             </div>
 
@@ -9060,12 +10800,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pyhton [sic]</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">6&gt;^5165_~h1'&gt;&gt;6(I()5&lt;11'h?~|8</code></pre>
 
             </div>
 
@@ -9073,12 +10813,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">pyret</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">print('Hello, World!')</code></pre>
 
             </div>
 
@@ -9086,12 +10826,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">python</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/usr/bin/env python
+print("Hello World")</code></pre>
 
             </div>
 
@@ -9099,12 +10840,13 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">python 3</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">#!/usr/bin/env python3
+print "Hello World"</code></pre>
 
             </div>
 
@@ -9112,12 +10854,21 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Q# (qsharp)</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">namespace Quantum.HelloWorld
+{
+    operation HelloWorld () : (String)
+    {
+        body
+        {
+            return ("Hello, World!");
+        }
+    }
+}</code></pre>
 
             </div>
 
@@ -9125,12 +10876,12 @@ main();</code></pre>
 
                 <div class="card-title">
                     <div class="card-title">
-                        <h4 class="lang-name"></h4>
+                        <h4 class="lang-name">Q</h4>
                         <br>
                     </div>
                 </div>
 
-                <pre><code class=" hljs"></code></pre>
+                <pre><code class=" hljs">"Hello World!"</code></pre>
 
             </div>
 
@@ -17367,9 +19118,12 @@ main();</code></pre>
 
     <footer>
         <p>
+            Inspired by:
+            <a href="https://helloworldcollection.github.io/" target="_blank">The Hello World Collection</a>
+            <br><br>
             Resources:
-                <a href="https://github.com/leachim6/hello-world">@leachim6</a> |
-                <a href="https://esolangs.org/wiki/Hello_world_program_in_esoteric_languages">Esolangs - Wiki</a>
+                <a href="https://github.com/leachim6/hello-world" target="_blank">@leachim6</a> |
+                <a href="https://esolangs.org/wiki/Hello_world_program_in_esoteric_languages" target="_blank">Esolangs - Wiki</a>
             <br><br>
             Designed By:
                 <a href="https://codepen.io/Ahmed-bzx/pen/zLgPvG" target="_blank">Ahmed</a> |
@@ -17382,7 +19136,6 @@ main();</code></pre>
                 All Copyrights Reserved © 2019
             <script>
                 new Date().getFullYear() > 2019 && document.write(" - " + new Date().getFullYear());
-    
             </script>
         </p>
     </footer>
