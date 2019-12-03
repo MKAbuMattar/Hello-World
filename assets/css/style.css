@@ -78,7 +78,6 @@ li::before {
     opacity: 0;
     max-height: 0;
     font-size: 0;
-    transition: .25s ease;
 }
 
 .read-more-state:checked ~ .read-more-wrap .read-more-target {
