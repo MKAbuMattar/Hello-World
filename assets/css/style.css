@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+* {
+    scroll-behavior: smooth;
+}
+
 body {
     word-wrap: break-word;
     margin: 0;
@@ -12,7 +16,7 @@ body {
     color: #eeeeee;
 }
 
-.first-section > div {
+.first-section>div {
     max-width: 70%;
     padding: 6em 2em;
     margin: 0 auto;
@@ -63,9 +67,9 @@ a:hover {
     padding: 1rem 2rem;
     cursor: pointer;
     -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     transition: all 0.3s ease-in-out;
     text-align: center;
     white-space: nowrap;
@@ -84,13 +88,14 @@ a:hover {
 .button:hover {
     color: #E53935;
 }
+
 .button:focus {
     outline: none;
 }
 
 .button--floating:hover {
     -webkit-animation: floating 1.5s ease-in-out infinite;
-            animation: floating 1.5s ease-in-out infinite;
+    animation: floating 1.5s ease-in-out infinite;
     background-color: #fff;
 }
 
@@ -99,10 +104,12 @@ a:hover {
         -webkit-transform: translatey(0);
         transform: translatey(0);
     }
+
     50% {
         -webkit-transform: translatey(-0.5rem);
         transform: translatey(-0.5rem);
     }
+
     100% {
         -webkit-transform: translatey(0);
         transform: translatey(0);
@@ -114,10 +121,12 @@ a:hover {
         -webkit-transform: translatey(0);
         transform: translatey(0);
     }
+
     50% {
         -webkit-transform: translatey(-0.5rem);
         transform: translatey(-0.5rem);
     }
+
     100% {
         -webkit-transform: translatey(0);
         transform: translatey(0);
@@ -134,7 +143,7 @@ ul {
     padding: 0;
 }
 
-ul > span{
+ul>span {
     font-size: 2.5rem;
     font-weight: 300;
     line-height: 1.2;
@@ -143,22 +152,22 @@ ul > span{
     margin: 5px;
 }
 
-ul li{
+ul li {
     display: inline-flex;
     border: 2px solid #212121;
 }
 
-li > a {
+li>a {
     padding: 5px;
     margin: 5px;
 }
 
-li > a:hover{
+li>a:hover {
     color: #E53935 !important;
     border: 0px !important;
 }
 
-li > a::before{
+li>a::before {
     content: '#';
 }
 
@@ -221,7 +230,7 @@ li > a::before{
     background-color: #efefef;
 }
 
-pre > code {
+pre>code {
     font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
     text-align: left;
     white-space: pre;
@@ -292,7 +301,7 @@ footer {
 }
 
 @media only screen and (max-width: 512px) {
-    .first-section > div {
+    .first-section>div {
         padding: 4em 2em;
     }
 
@@ -342,7 +351,7 @@ footer {
         top: -10rem !important;
     }
 
-    ul li{
+    ul li {
         display: block;
     }
 }
