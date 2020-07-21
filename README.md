@@ -1,4 +1,4 @@
-# Hello, World! in All Languages Programming +700 [Try](https://mkabumattar.github.io/Hello-World/)
+# Hello, World! in All Languages Programming +500 [Try](https://mkabumattar.github.io/Hello-World/)
 
 > Inspired by [The Hello World Collection](https://helloworldcollection.github.io/).
 > Resources [leachim6](https://github.com/leachim6/hello-world).
