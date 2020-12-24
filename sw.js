@@ -1,4 +1,4 @@
-const cacheName = 'hello-v1';
+const cacheName = 'hello-v0';
 const staticAssets = [
     './',
     './index.html',
