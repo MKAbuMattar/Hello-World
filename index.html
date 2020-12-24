@@ -16638,7 +16638,7 @@ echo "Hello, World!"</code></pre>
 
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', function () {
-                navigator.serviceWorker.register('/Hello-World/sw.js').then(function (registration) {
+                navigator.serviceWorker.register('https://mkabumattar.github.io/Hello-World/sw.js').then(function (registration) {
                     // Registration was successful
                     console.log('ServiceWorker registration successful with scope: ', registration
                         .scope);
