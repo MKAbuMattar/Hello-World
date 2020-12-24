@@ -25,23 +25,12 @@
     <meta name="author" content="Mohammad Khaled Abu Mattar">
     <meta name="theme-color" content="#000000">
     <link rel="apple-touch-icon" href="./assets/icons/logo192.png">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.webmanifest">
     <title>Hello World in All Languages Programming</title>
 
     <link rel="stylesheet" href="./assets/css/normalize.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/a11y-dark.css">
-
-    <script src="./assets/js/highlight.pack.js"></script>
-    <script src="./assets/js/highlightjs-line-numbers.min.js">
-    </script>
-    <script>
-        hljs.initHighlightingOnLoad();
-
-        hljs.initLineNumbersOnLoad({
-            singleLine: true
-        });
-    </script>
 
     <style>
         .hljs-ln td.hljs-ln-numbers {
@@ -16623,6 +16612,17 @@ echo "Hello, World!"</code></pre>
         </p>
     </footer>
 
+    <script src="./assets/js/highlight.pack.js"></script>
+    <script src="./assets/js/highlightjs-line-numbers.min.js">
+    </script>
+    <script>
+        hljs.initHighlightingOnLoad();
+
+        hljs.initLineNumbersOnLoad({
+            singleLine: true
+        });
+    </script>
+
     <script src="./assets/js/script.js"></script>
 
     <script>
@@ -16633,6 +16633,20 @@ echo "Hello, World!"</code></pre>
             } else {
                 x.style.display = "block";
             }
+        }
+
+
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', function () {
+                navigator.serviceWorker.register('/sw.js').then(function (registration) {
+                    // Registration was successful
+                    console.log('ServiceWorker registration successful with scope: ', registration
+                        .scope);
+                }, function (err) {
+                    // registration failed :(
+                    console.log('ServiceWorker registration failed: ', err);
+                });
+            });
         }
     </script>
 
