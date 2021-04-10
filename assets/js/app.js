@@ -2,7 +2,7 @@ t0 = performance.now()
 
 dom = document.getElementById('app')
 alphabetArray = 'abcdefghijklmnopqrstuvwxyz'.split('')
-symbolArray = 'أاإىآبتثجحخدذرزسشصضطعغفقكلمنهويءئ\u03bc\u03bb!\";#$%&\'()*+,-./:;<=>?@[]^_`{|}~0123456789635694378265487'.split('')
+symbolArray = 'أاإىآبتثجحخدذرزسشصضطعغفقكلمنهويءئ\u03bc\u03bb!\";#$%&\'()*+,-./:;<=>?@[]^_`{|}~0123456789'.split('')
 
 arr = []
 con = 0
@@ -228,7 +228,7 @@ fetch(`./assets/data/all.json`)
       headerShowUl.appendChild(headerShowliSpanListAlphabet)
 
       headerShowliSpanMarkAlphabet = document.createElement(`mark`)
-      headerShowliSpanMarkAlphabet.textContent = ` ${arr[i]} Languages Programming`
+      headerShowliSpanMarkAlphabet.textContent = ` ${arr[conn]} Languages Programming`
       headerShowliSpanListAlphabet.appendChild(headerShowliSpanMarkAlphabet)
 
       for (j in data) {
@@ -304,16 +304,16 @@ fetch(`./assets/data/all.json`)
 
   })
 
-if (`serviceWorker` in navigator) {
-  window.addEventListener(`load`, () => {
-    navigator.serviceWorker.register(`/Hello-World/sw.js`).then((registration) => {
-      console.log(`ServiceWorker registration successful with scope: `, registration
-        .scope)
-    }, function (err) {
-      console.log(`ServiceWorker registration failed: `, err)
-    })
-  })
-}
+// if (`serviceWorker` in navigator) {
+//   window.addEventListener(`load`, () => {
+//     navigator.serviceWorker.register(`/Hello-World/sw.js`).then((registration) => {
+//       console.log(`ServiceWorker registration successful with scope: `, registration
+//         .scope)
+//     }, function (err) {
+//       console.log(`ServiceWorker registration failed: `, err)
+//     })
+//   })
+// }
 
 mybutton = document.getElementById(`myBtn`)
 
@@ -334,7 +334,7 @@ scrollFunction = () => {
   }
 }
 
-let deferredPrompt
+deferredPrompt
 addBtn = document.querySelector(`.add-button`)
 addBtn.style.display = `none`
 
@@ -342,7 +342,6 @@ window.addEventListener(`beforeinstallprompt`, (e) => {
   e.preventDefault()
   deferredPrompt = e
   addBtn.style.display = `block`
-
   addBtn.addEventListener(`click`, (e) => {
     addBtn.style.display = `none`
     deferredPrompt.prompt()
@@ -362,7 +361,6 @@ window.addEventListener(`beforeinstallprompt`, (beforeInstallPromptEvent) => {
   installButton.addEventListener(`click`, (mouseEvent) => {
     beforeInstallPromptEvent.prompt()
   })
-
   installButton.hidden = false
 })
 
