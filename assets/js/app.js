@@ -1,5 +1,3 @@
-t0 = performance.now()
-
 dom = document.getElementById('app')
 alphabetArray = 'abcdefghijklmnopqrstuvwxyz'.split('')
 symbolArray = 'أاإىآبتثجحخدذرزسشصضطعغفقكلمنهويءئ\u03bc\u03bb!\";#$%&\'()*+,-./:;<=>?@[]^_`{|}~0123456789'.split('')
@@ -362,7 +360,3 @@ window.addEventListener(`beforeinstallprompt`, (beforeInstallPromptEvent) => {
   })
   installButton.hidden = false
 })
-
-t1 = performance.now()
-
-console.log(`Call to doSomething took ${t1 - t0} milliseconds.`)

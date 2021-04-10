@@ -4,21 +4,20 @@
 <head>
   <script>
     if (window.navigator.userAgent.indexOf("Trident/") > 0) {
-      alert("Internet Explorer is not supported.")
-      window.location.replace("/")
+      alert("Internet Explorer is not supported.");
+      window.location.replace("./unsupported-browser.html");
     }
   </script>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153421884-1"></script>
   <script>
-    window.dataLayer = window.dataLayer || [];
+    window.dataLayer = window.dataLayer || []
 
-    function gtag() {
-      dataLayer.push(arguments);
+    gtag = () => {
+      dataLayer.push(arguments)
     }
-    gtag('js', new Date());
+    gtag('js', new Date())
 
-    gtag('config', 'UA-153421884-1');
+    gtag('config', 'UA-153421884-1')
   </script>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
