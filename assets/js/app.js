@@ -309,7 +309,7 @@ if (`serviceWorker` in navigator) {
     navigator.serviceWorker.register(`/Hello-World/sw.js`).then((registration) => {
       console.log(`ServiceWorker registration successful with scope: `, registration
         .scope)
-    }, function (err) {
+    }, (err) => {
       console.log(`ServiceWorker registration failed: `, err)
     })
   })
