@@ -1,25 +1,26 @@
-cacheName = 'hello-word-v1'
+cacheName = `hello-word-v1`
 staticAssets = [
-    './',
-    './index.html',
-    './assets/css/a11y-dark.css',
-    './assets/css/normalize.css',
-    './assets/css/style.css',
-    './assets/js/app.js',
-    './assets/data/all.json',
+    `./`,
+    `./index.html`,
+    `./assets/css/a11y-dark.css`,
+    `./assets/css/normalize.css`,
+    `./assets/css/style.css`,
+    `./assets/js/app.js`,
+    `./assets/data/all.json`,
+    `./manifest.webmanifest`
 ]
 
-self.addEventListener('install', async e => {
+self.addEventListener(`install`, async e => {
     cache = await caches.open(cacheName)
     await cache.addAll(staticAssets)
     return self.skipWaiting()
 })
 
-self.addEventListener('activate', e => {
+self.addEventListener(`activate`, e => {
     self.clients.claim()
 })
 
-self.addEventListener('fetch', async e => {
+self.addEventListener(`fetch`, async e => {
     req = e.request
     url = new URL(req.url)
 
