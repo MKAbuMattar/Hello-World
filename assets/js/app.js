@@ -236,6 +236,7 @@ fetch(`./assets/data/all.json`)
           renderLink()
         }
       }
+      conn++
     }
 
     searchSection = document.createElement(`div`)
