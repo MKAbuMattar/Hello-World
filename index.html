@@ -38,7 +38,40 @@
   <link rel="stylesheet" href="./assets/css/normalize.css">
   <link rel="stylesheet" href="./assets/css/style.css">
   <link rel="stylesheet" href="./assets/css/a11y-dark.css">
+  <style>
+    .hljs-ln td.hljs-ln-numbers {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+
+      text-align: center;
+      color: #ccc;
+      border-right: 1px solid #CCC;
+      vertical-align: top;
+      padding-right: 5px;
+    }
+
+    .hljs-ln td.hljs-ln-code {
+      padding-left: 10px;
+    }
+
+    .bookmark {
+      padding-top: 0;
+    }
+  </style>
   <script src="./assets/js/app.js" defer></script>
+  <script src="./assets/js/highlight.pack.js" defer></script>
+  <script src="./assets/js/highlightjs-line-numbers.min.js" defer></script>
+  <script defer>
+    hljs.initHighlightingOnLoad()
+
+    hljs.initLineNumbersOnLoad({
+      singleLine: true
+    })
+  </script>
 </head>
 
 <body>
