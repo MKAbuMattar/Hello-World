@@ -5,9 +5,7 @@ staticAssets = [
     './assets/css/a11y-dark.css',
     './assets/css/normalize.css',
     './assets/css/style.css',
-    './assets/js/highlight.pack.js',
-    './assets/js/highlightjs-line-numbers.min.js',
-    './assets/js/script.js',
+    './assets/js/app.js',
     './assets/data/all.json',
 ]
 
