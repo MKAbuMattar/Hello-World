@@ -4,12 +4,6 @@
   "description": "This app for shows Hello, World! in programming languages.",
   "icons": [
     {
-      "src": "./assets/icons/favicon.ico",
-      "type": "image/x-icon",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "purpose": "any maskable"
-    },
-    {
       "src": "./assets/icons/logo192.png",
       "type": "image/png",
       "sizes": "192x192"

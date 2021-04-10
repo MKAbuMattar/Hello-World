@@ -1,5 +1,5 @@
-const cacheName = 'hello-world';
-const staticAssets = [
+cacheName = 'hello-word-v1'
+staticAssets = [
     './',
     './index.html',
     './assets/css/a11y-dark.css',
@@ -8,43 +8,44 @@ const staticAssets = [
     './assets/js/highlight.pack.js',
     './assets/js/highlightjs-line-numbers.min.js',
     './assets/js/script.js',
-];
+    './assets/data/all.json',
+]
 
 self.addEventListener('install', async e => {
-    const cache = await caches.open(cacheName);
-    await cache.addAll(staticAssets);
-    return self.skipWaiting();
-});
+    cache = await caches.open(cacheName)
+    await cache.addAll(staticAssets)
+    return self.skipWaiting()
+})
 
 self.addEventListener('activate', e => {
-    self.clients.claim();
-});
+    self.clients.claim()
+})
 
 self.addEventListener('fetch', async e => {
-    const req = e.request;
-    const url = new URL(req.url);
+    req = e.request
+    url = new URL(req.url)
 
     if (url.origin === location.origin) {
-        e.respondWith(cacheFirst(req));
+        e.respondWith(cacheFirst(req))
     } else {
-        e.respondWith(networkAndCache(req));
+        e.respondWith(networkAndCache(req))
     }
-});
+})
 
-async function cacheFirst(req) {
-    const cache = await caches.open(cacheName);
-    const cached = await cache.match(req);
-    return cached || fetch(req);
+cacheFirst = async (req) => {
+    cache = await caches.open(cacheName)
+    cached = await cache.match(req)
+    return cached || fetch(req)
 }
 
-async function networkAndCache(req) {
-    const cache = await caches.open(cacheName);
+networkAndCache = async (req) => {
+    cache = await caches.open(cacheName)
     try {
-        const fresh = await fetch(req);
-        await cache.put(req, fresh.clone());
-        return fresh;
+        fresh = await fetch(req)
+        await cache.put(req, fresh.clone())
+        return fresh
     } catch (e) {
-        const cached = await cache.match(req);
-        return cached;
+        cached = await cache.match(req)
+        return cached
     }
 }
