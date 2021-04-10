@@ -334,7 +334,6 @@ scrollFunction = () => {
   }
 }
 
-deferredPrompt
 addBtn = document.querySelector(`.add-button`)
 addBtn.style.display = `none`
 
