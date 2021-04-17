@@ -35,13 +35,6 @@
     "code": "@|H|:@|e|:@|l|:@|l|:@|o|:@|,|@| |:@|w|:@|o|:@|r|:@|l|:@|d|:@|!|:"
   },
   {
-    "id": "6",
-    "title": "~English",
-    "description": "",
-    "language_short": "plaintext",
-    "code": "Display \"Hello world!\" and a newline.\r\nStop the program."
-  },
-  {
     "id": "7",
     "title": "0587",
     "description": "0587 is a functional esolang that is made up of numeric instructions. It was created by user:InfiniteDonuts and is inspired by 0815, Unlambda, and 1337.\r\n\r\n",
@@ -99,7 +92,7 @@
   },
   {
     "id": "15",
-    "title": "4Thdimension",
+    "title": "4ThDimension (4th Dimension)",
     "description": "",
     "language_short": "c-like",
     "code": "OPEN WINDOW (10;45;500;330;0;\"Hello Window\")\r\nWhile (True)\r\n    MESSAGE (\"Hello World!\")\r\nEnd while"
@@ -112,6 +105,13 @@
     "code": "\"Hello, world!\\n\" ."
   },
   {
+    "id": "764",
+    "title": "A++",
+    "description": "",
+    "language_short": "",
+    "code": "(print \"Hello World\")"
+  },
+  {
     "id": "17",
     "title": "A:;",
     "description": "",
@@ -120,7 +120,7 @@
   },
   {
     "id": "18",
-    "title": "abap",
+    "title": "ABAP",
     "description": "",
     "language_short": "c-like",
     "code": "REPORT ZHELLO_WORLD.\r\n \r\nSTART-OF-SELECTION.\r\n    WRITE: 'Hello World!'."
@@ -148,7 +148,7 @@
   },
   {
     "id": "22",
-    "title": "acpi",
+    "title": "Acpi",
     "description": "",
     "language_short": "actionscript",
     "code": "Scope(\\) {\r\n    Method(_WAK) {\r\n        Store (\"Hello World\", Debug)\r\n        Return(Package(2){0x00000000,0})\r\n    }\t\r\n}"
@@ -162,7 +162,7 @@
   },
   {
     "id": "24",
-    "title": "acs",
+    "title": "ACS",
     "description": "",
     "language_short": "c-like",
     "code": "#include \"zcommon.acs\"\r\nScript 1 OPEN\r\n{\r\n    Print(s: \"Hello, world!\");\r\n}"
@@ -183,14 +183,14 @@
   },
   {
     "id": "27",
-    "title": "Actionscript2",
+    "title": "Actionscript2 (ActionScript 2)",
     "description": "",
     "language_short": "actionscript",
     "code": "trace( \"Hello World\" );"
   },
   {
     "id": "28",
-    "title": "Actionscript3",
+    "title": "Actionscript3 (ActionScript 3)",
     "description": "",
     "language_short": "actionscript",
     "code": "package {\r\n \r\nimport flash.display.Sprite;\r\nimport flash.text.TextField;\r\nimport flash.text.TextFieldAutoSize;\r\nimport flash.text.TextFormat;\r\n \r\n[SWF(width='800', height='600', backgroundColor='#cccccc', frameRate='30')]\r\n \r\n    public class HelloFlash e"
@@ -218,28 +218,28 @@
   },
   {
     "id": "32",
-    "title": "agda",
+    "title": "Agda",
     "description": "",
     "language_short": "c-like",
     "code": "module agda where\r\nopen import IO\r\n \r\nmain = run (putStrLn \"Hello World\")"
   },
   {
     "id": "33",
-    "title": "aheui",
+    "title": "Aheui",
     "description": "",
     "language_short": "plaintext",
     "code": "밤밣따빠밣밟따뿌\r\n빠맣파빨받밤뚜뭏\r\n돋밬탕빠맣붏두붇\r\n볻뫃박발뚷투뭏붖\r\n뫃도뫃희멓뭏뭏붘\r\n뫃봌토범더벌뿌뚜\r\n뽑뽀멓멓더벓뻐뚠\r\n뽀덩벐멓뻐덕더벅"
   },
   {
     "id": "34",
-    "title": "aime",
+    "title": "Aime",
     "description": "",
     "language_short": "c-like",
     "code": "integer\r\nmain(void)\r\n{\r\n    o_text(\"Hello world!\\n\");\r\n    \r\n    return 0;\r\n}"
   },
   {
     "id": "35",
-    "title": "aiml",
+    "title": "Aiml",
     "description": "",
     "language_short": "xml",
     "code": "&lt;aiml&gt;\r\n    &lt;category&gt;\r\n        &lt;pattern&gt;*&lt;\/pattern&gt;\r\n        &lt;template&gt;Hello World!&lt;\/template&gt;\r\n    &lt;\/category&gt;\r\n&lt;\/aiml&gt;"
@@ -260,14 +260,14 @@
   },
   {
     "id": "38",
-    "title": "alda",
+    "title": "Alda",
     "description": "",
     "language_short": "c-like",
     "code": "piano: c8 d e f g f e d c2."
   },
   {
     "id": "39",
-    "title": "algae",
+    "title": "Algae",
     "description": "",
     "language_short": "c-like\r\n",
     "code": "printf(\"Hello world!\\n\");"
@@ -281,14 +281,14 @@
   },
   {
     "id": "41",
-    "title": "algol60",
+    "title": "algol60 (ALGOL 60)",
     "description": "",
     "language_short": "gams",
     "code": "BEGIN\r\n    FILE F(KIND=REMOTE);\r\n    EBCDIC ARRAY E[0:11];\r\n    REPLACE E BY \"HELLO WORLD!\";\r\n    WRITE(F, *, E);\r\nEND."
   },
   {
     "id": "42",
-    "title": "algol68",
+    "title": "algol68 (ALGOL 68)",
     "description": "",
     "language_short": "gams",
     "code": "begin\r\n    print((\"Hello, world!\",newline))\r\nend"
@@ -301,6 +301,13 @@
     "code": "Print('Hello world!')"
   },
   {
+    "id": "765",
+    "title": "AlPhAbEt",
+    "description": "",
+    "language_short": "",
+    "code": "{\r\n\r\n  0>,\r\n\r\n  1>.  2>,  3>.  4>.  5>,  6>.  7>.  8>.  9>,\r\n  1>.  2>,  3>,  4>.  5>.  6>,  7>.  8>,  9>,\r\n  1>.  2>,  3>,  4>.  5>,  6>,  7>.  8>.  9>,\r\n  1>.  2>,  3>,  4>.  5>,  6>,  7>.  8>.  9>,\r\n  1>.  2>,  3>,  4>.  5>,  6>,  7>,  8>,  9>,\r\n  1>.  2>.  3>,  4>.  5>.  6>.  7>.  8>.  9>,\r\n  1>.  2>,  3>.  4>,  5>.  6>,  7>,  8>,  9>,\r\n  1>.  2>,  3>,  4>.  5>,  6>,  7>,  8>,  9>,\r\n  1>.  2>,  3>,  4>,  5>.  6>.  7>,  8>.  9>,\r\n  1>.  2>,  3>,  4>.  5>,  6>,  7>.  8>.  9>,\r\n  1>.  2>,  3>,  4>.  5>.  6>,  7>.  8>.  9>,\r\n\r\n}"
+  },
+  {
     "id": "44",
     "title": "Alphaprint",
     "description": "",
@@ -309,42 +316,42 @@
   },
   {
     "id": "45",
-    "title": "Amiga E",
+    "title": "Amiga E (Amiga-E)",
     "description": "",
     "language_short": "c-like",
     "code": "PROC main() IS WriteF('Hello World\\n')"
   },
   {
     "id": "46",
-    "title": "amos",
+    "title": "Amos",
     "description": "",
     "language_short": "c-like",
     "code": "Print \"Hello world!\""
   },
   {
     "id": "47",
-    "title": "android",
+    "title": "Android",
     "description": "",
     "language_short": "java",
     "code": "package com.example.helloworld;\r\n \r\nimport android.app.Activity;\r\nimport android.os.Bundle;\r\nimport android.widget.TextView;\r\n \r\npublic class HelloWorld extends Activity {\r\n    \/** Called when the activity is first created. *\/\r\n    @Override\r\n    public v"
   },
   {
     "id": "48",
-    "title": "angelscript",
+    "title": "AngelScript",
     "description": "",
     "language_short": "angelscript",
     "code": "void main() { print(\"Hello world\\n\"); }"
   },
   {
     "id": "49",
-    "title": "angular",
+    "title": "Angular",
     "description": "",
     "language_short": "javascript",
     "code": "$scope.$log = $log;\r\n$scope.message = 'Hello World!';"
   },
   {
     "id": "50",
-    "title": "ante",
+    "title": "Ante",
     "description": "",
     "language_short": "brainfuck",
     "code": "9♦8♥J♦A♦2♣3♥7♠J♦A♦7♦J♦J♦A♦3♦J♦5♥6♦4♥J♥A♥6♠6♠J♥A♦8♦J♦A♦8♠J♦A♦3♦J♦A♦6♠J♦A♦8♠J♦A♥3♦2♠J♥A♥2♣6♠J♥"
@@ -365,7 +372,7 @@
   },
   {
     "id": "53",
-    "title": "apc",
+    "title": "APC",
     "description": "",
     "language_short": "c-like",
     "code": "probe program\r\n{\r\n    on_entry log (\"Hello, World!\\n\");\r\n}"
@@ -379,7 +386,7 @@
   },
   {
     "id": "55",
-    "title": "apl",
+    "title": "APL",
     "description": "",
     "language_short": "vim",
     "code": "⎕←'Hello World!'"
@@ -392,8 +399,15 @@
     "code": "display dialog \"Hello World\""
   },
   {
+    "id": "766",
+    "title": "Applesoft BASIC",
+    "description": "",
+    "language_short": "",
+    "code": "10 PRINT \"HELLO WORLD\""
+  },
+  {
     "id": "57",
-    "title": "arc",
+    "title": "ARC",
     "description": "",
     "language_short": "arcade",
     "code": "(prn \"Hello, World!\")"
@@ -407,24 +421,38 @@
   },
   {
     "id": "59",
-    "title": "arena",
+    "title": "Arena",
     "description": "",
     "language_short": "c-like",
     "code": "print(\"Hello World!\");"
   },
   {
     "id": "60",
-    "title": "argh",
+    "title": "Argh",
     "description": "",
     "language_short": "brainfuck",
     "code": "lppppppppppppsrfj\r\nHello World!*  j\r\n            qPh"
   },
   {
+    "id": "767",
+    "title": "ArkScript",
+    "description": "",
+    "language_short": "",
+    "code": "(print \"Hello World\")"
+  },
+  {
     "id": "61",
-    "title": "arnoldc",
+    "title": "Arnoldc",
     "description": "",
     "language_short": "plaintext",
     "code": "IT'S SHOWTIME\r\nTALK TO THE HAND \"hello world\"\r\nYOU HAVE BEEN TERMINATED"
+  },
+  {
+    "id": "768",
+    "title": "AsciiDots",
+    "description": "",
+    "language_short": "",
+    "code": ".-$\"Hello World\" "
   },
   {
     "id": "62",
@@ -435,14 +463,14 @@
   },
   {
     "id": "63",
-    "title": "ash",
+    "title": "Ash",
     "description": "",
     "language_short": "c-like",
     "code": "public class Ash {\r\n    public static func main(args : [String]) {\r\n        println(\"Hello, world!\")\r\n    }\r\n}"
   },
   {
     "id": "64",
-    "title": "asm2bf",
+    "title": "Asm2bf",
     "description": "",
     "language_short": "properties",
     "code": "stk 2\r\norg 0\r\ntxt \"Hello World!\"\r\ndb_ 0\r\n        psh 1\r\n        psh 0\r\n        jmp 100\r\nlbl 1\r\n        end\r\n \r\nlbl 100\r\n        pop r1\r\nlbl 102\r\n        rcl r2,r1\r\n        jz_ r2,101\r\n        out r2\r\n        inc r1\r\n        jmp 102\r\nlbl 101\r\n        out 1"
@@ -456,224 +484,252 @@
   },
   {
     "id": "66",
-    "title": "aspectj",
+    "title": "Aspectj",
     "description": "",
     "language_short": "java",
     "code": "System.out.println(\"Hello World!\");"
   },
   {
     "id": "67",
-    "title": "assembler 6502",
+    "title": "Assembler 6502",
     "description": "",
     "language_short": "x86asm",
     "code": "; goodbyeworld.s for C= 8-bit machines, ca65 assembler format.\r\n; String printing limited to strings of 256 characters or less.\r\n    \r\na_cr\t= $0d\t\t; Carriage return.\r\nbsout\t= $ffd2\t\t; KERNAL ROM, output a character to current device.\r\n    \r\n    .code\r\n   "
   },
   {
     "id": "68",
-    "title": "assembler 6502appleII",
+    "title": "Assembler 6502appleII",
     "description": "",
     "language_short": "mipsasm",
     "code": "STROUT \tEQU\t$DB3A ;OUTPUTS AY-POINTED NULL TERMINATED STRING\r\n    LDY\t#&gt;HELLO\r\n    LDA\t#&lt;HELLO\r\n    JMP\tSTROUT\r\n \r\nHELLO\tASC\t\"HELLO WORLD!\",00"
   },
   {
     "id": "69",
-    "title": "assembler 6502c64",
+    "title": "Assembler 6502c64",
     "description": "",
     "language_short": "x86asm",
     "code": "ldy #0\r\nbeq in\r\nloop:\r\njsr $ffd2\r\niny\r\nin:\r\nlda hello,y\r\nbne loop\r\nrts\r\nhello: .tx \"Hello World!\"\r\n        .by 13,10,0"
   },
   {
     "id": "70",
-    "title": "assembler 6809vectrex",
+    "title": "Assembler 6809vectrex",
     "description": "",
     "language_short": "x86asm",
     "code": "; Hello World for Vectrex computer with 6809 CPU\r\n; by Frog ( http:\/\/frog.enlight.ru )\r\n; 24 March 2016\r\n \r\n;***************************************************************************\r\n                org     0\r\n \r\n; this header required to identify ROM "
   },
   {
     "id": "71",
-    "title": "assembler 8048 videopac",
+    "title": "Assembler 8048 videopac",
     "description": "",
     "language_short": "x86asm",
     "code": "; Hello World for Philips Videopac (Magnavox Odyssey 2)\r\n; by Frog ( https:\/\/github.com\/petersobolev )\r\n; 25 July 2016\r\n \r\n    cpu\t8048\r\n    org\t400h\r\n \r\n; interrupt vectors\r\n    jmp     02C3h                           ; selectgame (RESET)\r\n    jmp     00"
   },
   {
     "id": "72",
-    "title": "assembler arm",
+    "title": "Assembler arm",
     "description": "",
     "language_short": "armasm",
     "code": ".data\r\nmessage:                .asciz \"Hello World\\n\"\r\n \r\n.text\r\n.global main\r\nmain:\r\n    mov r0, #1          @ file descriptor 1\r\n    ldr r1, =message    @ load address of message\r\n    mov r7, #4          @ system call write\r\n    swi #0              @ di"
   },
   {
     "id": "73",
-    "title": "assembler atari2600",
+    "title": "Assembler Atari 2600",
     "description": "",
     "language_short": "x86asm",
     "code": ";\r\n; hello.asm\r\n;\r\n; A \"Hello, World!\" which illustrates an Atari 2600 programming\r\n; introduction talk (slides at http:\/\/slideshare.net\/chesterbr).\r\n;\r\n; This is free software (see license below). Build it with DASM\r\n; (http:\/\/dasm-dillon.sourceforge.net"
   },
   {
     "id": "74",
-    "title": "assembler bootsect",
+    "title": "Assembler Bootsect",
     "description": "",
     "language_short": "x86asm",
     "code": "[ORG\t0x7C00]\r\n \r\n    mov\tsi,HelloWorld\r\n    call\tprint_string\r\n \r\n    jmp\t$\r\n    \r\n    HelloWorld\tdb\t\"Hello world!\",0xD,0xA,0\r\n    \r\nprint_string:\r\n    mov\tah,0xE\r\n.repeat:\r\n    lodsb\r\n    cmp\tal,0\r\n    je\t.done\r\n    int\t0x10\r\n    jmp\t.repeat\r\n.done:\r\n   "
   },
   {
     "id": "75",
-    "title": "assembler DCPU16",
+    "title": "Assembler DCPU16",
     "description": "",
     "language_short": "x86asm",
     "code": ";;;;;;;;;;;;;;;;;;;\r\njsr init_devices\r\njsr Hello_World\r\nset PC,end\r\n;;;;;;;;;;;;;;;;;;;\r\n:dev_screen   dat 0\r\n:device_count dat 0\r\n;;;;;;;;;;;;;;;;;;;\r\n:find_devices\r\nhwn [device_count]\r\nset I,0\r\n:find_devices_loop\r\nhwq i\r\nife A,0xf615\r\n    set [dev_scree"
   },
   {
     "id": "76",
-    "title": "assembler fasm dos",
+    "title": "Assembler FASM DOS",
     "description": "",
     "language_short": "x86asm",
     "code": "format MZ\r\n \r\nentry .code: start\r\n \r\nsegment .code\r\nstart:\r\n    mov ax, .data ; put data segment into ax\r\n    mov ds, ax    ; there, I setup the DS for you\r\n    mov dx, msg   ; now I give you the offset in DX. DS:DX now completed.\r\n    mov ah, 9h\r\n    int"
   },
   {
     "id": "77",
-    "title": "assembler hla",
+    "title": "Assembler hla",
     "description": "",
     "language_short": "x86asm",
     "code": "program HelloWorld;\r\n \r\n#include( \"stdlib.hhf\" );\r\n \r\nbegin HelloWorld;\r\n    stdout.put( \"Hello, world!\", nl );\r\nend HelloWorld;"
   },
   {
+    "id": "769",
+    "title": "Assembler HP85",
+    "description": "",
+    "language_short": "",
+    "code": "010 ! Hello world in Assembler for the HP-85\r\n020         NAM HELLO\r\n030         DEF RUNTIM\r\n040         DEF TOKENS\r\n050         DEF PARSE\r\n060         DEF ERMSG\r\n070         DEF INIT\r\n100 PARSE   BYT 0,0\r\n110 RUNTIM  BYT 0,0,377,377\r\n120 TOKENS  BYT 377\r\n130 ERMSG   BYT 377\r\n140 !\r\n150 INIT    LDM R26,=MSG\r\n160         ADMD R26,=BINTAB\r\n170         LDM R36,=12D,0\r\n180         JSB =OUTSTR\r\n190         RTN\r\n200 MSG     ASC \"Hello World\"\r\n210 BINTAB  DAD 101233\r\n220 OUTSTR  DAD 35052\r\n300         FIN"
+  },
+  {
     "id": "78",
-    "title": "assembler ibm360",
+    "title": "Assembler IBM360",
     "description": "",
     "language_short": "x86asm",
     "code": "        LA    1,MSGAREA     Point Register 1 to message area\r\n        SVC   35            Invoke SVC 35 (Write to Operator) \r\n        BR    14            Return\r\nMSGAREA EQU   *             Message Area\r\n        DC    AL2(19)       Total area length = 19 "
   },
   {
     "id": "79",
-    "title": "assembler intel",
+    "title": "Assembler Intel",
     "description": "",
     "language_short": "x86asm",
     "code": "; hello_world.asm intel \r\n.model small\r\n.stack 100h\r\n.data\r\nmsg db \"Hello World!\",'$'\r\n.code\r\nmain proc\r\n        mov ax,@data\r\n        mov ds, ax\r\n \r\n; hello-world is there \r\n        mov dx,offset msg\r\n        mov ah,09\r\n        int 21h\r\n \r\n        mov ax"
   },
   {
     "id": "80",
-    "title": "assembler lc-3",
+    "title": "Assembler lc-3 (Assembler lc3)",
     "description": "",
     "language_short": "x86asm",
     "code": "\t\t\t.ORIG x3000\r\n \r\n            LEA R0, HELLOWORLD\r\n            PUTS\r\n    \r\nHELLOWORLD\t.STRINGZ \"Hello world!\\n\""
   },
   {
     "id": "81",
-    "title": "assembler m68000 amigaos",
+    "title": "Assembler m68000 amigaos",
     "description": "",
     "language_short": "x86asm",
     "code": "; \"Hello World\" in Motorola 68000 machine language, for AmigaOS\r\n \r\nExecBase     = 4\r\nOpenLibrary  = -552\r\nCloseLibrary = -414\r\nPutStr       = -948\r\n \r\n    section \"main\", code\r\n \r\n    ; open \"dos.library\"\r\n \r\n    move.l\tExecBase, a6\r\n    lea\tlib, a1\r\n   "
   },
   {
     "id": "82",
-    "title": "assembler masm dos",
+    "title": "Assembler MASM DOS",
     "description": "",
     "language_short": "x86asm",
     "code": "; 16 bit dos assembly\r\n.model small\r\n.stack\r\n.data\r\n    message   db \"Hello world!\", \"$\"\r\n.code\r\n    main    proc\r\n        mov   ax,seg message\r\n        mov   ds,ax\r\n        mov   ah,09\r\n        lea   dx,message\r\n        int   21h\r\n        \r\n        mov  "
   },
   {
     "id": "83",
-    "title": "assembler masm win32",
+    "title": "Assembler MASM Win32",
     "description": "",
     "language_short": "x86asm",
     "code": "; ---------------------------------------------\r\n; Hello World for Win32 Intel x86 Assembly\r\n;\r\n; by fruel (https:\/\/github.com\/fruel)\r\n; 13 June 2016\r\n; ---------------------------------------------\r\n \r\n.386\r\n.model flat,stdcall\r\n.stack 4096\r\n \r\nEXTRN Exi"
   },
   {
     "id": "84",
-    "title": "assembler masm win64",
+    "title": "Assembler MASM Win64",
     "description": "",
     "language_short": "x86asm",
     "code": "; ---------------------------------------------\r\n; Hello World for Win64 Intel x64 Assembly\r\n;\r\n; by fruel (https:\/\/github.com\/fruel)\r\n; 13 June 2016\r\n; ---------------------------------------------\r\n \r\nGetStdHandle PROTO\r\nExitProcess PROTO\r\nWriteConsoleA"
   },
   {
     "id": "85",
-    "title": "assembler mips",
+    "title": "Assembler MIPS",
     "description": "",
     "language_short": "x86asm",
     "code": ".data\r\n    hw:        .asciiz        \"Hello, World!\"\r\n.text\r\nmain:\r\n    la $a0, hw           #load the address of hw into $a0\r\n    li $v0, 4            #load 4 into $v0\r\n    syscall              #perform the print_string syscall\r\n    li $v0, 10           "
   },
   {
     "id": "86",
-    "title": "assembler mmix",
+    "title": "Assembler MMIX",
     "description": "",
     "language_short": "mipsasm",
     "code": "t\tIS\t$255\r\n    LOC\tData_Segment\r\n    GREG\t@\r\nString\tBYTE\t\"Hello World\",#a,0\r\n \r\n    LOC\t#100\r\nMain\tLDA\tt,String\r\n    TRAP\t0,Fputs,StdOut\r\n    TRAP\t0,Halt,0"
   },
   {
     "id": "87",
-    "title": "assembler nasm freebsd",
+    "title": "Assembler NASM FreeBSD",
     "description": "",
     "language_short": "x86asm",
     "code": "section\t.text\r\n    global _start\t\t\t;must be declared for linker (ld)\r\n_syscall:\t\t\r\n    int\t0x80\t\t;system call\r\n    ret\r\n_start:\t\t\t\t;tell linker entry point\r\n \r\n    push\tdword len\t;message length\r\n    push\tdword msg\t;message to write\r\n    push\tdword 1\t\t;fi"
   },
   {
     "id": "88",
-    "title": "assembler nasm linux",
+    "title": "Assembler NASM Linux",
     "description": "",
     "language_short": "mipsasm",
     "code": "section\t.text\r\n    global _start\t\t\t;must be declared for linker (ld)\r\n_start:\t\t\t\t\t;tell linker entry point\r\n \r\n    xor\tebx,ebx \t;ebx=0\r\n    mov\tecx,msg\t\t;address of message to write\r\n    lea\tedx,[ebx+len]\t;message length\r\n    lea\teax,[ebx+4]\t;system call "
   },
   {
     "id": "89",
-    "title": "assembler nasm linux64",
+    "title": "Assembler NASM Linux64",
     "description": "",
     "language_short": "mipsasm",
     "code": "section\t.text\r\n    global _start\t\t\t;must be declared for linker (ld)\r\n_start:\t\t\t\t\t;tell linker entry point\r\n \r\n    xor\teax,eax\t\t;eax:=0\r\n    lea\tedx,[rax+len]\t;message length\r\n    mov\tal,1\t\t;system call number (sys_write)\r\n    mov\tesi,msg\t\t;message to wri"
   },
   {
     "id": "90",
-    "title": "assembler nasm macho64",
+    "title": "Assembler NASM Macho64",
     "description": "",
     "language_short": "mipsasm",
     "code": "global start\r\n \r\nsection .text\r\nstart:\r\n    mov         rax, 0x2000004  ; write\r\n    mov         rdi, 1          ; stdout\r\n    mov         rsi, msg\r\n    mov         rdx, msg.len\r\n    syscall\r\n \r\n    mov         rax, 0x2000001  ; exit\r\n    mov         rdi,"
   },
   {
     "id": "91",
-    "title": "assembler nasm win32",
+    "title": "Assembler NASM Win32",
     "description": "",
     "language_short": "x86asm",
     "code": "BITS\t32\r\nglobal\t_main\r\nextern\t_printf\r\nsection\t.text\r\n    push\tmsg\r\n    call\t_printf\r\n    add\t\tesp,4\r\n    ret\r\nsection\t.data\r\n    msg:\tdb\t\"Hello world\",0Ah,0"
   },
   {
+    "id": "770",
+    "title": "Assembler pdp10 midas",
+    "description": "",
+    "language_short": "",
+    "code": " TITLE Hello World\r\n\r\nA==1\r\nB==2\r\nTYO==1\r\n\r\nSTART: .OPEN TYO,[.UAO,,'TTY]\r\n .LOSE\r\n MOVE A,[440700,,HELLO]\r\nLOOP: ILDB B,A\r\n JUMPE B,[.LOGOUT 1,]\r\n .IOT TYO,B\r\n JRST LOOP\r\n\r\nHELLO: ASCIZ /Hello World/\r\n\r\n END START"
+  },
+  {
+    "id": "771",
+    "title": "Assembler pdp11 palx",
+    "description": "",
+    "language_short": "",
+    "code": " .TITLE Hello World\r\n\r\nR0=%0\r\nR1=%1\r\nTPS==177564\r\nTPB==177566\r\n\r\n .=400\r\n\r\nSTART: MOV #1,@#TPS\r\n MOV #HELLO,R0\r\nLOOP: TSTB @#TPS\r\n BPL LOOP\r\n MOVB (R0)+,R1\r\n BEQ STOP\r\n MOVB R1,@#TPB\r\n BR LOOP\r\n\r\nSTOP: HALT\r\n\r\nHELLO: .ASCIZ /Hello World/\r\n\r\n .END START"
+  },
+  {
     "id": "92",
-    "title": "assembler tasm dos",
+    "title": "Assembler TASM DOS",
     "description": "",
     "language_short": "x86asm",
     "code": "IDEAL\r\nMODEL SMALL\r\nSTACK 100h\r\n \r\nDATASEG\r\nmsg\t\t\tdb \"Hello World!\", 0dh, 0ah, \"$\"\r\n \r\nCODESEG\r\nstart:\r\n    mov\t\tax, @data\r\n    mov\t\tds, ax\r\n    \r\n    mov\t\tdx, offset msg\r\n    mov\t\tah, 9\r\n    int\t\t21h\r\n    \r\n    mov\t\tah, 4ch\r\n    int\t\t21h\r\n \r\nend start"
   },
   {
     "id": "93",
-    "title": "assembler tms9900 ti99 4a",
+    "title": "Assembler tms9900 ti99 4a",
     "description": "",
     "language_short": "x86asm",
     "code": "* Hello World for TI-99\/4a computer with TMS9900 CPU\r\n* by Frog ( http:\/\/frog.enlight.ru )\r\n* 15 April 2016\r\n*\r\n****************************************************************************\r\n \r\n        DEF     START\r\n \r\nWRKSP   EQU     >8300\r\n \r\nVDPWD   EQ"
   },
   {
     "id": "94",
-    "title": "assembler vax ultrix",
+    "title": "Assembler Vax Ultrix",
     "description": "",
     "language_short": "mipsasm",
     "code": ".data\r\nhw:\r\n    .ascii \"Hello World!\\12\"\r\n.text\r\n    .align 1\r\n.globl _main\r\n_main:\r\n    .word 0\r\n    pushl $13\r\n    pushab hw\r\n    pushl $1\r\n    calls $3,_write\r\n    ret"
   },
   {
     "id": "95",
-    "title": "assembler z80 knightos",
+    "title": "Assembler Z80 Knightos",
     "description": "",
     "language_short": "mipsasm",
     "code": "#include \"kernel.inc\"\r\n    .db \"KEXC\"\r\n    .db KEXC_ENTRY_POINT\r\n    .dw start\r\nstart:\r\n    pcall(getLcdLock)\r\n \r\n    pcall(allocScreenBuffer)\r\n    pcall(clearScreen)\r\n \r\n    kld(hl, message)\r\n    ld de, 0\r\n    pcall(drawStr)\r\n \r\n    jr $ ; Loop forever\r\n"
   },
   {
     "id": "96",
-    "title": "assembler z80 ti83calculator",
+    "title": "Assembler Z80 TI83calculator",
     "description": "",
     "language_short": "mipsasm",
     "code": ".NOLIST\r\n#define   EQU   .equ\r\n#define   equ   .equ\r\n#define   END   .end\r\n#define   end   .end\r\n#include \"ti83plus.inc\"\r\n.LIST\r\n        .org 9D93h\r\n        .db $BB,$6D\r\n        ld a,0\r\n        ld (CURCOL),a\r\n        ld (CURROW),a\r\n        ld hl,text\r\n   "
   },
   {
+    "id": "772",
+    "title": "ATS2",
+    "description": "",
+    "language_short": "",
+    "code": "implement main0 () = println! \"Hello World\""
+  },
+  {
     "id": "97",
-    "title": "assembler z80 zxspectrum",
+    "title": "Assembler Z80 zxspectrum",
     "description": "",
     "language_short": "mipsasm",
     "code": "org $6000\r\n    ld bc, STRING\r\n    ld de, SCR\r\n \r\nLOOP\r\n    ld a, (bc)\r\n    cp 0\r\n    jr z, EXIT\r\n    rst $10\r\n    inc bc\r\n    inc de\r\n    jr LOOP\r\n \r\nEXIT\r\n    ret\r\n    \r\nSCR equ 16384\r\n \r\nSTRING\r\n    defb \"Hello World!\"\r\n    defb 13, 0"
@@ -708,7 +764,7 @@
   },
   {
     "id": "102",
-    "title": "AutoHotkey",
+    "title": "AutoHotKey",
     "description": "",
     "language_short": "autohotkey",
     "code": "MsgBox, Hello World!"
@@ -721,15 +777,22 @@
     "code": "MsgBox(0, \"Message Box\", \"Hello World!\")"
   },
   {
+    "id": "773",
+    "title": "Avisynth",
+    "description": "",
+    "language_short": "",
+    "code": "MessageClip(\"Hello World\")"
+  },
+  {
     "id": "104",
-    "title": "awful",
+    "title": "Awful",
     "description": "",
     "language_short": "c-like",
     "code": "#!\/usr\/bin\/awful\r\n \r\n:writeln s\"Hello world!\""
   },
   {
     "id": "105",
-    "title": "Awk",
+    "title": "AWK",
     "description": "",
     "language_short": "awk",
     "code": "# awk -f awk.awk\r\nBEGIN { print \"Hello World\" }"
@@ -5075,6 +5138,13 @@
     "code": "laat zien \"Hello World\" en een nieuwe regel.\r\nstop het programma."
   },
   {
+    "id": "6",
+    "title": "~English",
+    "description": "",
+    "language_short": "plaintext",
+    "code": "Display \"Hello world!\" and a newline.\r\nStop the program."
+  },
+  {
     "id": "726",
     "title": "~Español",
     "description": "",
@@ -5339,12 +5409,5 @@
     "description": "",
     "language_short": "",
     "code": "💬🔤👋🗺️🔤"
-  },
-  {
-    "id": "764",
-    "title": "A++",
-    "description": "",
-    "language_short": "",
-    "code": "(print \"Hello World\")"
   }
 ]

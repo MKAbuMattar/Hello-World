@@ -1,4 +1,4 @@
-cacheName = `hello-word-v3-0-1`
+cacheName = `hello-word-v3-0-2`
 staticAssets = [
     `./`,
     `./index.html`,
