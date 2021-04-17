@@ -104,7 +104,7 @@ fetch(`./assets/data/all.json`)
     }
 
     header = document.createElement(`header`)
-    header.classList.add(`first-section`)
+    header.classList.add(`header`)
     dom.appendChild(header)
 
     headerDiv = document.createElement(`div`)
@@ -239,9 +239,12 @@ fetch(`./assets/data/all.json`)
       conn++
     }
 
-    searchSection = document.createElement(`div`)
+    main = document.createElement(`main`)
+    dom.appendChild(main)
+
+    searchSection = document.createElement(`section`)
     searchSection.classList.add(`search-section`)
-    dom.appendChild(searchSection)
+    main.appendChild(searchSection)
 
     searchInput = document.createElement(`input`)
     searchInput.classList.add(`search-input`)
@@ -249,7 +252,7 @@ fetch(`./assets/data/all.json`)
     searchInput.placeholder = `Search`
 
     searchInput.addEventListener(`keyup`, (e) => {
-      cards = document.querySelectorAll(`.main-wrapper .card`)
+      cards = document.querySelectorAll(`.card-section .card`)
       searchTerm = ``
       title = ``
       searchTerm = e.target.value.toLowerCase()
@@ -261,13 +264,13 @@ fetch(`./assets/data/all.json`)
 
     searchSection.appendChild(searchInput)
 
-    main = document.createElement(`main`)
-    main.classList.add(`main-wrapper`)
-    dom.appendChild(main)
+    cardSection = document.createElement(`section`)
+    cardSection.classList.add(`card-section`)
+    main.appendChild(cardSection)
 
-    container = document.createElement(`div`)
+    container = document.createElement(`section`)
     container.classList.add(`container`)
-    main.appendChild(container)
+    cardSection.appendChild(container)
 
     for (i in symbolArray) {
 
@@ -300,6 +303,10 @@ fetch(`./assets/data/all.json`)
         }
       }
     }
+
+    footer = document.createElement(`footer`)
+    footer.innerHTML = `<p> All Copyrights Reserved &#169; 2019 ${(new Date().getFullYear() > 2019) ? (` - ` + new Date().getFullYear()) : (``)}, Made With <mark>❤</mark> & a lot ☕ By <a href="https://mkabumattar.github.io/">Mohammad Khaled Abu Mattar</a> </p>`
+    dom.appendChild(footer)
 
   })
 

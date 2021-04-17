@@ -11,38 +11,38 @@ body {
     color: #2e2e2e;
 }
 
-.first-section {
+.header {
     background-color: #212121;
     color: #eeeeee;
 }
 
-.first-section>div {
+.header>div {
     max-width: 70%;
     padding: 6em 2em;
     margin: 0 auto;
 }
 
-.first-section h1 {
+.header h1 {
     margin: 0;
     font-size: 3em;
     text-align: center;
 }
 
-.first-section h1 span {
+.header h1 span {
     font-size: 0.6em;
     opacity: 0.5;
 }
 
-.first-section p {
+.header p {
     padding: 2em 0 0 0;
     margin: 0 auto;
 }
 
-.first-section a {
+.header a {
     color: #eeeeee;
 }
 
-.first-section a:hover {
+.header a:hover {
     color: #eeeeee;
 }
 
@@ -105,7 +105,6 @@ ul>span>mark {
     color: #fff;
     font-size: 0.6em;
     opacity: 0.5;
-    user-select: none;
     text-transform: capitalize;
 }
 
@@ -166,7 +165,7 @@ li>a::before {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.16);
 }
 
-.main-wrapper {
+.card-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,6 +186,7 @@ li>a::before {
     border-radius: 5px;
     background-color: #fff;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    scroll-padding-top: 1rem;
 }
 
 .card div code {
@@ -273,16 +273,24 @@ footer mark {
     -webkit-text-fill-color: transparent;
 }
 
+footer a {
+    font-weight: 600;
+}
+
+footer a:hover {
+    color: #E53935;
+}
+
 @media only screen and (max-width: 512px) {
-    .first-section>div {
+    .header>div {
         padding: 4em 2em;
     }
 
-    .first-section h1 {
+    .header h1 {
         font-size: 2.5em;
     }
 
-    .first-section .card {
+    .header .card {
         margin: 0 auto;
         margin-top: 4em;
         max-width: 100%;
@@ -355,7 +363,6 @@ body {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    user-select: none;
     pointer-events: all;
     border: 0;
     cursor: pointer;

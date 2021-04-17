@@ -1,4 +1,4 @@
-cacheName = `hello-word-v3`
+cacheName = `hello-word-v3-0-1`
 staticAssets = [
     `./`,
     `./index.html`,
@@ -7,6 +7,13 @@ staticAssets = [
     `./assets/css/style.css`,
     `./assets/js/app.js`,
     `./assets/data/all.json`,
+    `./assets/icons/favicon.ico`,
+    `./assets/icons/logo192.png`,
+    `./assets/icons/logo512.png`,
+    `./assets/img/chrome.svg`,
+    `./assets/img/edge.svg`,
+    `./assets/img/firefox.svg`,
+    `./assets/img/safari.svg`,
     `./manifest.webmanifest`
 ]
 
