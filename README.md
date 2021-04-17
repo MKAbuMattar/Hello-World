@@ -1,4 +1,4 @@
-[![pas](https://img.shields.io/static/v1?&message=ProgressiveApp.Store&color=74b9ff&style=flat&label=Follow%20Hello%20World%20at)](https://progressiveapp.store/pwa/Hello-World)
+<!-- [![pas](https://img.shields.io/static/v1?&message=ProgressiveApp.Store&color=74b9ff&style=flat&label=Follow%20Hello%20World%20at)](https://progressiveapp.store/pwa/Hello-World) -->
 
 # Hello, World! 
 
