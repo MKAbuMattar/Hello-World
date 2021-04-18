@@ -56,7 +56,7 @@ fetch(`./assets/data/all.json`)
       cardTitle.appendChild(cardTitleH1)
 
       cardDescription = document.createElement(`p`)
-      cardDescription.textContent = description
+      cardDescription.innerHTML = description
       cardTitle.appendChild(cardDescription)
 
       btnGroup = document.createElement(`div`)
@@ -84,9 +84,12 @@ fetch(`./assets/data/all.json`)
       btnCopy.appendChild(btnCopyIcon)
 
       btnLink = document.createElement(`a`)
-      btnLink.classList.add(`btn`)
-      btnLink.href = ``
-      btnGroup.appendChild(btnLink)
+      if (url !== ``) {
+        btnLink.classList.add(`btn`)
+        btnLink.href = url
+        btnLink.setAttribute(`target`, `__blank`)
+        btnGroup.appendChild(btnLink)
+      }
 
       btnLinkIcon = document.createElement(`i`)
       btnLinkIcon.classList.add(`icon`)
@@ -257,7 +260,7 @@ fetch(`./assets/data/all.json`)
       title = ``
       searchTerm = e.target.value.toLowerCase()
       cards.forEach((card) => {
-        title = card.firstElementChild.firstElementChild.textContent.toLowerCase()
+        title = card.firstElementChild.firstElementChild.firstElementChild.textContent.toLowerCase()
         title.includes(searchTerm) ? card.style.display = `flex` : card.style.display = `none`
       })
     })
@@ -280,6 +283,7 @@ fetch(`./assets/data/all.json`)
         title = capitalize(data[j].title)
         description = data[j].description
         language_short = data[j].language_short
+        url = data[j].url
         code = data[j].code
 
         if (title.charAt(0).toLowerCase() === symbolArray[i]) {
@@ -296,6 +300,7 @@ fetch(`./assets/data/all.json`)
         title = capitalize(data[j].title)
         description = data[j].description
         language_short = data[j].language_short
+        url = data[j].url
         code = data[j].code
 
         if (title.charAt(0).toLowerCase() === alphabetArray[i]) {
