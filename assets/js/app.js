@@ -65,7 +65,7 @@ fetch(`./assets/data/all.json`)
 
       btnCopy = document.createElement(`button`)
       btnCopy.classList.add(`btn`)
-      btnCopy.title = `Copy`
+      btnCopy.title = `Copy ${title} Code`
       btnGroup.appendChild(btnCopy)
 
       btnCopyIcon = document.createElement(`i`)
@@ -102,7 +102,10 @@ fetch(`./assets/data/all.json`)
 
       cardCodeContainer = document.createElement(`code`)
       cardCodeContainer.textContent = code
-      cardCodeContainer.setAttribute(`class`, `${language_short} hljs`)
+      cardCodeContainer.classList.add(`hljs`)
+      if (language_short !== ``) {
+        cardCodeContainer.classList.add(`${language_short}`)
+      }
       cardCode.appendChild(cardCodeContainer)
     }
 
