@@ -2,8 +2,8 @@
   {
     "id": "1",
     "title": "قلب",
-    "description": "",
-    "url": "",
+    "description": "قلب (Levantine Arabic: [ʔalb]), transliterated Qalb, Qlb and Alb, is a functional programming language allowing a programmer to write programs completely in Arabic.",
+    "url": "https://en.wikipedia.org/wiki/Qalb_(programming_language)",
     "language_short": "c-like",
     "code": "‫(قول \"مرحبا يا عالم!\")"
   },
@@ -58,8 +58,8 @@
   {
     "id": "9",
     "title": "1C Enterprise",
-    "description": "",
-    "url": "",
+    "description": "1С Enterprise is a development platform designed by 1C Company for the fast creation of easily customizable business automation software.",
+    "url": "https://en.wikipedia.org/wiki/1C:Enterprise",
     "language_short": "1c",
     "code": "Message(\"Hello, World!\");"
   },
@@ -1872,12 +1872,36 @@
     "code": "main() {\r\n    print('Hello, World!');\r\n}"
   },
   {
+    "id": "828",
+    "title": "Darwin",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "printf(\"Hello World\")"
+  },
+  {
+    "id": "829",
+    "title": "DataFlex",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "/tela\r\n\r\nHello World\r\n\r\n/*\r\n\r\nclearscreen\r\n\r\npage tela"
+  },
+  {
     "id": "202",
     "title": "db2",
     "description": "",
     "url": "",
     "language_short": "sql",
     "code": "VALUES('hello world')"
+  },
+  {
+    "id": "830",
+    "title": "dBase",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "? \"Hello World\""
   },
   {
     "id": "203",
@@ -1889,7 +1913,7 @@
   },
   {
     "id": "204",
-    "title": "dc",
+    "title": "Dc",
     "description": "",
     "url": "",
     "language_short": "brainfuck",
@@ -1902,6 +1926,14 @@
     "url": "",
     "language_short": "cos",
     "code": "WRITE SYS$OUTPUT \"Hello, world!\""
+  },
+  {
+    "id": "831",
+    "title": "DCPU",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "  set i, 0xf615\r\n  set j, 0x7349\r\n  hwn z\r\n  sub z, 1\r\n\r\n:device_detect_loop\r\n  hwq z\r\n\r\n  ife a, i\r\n    ife b, j\r\n      set pc, device_detect_ret\r\n\r\n  sub z, 1\r\n  ifa z, 0xffff\r\n    set pc, device_detect_loop\r\n\r\n:device_detect_ret\r\n  set a, 0\r\n  set b, [vidmem]\r\n  hwi z\r\n\r\n  set i, [vidmem]\r\n  set j, string\r\n  set c, 0xc\r\n\r\n:memcpy_loop\r\n  bor [j], 0xf000 ; OR with font style.\r\n  sti [i], [j]\r\n  sub c, 1\r\n  ife c, 0\r\n    sub pc, 1\r\n  set pc, memcpy_loop\r\n\r\n:display dat 0\r\n:vidmem dat 0x8000\r\n:string dat \"Hello World!\""
   },
   {
     "id": "206",
@@ -1926,6 +1958,22 @@
     "url": "https://esolangs.org/wiki/Defunc",
     "language_short": "delphi",
     "code": "\/\/ Hello World in Delphi\r\nProgram Hello_World;\r\n \r\n($APPTYPE CONSOLE)\r\n \r\nBegin\r\n    WriteLn('Hello World');\r\nEnd."
+  },
+  {
+    "id": "832",
+    "title": "Deno",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "console.log(\"Hello World\");"
+  },
+  {
+    "id": "833",
+    "title": "Desmos",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "x=0{0<y<4}\r\nx^2+y^2=4{0<x}{0<y}\r\n(x-3.5)^2+(y-1)^2=1^2{1<y}\r\n(x-3.5)^2+(y-1)^2=1^2{1<y}\r\ny=1{2.5<x<4.5}\r\nx=5{0<y<4}\r\nx=5.5{0<y<4}\r\n(x-7)^2+(y-1)^2=1^2\r\nx=-0.25y+11{0<y<2}\r\nx=0.5y+11{0<y<1}\r\nx=-0.5y+12{0<y<1}\r\nx=0.25y+12{0<y<2}\r\n(x-14)^2+(y-1)^2=1^2\r\n(x-17.5)^2+(y)^2=2^2{0<y}{x<17.5}\r\nx=18{0<y<4}\r\n(x-20.5)^2+(y)^2=2^2{0<y}{x<20.5}\r\nx=20.5{0<y<4}"
   },
   {
     "id": "789",
@@ -1973,7 +2021,7 @@
     "description": "Dis is an esoteric programming language designed by Ben Olmstead to walk the line between humanly impossible to program in and just extremely painful. While it is not quite as fearsome as Malbolge, Dis is still pretty bad.",
     "url": "https://esolangs.org/wiki/Dis",
     "language_short": "brainfuck",
-    "code": "^!|||||||||||||||||||||||||||||||||{!!!||||||||||||||||||||||||||||||||||||||||\r\n||||||||||||||||*_&gt;_*&gt;|_*_&gt;_*_&gt;_*_&gt;_*_&gt;_*_&gt;_*_&gt;_*_&gt;_*_&gt;_*_&gt;_*&gt;__*|_&gt;*__|*|||*__\r\n&gt;*&gt;||*&gt;_|*__&gt;*__&gt;*__&gt;*__&gt;*__&gt;*"
+    "code": "^!|||||||||||||||||||||||||||||||||{!!!||||||||||||||||||||||||||||||||||||||||\r\n||||||||||||||||*_>_*>|_*_>_*_>_*_>_*_>_*_>_*_>_*_>_*_>_*_>_*>__*|_>*__|*|||*__\r\n>*>||*>_|*__>*__>*__>*__>*__>*__>*__>*{_>*>_|*>||*__>*>||*>||*__>*__>*__>*>_|*>\r\n||*__>*__>*__>*__>*__>*__>*{__*>||*>_|*__>*__>*>||*>||*__>*>_|*>||*__>*__>*__>*\r\n__>*__>*__>*__>*{{>*>||*>_|*__>*__>*__>*__>*__>*__>*__>*__>*__>*{_>*>_|*>||*__>\r\n*>_|*>||*__>*__>*__>*__>*__>*__>*__>*__>*__>*{_>*>||*>_|*>|>*>||*>_|*__>*__>*__\r\n>*__>*__>*__>*__>*__>*{_>*>|_*>||*>_|*__>*>||*>_|*__>*__>*>_|*>||*__>*__>*__>*_\r\n_>*__>*__>*{__*>||*>_|*__>*>_|*>||*__>*>|_*>||*>_|*__>*__>*__>*__>*__>*__>*__>*\r\n__>*{_>*>|_*>||*>||*__>*__>*__>*__>*__>*__>*__>*__>*__>*{_>*>|_*>||*>_|*__>*__>\r\n*__>*__>*__>*__>*__>*__>*__>*{_>*__|*>__|*>__|*__|*__>*__>*__>*__>*__>*__>*__>*\r\n__>*__>*>_|*>||*{_>*__|*>__|*>__|*{_|*__>*>||*>||*{!"
   },
   {
     "id": "213",
@@ -2000,8 +2048,16 @@
     "code": "   AT\r\n  T--A\r\n A----T\r\n T-----A\r\n T-----A\r\n G----C\r\n  T--A\r\n   GC\r\n   CG\r\n  C--G\r\n A----T\r\n A-----T\r\n T-----A\r\n A----T\r\n  A--T\r\n   GC\r\n   AT\r\n  C--G\r\n T----A\r\n C-----G\r\n T-----A\r\n G----C\r\n  C--G\r\n   CG\r\n   AT\r\n  A--T\r\n T----A\r\n A-----T\r\n A-----T\r\n G----C\r\n  A--T\r\n   GC\r\n   TA\r\n  G--C\r\n T----A\r\n G-----C\r\n C-----G\r\n C----G\r\n  A--T\r\n   GC\r\n   TA\r\n  G--C\r\n A----T\r\n G-----C\r\n A-----T\r\n C----G\r\n  A--T\r\n   CG\r\n   GC\r\n  A--T\r\n A----T\r\n C-----G\r\n A-----T\r\n C----G\r\n  A--T\r\n   CG\r\n   GC\r\n  A--T\r\n T----A\r\n G-----C\r\n A-----T\r\n G----C\r\n  A--T\r\n   CG\r\n   GC\r\n  A--T\r\n G----C\r\n A-----T\r\n A-----T\r\n T----A\r\n  A--T\r\n   TA\r\n   AT\r\n  T--A\r\n G----C\r\n A-----T\r\n A-----T\r\n A----T\r\n  G--C\r\n   AT\r\n   AT\r\n  G--C\r\n T----A\r\n G-----C\r\n A-----T\r\n G----C\r\n  G--C\r\n   AT\r\n   TA\r\n  T--A\r\n A----T\r\n G-----C\r\n G-----C\r\n A----T\r\n  A--T\r\n   TA\r\n   AT\r\n  T--A\r\n A----T\r\n T-----A\r\n G-----C\r\n A----T\r\n  T--A\r\n   TA\r\n   AT\r\n  G--C\r\n A----T\r\n T-----A\r\n A-----T\r\n T----A\r\n  G--C\r\n   AT\r\n   TA\r\n  T--A\r\n A----T\r\n G-----C\r\n G-----C\r\n A----T\r\n  A--T\r\n   AT\r\n   AT\r\n  T--A\r\n G----C\r\n A-----T"
   },
   {
+    "id": "834",
+    "title": "Dog",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Day 1\r\n  Awake\r\n  food Recipe \"Hello World\"\r\n  Bowl food\r\n  Eat food\r\n  Outside\r\n  Walk\r\n  Poop food\r\n  Run\r\n  Inside\r\n  Sleep\r\nEndOf Day 1"
+  },
+  {
     "id": "216",
-    "title": "dogescript",
+    "title": "DogeScript",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -2016,12 +2072,52 @@
     "code": "roll-over roll-over heel roll-over roll-over roll-over roll-over heel heel heel \r\nheel heel heel heel heel heel sit roll-over roll-over roll-over heel roll-over \r\nroll-over roll-over heel heel heel heel heel heel heel heel roll-over roll-over \r\nheel roll-"
   },
   {
+    "id": "835",
+    "title": "dongbei",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "唠唠：“Hello World”。 "
+  },
+  {
     "id": "218",
     "title": "DOS",
     "description": "",
     "url": "",
     "language_short": "dos",
     "code": "@echo Hello World!"
+  },
+  {
+    "id": "836",
+    "title": "Dotlang",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "•v\r\n#`Hello World`\r\n#"
+  },
+  {
+    "id": "837",
+    "title": "Draco",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "proc main()void:\r\n    writeln(\"Hello World!\");\r\ncorp;"
+  },
+  {
+    "id": "838",
+    "title": "Dragon",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "showln \"Hello World\""
+  },
+  {
+    "id": "839",
+    "title": "DreamMaker",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "mob\r\n    Login()\r\n      world << \"Hello World\""
   },
   {
     "id": "219",
@@ -2041,7 +2137,7 @@
   },
   {
     "id": "221",
-    "title": "dtrace",
+    "title": "DTrace",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2065,7 +2161,7 @@
   },
   {
     "id": "224",
-    "title": "dylan",
+    "title": "Dylan",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2080,12 +2176,68 @@
     "code": "class Dyvil\r\n{\r\n    static func main(args: [String]) = print 'Hello World'\r\n}"
   },
   {
+    "id": "840",
+    "title": "D♭♭",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "#include <stdio.h>\r\nint main() {\r\n    printf(\"Hello World\");\r\n    return 0;\r\n}"
+  },
+  {
+    "id": "841",
+    "title": "E",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "println(\"Hello World\")"
+  },
+  {
+    "id": "842",
+    "title": "e62qpodb593",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "tqqqyoyyyyyypoyqqooqqqoztkkkkkkppotyyyyyppo2oqqqokpokkqqo"
+  },
+  {
     "id": "226",
-    "title": "ebuild",
+    "title": "EBuild",
     "description": "",
     "url": "",
     "language_short": "x86asm",
     "code": "# Copyright 1999-2008 Gentoo Foundation\r\n# Distributed under the terms of the GNU General Public License v2\r\n# $Header: $\r\n \r\nDESCRIPTION=\"Hello World\"\r\nHOMEPAGE=\"http:\/\/hello-world.org\/\"\r\nSRC_URI=\"http:\/\/hello-world.org\/\"\r\n \r\nLICENSE=\"GPL\"\r\nSLOT=\"0\"\r\nKEY"
+  },
+  {
+    "id": "843",
+    "title": "Ec",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "class HelloWorldApp : Application\r\n{\r\n    void Main()\r\n    {\r\n      PrintLn(\"Hello World\");\r\n    }\r\n}"
+  },
+  {
+    "id": "844",
+    "title": "EchoLisp",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "(display \"Hello World\" \"color:blue\")"
+  },
+  {
+    "id": "845",
+    "title": "Efene",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "@public\r\nrun = fn () {\r\n    io.format(\"Hello World~n\")\r\n}"
+  },
+  {
+    "id": "846",
+    "title": "Egl",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "program HelloWorld\r\n    function main()\r\n        SysLib.writeStdout(\"Hello World\");\r\n    end\r\nend"
   },
   {
     "id": "227",
@@ -2094,6 +2246,14 @@
     "url": "",
     "language_short": "c-like",
     "code": "indexing \"Hello World in Eiffel , from http:\/\/roesler-ac.de\/wolfram\/hello.htm#Eiffel\"\r\n \r\nclass HELLO\r\n \r\ncreation\r\n    run\r\n \r\nfeature\r\n \r\n    run is\r\n        local\r\n            io : BASIC_IO;\r\n        do\r\n            !!io;\r\n            io.put_string(\"He"
+  },
+  {
+    "id": "847",
+    "title": "Elena",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "public program\r\n[\r\n    console writeLine(\"Hello World\").\r\n]"
   },
   {
     "id": "228",
@@ -2136,8 +2296,16 @@
     "code": ";;for emacs elisp\r\n \r\n(message \"hello,world\")"
   },
   {
+    "id": "848",
+    "title": "Emerald",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "const main <- object mainProgram\r\n    initially\r\n      stdout.putString[\"Hello World\\n\"]\r\n    end initially\r\nend mainProgram"
+  },
+  {
     "id": "233",
-    "title": "emmental",
+    "title": "Emmental",
     "description": "Emmental is an esoteric programming language designed by Chris Pressey in 2007.\r\nEmmental is a self-modifying language. It is defined by a meta-circular interpreter (an Emmental interpreter described in Emmental.) The meta-circular interpreter provides an operation which modifies operations of the meta-circular interpreter.",
     "url": "https://esolangs.org/wiki/Emmental",
     "language_short": "brainfuck",
@@ -2165,7 +2333,7 @@
     "description": "",
     "url": "",
     "language_short": "plaintext",
-    "code": "???? ???? ????\n  ???????? ???? ➡️ ???? ????\n    ???? �Hello World????\n    ???? 0\n  ????\n????\n"
+    "code": "🏁 🍇\r\n    😀 🔤Hello World🔤❗️\r\n🍉"
   },
   {
     "id": "237",
@@ -2174,6 +2342,14 @@
     "url": "https://esolangs.org/wiki/Emoticon",
     "language_short": "plaintext",
     "code": "Hello World! :Q S::P :P"
+  },
+  {
+    "id": "849",
+    "title": "Enkelt",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "skriv(\"Hello World\")"
   },
   {
     "id": "238",
@@ -2232,12 +2408,28 @@
     "code": "    zaeeeaeeew\r\n    zaeeaeeaeaw\r\n    zaeaeeaeeaew\r\n    zaeaeeaeeaew\r\n    zuueeueew\r\n    zaeeeeew\r\n    zuueueueeeew\r\n    zuueeueew\r\n    zaeeaeeaeaeew\r\n    zaeaeeaeeaew\r\n    zaeeaeeaew\r\n    zaeeeeeaw\r\n    zaeeeeeaeawuuuw\r\n"
   },
   {
+    "id": "850",
+    "title": "Euphoria",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "puts(1, \"Hello World\")"
+  },
+  {
     "id": "245",
     "title": "Exp",
     "description": "Exp (short for \"Expression\") is an esoteric programming language based on expressions, created by User:PythonshellDebugwindow.",
     "url": "https://esolangs.org/wiki/Exp",
     "language_short": "brainfuck",
     "code": "{&lt;|^^^^^^^^^| x |^^^^^^^^|&gt;}\r\n{&lt;|^^^^^^^^^^| x |^^^^^^^| - |^|&gt;}\r\n{&lt;|^^^^^^^^^| x |^^^^^^^^| + |^^^^|&gt;}\r\n{&lt;|^^^^^^^^^| x |^^^^^^^^| + |^^^^|&gt;}\r\n{&lt;|^^^^^^^^^^| x |^^^^^^^^| - |^|&gt;}\r\n{&lt;|^^^^^^^^| x |^^^^| - |^|&gt;}\r\n{&lt;|^^^^^^^^^^| x |^^^^^^^^^| - |^^^|&gt;}\r\n{&lt;|^^^^^^^^^^| x |^^^^^^^^| - |^|&gt;}\r\n{&lt;|^^^^^^^^^^| x |^^^^^^^^| + |^^|&gt;}\r\n{&lt;|^^^^^^^^^| x |^^^^^^^^| + |^^^^|&gt;}\r\n{&lt;|^^^^^^^^^^^^^^^^^| x |^^^^|&gt;}"
+  },
+  {
+    "id": "851",
+    "title": "F",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "program hello\r\n  print *, \"Hello World\"\r\nend program hello"
   },
   {
     "id": "246",
@@ -2249,7 +2441,7 @@
   },
   {
     "id": "247",
-    "title": "factor",
+    "title": "Factor",
     "description": "Factor (also known as Factors) is a zero-dimensional, cell-based, imperative programming language invented by User:Bangyen in 2020.",
     "url": "https://esolangs.org/wiki/Factor",
     "language_short": "c-like",
@@ -2281,7 +2473,7 @@
   },
   {
     "id": "251",
-    "title": "fancy",
+    "title": "Fancy",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2289,15 +2481,23 @@
   },
   {
     "id": "252",
-    "title": "fantom",
+    "title": "Fantom",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "\/\/ Hello from Fantom!\r\nclass HelloWorld {\r\n    static Void main() {\r\n        echo(\"Hello, World!\")\r\n    }\r\n}"
   },
   {
+    "id": "852",
+    "title": "Fennel",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "(print \"Hello World\")"
+  },
+  {
     "id": "253",
-    "title": "ferite",
+    "title": "Ferite",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2305,7 +2505,7 @@
   },
   {
     "id": "254",
-    "title": "fetlang",
+    "title": "Fetlang",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2321,7 +2521,7 @@
   },
   {
     "id": "256",
-    "title": "fish",
+    "title": "Fish",
     "description": "",
     "url": "",
     "language_short": "bash",
@@ -2337,11 +2537,27 @@
   },
   {
     "id": "258",
-    "title": "fjoelnir",
+    "title": "Fjoelnir",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "\"hello\" &lt; main\r\n{\r\n    main -&gt;\r\n    stef(;)\r\n    stofn\r\n        skrifastreng(;\"Hello World!\"),\r\n    stofnlok\r\n}\r\n*\r\n\"GRUNNUR\"\r\n;"
+  },
+  {
+    "id": "853",
+    "title": "FlaScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "main() -> main {\r\n  print(string) -> \"Hello World\"\r\n  print(newline)\r\n} main;"
+  },
+  {
+    "id": "854",
+    "title": "Flask",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "from flask import Flask\r\napp = Flask(__name__)\r\n\r\n@app.route(\"/\")\r\ndef hello():\r\n    return \"Hello World\"\r\n\r\nif __name__ == \"__main__\":\r\n    app.run()"
   },
   {
     "id": "259",
@@ -2350,6 +2566,14 @@
     "url": "https://esolangs.org/wiki/Flip",
     "language_short": "brainfuck",
     "code": " &gt;0&gt; 5+  \\\r\n@'+  \r\n    &gt;0&gt;4*+\\\r\n+,  \/    \/\r\nvXv\/   \/\r\n    \\   \\  \\  \\  \\  \\  \\  \\  \\  \\  \\  \\  \\  \\ \r\n        4@ 6@ 7@ 7@ 7@ 0@ 5@ 7@ 8@ 7@ 6@ 0@ 2@\r\n    *&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~&lt;&lt;\r\n    P++&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;~&lt;&lt;\r\n    Q  0@ 9@ 6@ 6@ 9@ 0@ 5@ 9@ 2@ 6@ 8@ 1@ 2@\r\n\\     \/  \/  \/  \/  \/  \/  \/  \/  \/  \/  \/  \/  \/"
+  },
+  {
+    "id": "855",
+    "title": "Flutter",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "import 'package:flutter/widgets.dart';\r\n\r\nvoid main() {\r\n  runApp(\r\n   Text(\r\n       'Hello World',\r\n        textDirection: TextDirection.ltr,\r\n    ),\r\n  );\r\n}"
   },
   {
     "id": "260",
@@ -2369,7 +2593,7 @@
   },
   {
     "id": "262",
-    "title": "fog.fog",
+    "title": "Fog.fog",
     "description": "",
     "url": "",
     "language_short": "xml",
@@ -2401,7 +2625,7 @@
   },
   {
     "id": "266",
-    "title": "forth",
+    "title": "Forth",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -2417,7 +2641,7 @@
   },
   {
     "id": "268",
-    "title": "fortran",
+    "title": "Fortran",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2425,7 +2649,7 @@
   },
   {
     "id": "269",
-    "title": "fortran77",
+    "title": "Fortran77",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2438,6 +2662,22 @@
     "url": "https://esolangs.org/wiki/Fourier",
     "language_short": "brainfuck",
     "code": "72a101a108aa111a44a32a119a111a114a108a100a33a10a"
+  },
+  {
+    "id": "856",
+    "title": "FoxPro",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "? \"Hello World\""
+  },
+  {
+    "id": "857",
+    "title": "Fractran++",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "3,-1/2,(2*37)/3,0/0,<71 101 108 108 111 32 87 111 114 108 100 0>/37,4/0"
   },
   {
     "id": "271",
@@ -2456,6 +2696,22 @@
     "code": "Alors en gros, on va commencer un programme.\r\nCe serait bien si on écrivait «Hello, world!».\r\nAprès, on arrête le programme un instant! C'est bien ça."
   },
   {
+    "id": "858",
+    "title": "Freebrain",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "!->:>_^>~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++<^_<:\r\n!->:>_^>~+++++++++++++++++++++++++++++++++<^_<:\r\n[!->:>_^> ? <^_<:] ?* (~++++++++++++++++++++++++++++++++++++++++++++++++++) *? !->:>_^>(~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++)<*>(~++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++)<^_<:"
+  },
+  {
+    "id": "859",
+    "title": "Frink",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "println[\"Hello World!\"]"
+  },
+  {
     "id": "273",
     "title": "FSharp (F#)",
     "description": "",
@@ -2465,7 +2721,7 @@
   },
   {
     "id": "274",
-    "title": "fstar",
+    "title": "FStar",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2496,6 +2752,14 @@
     "code": "    ╔═══════════════╗\r\n    ║ 2388215291394 ║\r\n    ║ 5970717094395 ║\r\n    ║ 9830070909071 ║\r\n    ║ 3359207734160 ║\r\n    ║ 6896177782105 ║\r\n    ║ 7169552834632 ║\r\n    ╚═══════╤═══════╝\r\n            │"
   },
   {
+    "id": "860",
+    "title": "GAML",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "model GAML\r\n\r\nglobal {\r\n init {\r\n write(\"Hello World\");\r\n }\r\n}\r\n\r\nexperiment GAML {}"
+  },
+  {
     "id": "278",
     "title": "Gammaplex",
     "description": "Gammaplex is an esoteric programming language designed by Lode Vandevenne. It is similar to Befunge in some respects; what makes it especially remarkable is the support for mouse input and graphical output.",
@@ -2512,12 +2776,28 @@
     "code": "main\r\n(\"Hello World!\"; WRITE)"
   },
   {
+    "id": "861",
+    "title": "GDScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "extends Node2D\r\n\r\nfunc _ready():\r\n  print(\"Hello World\")"
+  },
+  {
     "id": "280",
-    "title": "gecho",
+    "title": "Gecho",
     "description": "",
     "url": "",
     "language_short": "plaintext",
     "code": "print 'hello '&lt;&gt; 'world"
+  },
+  {
+    "id": "862",
+    "title": "Genie",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "[indent=2]\r\ninit\r\n  print \"Hello World\""
   },
   {
     "id": "281",
@@ -2529,7 +2809,7 @@
   },
   {
     "id": "282",
-    "title": "geojson",
+    "title": "GeoJSON",
     "description": "",
     "url": "",
     "language_short": "json",
@@ -2553,7 +2833,7 @@
   },
   {
     "id": "285",
-    "title": "glass",
+    "title": "Glass",
     "description": "",
     "url": "",
     "language_short": "brainfuck",
@@ -2585,7 +2865,7 @@
   },
   {
     "id": "289",
-    "title": "golfscript",
+    "title": "Golfscript",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -2609,7 +2889,7 @@
   },
   {
     "id": "292",
-    "title": "google app script",
+    "title": "Google Apps Script",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -2625,11 +2905,19 @@
   },
   {
     "id": "294",
-    "title": "gosu",
+    "title": "Gosu",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "print(\"Hello World from Gosu!!\")"
+  },
+  {
+    "id": "863",
+    "title": "GraphQL",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "{\r\n    \"Hello World\"\r\n}"
   },
   {
     "id": "295",
@@ -2638,6 +2926,14 @@
     "url": "https://esolangs.org/wiki/Gravity",
     "language_short": "c-like",
     "code": "func main() {\r\n    System.print(\"Hello World\");\r\n}"
+  },
+  {
+    "id": "864",
+    "title": "GreeeeeeeeenText",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": ">be me\r\n>says Hello World\r\n>*gets output*"
   },
   {
     "id": "296",
@@ -2649,7 +2945,7 @@
   },
   {
     "id": "297",
-    "title": "gri",
+    "title": "Gri",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2697,7 +2993,7 @@
   },
   {
     "id": "303",
-    "title": "hack",
+    "title": "Hack",
     "description": "",
     "url": "",
     "language_short": "php",
@@ -2710,6 +3006,14 @@
     "url": "https://esolangs.org/wiki/Hanoi_Love",
     "language_short": "brainfuck",
     "code": ".'...,;';';;';';';'.,...;\"'.'...,;;';;';';;'.,...;\"';;;;;;;\"'\"';;;\r\n\"'.'.,...'...,;';';';';'.,...;\"'..'...,'...,;;';';';'.,...`\"'.'...,\r\n;;';';';'.,...;\"';;;\"'``````\"'````````\"'.'.,..;\"'.'.,..;;;;;;;;;;\"'"
+  },
+  {
+    "id": "865",
+    "title": "Haml",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "%html\r\n  %title Hello World\r\n  %body\r\n    %h1 Hello World"
   },
   {
     "id": "305",
@@ -2733,6 +3037,14 @@
     "description": "Hello programming language is a minimal programming language with only one instruction, 'h', which will print out the string \"Hello World\". Hello was created by Anne Veling.",
     "url": "https://esolangs.org/wiki/Hello",
     "language_short": "plaintext",
+    "code": "h"
+  },
+  {
+    "id": "866",
+    "title": "Hello++",
+    "description": "",
+    "url": "",
+    "language_short": "",
     "code": "h"
   },
   {
@@ -2785,7 +3097,7 @@
   },
   {
     "id": "314",
-    "title": "hodor",
+    "title": "Hodor",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2801,7 +3113,7 @@
   },
   {
     "id": "316",
-    "title": "holyc",
+    "title": "Holy C (HolyC)",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -2824,6 +3136,14 @@
     "code": "(define-service (hello-world)\r\n(&lt;HTML&gt;\r\n    (&lt;HEAD&gt;\r\n        (&lt;TITLE&gt; \"Hello, world!\"))\r\n    (&lt;BODY&gt;\r\n        \"Hello, world!\")))"
   },
   {
+    "id": "867",
+    "title": "HP_41C",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "01 LBL \"HELLO\"\r\n02 \"HELLO WORLD\"\r\n03 AVIEW"
+  },
+  {
     "id": "319",
     "title": "HQ9+",
     "description": "HQ9+ is a joke language with four instructions:\r\n<br>H: Print \"hello, world\"\r\n<br>Q: Print the program's source code\r\n<br>9: Print the lyrics to \"99 Bottles of Beer\"\r\n<br>+: Increment the accumulator",
@@ -2837,7 +3157,23 @@
     "description": "",
     "url": "",
     "language_short": "xml",
-    "code": "&lt;!DOCTYPE html&gt;\r\n&lt;html&gt;\r\n    &lt;head&gt;\r\n        &lt;title&gt;Hello World HTML&lt;\/title&gt;\r\n    &lt;\/head&gt;\r\n    &lt;body&gt;\r\n        &lt;h1&gt;Hello World&lt;\/h1&gt;\r\n    &lt;\/body&gt;\r\n&lt;\/html&gt;"
+    "code": "<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <title>Hello World HTML<\/titl>\r\n    <\/head>\r\n    <body>\r\n        <h1>Hello World<\/h1>\r\n    <\/body>\r\n<\/html>"
+  },
+  {
+    "id": "868",
+    "title": "Hubot",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "module.exports = (robot) ->\r\n    robot.respond /hello/i, (msg) ->\r\n      msg.send 'Hello World'"
+  },
+  {
+    "id": "869",
+    "title": "Huf",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "++++++++++|+++++++!++>\r\n++++++++++|++++++++++!+>\r\n++++++++++|++++++++++!++++++++>\r\n++++++++++|++++++++++!++++++++>\r\n++++++++++|+++++++++++!+>\r\n++++++|+++++!++>\r\n++++++++++|++++++++!+++++++>\r\n++++++++++|+++++++++++!+>\r\n++++++++++|+++++++++++!++++>\r\n++++++++++|++++++++++!++++++++>\r\n++++++++++|++++++++++!>"
   },
   {
     "id": "321",
@@ -2849,7 +3185,7 @@
   },
   {
     "id": "322",
-    "title": "hypertalk",
+    "title": "HyperTalk",
     "description": "",
     "url": "",
     "language_short": "vim",
@@ -2864,8 +3200,16 @@
     "code": "hw"
   },
   {
+    "id": "870",
+    "title": "I5",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "fn main() {\r\n    $print(\"Hello World\")\r\n}"
+  },
+  {
     "id": "324",
-    "title": "ibm1401",
+    "title": "IBM1401",
     "description": "",
     "url": "",
     "language_short": "x86asm",
@@ -2881,7 +3225,7 @@
   },
   {
     "id": "326",
-    "title": "ici",
+    "title": "ICI",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2889,7 +3233,7 @@
   },
   {
     "id": "327",
-    "title": "icon",
+    "title": "Icon",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2905,7 +3249,7 @@
   },
   {
     "id": "329",
-    "title": "idris",
+    "title": "Idris",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2913,7 +3257,7 @@
   },
   {
     "id": "330",
-    "title": "il",
+    "title": "Il",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2945,7 +3289,7 @@
   },
   {
     "id": "334",
-    "title": "inform",
+    "title": "Inform",
     "description": "",
     "url": "",
     "language_short": "inform7",
@@ -2953,11 +3297,19 @@
   },
   {
     "id": "335",
-    "title": "ink",
+    "title": "Ink",
     "description": "",
     "url": "",
     "language_short": "plaintext",
     "code": "Hello, world!"
+  },
+  {
+    "id": "871",
+    "title": "Inkling",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "display \"Hello World\""
   },
   {
     "id": "336",
@@ -2969,7 +3321,7 @@
   },
   {
     "id": "337",
-    "title": "intercal",
+    "title": "Intercal",
     "description": "",
     "url": "",
     "language_short": "x86asm",
@@ -2985,7 +3337,7 @@
   },
   {
     "id": "339",
-    "title": "ioke",
+    "title": "Ioke",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -2993,11 +3345,19 @@
   },
   {
     "id": "340",
-    "title": "irc",
+    "title": "IRC",
     "description": "",
     "url": "",
     "language_short": "plaintext",
     "code": "\/timer 1 9999 1 Hello World"
+  },
+  {
+    "id": "872",
+    "title": "IronScheme",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "(import (rnrs))\r\n\r\n(display \"Hello World\")\r\n(newline)"
   },
   {
     "id": "341",
@@ -3025,7 +3385,7 @@
   },
   {
     "id": "344",
-    "title": "jade",
+    "title": "Jade",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3033,7 +3393,7 @@
   },
   {
     "id": "345",
-    "title": "jai",
+    "title": "Jai",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3049,7 +3409,7 @@
   },
   {
     "id": "347",
-    "title": "jason",
+    "title": "Jason",
     "description": "",
     "url": "",
     "language_short": "llvm",
@@ -3072,12 +3432,28 @@
     "code": "console.log(\"Hello World\");"
   },
   {
+    "id": "873",
+    "title": "Jelly",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "“½,⁾ẇṭ»"
+  },
+  {
     "id": "350",
-    "title": "jess",
+    "title": "Jess",
     "description": "",
     "url": "",
     "language_short": "lisp",
     "code": "(printout t \"Hello World\")"
+  },
+  {
+    "id": "874",
+    "title": "JSFuck",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "[][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]](([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (+(+!+[] + [+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + [!+[] + !+[]] + [+[]]) + [])[+!+[]] + (![] + [])[!+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]] + (![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + ([][[]] + [])[+[]] + ([][[]] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()(([] + [])[([![]] + [][[]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (![] + [])[+!+[]] + (![] + [])[!+[] + !+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]]]()[+[]])[+[]] + (!+[] + !+[] + [!+[] + !+[] + !+[] + !+[] + !+[] + !+[] + !+[]]) + []) + (+(+!+[] + [+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[]] + (![] + [])[!+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + (+(!+[] + !+[] + !+[] + [!+[] + !+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [!+[] + !+[] + !+[]]) + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]] + (![] + [])[!+[] + !+[]] + ([][[]] + [])[!+[] + !+[]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + ([][[]] + [])[+[]] + ([][[]] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()(([] + [])[([![]] + [][[]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (![] + [])[+!+[]] + (![] + [])[!+[] + !+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]]]()[+[]])[+[]] + (!+[] + !+[] + [!+[] + !+[] + !+[] + !+[] + !+[] + !+[] + !+[]]) + []) + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]])()"
   },
   {
     "id": "351",
@@ -3097,11 +3473,19 @@
   },
   {
     "id": "353",
-    "title": "jsx",
+    "title": "JSX",
     "description": "",
     "url": "",
     "language_short": "javascript",
     "code": "var React = require('react');\r\n \r\nvar HelloWorld = function() {\r\n    return &lt;span&gt;Hello World&lt;\/span&gt;;\r\n};\r\nHelloWorld.displayName = 'HelloWorld';\r\n \r\nconsole.log(React.renderToString(&lt;HelloWorld \/&gt;));"
+  },
+  {
+    "id": "875",
+    "title": "JudoScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": ". \"Hello World\";"
   },
   {
     "id": "354",
@@ -3110,6 +3494,14 @@
     "url": "",
     "language_short": "julia",
     "code": "println(\"Hello World\")"
+  },
+  {
+    "id": "876",
+    "title": "Jython",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print \"Hello World\""
   },
   {
     "id": "355",
@@ -3160,6 +3552,14 @@
     "code": "\"Hello, World\" say"
   },
   {
+    "id": "877",
+    "title": "Koberi C",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "(int main()\r\n    (print \"Hello World\")\r\n    (return 0))"
+  },
+  {
     "id": "361",
     "title": "Kotlin",
     "description": "",
@@ -3169,11 +3569,19 @@
   },
   {
     "id": "362",
-    "title": "ksh",
+    "title": "KSH",
     "description": "",
     "url": "",
     "language_short": "bash",
     "code": "#!\/bin\/ksh\r\necho \"Hello, World!\""
+  },
+  {
+    "id": "878",
+    "title": "Kumir",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "алг \r\nнач\r\n    вывод \"Hello World\"\r\nкон"
   },
   {
     "id": "363",
@@ -3184,12 +3592,52 @@
     "code": "72.101.108:..111.44.32.87.111.114.108.100.33.@"
   },
   {
+    "id": "879",
+    "title": "LassoScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "<?LassoScript\r\n    Variable: 'ScreenText' = 'Hello World';\r\n    $ScreenText;\r\n  ?>"
+  },
+  {
+    "id": "880",
+    "title": "LaTeX",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "\\documentclass{article}\r\n\\begin{document}\r\nHello World\r\n\\end{document}"
+  },
+  {
     "id": "364",
-    "title": "Lazy K",
+    "title": "Lazy K (LazyK)",
     "description": "Lazy K, designed by Ben Rudiak-Gould, is a Turing tarpit based on combinatory logic. It is lazily evaluated and purely functional.",
     "url": "https://esolangs.org/wiki/Lazy_K",
     "language_short": "brainfuck",
     "code": "k``s``si`k``s`k```sii``s``s`kski``s``s`ksk``s``s`ksk```s``siii``s``s`kski`k``s``si`k``s``s`ksk```s``s`ksk\r\ni``s`k``s``s`kski``s``s`ksk```sii``s``s`kski`k``s``si`k``s`k```sii``s``s`kski```sii``s``s`ksk``s``s`kski`k\r\n``s``si`k``s`k```sii``s``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k``s``s`ksk``s`k``s``s`kski``s``s`ksk`\r\n`s`k``s``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k````s``s`ksk```s``siii``s``s`kski`s``s`ksk```sii``s``\r\ns`ksk``s``s`kski`k``s``si`k``s`k``s``s`kski```s``siii``s``s`kski`k``s``si`k``s`k``s``s`ksk``s`k``s``s`kski\r\n``s``s`ksk``s``s`kski``s``s`ksk```s``siii``s``s`kski`k``s``si`k``s``s`ksk``s`k``s``s`kski``s``s`ksk``s`k``\r\ns``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k``s`k``s``s`kski``s``s`ksk``s`k``s``s`kski``s``s`ksk```sii`\r\n`s``s`ksk``s``s`kski`k``s``si`k``s`k```sii``s``s`kski```sii``s``s`ksk``s``s`kski`k``s``si`k```s``s`kski``s\r\n`k``s``s`kski``s``s`ksk```sii``s``s`kski`k``s``si`k``s``s`ksk``s`k``s``s`kski```s``siii``s``s`kski`k``s``s\r\ni`k``s`k``s``s`kski``s``s`ksk```sii``s``s`kski`k``s``si`k```sii```sii``s``s`kski`k```sii```sii``s``s`kski"
+  },
+  {
+    "id": "881",
+    "title": "LBL",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "INCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nDICA\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nDICB\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nDICC\r\nDICC\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nINCE\r\nDICE\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nINCF\r\nDICF\r\nCLSA\r\nCLSB\r\nCLSD\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nINCA\r\nDICA\r\nDICE\r\nCLSE\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nINCB\r\nDICB\r\nDICC\r\nCLSC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nINCC\r\nDICC"
+  },
+  {
+    "id": "882",
+    "title": "LCoffee",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print \"Hello World\""
+  },
+  {
+    "id": "883",
+    "title": "Less",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "body::before {\r\n    content: \"Hello World!\"\r\n}"
   },
   {
     "id": "365",
@@ -3208,6 +3656,30 @@
     "code": "hurler.$.aux licornes; $Hello, world!\r\ns'arrêter discrétos"
   },
   {
+    "id": "884",
+    "title": "LilyPond",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "\\markup { Hello World }"
+  },
+  {
+    "id": "885",
+    "title": "Limbo",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "implement Hello;\r\n\r\ninclude \"sys.m\";\r\n sys: Sys;\r\ninclude \"draw.m\";\r\n\r\nHello: module\r\n{\r\n init: fn(ctxt: ref Draw->Context, argv: list of string);\r\n};\r\n\r\ninit(ctxt: ref Draw->Context, argv: list of string)\r\n{\r\n sys = load Sys Sys->PATH;\r\n sys->print(\"Hello World\\n\");\r\n}"
+  },
+  {
+    "id": "886",
+    "title": "Lingo",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "on startmovie\r\n  alert \"Hello World\"\r\nend"
+  },
+  {
     "id": "367",
     "title": "Linguine",
     "description": "Linguine, created by Jeffry Johnston in November 2005, is designed as a \"flattened Spaghetti\", and adds unbounded memory and cell values, negative cell indices, unlimited pointers, and multiple commands per line.",
@@ -3216,12 +3688,60 @@
     "code": " 1[0=72,0$,0+29,0$,0+7,0$,0$,0+3,0$,1=32,1$,0-24,0$,0+24,0$,0+3,0$,0-6,0$,0-8,0$,1+1,1$,1-23,1$]0"
   },
   {
+    "id": "887",
+    "title": "Lisaac",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "// Hello World in Lisaac\r\n\r\nSection Header\r\n + name := HELLO_WORLD;\r\n\r\nSection Inherit\r\n\r\n - parent_object:OBJECT := OBJECT;\r\n\r\nSection Public\r\n\r\n - main <-\r\n (\r\n \"Hello World !\\n\".print;\r\n );"
+  },
+  {
+    "id": "888",
+    "title": "Lisp",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "; LISP\r\n(DEFUN hello ()\r\n  (PRINT (LIST 'HELLO 'WORLD))\r\n)\r\n\r\n(hello)"
+  },
+  {
+    "id": "889",
+    "title": "LiveScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "console.log \"Hello World\""
+  },
+  {
+    "id": "890",
+    "title": "LLVM",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "; llvm-as llvm.ll\r\n; x86 assembly: llc llvm.bc -o llvm.s -march x86\r\n; interpreter: lli llvm.bc\r\n\r\ntarget datalayout = \"e-p:32:32:32-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:32:64-f32:32:32-f64:32:64-v64:64:64-v128:128:128-a0:0:64-f80:128:128\"\r\n@.str = internal constant [12 x i8] c\"Hello World\\00\"\r\n\r\n; puts from libc\r\ndeclare i32 @puts(i8*)\r\n\r\ndefine i32 @main(...) {\r\n call i32 @puts(i8* getelementptr([12 x i8]* @.str, i32 0, i32 0))\r\n ret i32 0\r\n}"
+  },
+  {
     "id": "368",
     "title": "LNUSP",
     "description": "LNUSP is a language with a two-dimensional data space and code space and 5 commands.",
     "url": "https://esolangs.org/wiki/LNUSP",
     "language_short": "yaml",
     "code": "--- Hello World!\r\n---\r\n000        .INPUT          .OUTPUT          .STOP\r\n001 .                      .                .\r\n001  .                     .                .\r\n001   .                    .                .\r\n001    . !.!               .                .\r\n001     .   !              .                .\r\n001    ! .  !              .                .\r\n001    .  !!               .                .\r\n001    *                   .                .\r\n072    + H                 .                .\r\n001    *                   .                .\r\n101    + e                 .                .\r\n001    *                   .                .\r\n108    + l                 .                .\r\n001    *                   .                .\r\n108    + l                 .                .\r\n001    *                   .                .\r\n111    + o                 .                .\r\n001    *                   .                .\r\n032    + (sp)              .                .\r\n001    *                   .                .\r\n087    + W                 .                .\r\n001    *                   .                .\r\n111    + o                 .                .\r\n001    *                   .                .\r\n114    + r                 .                .\r\n001    *                   .                .\r\n108    + l                 .                .\r\n001    *                   .                .\r\n100    + d                 .                .\r\n001    *                   .                .\r\n033    + !                 .                .\r\n001    *                   .                .\r\n013    + (cr)              . -------------- .\r\n001    *                   .                .\r\n001    !                   .                .\r\n001     .                  .                .\r\n001      .        !!       .                .\r\n001       . !.!  !  !      .    !......!    .\r\n001        .   ! .  !   ?......!.....?  !   .\r\n001       ! .  ! . @   ?   .   .??    ? .   .\r\n001       .  !!  .\/.   .   .   ?  ?   . .   .\r\n016       .      . * --.-- . --.  .---.-.-- .\r\n001       .      ! .   ?   .   *  ?   . !   .\r\n001       .       !.....?..@.....?.....!....@\r\n001       .        .           ?      ?    .\r\n001       !        !           ..    .    .\r\n001        !......!            ! ?..?    .\r\n001                             !.......!"
+  },
+  {
+    "id": "891",
+    "title": "Locomotive Basic",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "10 print \"Hello World\"\r\nrun"
+  },
+  {
+    "id": "892",
+    "title": "Logicode",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "out @1001000+@1100101+@1101100+@1101100+@1101111+@100000+@1010111+@1101111+@1110010+@1101100+@1100100"
   },
   {
     "id": "369",
@@ -3240,12 +3760,28 @@
     "code": "COMET DEFN !DLROW_,OLLEH"
   },
   {
+    "id": "893",
+    "title": "Logo",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print [Hello World]"
+  },
+  {
     "id": "371",
     "title": "logOS",
     "description": "logOS is an imperative and partially object-oriented language based around the 'Desktop metaphor' that modern operating systems use. It was brainstormed with the unaffiliated Esolangs Discord server and implemented in Python by User:IFcoltransG in late 2019.",
     "url": "https://esolangs.org/wiki/LogOS",
     "language_short": "accesslog",
     "code": "print [Hello World]"
+  },
+  {
+    "id": "894",
+    "title": "Logtalk",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "write('Hello World')"
   },
   {
     "id": "372",
@@ -3265,11 +3801,19 @@
   },
   {
     "id": "374",
-    "title": "lolpython",
+    "title": "LOLPython",
     "description": "",
     "url": "",
     "language_short": "python",
     "code": "VISIBLE \"Hello World\""
+  },
+  {
+    "id": "895",
+    "title": "LotusScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Sub Initialize\r\n    Print \"Hello World\"\r\nEnd Sub"
   },
   {
     "id": "375",
@@ -3289,11 +3833,35 @@
   },
   {
     "id": "377",
-    "title": "Lua",
+    "title": "LUA",
     "description": "",
     "url": "",
     "language_short": "lua",
     "code": "print(\"Hello World\")"
+  },
+  {
+    "id": "896",
+    "title": "Lua Grimex",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "//! externalblock extension=lua ObjectMerger $FILENAME$\r\n\r\n//! i   log(\"Hello World\")\r\n\r\n//! endexternalblock"
+  },
+  {
+    "id": "897",
+    "title": "LWC",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "<template>\r\n  <lightning-card>\r\n    <div>\r\n      <p>Hello World</p>\r\n    </div>\r\n  </lightning-card>\r\n</template>"
+  },
+  {
+    "id": "898",
+    "title": "Löve",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "function love.draw()\r\n    love.graphics.print(\"Hello World\", 400, 300)\r\nend"
   },
   {
     "id": "378",
@@ -3310,6 +3878,14 @@
     "url": "",
     "language_short": "plaintext",
     "code": "Hello"
+  },
+  {
+    "id": "899",
+    "title": "MacLisp",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "(comment) ;-*- Lisp -*-\r\n(progn\r\n  (defun hello-world ()\r\n    (princ \"Hello World\")\r\n    (quit))\r\n  (close (prog1 infile (inpush -1)))\r\n  (sstatus feature noldmsg)\r\n  (gctwa)\r\n  (gc)\r\n  (sstatus flush t)\r\n  (suspend \":KILL \" '(ts hello))\r\n  (hello-world))"
   },
   {
     "id": "380",
@@ -3329,7 +3905,7 @@
   },
   {
     "id": "381",
-    "title": "macsyma",
+    "title": "Macsyma",
     "description": "",
     "url": "",
     "language_short": "java",
@@ -3337,11 +3913,19 @@
   },
   {
     "id": "382",
-    "title": "magic",
+    "title": "Magic",
     "description": "",
     "url": "",
     "language_short": "bash",
     "code": "HELLO.WORLD\r\n \r\n\"Hello, world!\"^#;"
+  },
+  {
+    "id": "900",
+    "title": "Make",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "$(info \"Hello World\")\r\nall:"
   },
   {
     "id": "383",
@@ -3368,6 +3952,14 @@
     "code": "bCBA@?&gt;=&lt;;:9876543210\/.-,I*)(E~%$#\"RQ}|{zyxwvutsrD0|nQl,+*)(f%dF\"a3_^]\\[ZYXWVUTSRQJmNMLKJIHGFEDCBA@?&gt;=&lt;;:9876543210\/.-,+*)('&%$#dc~}|_^yrwZutsrqpinPlOjihgf_dcEaD_^]\\UZYX:V9TSRQPONGLK.IHGF?DCB$@#&gt;=&lt;;4987w\/v3210\/.-,+$k('&%|#\"!~w`{zyxwputslUponmlkjiKgf_Hcba`_^]\\[ZYXWP9TSRQPONMFKJCHA*EDCBA@?&gt;=&lt;|:98y6543210).-,%*#j'&%$#\"!~}|^ty\\wvutslkTonmlkjcLafedc\\aD_X]\\[TY&lt;WVOTSLQ4ONMFKDC,GFEDC&lt;A$9&gt;=&lt;;49z765.3,+r\/.-,l*)(!h%$#\"!~}|{zyxwvunWrqponmlkjihgfed]Fa`_^]\\[ZYXW9UTSRK4ONMLKJIHGFEDCBA@?8!&lt;;:9876543210\/.-,%l)('&%$#\"!~}|^t]xqvYnsrqpinQlejihafIdc\\a`Y^A\\[ZSXQ:8NSRQJ3NMLKJIHGFEDC%;$?8=&lt;}49876543210qp',+*)('&%$#\"!b}`{zyrwpuXmrqpohmlOdihgfedcba`_^]\\?=S&lt;WPU8SRQJOHM0EJIHG@ED'&lt;A@?&gt;=&lt;;:987654us+r\/(-,m*#('&%$#\"!~a`{tyxwvutsrqpoRmPkjibg`eHcb[`_X]@UZYXWPUT7RKPONMLKJIHGFED'%;$?8=~;:387054u2+0\/.-,+*)('&%$ecyb}v{z]xwputsrqponQPkjchgfedcba`_B]@[ZSXWPU8SLQPOHML\/JIBGFEDCBA@?&gt;=&lt;}{3z705v321*\/(om%*)j'&}$#\"!~}|{zyxwZXnWrkpoRmlkdihgfedcFE`_^W\\[ZYXWVUT7R5PONGLEJ-HG@ED=B%@9&gt;=&lt;5:9z765.3210\/.-,+*)jh~g${\"c~}v{zsxwZutslqponmlkjihgJH^Gb[`_B]\\[ZSXWVUTS65PONMFKJIHGFED'B%@?&gt;7&lt;5:9z7654-210\/.-,+*)jh~g${dbx}|_zyxwputsrqponmlOMcLg`edGba`_^W\\[ZYX;:UTSRQJONMLKJI,G*EDC&lt;A:?\"=&lt;5:927x5.321*\/p',+*)\"'&g$#\"!~w|{zyxwvutWUkTohmlOjihgf_dcba`_^]\\?=S&lt;WPUT7RQPONMLEJIH+*EDCBA@?8=&lt;;:9z7x543,1*\/.o,+*)('&}$#\"!~}|_]s\\wputWrqponmlejihgfedGE[D_X]\\?ZYXWVUTSLQP32MLKJIHGF?DCBA$?\"=&lt;;4927x54-21*\/p-&+*)\"'h}$#\"!x}|_zyxwvutslqponmlOMcLg`edGba`_^]\\[TYXWVUT75K4OHML\/JIHGFEDCBA@9\"=~;:987654321*\/p-n+*)\"'~%f#\"y~}v{^sxwvunsrUponmlkjihgf_dcbECYB]V[&gt;YXQVUNSR5PONMLKJIHGF?DCB%#9\"=6;:{876543210\/.-&m*)j'&%$#\"!~}|{zs\\wZutslqjoRmfkjibgfIdcba`_^]\\[ZYRWV97M6QJ31GLK.IHGFEDCBA@?&gt;7&lt;;|z2y6\/43t10\/.-,+*)('&%|e\"!~a|{zyxwvutsrqpiRmlOjibgf_dGb[`_^W\\[&gt;YXWVUTSRQPONMFK.,B+F?DC&A@?&gt;=&lt;;:98765.3tr*q.',+l)('&%$#\"!~}|{zs\\wvutWrqponmlkjihgfe^Gba`C^]\\UZSX;VUNSRKP3HMLKJCHG*EDCBA@?&gt;=&lt;;:981xv.u2+0\/p-,+*)('&%$#\"!~w`^t]xqvuXsrqponmlkjihgfe^Gba`_^A\\[ZYXWVUTSRQPONG0KJIH+FED=B;@?\"=&lt;;:9876543210\/(o,l$k(!hf|#\"c~}|{zyxwvutsrqpiRmOeNibgfIdcba`_^]\\[ZYXWVUN7RQPONM0KJIHGFEDCBA@?&gt;=&lt;5|98765v3,10\/(-n%*)('~%$e\"!~}|{zyxwvutsrqjSnmOeNibgJe^cbaZ_^A\\[ZYXWVUTSRQPONMF\/JI+A*E&gt;CB%@?&gt;=&lt;;:9876543210)p-,+*)('h%$#\"!~}|{zyxwvutslUponmlkNihg`e^cbE`_^]\\[ZYXWVUTSRQPI2MLK-C,G@E(CB;@?8=~;498705v-210\/(om%*)j'&%$#\"!~}|{zyxwvunWrqpRhQlejiLgfedcba`_^]\\[ZYXWVO87RQ4ONMLKJIHGFEDCBA@?&gt;7~}:{876\/4-2s0\/(-,%*k\"'&%${\"!b}|{zyxwvutsrqponmleNihgfH^Gb[`C^]V[ZSXW:UTSRQPONMLKJIHGFED=&A@?&gt;~6}:387x543210\/.-,+*)('&%$#zc~a|{^yxwvutsrqponmlkjihg`IdGbE`_X]\\UZ=XQVUTMRQ4ONMLKJIHGFEDCBA@?&gt;=6}:9876v.u2+0q.-,%*#jh~%$e\"!~}|{zyxwvutsrqpongPkjihgI_Hc\\a`C^]\\?TY&lt;WVUTSR5PO2MLK.CH+FEDCBA$?\"=&lt;;4927x54-21*\/p-&+*)\"'h}$#\"!x}|_zyx[puXsrqponmlkjLbKf_dGba`Y^W\\?ZSXWVOTS6QPO2GL\/JIHGFEDCBA#9\"=6;:{876w4321*\/.o,+*)('&%$#\"c~}`{zy\\wvutmrqTonmlkjihgfeHcFa`_X]V[&gt;YRWVUNS6KPONMFKJ-HGF)DCBA:?&gt;!&lt;;:9876543210\/.n&m*#('h%$#d!~}|uzy\\wvutsrqponmlkjiKaJe^cbED_XA\\[ZYXWVUTSR5PO21LE.IHGFEDCBA@?\"=~;:92705v32+0\/(-n%*)('~%$ed!xa|{zyxwvutsrqponPfOjchgJId]Fa`_^]\\[ZYXWVUTS5K4OHML\/.IHA*EDCBA@?&gt;=&lt;;:{87xw43,s0\/.-,+*)('&%f#\"cb}|u^yxwvutsrqponmlkjLbKf_dcFE`_XA\\[ZYXWVUTSRQPONM\/E.IBGF)(CBA:#&gt;=&lt;;:98765432s0\/po,+*#j'&%$#\"!~}|{zy\\wZunsrqjoRglkjibgfIHcbaZC^]\\[ZYXWVUTSRQPON0F\/JCH+F?DCB;@?\"!&lt;;:3z76543210\/.-,+*)('g}f#z!~a`{zyxqvutsrqponmlkjihKfeHGba`_X]\\[ZYXWVUTSRQPO2M0KJCHG@E(=BA@?8=&lt;}|9876\/43210\/.-,+*)('&%$#\"bxa|uzy\\[vutslqponmlkjihgfedcba`_AW@[TYX;:UTSRQJONMLKJIHGFEDCB%@?\"!&lt;;:9816543210\/.-,+*)j'h%$#z!x}`uzyxwputWVqponmfkjihgfedcba`_^]\\[Z&lt;R;VOT7RQPINGL\/DIHGF?DC&%@?&gt;=&lt;5:9876543210\/.-,+*)i!h%|#\"cb}|{zyxqvutsrqponmlkjMhgJIdcba`_X]\\[ZYXWVUTSRQ4O2MLKDIBG*ED=BA:?\"7&lt;;:9276wv3210\/.',+*)('&%$#\"!~}|{z\\r[votWrqjonglkNMhgfedc\\a`_^]\\[ZYXWVUTSRQ3I2MFKJ-,GFEDCBA:?&gt;=&lt;;:987654u21rq.-,+*)(!&%$#\"!~}|{zy\\wZutmrqjoRmfkjibgfIHcba`_^]V[ZYXWVUTSRQPONML.D-HAF)DCB;@9\"~6;:{z7654321*\/.-,+*)('&%$#\"!~`v_zsxwvutmVqponmlkjihgJedcbaZC^]\\[ZYXWVUT7R5PONGLEJ-HG@ED=B%@9&gt;=&lt;5:{27654-210\/.'n+*)('&%$#\"!~}|{]s\\wpuXsrqjohmPkdihg`edcbaZC^]\\[ZYXWVUTSRQP2H1LEJIHGFEDCBA:#&gt;=&lt;;:98765432+r\/.-,+*)('&%$#zc~`v_zs\\ZputsrqponmleNiKaJe^cba`_^]\\[ZYRWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:98y65432s0\/.-,+*)('&}$#\"!~}|{zyxwvutsrqponmlkjihgfedcFa`_^]@[&gt;YXWPUNSRQPONMLKJIBGFEDCBA@?&gt;=&lt;;:9876543210\/.-,+*)(i&%$#\"!~}|^t]xqvutsrqponmlejihgfedcba`_^]\\[ZYXWVUTSRQPONMLK.IHGFEDCBA#9\"=6;:9876543210\/(-,+*)('&%$#\"!~}|{zyxwvutsrqponQlkjihKfedcba`_^]\\[ZSXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;|98765v3t10).-&+l)\"'&%|#dy~}|{tyxwvutsrqponmfkjihgfedcba`_^]\\[ZYXWVUTSRQPON1LKJIHGFED&&lt;%@9&gt;!&lt;;49816w4-210).-,+*)('&%$#\"y~}|{zyxwvutsrqponmlkjihgfedcbaD_^]\\[ZYXW9O8SLQPONMLKJIHGFED=BA@?&gt;=&lt;;:9876543210\/.-,+*)('&g$#\"!~a|{zyxwvutsrqpohmlkjihgfedcba`_^]\\[ZYXWVUTSRQ4ONMLK.I,GFE&gt;C&lt;A$?8=&lt;;49z16543,10\/.-,+*)('&%${\"!~}|{zyxwvutsrqponmlkjihgfedGba`_^]\\[Z&lt;R;VOT7RQPINGL\/JCHGF?DCBA@?&gt;=&lt;;:9870543210\/.-,+*)('&%$#\"!~}|{zyxwZutsrqponmOeNibgfedcba`_^]\\[ZYRWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;}:9876w43210\/.-,+*)('&}$#\"!~}|{zyxwvutsrqponmlkjihgJedcbaD_^]\\[ZYXWVUTSRQJONMLKJIHGFEDCBA@?&gt;=&lt;;:987654u210\/.-,+*j\"i&}$e\"y~}|uz]rwvutmVTjonmlkjihgfedcbaZ_^]\\[ZYXWVUTSRQPONMLKJIHGFED'BA@?&gt;=&lt;;:z2y6\/43210q(-,+*)('&%$#\"!~}|{zyxwvutsrqTonmlkNihgfeH]ba`_^]\\[ZYXWVUTSRQPONMLKJIH+FEDCB%@#&gt;=6;:387654u,10\/.-,+*)('&%$#\"!~}|{zyxwvuXsrqponmlkMcLg`eHc\\a`_X]@UZYXWP97MRQPON1FKJIHGFEDCBA@?&gt;=&lt;;:987654321r\/.-,+*)('g}f#z!~}|{^yrwvutsrqponmlkjihgfedcba`_^A\\[ZYX;VUTSR5PINMLKJIHGFEDCBA@?&gt;=&lt;;:98765v3210\/p-,+*)j'~%$#\"!~}|{zyxwvutsrqponmlkjMhgfedcba`BXA\\UZ=XWPUTMR5JONMLE.,BGFEDC&A:?&gt;=&lt;;:9876543210\/.-,+*)('&g$#\"!~}|{z\\r[votsrqpSnmfkjihgfedcba`_^]\\[ZYXWVUTS6QPONM0KJIHG*ED=BA@?&gt;=&lt;;:9876543210\/.-,+*k('&%$e\"c~}v{zsx[votsrkponmlOjibgfedcba`_^]\\[ZYXWVUTSRQPO2MLKJIHGFE'=&A:?\"=6;:9276543t10).-,+*)('&%$#\"!~}|{zyxwvutWrqponmlkjLbKf_dcba`C^]\\UZYXWVUTSRQPONMLKJIHGFEDC&A@?&gt;=~;:987x543,10\/.-,+*)('&%$#\"!~}|{zyx[vutsrUponmlOjihafedcba`_^]\\[ZYXWVUTSRQPO2MLKJIHGFE'=&A:?\"=&lt;;4927x5.321*\/p',+*)\"ig}$#\"!~a|{zsxwvutsrqponmlkjihgfedcbaD_^]\\[ZYXW9O8SLQPONM0KJIHGFEDCB;@?&gt;=&lt;;:9876543210q.-,+*k('&%$e\"!~}|{zyxwputsrqponmlkjihgfeHcba`_B]@[ZYRWPU8SRKPOHM0KDIHG@E(=BA@?8=&lt;;:9z76543210\/.',+*)('&%$#\"!~}|{z]xwvutsrqpRhQlejMhg`ed]bE`Y^]\\UZ=RWVUTMRQPON1LKJIHGFEDC&lt;A@?&gt;=&lt;;:987654321r\/.-,+*)('g}f#z!~}|{^yxwvutsrUjonmlkjihgfedcbE`_^]\\?ZYXWV9TSRQPONM0EJIHGFEDCBA@?&gt;=~;:987x5v321*\/(-n+$)('~%f{\"!~}v{zyxwZutsrqponQfkjihgfedcba`_^A\\[ZYXWVUT6L5PIN1LKJCHAF)D=BA@9&gt;=&lt;;:{87654321r).-,+*)('&%$#\"!b}|{zyxwvuWmVqjonmPeNihgfedcba`_^]\\[ZY&lt;WVUTS6QPO2G0KJIHGFEDCBA@?&gt;=&lt;;|98765v3t10\/(-&+l)\"'&%|#dy~}|{tyxwZoXsrqponmlkjihgfedcFa`_^]\\[ZY;Q:UNSRQ4I2MLKJIHGFEDCBA@?&gt;=~;:9876543s+r\/(-,+l)\"'h%$#\"!~}|{zyxwvutsVqponmPkjiLg`eHcba`_^]\\[ZYXWVUTS6QPONM0K.IHG@E&gt;C&A:?&gt;=6;|38765.321r\/(-n+*)('&%$#\"!~}|{zy\\wvutsrqpoQgPkdihgJe^cFa`_^]\\[ZYXWVUTSRQ4ONMLKJIHG)?(C&lt;A@?\"=&lt;5|9876543210\/.-,+*)j'&%$#d!~}`{zs\\wvutsrqponmlkjihgJedcbaD_B]\\UZYRW:OTSRQJONM0KJC,GFEDCBA@?&gt;=&lt;;:987x543210\/.-m%l)\"'h}$#\"!x}|{^yxqZutsrqponmlkjihgfeHcba`_^]\\[=S&lt;WPUTS6QPOHM0KJIHGFEDCBA@?&gt;=&lt;;|98765v321r\/.-&+l)('&%$#\"!~}|{zyxwZutsrqToRmlkdibgJed]baZ_BW\\[ZYRWVU8SRQJO2MLKJIHGFEDCBA@?&gt;=~;:9876543s+r\/(-,+l)('~%f#\"!~}|{zyxwvutsrqTonmlkjihgI_Hc\\a`_B]\\[ZYRW:UTSRQPONMLKJIHGFE(CBA@?\"=&lt;;|98765.3t10\/.-,+*)('&%$#\"!b}|{zy\\wZunsrqjoRglkjibgfeHcba`_X]@[ZYXWVUTSRQPONMLK.IHGFEDCBA#9\"=6;|92765.321r\/.-,+$)j'&%$#\"!~}|{zyxwvuXsrqponmlkMcLg`edcFa`_^]\\U&gt;YXWVUTSRQPONMLKJI,GFEDC&A@?\"=&lt;;:981x543210\/.-,+*)('&%f#\"!~}`{^yxwpunsVqpinmfkNchgfe^cbaD_^]\\[ZS&lt;WVUTSRQPONMLKJIHG*EDCBA@?&gt;=}5|92765v3210\/.'n+*)('&%$#\"!~}|{zy\\wvutsrqpoQgPkdihgJedcba`_^W@[ZYXWVUTSRQPONMLK.IHGFE(CBA$?&gt;=&lt;;:981x543210\/.-,+*)('&%f#\"!~}`{^yrwvunsVkponmfkjiLgfedcba`YB]\\[ZYXWVUTSRQPONM0KJIHGFEDC%;$?8=~;49870543t10\/.-,+*#j'&%$#\"!~}|{zyxwvuXsrqponmlkMcLg`edcFa`_^]\\[ZYRW:UTSRQPONMLKJIHGFE(CBA@?\"=&lt;;|987654321*\/p-,+*)('&%$#\"!~}|{^yxwvuXsVqpohmfkNihafe^cF[`_^]V[ZY&lt;WVUTSRQPOHM0KJIHGFEDCBA@?&gt;=&lt;;|987654321q)p-&+*)j'&%$#\"!~}v{^yxwvutsrqponmlkjiLgfedcba`_AW@[TYXW:UTSRQPONMLKDI,GFEDCBA@?&gt;=&lt;;:987x54321r\/.-n+*)('&%$#\"!x}`{zyxwvutsrqponmlkNihgfeHcFaZ_^]V[&gt;SXWVUNSRQ4ONMLKJIHGFE&gt;C&A@?&gt;=&lt;;:987654321r\/.-,+*)('g}f#z!b}v{zyrwvuXsrqponmlkjibgJedcba`_^]\\[ZYXWVU8SRQPONMLK-C,G@EDC&A@?&gt;=&lt;;:9876\/v3210\/.-,+*)('&%$#d!~}|{^yxwZutsrqponmlkjcLgfedcba`_^]\\[ZYXW:UTSRQ4O2MLKDIBG*ED=BA:?\"7&lt;;:92765v3210\/.-,+*)(!h%$#\"!~}|{zyxwvutsVqponmlkjiKaJe^cbaD_^]\\[ZYXWVUTM6QPONMLKJIHGFEDCBA$?&gt;=&lt;;:987w\/v3,10\/p-,+*)('&%$#\"!x}`{zyxwvutsrqponmlkNihgfeHcbaD_^]\\[ZYXWVUTSLQ4ONMLKJIHGFEDCBA@?\"=&lt;;:9z765v3210\/.-,+*)('~%f#\"!~}|{zyxwvutsrqTonmlkjihgI_Hc\\ECY^]\\?ZYXWVUTSRQPONGL\/JIHGFEDCBA@?&gt;=&lt;;:{876543210p(o,%*)(i&%$#\"!~}|{zyxwpYtsrqponmlkjihgfedGba`_^A\\[Z=XWVUTSRQPONMLKD-HGFEDCBA@?&gt;=&lt;;:98y65432s0q.',+*#(i~%$#\"y~}|_zyxwvutsrqponmfOjihgfedcba`_^]\\[Z=XWVUTSRQP2H1LEJ-HAFED=BA@#&gt;=&lt;;:987654321*q.-,+*)('&%$#\"!~}|_zyxwvutsrTjSnglkjMhgfedcba`_^]\\[ZSX;VUTSRQPONMLKJIHGF)DCBA@#&gt;=&lt;}:9876543210\/.-,%*k('&%$#\"!~}|{zyxwvYtsrqpSnQlkdihafI^cba`Y^]\\?ZYXWVUTSRQPONMLEJ-HGFEDCBA@?&gt;=&lt;;:98y6543210\/.n&m*#('&g$#\"!~}|{zyxwvutmrUponmlkjihgfedcba`C^]\\[ZYXWV8N7RKPON1LKJIHGFEDCBA@?&gt;=6}:9876543210\/.-,+*k('&%$e\"!~a|{zyxwvutsrqponmfOjihgfedcba`_^]\\[Z=XWVUT7R5PONGLEJ-HG@ED=B%:?&gt;=&lt;5:98y6543210\/.-,+*)('~g$#\"!~}|{zyxwvutsrUponmlkjihJ`Id]bE`_X]\\UZYX;VUTSRQPONMLKJIHG@)DCBA@?&gt;=&lt;;:987654u210\/.-,+*j\"i&}$#\"c~}|{zyxwvutsrqponglOjihgfedcba`_^]\\[Z=XWVUT7RQP3NMLKJIHGFEDCBA@?&gt;7&lt;}:9876543210\/.-,+*k('&%$e\"c~}|uzsx[votsrkponQlkjihgfedcba`_^]\\UZ=XWVUTSRQPONMLKJIH+FEDCBA@?&gt;~6}:3zx0543t10\/.-,+*)('&%$#\"!x}`{zyxwvutsrqponmlkNihgfedcbaCYB]V[ZY&lt;WVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:98765432+r\/.-,+*)('&%$#\"!~}`{zyxwZutsVqponmlkjihgfedcba`_^]\\[ZYXWVUTSRQPONMLE.IHGFEDCBA@?&gt;=&lt;;:9z76543t1r\/.-&+$)j'~%$#z!bw|{zyrwvuXsrqponmlkjihgfedcba`_^]\\[ZYXWVUTSRQPONG0KJIHGFEDCBA@?&gt;=&lt;;|987654321q)p-&+l)('~%|#d!x}|{ty\\qvutslqpoRmlkjihgfedcba`_^]\\[ZYXWVUTSRQPONMLKJIHA*EDCBA@?&gt;=&lt;;:98765v3210\/.-,+k#j'~%$#d!~}|{zyxwvutsrqponmlkjihgfedcba`_^]\\[ZYRW:UTSRQPONMLKJIHGFE(CBA@?\"=&lt;;|9876543210\/.-,+*)('&%$#\"!~}|{zyxwvutsrqjoRmlkjihgfedcba`_^]@[ZYXW:U8SRQJOHM0KDIHG@E(=BA@?8=&lt;;|9876543210\/.-,+*)('&%$#\"!~}|{zyxwvutsrqjoRmlkjihgfedcba`_^]@[ZYXWVUTS5K4OHMLK.IHGFEDCBA@?&gt;=&lt;;:9876543210\/.-,+*)('&%$#z!b}|{zyxwvutsrqponmPkjihgfedcE[D_X]\\[&gt;YXWVUTSRQPONM0E.IHGFEDCBA@?&gt;=&lt;;:9z76543t10\/p-,+*)('&%$#\"!bw`{zyxwvutsrqponmlkNihgfeHcFa`_X]V[&gt;YRWVUNS6KPONMFKJI,GFEDCBA@?&gt;=&lt;;|3z76543210\/.-,+*)('h%$#\"!~}|{]s\\wputsVqponmlkjihgfeH]Fa`_^]\\[ZYXWVUTSRQ4ONMLKJIHG)?(C&lt;A@?\"=&lt;;:987654321r\/(-n+*)('&%$#\"!~}|{zy\\wvutsVqpoRmlkjihgfedcbaD_X]@[ZYXWVUTSRQPONMLK.IHGFE(C&A@?8=6;|92765.3t+0\/.-&+*)j'&%$#\"!~}|{zy\\wpuXsrqponmlkjihgfedcFa`_^]\\[ZY;Q:UNSRQ4ONMLKJIHGFEDC&A:?\"=&lt;;:9876543210\/.-n+*)('&%$#cyb}v{zy\\wvutsrqponmlkNihaJedcba`_^]\\[ZYXWVU8SRQPO2MLK.IHGFEDCBA@?&gt;=~;:3z76543210\/.-,+*)('h%$#\"!b}`{zyrwpuXslqpohmPejihg`edcFa`_^]\\[ZYXWVU8SRK4ONMLKJIHGFEDCBA@?\"=&lt;;:98765u-t1*\/p-,+$)\"'h%|#\"!x}`uzyxwputsVqponmlkjihgfeHcb[D_^]\\[ZYXWVUTSRQPO2MLKJIHGFE'=&A:?&gt;=~;:9876543210\/p-,+$)j'&%$#\"!~}|{zyxwvuXsrqpoRmlkNihgfedcba`_^]@[ZYRW:UTSRQPONMLKJIHGFE(CBA@?\"=~;:92705v3,10\/(-n%*)('~%$#d!~}|{zyxwvutsVqpohmPkjihgfedcba`_^]\\[&gt;YXWVUTSRQ3I2MFKJI,GFEDCBA@?&gt;=&lt;;|98705v3210\/.-,+*)('&%$#d!~}|{zyxwYoXslqpoRmlkjihgfedcbaD_^]\\U&gt;YXWVUTSRQPONMLKJI,GFEDC&A@?\"=&lt;;:987654321r\/.-,%l)('&%$#\"!~}|{zyxwZutsrqToRmlkdibgJe^cbaZ_BW\\[ZYRWVU8SRQPONMLKJIHG*EDCB;$?&gt;=&lt;;:9876543210\/p-,+*)('&%e{d!x}|{^yxwvutsrqponmPkjihaJedcba`_^]\\[ZYXWVU8SRQPONMLK-C,G@EDC&A@?&gt;=&lt;;:98765v3210\/(-n+*)('&%$#\"!~}|{zy\\wvutsVqpoRmlkjihgfedcbaD_^]\\[TY&lt;WVUTSRQPONMLKJIHG*EDCBA$?\"=&lt;;4927x5.321*\/p',+*)\"'&%f#\"!~}|{zyxwvuXsrqpohmPkjihgfedcba`_^]\\[&gt;YXWVUTSRQ3I2MFKJI,GFEDCBA@?&gt;=&lt;;|98765.3t10\/.-,+*)('&%$#\"!b}|{zyxwvuWmVqjonmPkjihgfedcba`_B]\\[ZYXQ:UTSRQPONMLKJIHGFE(CBA@?\"=&lt;;|9876543210\/.-n+*)('&}f#\"!~}|{zyxwvutsrqTonmlkNiLgfe^c\\aD_X]\\[TY&lt;QVUTSLQPO2MLKJIHGFEDCBA$?&gt;=&lt;;:3z76543210\/.-,+*)('h%$#\"!~}|{]s\\wputsVqponmlkjihgfeHcba`_^W@[ZYXWVUTSRQPONMLK.IHGFEDCBA#9\"=6;:9z76543210\/.-,+l)('&%$#z!b}|{zyxwvutsrqponmPkjihgJedcFa`_^]\\[ZYXWVU8SRQPONMFK.IHGFEDCBA@?&gt;=&lt;;:9z76543t1r\/.-&+$)j'~%$#z!bw|{zyrwvuXsrqponmlkjihgJedcba`_X]@[ZYXWVUTSRQPONMLK.IHGFEDCBA#9\"=6;:9z76543210\/.-,+l)('&%$#z!b}|{zyxwvutsrqponmPkjihgfedcE[D_X]\\[&gt;YXWVUTSRQPONM0KJIHGFED=&A@?&gt;=&lt;;:987654321r\/.-,+l)('h%$#\"!~}|{zyxwZutsrqpongPkjihgfedcba`_^]\\[&gt;YXWVU8S6QPOHMFK.IBGFE&gt;C&;@?&gt;=6;:9z76543210\/.-,+l)('&%$#\"yb}|{zyxwvutsrqponmPkjihgfedcE[D_X]\\[&gt;YXWVUTSRQPONM0KJIHGFED=&A@?&gt;=&lt;;:987654321r\/.-,+*)('g}f#z!~}`{zyxwvutsrqpoRmlkjihgfe^cFa`_^]\\[ZYXWVUTSRQ4ONMLK.IHG*EDCBA@?&gt;=&lt;;:9z76543210\/(-n+*)('&%$#\"!~}|{zy\\wvutsVqTonmfkdiLgf_dc\\aD_X]\\[TY&lt;QVUTSLQPO2MLKJIHGFEDCBA$?&gt;=&lt;;:98705v3210\/.-,+*)('&%$#d!~}|{zyxwYoXslqpoRmlkjihgfedcbaD_^]\\[ZYXWPU8SRQPONMLKJIHGFEDC&A@?&gt;=&lt;;:9y1x5.321r\/.-,+*)('&%$#d!~}|{zyxwvoXsrqponmlkjihgfedcFa`_^]@[ZY&lt;WVUTSRQPONMLK.IHGFEDCBA@9\"=&lt;;:9876543210\/.-n+*)('h%f#\"y~}v{^sxwvunsrqTonmlkjihgfedcFa`_^]\\[ZYXQ:UTSRQPONMLKJIHGFE(CBA@?&gt;=&lt;;{3z70543t10\/.-,+*)('&%f#\"!~}|{zyxqZutsrqponmlkjihgfeHcba`_^]\\[=S&lt;WPUTS6QPONMLKJIHGFE(CBA@?&gt;=&lt;;:927x543210\/.-,+*)('&%f#\"!~}`{zy\\wvutsrqponmlkNihgfedcba`_X]@[ZYXWVUTSRQPONMLK.IHGFE(C&A@?8=6;|98165.3t1*\/.-&+l#('&%|#\"!b}|{zyxwvutsrqTonmlkjihgfe^cFa`_^]\\[ZYXWVUTSRQ4ONMLKJIHG)?(C&lt;A@?\"=&lt;;:987654321r\/.-,+*)('&%|#d!~}|{zyxwvutsrqpoRmlkjihgfeG]FaZ_^]@[ZYXWVUTSRQPO2MLKJIHGFEDCBA@9\"=&lt;;:9876543210\/.-n+*)('h%$#d!~}|{zyxwvutsVqponmlkjihgfed]Fa`_^]\\[ZYXWVUTSRQ4ONMLK.I,GFE&gt;C&lt;A$?&gt;7&lt;;49z70543,1r).-,+$)('h%$#\"!~}|{zyxwZutsrqponmlkjihaJedcba`_^]\\[ZYXWVU8SRQPONMLK-C,G@EDC&A@?&gt;=&lt;;:98765v3210\/.-,+*)('&}f#\"!~}|{zyxwvutsrqTonmlkjihgI_Hc\\a`_B]\\[ZYXWVUTSRQ4ONMLKJIHGFEDCBA@?8=~;:9876543210\/.-,+l)('&%f#\"!b}|{zyxwvutsrqTonmlkjihgfedcba`_X]@[ZYXWVUTSRQPONMLK.IHGFE(CBA$?&gt;=&lt;;:9876543t10\/.-,+*)('&%$#\"!x}`{zyxwvutsrqponmlkNihgfedcbaCYB]V[&gt;YXQVUNS6QJONMFK.CHGFE&gt;'%;@?&gt;!&lt;;:9876543210q.-,+*)('&%$#\"!~}|uz]xwvutsrqponmlkjihKfedcba`_^@V?ZSXWV9TSRQPONMLKJIH+FEDCBA@?&gt;=&lt;;:98765.u210\/.-,+*)('&%$#\"c~}|{z]xwvYtsrqponmlkjihKfedcba`_^]\\[ZYXWVUN7RQPONMLKJIHGFEDCB%@?&gt;=&lt;}:{876\/4-2s*\/.-,%*)(i&%$#\"!~}|{zyx[vutsrqponmlkjihgfe^Gba`_^]\\[ZYXWVUTSR5PONMLKJIH*@)D=B%:?&gt;=&lt;5:98y6543210\/.-,+*k('&%$#\"!~}|{zyxwvunWrqponmlkjihgfedcbE`_^]\\[ZYX:P9TMRQP3NMLKJIHGFEDCB%@?&gt;=&lt;;:9876543210\/.',m*)('&%$#\"!~}|{zyx[vutsrUponQlkjihgfedcba`C^]\\[ZYXWVUTSRQPONMLEJ-HGFEDCBA@?&gt;=&lt;;:98y65432s0q(-,+*#('&g$#\"!~}|{zyxwvYtsrqponmlkjihgfedcb[`C^]\\[ZYXWVUTSRQPON1LKJIHGFED&&lt;%@9&gt;!6;:981654u210\/.-,+*)('&g$#\"!~}|{zyxwvutsrqpinQlkjihgfedcba`_^]\\?ZYXWVUTSR4J3NGLKJ-HGFEDCBA@?&gt;=&lt;}:9876543210\/.-,+*)('~g$#\"!~}|{zyxwvutsrUponmlOjihKfedcba`_^]\\[Z=XWVUTSRQPONMLKJIHGFE&gt;'BA@?&gt;=&lt;;:98765432s0\/.-,m*k('&}${\"c~}v{zsxwvYtsrqponmlkjihKfedcba`_^]\\[ZYXWVUTSL5PONMLKJIHGFEDCBA@#&gt;=&lt;;:9876v.u2+rp(-,+l)('&%$#\"!~}|{^yxwvutsrqponmlkjihgf_Hcba`_^]\\[ZYXWVUTS6QPONMLKJI+A*E&gt;CBA$?&gt;=&lt;;:9876543t10\/.-,+*)('&%$#\"!~}|{ty\\wvutsrqponmlkjihgJedcbaD_^]@[ZYXWVUTSRQPO2MLKJIHGFEDCBA@?&gt;=&lt;;:927x543210\/.-,+*)('&%f#\"!~}`{^yxwpunsVqjonmfkjiLgfedcba`_^]\\[&gt;YXWVUTSRQPONMLKJIHGFE&gt;C&A@?&gt;=&lt;;:987654321r\/.-,+*)('g}f#z!b}|uzyr[YotsrUponmlkjihgfedGba`_^]\\[ZYXWVUTSRQPONGL\/JIHGFEDCBA@?&gt;=&lt;;:{876543210p(o,%*)(i&%$#\"!~}|{zyx[vutsrqponmlkjihgfedcbaZC^]\\[ZYXWVUTSRQPON1LKJIH+FED'BA@?&gt;=&lt;;:9876w43210\/.-,+*)('&%$#\"!~}v_zyxwvutsrqponmlkjMhgfedGbE`_^W\\UZYX;VUTSRQPONMLKJ-HGFEDCBA@?&gt;=&lt;;:9876543,s0\/.-,+*)('&%$#\"!~a|{zyxwvutVlUpiRPfkjiLgfedcba`_^]\\[&gt;YXWVUTSRQPONMLKJIHGFED=&A@?&gt;=&lt;;:987654321r\/.-,+*)('g}f#z!~}`{zyxwvutsrqpoRmlkjihgfedcba`_^]\\[ZYXWPU8SRQPONMLKJIHGFEDC&A@?&gt;=~;:9z76543210\/.-,+l)('&%$#\"!~}|{zyxwvutsrqjoRmlkjihgfedcba`_^]@[ZYXW:UTS6QPONMLKJIHGFE(CBA@?&gt;=&lt;;:9876543210\/.-&+l)('&%$#\"!~}|{zyxwZutsrqponmOeNibgJedc\\aZCAW\\[Z=XWVUTSRQPONML\/JIHGFEDCBA@?&gt;=&lt;;:987654-2s0\/.-,+*)('&%$#\"!~a|{zyxwvutVlUpinmlOjihgfedcba`_^A\\[ZYXWVUTSRQPONMLKJIHGFE&gt;'BA@?&gt;=&lt;;:98765432s0\/.-,m*)(i&%$#\"!~}|{zyx[vutsrqponmlkjihgfedcba`_XA\\[ZYXWVUTSRQPONML\/JIHGF)DCB%@?&gt;=&lt;;:987654u210\/.-,+*)('&%$#\"!~}|{zyr[vutsrqponmlkjihgfIdcba`_^]\\&gt;T=XQV9TSLQPIN1LEJIHAF)&gt;CBA@9\"~6;:9z76543210\/.-,+l)('&%$#\"!~}|{zyxwvutsrqpiRmlkjihgfedcba`_^]@[ZYXWVUTS5K4OHMLK.IHGFEDCBA@?&gt;=~;:9876543210\/.-,+*)('&%$#z!b}|{zyxwvutsrqponmPkjihgJedcFa`_^]\\[ZYXWVU8SRQPONMLKJIHGFEDCBA@?&gt;=&lt;;49z76543210\/.-,+*)('h%$#\"!b}|{^yxwvutsrqponmPkjihgfedcba`_^]\\[ZYXWVUTSLQ4ONMLKJIHGFEDCBA@?\"=&lt;;:98765u-t1*\/.-n+*)('&%$#\"!~}`{zyxwvutsrqponmlkjihgfedc\\aD_^]\\[ZYXWVUTSRQPO2MLKJIHGFE'=&A:?&gt;=~;:9876543210\/p-,+*)('&%$#\"!~}|{zyxwvutsrkTonmlkjihgfedcba`_B]\\[ZY&lt;WVU8SRQPONMLKJIHG*EDCBA@?&gt;=&lt;;:9876543210\/.-,%l)('&%$#\"!~}|{zyxwZutsrqToRmlkdibgfeHcba`_^]\\[ZYXW:UTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;5|9876543210\/.-,+*)j'&%$#\"!~}_u^yrwZutmrqjoRmfkjibgJ_dcbaZCAW\\[Z=XWVUTSRQPONML\/JIHGFEDCBA@?&gt;=&lt;;:987654321*q.-,+*)('&%$#\"!~}|_zyxwvutsrTjSnglkjMhgfedcba`_^]\\?ZYXWVUTSRQPONMLKJIHGFEDCBA@9&gt;!&lt;;:9876543210\/.-,m*)('&g$#\"c~}|{zyxwvutsrUponmlkjihgfedcba`_^]\\[ZYXWVOT7RQPONMLKJIHGFEDCB%@?&gt;=&lt;}:{876\/4-2s*\/.-,%*)(i&%$#\"!~}|{zyx[vutsrqponmlkjihgfedcba`_^]\\UZ=XWVUTSRQPONMLKJIH+FEDCBA@?&gt;~6}:38y654-2+0q(-,+*#('&g$#\"!~}|{zyxwvYtsrqponmlkjihgfedcba`_^]\\[ZSX;VUTSRQPONMLKJIHGF)DCBA@?&gt;=&lt;|4{81654u210\/.-,+*)('&g$#\"!~}|{zyxwvutsrqponmlkjihg`Idcba`_^]\\[ZYXWVUT7RQPON1LKJ-HGFEDCBA@?&gt;=&lt;}:9876543210\/.-,+*)('&%$#\"!~}v_zyxwvutsrqponmlkjMhgfedGbE`_X]\\UZ=RWVUTMRQP3NMLKJIHGFEDCB%@?&gt;=&lt;;:9876543210\/.-,+*)('&%|e\"!~}|{zyxwvutsrqpSnmlkjihgfH^Gb[`_^A\\[ZYXWVUTSRQP3NMLKJIHGFEDCBA@?&gt;=&lt;;:9876543,s0\/.-,+*)('&%$#\"!~a|{zyxwvutVlUpinmlOjihgfedcba`_^A\\[ZYXWVUTSRQPONMLKJIHGFEDCBA@9&gt;!&lt;;:9876543210\/.-,m*)('&g$#\"c~}|{zyxwvutsrUponmlkjihgfedcba`_^]\\[ZYXWVUTMR5PONMLKJIHGFEDCBA@#&gt;=&lt;;:{8y654-2+0q.-&+*#(i~%$#\"y~}|_zyxwvutsrqponQlkjihgfedcba`_^]\\[ZYXWVUTSRQPIN1LKJIHGFEDCBA@?&gt;=&lt;}:98765432r*q.',m*)\"'&}$#\"c~}|{zyxwvutsrUponmlkjihgfedcba`_^]\\[ZYXWVUTMR5PONMLKJIHGFEDCBA@#&gt;=&lt;;:9876v.u2+0\/.o,+*)('&%$#\"!~a|{zyxwvutsrqponmlkjihgfedcba`_XA\\[ZYXWVUTSRQPONML\/JIHGF)DCB%@?&gt;=&lt;;:987654u210\/.-,+*)('&%$#\"!~}|{zyxwvutslUponmlkjihgfedcba`C^]\\[Z=X;VUTMRKP3NMFKJCH+F?DCB;@?&gt;!&lt;;:9876543210q.-,+*)('&%$#\"!~}|{zyxwvutsrqpohQlkjihgfedcba`_^]\\?ZYXWVUTSR4J3NG0.DIHG*EDCBA@?&gt;=&lt;;:9z76543210\/.-,+*)('&%$#\"!~}|{zyxqZutsrqponmlkjihgfeHcba`_^]\\[=S&lt;WPUTS6QPONMLKJIHGFE(CBA@?&gt;=&lt;;:9876543210\/.-,+*)('&%|#d!~}|{zyxwvutsrqpoRmlkjiLgfeHcba`_^]\\[ZYXW:UTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:98705v3210\/.-,+*)('&%$#d!~}|{^y\\wvotslqTinmlkdihgJedcba`_^]\\[ZY&lt;WVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:927x543210\/.-,+*)('&%f#\"!~}|{zy[qZunsrqTonmlkjihgfedcFa`_^]\\[ZYXWVUTSRQPONMLKJIHGFEDC&lt;A$?&gt;=&lt;;:9876543210\/p-,+*)('&%e{d!x}|{^yxwvutsrqponmPkjihgfedcba`_^]\\[ZYXWVUTSRQPONMLE.IHGFEDCBA@?&gt;=&lt;;:9z76543t10\/p-,+*)('&%$#\"!b}|{zyxwvutsrqponmlkjihgfedcba`_^W@[ZYXWVUTSRQPONMLK.IHGFE(C&A@?8=6;|98165.3t+0\/.-&+*)j'&%$#\"!~}|{zy\\wvutsrqponmlkjihgfedcba`_^]\\[ZYXQ:UTSRQPONMLKJIHGFE(CBA@?&gt;=&lt;;{3z705v32+0\/(-,+l)('&%$#\"!~}|{^yxwvutsrqponmlkjihgfedcba`_^]\\[ZS&lt;WVUTSRQPONMLKJIHG*EDCBA@?&gt;=}5|92765v3210\/.-,+*)('h%$#\"!~}|{zyxwvutsrqponmlkjihgfedc\\aD_^]\\[ZYXWVUTSRQPO2MLKJI,GFE(CBA@?&gt;=&lt;;:987x543210\/.-,+*)('&%$#\"!~}|{zyxwvutslqTonmlkjihgfedcba`_B]\\[ZY&lt;WVU8SRQPONMLKJIHG*EDCBA@?&gt;=&lt;;:9876543210\/.-,+*)('&%|#d!~}|{zyxwvutsrqpoRmlkjihgfeG]FaZ_B]\\UZYRW:OTSRQJ31GLKJ-HGFEDCBA@?&gt;=&lt;}:9876543210\/.-,+*)('&%$#\"!~}|{zyxqvYtsrqponmlkjihgfedGba`_^]\\[Z&lt;R;VOTSR5PONMLKJIHGFED'BA@?&gt;=&lt;;:9876543210\/.-,+*)('&%$#\"!xa|{zyxwvutsrqponmlOjihgfIdcbE`_^]\\[ZYXWVUT7RQPONMLKJIHGFEDCBA@?&gt;=&lt;;:987654321*q.-,+*)('&%$#\"!~}|_zyxwvYtWrqjonglOdihgf_dcbE`_^]\\[ZYXWVUT7RQPONMLKJIHGFEDCBA@?&gt;=&lt;;:987654321*q.-,+*)('&%$#\"!~}|_zyxwvutsrTjSnglkjMhgfedcba`_^]\\?ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:92y6543210\/.-,+*)('&g$#\"!~}|{z\\r[votsrUponmlkjihgfedGba`_^]\\[ZYXWVUTSRQPONMLKJIHGFEDCBA@9&gt;!&lt;;:9876543210\/.-,m*)('&g$#\"c~}|{zyxwvutsrUponmlkjihgfedcba`_^]\\[ZYXWVUTSRQPONGL\/JIHGFEDCBA@?&gt;=&lt;;:{87654u2s0\/.',%*k('~%${\"cx}|{zsxwvYtsrqponmlkjihKfedcba`_^]\\[ZYXWVUTSRQPONMLKJIHGFED=B%@?&gt;=&lt;;:9876543210q.-,+*)('&f|e\"y~a|{tyxqvutWrqponmlkjihgfIdcba`_^]\\[ZYXWVUTSRQPONMLKJIHGFEDCB;@#&gt;=&lt;;:9876543210\/.o,+*)('&%$dzc~w|{z]xwvutsrqponmlOjihgfedcba`_^]\\[ZYXWVUTSRQPONMLKJIHG@)DCBA@?&gt;=&lt;;:987654u210\/.o,+*k('&%$#\"!~}|{z]xwvutsrqponmlkjihgfedcba`_^]\\[ZYXWVUN7RQPONMLKJIHGFEDCB%@?&gt;=&lt;}:98y6543210\/.-,+*k('&%$#\"!~}|{zyxwvutsrqponmlkjihgfedc\\E`_^]\\[ZYXWVUTSRQP3NMLKJIHGF(&gt;'B;@#&gt;=&lt;5:38y6\/432+0q(-,+*#jh~%$#d!~}|{zyxwvutsVqponmlkjihgfedcba`_^]\\[ZYXWVUTSRQPONG0KJIHGFEDCBA@?&gt;=&lt;;|98765v3210\/.-,+*)('&%$#\"caa|{zyxwvutWUUponmlkjihKIIdcba`_^]\\?==XWVUTSRQP311LKJIHGFED'%%@?&gt;=&lt;;:98yww43210\/.-,mkk('&%$#\"!~a__zyxwvutsrUSSnPlkjiLaJedcba`CXA\\&gt;ZS&lt;QV97ML53O20FE.,,**((&&$$\"&gt;=~5|9y70w.32s*q.n,+*)('h}f#\"!~}|{z]r[vXtmVkpSQgfOMiLJ`_HFbECYXA??==;;99775Q42HG0.JIHG*?(C%A:#8=~|43zx6wu-,sqqoommkkiig%fdzyb`|{zy\\qZutsrqponmlO*ihgfedcba`_^]\\[ZYXWVUTS6QPONML\/--gGFEDCBA@#!!&lt;;:987654uss0\/.-,+*)(igg$#\"!~}|{z][[vutsrqponQOOjihgfedcbECC^]\\[ZYXWV977RQPONMLKJ-++FEDCBA@?&gt;!}}:98765432sqq.n,+*)j!h%$#\"!~av_z\\xqZotWUkjSQQOkNLbaJHHFbECYXA??==;;997SR5J3N0LE.CH+)?&gt;'%%##!!}}{98y0w4t210\/.-n%l)('&%$#\"cxa|^zs\\qvYWmlUSoRPfeNLLJJHdGE[ZCA]@&gt;TS&lt;::88664P31GF\/-IHGF)&gt;'B$@9\"7&lt;}{32ywwuussqqo-nl$#jhhffddb~a_ut][wvutWlUponmlkjihgJ%dcba`_^]\\[ZY&lt;WVUTSR533mMLKJIHGF)''BA@?&gt;=&lt;;:{yy6543210\/.omm*)('&%$#\"caa|{zyxwvutWUUponmlkjihKIIdcba`_^]\\?==XWVUTSRQP311LKJIHGFED'%%@?&gt;=&lt;;:98yww4t210\/p'n+*)('&g|e\"b~w`uz][qpYWsVTjiRPPNNLLJJHdcF[D_A]V?TY&lt;:PO86R53IH1\/\/--++))'CB%:#&gt;~&lt;;:987x\/v3210\/.-,m$k(h&}f{\"cawv_]y\\ZpoXVrUSihQOkNLbaJHHFFD`CAWV?==;;9U86LK42NMLK.C,G)E&gt;'&lt;A$\"87~||zzx6wu-,sqqoom+lj\"!hf$#\"!bw`{zyxwvutsrU0onmlkjihgfedcba`_B]\\[ZYX;99srRQP3NMLKJIHG*((CBA@?&gt;=&lt;;|zz76543210\/pnn+*)('&%$#dbb}|{zyxwvuXVVqponmlkjiLJJedcba`_^]@&gt;&gt;YXWVUTSRQ422MLKJIHGFE(&&A@?&gt;=&lt;;:9zxx5u3210q(o,+*)('h}f#c!xav{^\\rqZXXVrUSihQOkNLbaJHHFFDDBB@\\[&gt;S&lt;W9UN7LQ42HG0..,H+)?&gt;'%A$\"87~||zzxxvvt21r)p-m+*)('&g|e\"!~}|{zy\\qZuWslUjoRPfeNLhKI_^GEaDBXW@&gt;Z=;QP97S64JI20L\/-CB+))''%A$\"87~|:987x\/v3s1*q(-nl$#jhhf$ecyxa_{^\\rqZXXVVTpSQgfOMihgfI^Gba`_^]\\[ZY&lt;uVUTSRQPONMLKJIHGFED'BA@?&gt;=~||X87654321rpp-,+*)('&%fdd!~}|{zyxwZXXsrqponmlkNLLgfedcba`_B@@[ZYXWVUTS644ONMLKJIHG*((CBA@?&gt;=&lt;;|zz76543210\/pnn+*)('&%$#dbb}_{zyx[pYtsrqpoRgPkMibK`eHF\\[DB^A?UT=;W:8NM64P31GF\/--++))''%%#?&gt;!6}:z81x\/4us+*qo-nl$#jhhffddbb``^zy\\qZuWsrqponQfOjihgfedcF[D_A]V?TY&lt;:PO8664P31GF\/-I,*@?(&&$@#!76}{{yyw5vt,+rp.-,+l#j'g%|ez!b`vu^\\\\ZvYWmlUSoRPfeNLLJJHHFFD`CAWV?=YXWV9N7RQPONMLKJI,eFEDCBA@?&gt;=&lt;}:98765vttP0\/.-,+*)jhh%$#\"!~}|{^\\\\wvutsrqpoRPPkjihgfedcFDD_^]\\[ZYXW:88SRQPONMLK.,,GFEDCBA@?\"~~;:9876543trr\/.-,+*)('hff#\"!~}|{zy\\ZZuWsrqpShQlkjihgJ_HcEaZCX]@&gt;TS&lt;:V97ML5331M0.DC,**((&&$$\"\"~&lt;;|3z7w5.u,1rp('nllj(ig}|eccaa__]][[YutWlUpRnmlkjiLaJedcba`_^AV?Z&lt;XQ:OT75KJ311\/\/--+G*(&gt;=&$@#!76}{{yyw5vt,+rp.-,+l#j'g%|ez!b`vu^\\xwvuXmVqponmlkjihK&edcba`_^]\\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:987x543210qooK+*)('&%$ecc~}|{zyxwvYWWrqponmlkjMKKfedcba`_^A??ZYXWVUTSR533NMLKJIHGF)''BA@?&gt;=&lt;;:{yy6543210\/.omm*)('&%$#\"caa|{zyxwvutWUUpRnmlkNcLgfedcbEZC^@\\U&gt;SX;9ON7553O20FE.,H+)?&gt;'%A$\"87~||zzxxvvt21r)p-m+$k\"'hf|{db~a_ut][wZXnmVTTRRPPNNLhgJ_HcEa`_^]\\?T=XWVUTSRQ4I2M\/KD-BG*(&gt;=&$@#!76}{9zx0\/vt2sq)(om+lj\"!hffddb~a_ut][[YuXVlkTRnmlkNcLgIe^G\\aDBXW@&gt;&gt;&lt;X;9ON755331M0.DC,**(D'%;:#!=&lt;;:{2y6543210\/.-nI*k('&%$#dbb&gt;|{zyxwvuXVVqponmlkjiLJJedcba`_^]@&gt;&gt;YXWVUTSRQ422MLKJIHGFE(&&A@?&gt;=&lt;;:9zxx543210\/.-nll)('&%$#\"!b``{zyxwvutsVTTonmlkjihgJHHcEa`_^AV?ZYXWVU8M6Q3OH1FK.,BA*((&B%#98!};|z21xvvttrrppn,+l#j'g%|ez!b`vu^\\\\ZvYWmlUSoRPfeNLLJJHHFFD`_BW@[=YXWVUT7L5PONMLKJI,A*E'C&lt;%:?\"~65|zzx6wu-,sqqo-nl$#jhhf$ecyxa_{zyx[pYtVrkTinQOedMKKIeHF\\[DB^]\\[&gt;S&lt;WVUTSRQPON1jKJIHGFEDCBA@?&gt;=&lt;;:9876543210\/.-,+*)('&%$#\"!~}|_zyxwvuXVV2ponmlkjiLJJedcba`_^]@&gt;&gt;YXWVUTSRQ422MLKJIHGFE(&&A@?&gt;=&lt;;:9zxx543210\/.-nll)('&%$#\"!b``{zyxwvutsVTTonmlkjihgJHHcba`_^]\\[&gt;&lt;&lt;W9UTSR5J3NMLKJI,A*E'C&lt;%:?\"~65|zzx6wu-,sq\/pn&%ljjhhffddb~}`u^y[wpYnsVTjiRPlOMcbKIIGGEECCA]\\?T=X:VUTSRQ4I2MLKJIHGF)&gt;'B$@9\"7&lt;}{32yw5vt,+rppn,mk#\"igge#dbxw`^z][qpYWWUqTRhgPNjihgJ_HcEaZCX]@&gt;TS&lt;:V97ML5331M0.DC,*FEDC&;$?&gt;=&lt;;:9876wR3210\/.-,+*)('&%$#\"!~}`{zyxwvYWW3qponmlkjMKKfedcba`_^A??ZYXWVUTSR533NMLKJIHGF)''BA@?&gt;=&lt;;:{yy6543210\/.omm*)('&%$#\"caa|{zyxwvutWUUponmlkjihKIIdcba`_^]\\?==X:VUTS6K4ONMLKJ-B+F(D=&;@#!76}{9zx0\/vttrrppnnl*)j!h%e#zcx}`^ts\\ZvYWmlUSSQQOOMMKgfI^GbD`_^]\\[&gt;S&lt;WVUTSRQP3H1L.JC,AF)'=&lt;%#?\"~65|z8yw\/.us1rp('nllj(ig}|ec!b`vu^\\x[YonWUUSoRPfeNLhgfeH]FaC_XAV[&gt;&lt;RQ:8866442N1\/ED-+G*(&gt;=&$$\"&gt;!}54{y7654u,s0\/.-,+*)('hC$e\"!~}|{^\\\\8vutsrqpoRPPkjihgfedcFDD_^]\\[ZYXW:88SRQPONMLK.,,GFEDCBA@?\"~~;:9876543trr\/.-,+*)('hff#\"!~}|{zy\\ZZutsrqponmPNNihgfedcbaDBB]?[ZYX;P9TSRQPO2G0K-IB+@E(&&lt;;$\"\"~&lt;}{32ywwu3tr*)pnnlljjhhf$#dyb}_{t]rwZXnmVTTRRPPNjMKa`IGGEECCAA?[Z=R;V8TSRQPO2G0KJIHGFED'&lt;%@\"&gt;7~5:{y10wu3tr*)pn,mk#\"igge#dbxw`^z][qpYWWUqTRhgPNjihgJ_HcEaZCX]@&gt;TS&lt;::8866442N1\/ED-++)E(&&lt;;$\"&gt;=&lt;;|3z76543210\/.oJ+*)('&%$#\"!~}|{zyxwvutsrqponmPkjihgfIGG#a`_^]\\[Z=;;VUTSRQPON1\/\/JIHGFEDCB%##&gt;=&lt;;:9876wuu210\/.-,+*kii&%$#\"!~}|_]]xwvutsrqpSQQlkjihgfedGEE`_^]\\[ZYX;99TSRQPONML\/--H*FEDC&;$?&gt;=&lt;;:{2y6v4-t+0qo'&mkki'hf|{dbb``^^\\\\ZZXtsVkToQmfOdiLJ`_HFFDDBB@@&gt;&gt;&lt;XW:O8S5QPONML\/D-HGFEDCBA$9\"=};4{27xv.-trrp.om%$ki'hf|{db~a_ut][wZXnmVTpSQgfOMMKgJH^]FD`_^]@U&gt;Y;WP9NS64JI200.J-+A@)'C&$:9\"~~||z8yw\/.ussq\/pn&%lj('&%f{d!~}|{zyxwvY4srqTonmlkjMKK'edcba`_^A??ZYXWVUTSR533NMLKJIHGF)''BA@?&gt;=&lt;;:{yy6543210\/.omm*)('&%$#\"caa|{zyxwvutWUUponmlkjihKIIdcba`_^]\\?==XWVUTSRQP311L.JIHG*?(CBA@?&gt;!6}:z81x\/4us+*qoom+lj\"!hffddbb``^^\\\\ZvuXmVqSohQfkNLbaJHHFbECYXA??==;;9977553ON1F\/J,HGFEDC&;$?&gt;=&lt;;:98y0w4t2+r).om%$kiiggeec!b`vu^\\\\ZvYWmlUSSQmPNdcLJfedcF[D_A]V?TY&lt;:PO86644220L\/-CB+))''%%#?\"~65|z8765v-t10\/.-,+*)(iD%$#\"!~}|{zyxwvutsrqpoRmlkjihKII%pba`_^]\\[ZYXWVUTSRQPONMLKJIHGFEDCBA@?&gt;=&lt;;:987654RQ"
   },
   {
+    "id": "901",
+    "title": "Mariolang",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "+>+>)+)+)+++)++++((((-[!)>->.\r\n+\"+\"===================#+\".\")\r\n+++!((+++++++++)++++++)<.---+\r\n++=#===================\")---.\r\n++((.-(.)).+++..+++++++.<---\r\n  !+======================---\r\n=#>++++++++++++++.).+++.-!>!\r\n  =======================#=#"
+  },
+  {
     "id": "386",
     "title": "Markdown",
     "description": "",
@@ -3377,7 +3969,7 @@
   },
   {
     "id": "387",
-    "title": "mathematica online",
+    "title": "Mathematica Online",
     "description": "",
     "url": "",
     "language_short": "mathematica",
@@ -3392,6 +3984,14 @@
     "code": "'Hello, World!'"
   },
   {
+    "id": "902",
+    "title": "MATLAB 1.0",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "fprintf('Hello World\\n')"
+  },
+  {
     "id": "389",
     "title": "Matlab",
     "description": "",
@@ -3401,7 +4001,7 @@
   },
   {
     "id": "390",
-    "title": "maxscript",
+    "title": "MaxScript",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -3440,6 +4040,14 @@
     "code": ":- interface.\r\n:- import_module io.\r\n:- pred main(io::di, io::uo) is det.\r\n \r\n:- implementation.\r\nmain(!IO) :-\r\n    io.write_string(\"Hello, World!\\n\", !IO)."
   },
   {
+    "id": "903",
+    "title": "MilkScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "#import \"basic\"\r\nprint(\"Hello World\")"
+  },
+  {
     "id": "395",
     "title": "Migol 11",
     "description": "Migol 11 is an imperative assembly-like programming designed by User:MigoMipo. It is almost backwards-compatible with Migol 09, but adds an advanced asynchronous I/O system with interrupts.",
@@ -3457,7 +4065,7 @@
   },
   {
     "id": "397",
-    "title": "minecraft",
+    "title": "Minecraft",
     "description": "",
     "url": "",
     "language_short": "bash",
@@ -3473,7 +4081,7 @@
   },
   {
     "id": "399",
-    "title": "mips",
+    "title": "Mips",
     "description": "",
     "url": "",
     "language_short": "mipsasm",
@@ -3481,7 +4089,7 @@
   },
   {
     "id": "400",
-    "title": "mirc",
+    "title": "Mirc",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3505,7 +4113,7 @@
   },
   {
     "id": "402",
-    "title": "modiscript",
+    "title": "ModiScript",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -3513,7 +4121,7 @@
   },
   {
     "id": "403",
-    "title": "modula 2",
+    "title": "Modula 2",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3521,7 +4129,7 @@
   },
   {
     "id": "404",
-    "title": "modula 3",
+    "title": "Modula 3",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3529,7 +4137,7 @@
   },
   {
     "id": "405",
-    "title": "mongo",
+    "title": "Mongo",
     "description": "",
     "url": "",
     "language_short": "php",
@@ -3544,6 +4152,22 @@
     "code": "1 RIGHT\r\n1 RIGHT\r\n1 RIGHT\r\n1 RIGHT\r\n1 RIGHT\r\n1 RIGHT\r\n1 DOWN\r\n1 DOWN\r\n1 LEFT\r\n1 LEFT\r\n2 LEFT\r\n2 UP\r\n2 RIGHT\r\n2 LEFT\r\n2 DOWN\r\n2 UP\r\n2 RIGHT\r\n2 LEFT\r\n2 DOWN\r\n2 RIGHT\r\n2 BOND\r\n1 YELL\r\n1 LEFT\r\n1 LEFT\r\n1 UP\r\n1 UP\r\n1 LEFT\r\n1 LEFT\r\n1 UP\r\n1 UP\r\n1 LEFT\r\n1 DOWN\r\n1 DOWN\r\n1 LEFT\r\n1 UP\r\n1 UP\r\n1 LEFT\r\n1 DOWN\r\n1 DOWN\r\n1 RIGHT\r\n1 DOWN\r\n1 LEFT\r\n1 TEACH\r\n1 DOWN\r\n1 RIGHT\r\n1 UP\r\n1 UP\r\n1 UP\r\n1 RIGHT\r\n1 DOWN\r\n1 DOWN\r\n1 DOWN\r\n1 DOWN\r\n1 UP\r\n1 RIGHT\r\n1 RIGHT\r\n1 DOWN\r\n1 DOWN\r\n1 TEACH\r\n4 YELL\r\n1 RIGHT\r\n1 RIGHT\r\n1 DOWN\r\n1 DOWN\r\n1 DOWN\r\n1 LEFT\r\n1 YELL\r\n1 YELL\r\n1 LEFT\r\n1 LEFT\r\n1 LEFT\r\n2 LEFT\r\n2 DOWN\r\n2 RIGHT\r\n2 UP\r\n2 UP\r\n2 LEFT\r\n2 LEFT\r\n2 LEFT\r\n2 DOWN\r\n2 DOWN\r\n2 DOWN\r\n2 RIGHT\r\n2 RIGHT\r\n2 RIGHT\r\n2 RIGHT\r\n2 UP \r\n2 UP\r\n2 UP\r\n2 LEFT\r\n2 LEFT\r\n2 DOWN\r\n2 RIGHT\r\n2 YELL\r\n3 YELL\r\n1 YELL\r\n1 RIGHT\r\n1 RIGHT\r\n1 RIGHT\r\n1 YELL\r\n4 DOWN\r\n4 TEACH\r\n4 DOWN\r\n4 DOWN\r\n4 DOWN\r\n4 DOWN\r\n4 DOWN\r\n2 RIGHT\r\n6 LEFT\r\n6 DOWN\r\n6 RIGHT\r\n6 UP\r\n6 UP\r\n6 LEFT\r\n6 DOWN\r\n6 RIGHT\r\n6 YELL\r\n4 YELL\r\n2 YELL"
   },
   {
+    "id": "904",
+    "title": "Monte",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "traceln(\"Hello World\")"
+  },
+  {
+    "id": "905",
+    "title": "Moo",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "@program hello:run\r\nplayer:tell(\"Hello World\");\r\n."
+  },
+  {
     "id": "407",
     "title": "MoonScript",
     "description": "",
@@ -3553,7 +4177,7 @@
   },
   {
     "id": "408",
-    "title": "morsecode",
+    "title": "MorseCode (Morse Code)",
     "description": "",
     "url": "",
     "language_short": "brainfuck",
@@ -3561,7 +4185,7 @@
   },
   {
     "id": "409",
-    "title": "mouse",
+    "title": "Mouse",
     "description": "",
     "url": "",
     "language_short": "bash",
@@ -3569,7 +4193,7 @@
   },
   {
     "id": "410",
-    "title": "move",
+    "title": "Move",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -3577,7 +4201,7 @@
   },
   {
     "id": "411",
-    "title": "mozart",
+    "title": "Mozart",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3601,7 +4225,7 @@
   },
   {
     "id": "793",
-    "title": "(MSM) Multi-Set Manipulator",
+    "title": "MSM (Multi-Set Manipulator)",
     "description": "Multi-Set Manipulator is a set-based programming language invented by User:A inspired by Mathematical Notation. It is not concise at all if it is compared to APL.",
     "url": "https://esolangs.org/wiki/Multi-Set_Manipulator",
     "language_short": "",
@@ -3609,7 +4233,7 @@
   },
   {
     "id": "414",
-    "title": "muf",
+    "title": "Muf",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3617,7 +4241,7 @@
   },
   {
     "id": "415",
-    "title": "mumps",
+    "title": "Mumps",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -3633,7 +4257,7 @@
   },
   {
     "id": "417",
-    "title": "mushcode",
+    "title": "Mushcode",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -3641,7 +4265,7 @@
   },
   {
     "id": "418",
-    "title": "myrddin",
+    "title": "Myrddin",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3649,7 +4273,7 @@
   },
   {
     "id": "419",
-    "title": "mysql",
+    "title": "MySQL",
     "description": "",
     "url": "",
     "language_short": "sql",
@@ -3672,8 +4296,16 @@
     "code": "Print[\"Hello world\"]"
   },
   {
+    "id": "906",
+    "title": "Nadeshiko",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "「Hello World」と表示。"
+  },
+  {
     "id": "422",
-    "title": "naz",
+    "title": "Naz",
     "description": "naz is an esoteric programming language designed by sporeball in 2019. Each instruction in a naz program is given by one number, from 0 to 9 (referred to as n), and one letter, from A to Z.",
     "url": "https://esolangs.org/wiki/Naz",
     "language_short": "plaintext",
@@ -3681,7 +4313,7 @@
   },
   {
     "id": "423",
-    "title": "neko",
+    "title": "Neko",
     "description": "",
     "url": "",
     "language_short": "php",
@@ -3697,7 +4329,7 @@
   },
   {
     "id": "424",
-    "title": "nemerle",
+    "title": "Nemerle",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3705,7 +4337,7 @@
   },
   {
     "id": "425",
-    "title": "newtonscript",
+    "title": "NewtonScript",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3713,11 +4345,19 @@
   },
   {
     "id": "426",
-    "title": "nice",
+    "title": "Nice",
     "description": "",
     "url": "",
     "language_short": "clike",
     "code": "void main(String[] args){ \r\n    println(\"hello world\"); \r\n}"
+  },
+  {
+    "id": "907",
+    "title": "Night",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print(\"Hello World\\n\");"
   },
   {
     "id": "427",
@@ -3729,7 +4369,7 @@
   },
   {
     "id": "428",
-    "title": "nit",
+    "title": "Nit",
     "description": "",
     "url": "",
     "language_short": "java",
@@ -3745,7 +4385,7 @@
   },
   {
     "id": "430",
-    "title": "nodejs",
+    "title": "Node.js",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -3758,6 +4398,14 @@
     "url": "https://esolangs.org/wiki/NOR",
     "language_short": "arduino",
     "code": "1\r\n0 REM store the H in line values\r\n    10 NOR 0, 1\r\n    20 NOR 0, 0\r\n    30 NOR 0, 1\r\n    40 NOR 0, 1\r\n    50 NOR 0, 0\r\n    60 NOR 0, 1\r\n    70 NOR 0, 1\r\n    80 NOR 0, 1\r\n90 REM print it all out\r\n    100 OUT #10:0\r\n    110 OUT #20:0\r\n    120 OUT #30:0\r\n    130 OUT #40:0\r\n    140 OUT #50:0\r\n    150 OUT #60:0\r\n    160 OUT #70:0\r\n    170 OUT #80:0\r\n    175 OLN\r\n180 REM Change to little e\r\n    190 NOR #30:0, 0\r\n    200 NOR #50:0, 0\r\n    210 NOR #60:0, 0\r\n    230 NOR #80:0, 0\r\n240 REM Output with replaced values\r\n    250 OUT #10:0\r\n    260 OUT #20:0\r\n    270 OUT #190:0\r\n    280 OUT #40:0\r\n    290 OUT #200:0\r\n    300 OUT #210:0\r\n    310 OUT #70:0\r\n    320 OUT #230:0\r\n    325 OLN\r\n330 REM Change to little l\r\n    340 NOR #200:0, 0\r\n    350 NOR #230:0, 0\r\n    360 REM Output little l twice\r\n    370 OUT #10:0\r\n    380 OUT #20:0\r\n    390 OUT #190:0\r\n    400 OUT #40:0\r\n    410 OUT #340:0\r\n    420 OUT #210:0\r\n    430 OUT #70:0\r\n    440 OUT #350:0\r\n    445 OLN\r\n    450 OUT #10:0\r\n    460 OUT #20:0\r\n    470 OUT #190:0\r\n    480 OUT #40:0\r\n    490 OUT #340:0\r\n    500 OUT #210:0\r\n    510 OUT #70:0\r\n    520 OUT #350:0\r\n    525 OLN\r\n530 REM Change to little o\r\n    540 NOR #70:0, 0\r\n    550 NOR #350:0, 0\r\n560 REM Output little o\r\n    570 OUT #10:0\r\n    580 OUT #20:0\r\n    590 OUT #190:0\r\n    600 OUT #40:0\r\n    610 OUT #340:0\r\n    620 OUT #210:0\r\n    630 OUT #540:0\r\n    640 OUT #550:0\r\n    645 OLN\r\n650 REM Pause at end\r\n    660 INP in0"
+  },
+  {
+    "id": "908",
+    "title": "NoFlo",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "'Hello, World' -> IN Display(Output)"
   },
   {
     "id": "432",
@@ -3777,7 +4425,7 @@
   },
   {
     "id": "434",
-    "title": "nu",
+    "title": "Nu",
     "description": "",
     "url": "",
     "language_short": "vim",
@@ -3792,6 +4440,14 @@
     "code": "A0000159006CA9006C590057A9006F590064A90021000000000000000000000000000000000000\r\n59004809006559006F09002059007209006CFF0000"
   },
   {
+    "id": "909",
+    "title": "NWScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "// Place in the OnClientEnter event of the module's properties\r\n{\r\n    SendMessageToPC(GetEnteringObject(), \"Hello World\");\r\n}"
+  },
+  {
     "id": "795",
     "title": "NyaScript",
     "description": "NyaScript is a derivative of brainfuck with some special features, like a temp variable for example.",
@@ -3801,7 +4457,7 @@
   },
   {
     "id": "436",
-    "title": "nxc",
+    "title": "NXC",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3809,7 +4465,7 @@
   },
   {
     "id": "437",
-    "title": "oberon 2",
+    "title": "Oberon 2",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3817,7 +4473,7 @@
   },
   {
     "id": "438",
-    "title": "oberon",
+    "title": "Oberon",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3825,7 +4481,7 @@
   },
   {
     "id": "439",
-    "title": "obix",
+    "title": "Obix",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -3833,11 +4489,19 @@
   },
   {
     "id": "440",
-    "title": "obj",
+    "title": "Obj",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "stdout println:'Hello World!'."
+  },
+  {
+    "id": "910",
+    "title": "Object Pascal",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "program ObjectPascalExample;\r\n\r\ntype\r\n    THelloWorld = class\r\n      procedure Put;\r\n    end;\r\n\r\nprocedure THelloWorld.Put;\r\nbegin\r\n    Writeln('Hello World');\r\nend;\r\n\r\nvar\r\n    HelloWorld: THelloWorld;\r\n\r\nbegin\r\n    HelloWorld := THelloWorld.Create;\r\n    HelloWorld.Put;\r\n    HelloWorld.Free;\r\nend."
   },
   {
     "id": "441",
@@ -3873,7 +4537,7 @@
   },
   {
     "id": "445",
-    "title": "octave",
+    "title": "Octave",
     "description": "",
     "url": "",
     "language_short": "php",
@@ -3889,7 +4553,7 @@
   },
   {
     "id": "447",
-    "title": "ooc",
+    "title": "Ooc",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -3913,7 +4577,7 @@
   },
   {
     "id": "450",
-    "title": "opa",
+    "title": "Opa",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -3961,7 +4625,7 @@
   },
   {
     "id": "456",
-    "title": "OZ",
+    "title": "OX",
     "description": "",
     "url": "",
     "language_short": "json",
@@ -3993,7 +4657,7 @@
   },
   {
     "id": "460",
-    "title": "parenthetic",
+    "title": "Parenthetic",
     "description": "",
     "url": "",
     "language_short": "brainfuck",
@@ -4001,7 +4665,7 @@
   },
   {
     "id": "461",
-    "title": "parser",
+    "title": "Parser",
     "description": "",
     "url": "",
     "language_short": "parser3",
@@ -4009,7 +4673,7 @@
   },
   {
     "id": "462",
-    "title": "pascal",
+    "title": "Pascal",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4024,8 +4688,16 @@
     "code": "\\\/\\   \/\\          \/\\  \/\\ \r\n+++   ++          ++  ++\r\n+++   ++  \/++++\\  ++  ++  \/++++\\ \r\n++\\++\\++  +    +  ++  ++  +    +\r\n++   +++  +\/+++\/  ++  ++  +    +\r\n++   +++  ++      ++  ++  +    +\r\n\\\/   \\\/\\  \/\\+++   \/\\  \/\\  \/++.+\/  \r\n                            \\        \\ \r\n\/++++.+++++++++++++++++++++++++++  \/  \\ \r\n                            \/\\       -  -#\r\n                            ++       .  -.\r\n+      \/  \\++++\\  \/++++\\  ++  \/---\\-  -+\r\n+  \/\\  +  +    +  +    +  +.  -   .-  -}\r\n+  +.  +  +    +  +       +-  -   +-  \r\n.  +}  +  +    +  +       +-  -   +-  -.\r\n\\.+\/\\++\/  \\++++\/  +       +\\  \/-.+\/-  --\r\n            \\      \/    \\.{\/   \\    \/  \\\/"
   },
   {
+    "id": "911",
+    "title": "Pauscal",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Importar \"Pauscal.prp\"\r\nMensaje(\"Hello World\")\r\nFin"
+  },
+  {
     "id": "464",
-    "title": "pawn",
+    "title": "Pawn",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4033,7 +4705,7 @@
   },
   {
     "id": "465",
-    "title": "pb",
+    "title": "PB",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4049,7 +4721,7 @@
   },
   {
     "id": "466",
-    "title": "pbwin",
+    "title": "PBWin",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4057,11 +4729,19 @@
   },
   {
     "id": "467",
-    "title": "pebble",
+    "title": "Pebble",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "#include <pebble.h>\r\n \r\nstatic Window* main_window;\r\nstatic TextLayer* text_layer, *world_layer;\r\n \r\nstatic void main_window_load(Window* window) {\r\n    Layer *window_layer = window_get_root_layer(window);\r\n    window_set_background_color(main_window, GColorBlack);\r\n    GRect bounds = layer_get_bounds(window_layer);\r\n    text_layer = text_layer_create(\r\n        GRect(0, bounds.size.h \/ 2 - 42, bounds.size.w, 120));\r\n    text_layer_set_text(text_layer, \"Hello\");\r\n    text_layer_set_background_color(text_layer, GColorClear);\r\n    text_layer_set_text_color(text_layer, GColorWhite);\r\n    text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));\r\n    text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);\r\n \r\n    world_layer = text_layer_create(\r\n        GRect(0, bounds.size.h \/ 2, bounds.size.w, 120));\r\n    text_layer_set_background_color(world_layer, GColorClear);\r\n    text_layer_set_text(world_layer, \"World\");\r\n    text_layer_set_text_color(world_layer, GColorLightGray);\r\n    text_layer_set_font(world_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));\r\n    text_layer_set_text_alignment(world_layer, GTextAlignmentCenter);\r\n    \r\n    layer_add_child(window_layer, text_layer_get_layer(text_layer));\r\n    layer_add_child(window_layer, text_layer_get_layer(world_layer));\r\n}\r\nstatic void main_window_unload(Window* window) {\r\n    text_layer_destroy(text_layer);\r\n    text_layer_destroy(world_layer);\r\n}\r\n \r\nstatic void init() {\r\n    main_window = window_create();\r\n    window_set_window_handlers(main_window, (WindowHandlers) {\r\n        .load = main_window_load,\r\n        .unload = main_window_unload\r\n    });\r\n    window_stack_push(main_window, true);\r\n}\r\n \r\nstatic void deinit() {\r\n    window_destroy(main_window);\r\n}\r\n \r\nint main(void) {\r\n    init();\r\n    app_event_loop();\r\n    deinit();\r\n}"
+  },
+  {
+    "id": "912",
+    "title": "Perfume",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "println \"Hello World\";"
   },
   {
     "id": "468",
@@ -4089,7 +4769,7 @@
   },
   {
     "id": "471",
-    "title": "perseus",
+    "title": "Perseus",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4097,7 +4777,7 @@
   },
   {
     "id": "472",
-    "title": "pharo",
+    "title": "Pharo",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4112,12 +4792,20 @@
     "code": "main[\r\n    println(Hello world!);\r\n]"
   },
   {
+    "id": "913",
+    "title": "Phix",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "puts(1,\"Hello World\")"
+  },
+  {
     "id": "474",
     "title": "PHP",
     "description": "",
     "url": "",
     "language_short": "php",
-    "code": "&lt;?php\r\n \r\n    echo 'Hello World';"
+    "code": "<?php\r\n \r\n    echo 'Hello World';"
   },
   {
     "id": "475",
@@ -4129,7 +4817,7 @@
   },
   {
     "id": "476",
-    "title": "picat",
+    "title": "PiCat",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4152,8 +4840,16 @@
     "code": "Hello, World!PIGHello, World!"
   },
   {
+    "id": "914",
+    "title": "PikaLang",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "pi pi pi pi pi pi pi pi pi pi pika pipi pi pi pi pi pi pi pi pipi pi pi\r\npi pi pi pi pi pi pi pi pipi pi pi pi pipi pi pichu pichu pichu pichu ka\r\nchu pipi pi pi pikachu pipi pi pikachu pi pi pi pi pi pi pi pikachu\r\npikachu pi pi pi pikachu pipi pi pi pikachu pichu pichu pi pi pi pi pi\r\npi pi pi pi pi pi pi pi pi pi pikachu pipi pikachu pi pi pi pikachu ka\r\nka ka ka ka ka pikachu ka ka ka ka ka ka ka ka pikachu pipi pi pikachu\r\npipi pikachu"
+  },
+  {
     "id": "479",
-    "title": "pike",
+    "title": "Pike",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4200,6 +4896,14 @@
     "code": "1 Please porige hot or cold Hello, World!"
   },
   {
+    "id": "915",
+    "title": "PLI",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Hello2: proc options(main);\r\n    put list ('Hello World');\r\nend Hello2;"
+  },
+  {
     "id": "485",
     "title": "PLSQL",
     "description": "",
@@ -4233,15 +4937,23 @@
   },
   {
     "id": "487",
-    "title": "pluvo",
+    "title": "Pluvo",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "say \"Hello World\""
   },
   {
+    "id": "952",
+    "title": "Plain text",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Hello World"
+  },
+  {
     "id": "488",
-    "title": "polynomial",
+    "title": "Polynomial",
     "description": "Polynomial is an esoteric language created by User:Maedhros777. It is designed in such a way that each program is simply a polynomial function, where all of the language statements are done by the zeroes of the function. Therefore, Polynomial programs are often very difficult to understand, due to the time-consuming nature of finding the zeroes of a function with high degree.",
     "url": "https://esolangs.org/wiki/Polynomial",
     "language_short": "brainfuck",
@@ -4257,15 +4969,23 @@
   },
   {
     "id": "490",
-    "title": "portugol",
+    "title": "Portugol",
     "description": "",
     "url": "",
     "language_short": "javascript",
     "code": "algoritmo \"Hello World\"\r\n\/\/ Função: Hello World\r\n\/\/ Autor: d3z40\r\n\/\/ Data: 22\/08\/2018\r\n\/\/ Seção de Declarações\r\n \r\nvar\r\n    \r\ninicio\r\n\/\/ Seção de Comandos\r\nescreva (\"Hello World!\")\r\nfimalgoritmo"
   },
   {
+    "id": "916",
+    "title": "PostCSS",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "body::before {\r\n    content: \"Hello World\";\r\n}"
+  },
+  {
     "id": "491",
-    "title": "PostgreSQL",
+    "title": "Postgre SQL (PostgreSQL)",
     "description": "",
     "url": "",
     "language_short": "pgsql",
@@ -4273,7 +4993,7 @@
   },
   {
     "id": "492",
-    "title": "postscript page",
+    "title": "PostScript Page",
     "description": "",
     "url": "",
     "language_short": "actionscript",
@@ -4281,7 +5001,7 @@
   },
   {
     "id": "493",
-    "title": "postscript",
+    "title": "PostScript",
     "description": "",
     "url": "",
     "language_short": "actionscript",
@@ -4289,15 +5009,23 @@
   },
   {
     "id": "494",
-    "title": "posxml",
+    "title": "PosXML",
     "description": "",
     "url": "",
     "language_short": "xml",
     "code": "&lt;display line=\"0\" column=\"0\" message=\"Hello World\" \/&gt;"
   },
   {
+    "id": "917",
+    "title": "Potaka",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "দেখাও(\"Hello World\");"
+  },
+  {
     "id": "495",
-    "title": "potigol",
+    "title": "Potigol",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -4352,12 +5080,44 @@
     "code": "14 11 14 11 11 14 14 11 14 11 41 14 14 11 41 41 11 14 14 11 41 41 11 14 14 11 41 41 41 41 11 41 14 14 11 11\r\n14 11 11 11 14 14 14 11 41 41 41 14 14 11 41 41 41 41 14 14 14 11 14 11 14 14 11 41 41 11 14 14 11 14 11 11\r\n14 11 11 14 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22\r\n22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 22 27 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11\r\n11 17 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11 11 17 11 11 11 11 71 11 11\r\n11 17 11 11 11 11 F0"
   },
   {
+    "id": "918",
+    "title": "Profan",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print \"Hello World\""
+  },
+  {
     "id": "502",
     "title": "Prolog",
     "description": "",
     "url": "",
     "language_short": "prolog",
     "code": "helloWorld :-\r\n    write('Hello World').\r\n \r\n:- helloWorld."
+  },
+  {
+    "id": "919",
+    "title": "Promela",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "active proctype main(){\r\n  printf(\"Hello World\")\r\n}"
+  },
+  {
+    "id": "920",
+    "title": "ProvideX",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "begin\r\n  print \"Hello World\"\r\nend"
+  },
+  {
+    "id": "921",
+    "title": "Pug",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "doctype html\r\nhtml\r\n    head\r\n        title Hello World\r\n    body\r\n        h1 Hello World"
   },
   {
     "id": "503",
@@ -4369,7 +5129,7 @@
   },
   {
     "id": "504",
-    "title": "pure data",
+    "title": "Pure Data",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4377,7 +5137,7 @@
   },
   {
     "id": "505",
-    "title": "PureBASIC",
+    "title": "PureBasic",
     "description": "",
     "url": "",
     "language_short": "purebasic",
@@ -4385,7 +5145,7 @@
   },
   {
     "id": "506",
-    "title": "purescript",
+    "title": "PureScript",
     "description": "",
     "url": "",
     "language_short": "purebasic",
@@ -4440,6 +5200,14 @@
     "code": "\"Hello, World!"
   },
   {
+    "id": "922",
+    "title": "Pyret",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print('Hello World')"
+  },
+  {
     "id": "513",
     "title": "Python",
     "description": "",
@@ -4473,7 +5241,7 @@
   },
   {
     "id": "517",
-    "title": "Qbasic",
+    "title": "QBasic",
     "description": "",
     "url": "",
     "language_short": "basic",
@@ -4488,8 +5256,16 @@
     "code": "---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- h\r\n---------- ---------- ---------- ---------- ----------\r\n--*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- e\r\n---------- ---------- ---------- ---------- ----------\r\n-----*\r\n \r\n-\\=\/-\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- l\r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- l\r\n---------- ---------- ---------- ---------- ----**\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- o\r\n---------- ---------- ---------- ---------- -----*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- space\r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ----*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- w\r\n---------- ---------- ---------- -------*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- o\r\n---------- ---------- ---------- ---------- -----*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- r\r\n---------- ---------- ---------- ---------- --*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- l\r\n---------- ---------- ---------- ---------- --------*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- d\r\n---------- ---------- ---------- ---------- ----------\r\n------*\r\n \r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ---------- newline\r\n---------- ---------- ---------- ---------- ----------\r\n---------- ---------- ---------- ---------- ------*"
   },
   {
+    "id": "923",
+    "title": "QCL",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print \"Hello World\";"
+  },
+  {
     "id": "519",
-    "title": "qore",
+    "title": "Qore",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4497,7 +5273,7 @@
   },
   {
     "id": "520",
-    "title": "qu",
+    "title": "QU",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4528,12 +5304,28 @@
     "code": "~group hello from %2 to %14 also affect hello into \"Hello, world!\" also each hello into 0 task give 0 to 1 also at 1 join 1 and %1\r\n~publish also split hello"
   },
   {
+    "id": "924",
+    "title": "Quorum",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "output \"Hello World\""
+  },
+  {
     "id": "524",
     "title": "Quipu",
     "description": "Quipu is an esoteric programming language inspired by Quipus (also known as \"talking knots\") – recording devices historically used by Incas. Quipu was originally designed by Vladimir Kostyukov in Jan 2013.",
     "url": "https://esolangs.org/wiki/Quipu",
     "language_short": "brainfuck",
     "code": "'H\r\n'e\r\n'l\r\n'l\r\n'o\r\n' \r\n'W\r\n'o\r\n'r\r\n'l\r\n'd\r\n'!\r\n\\n\r\n\/\\"
+  },
+  {
+    "id": "925",
+    "title": "QWERTY",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "begin\r\n  ?hello = \"Hello World\"\r\n  if 1 == 1 then\r\n    output ?hello\r\n  fi\r\nend"
   },
   {
     "id": "525",
@@ -4545,7 +5337,7 @@
   },
   {
     "id": "526",
-    "title": "racket",
+    "title": "Racket",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4576,12 +5368,28 @@
     "code": "A\"!dlroW ,olleH\">:?@,Hj"
   },
   {
+    "id": "926",
+    "title": "Raku",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "say \"Hello World\";"
+  },
+  {
     "id": "529",
-    "title": "ratfor",
+    "title": "RatFor",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "print *, 'Hello, world'\r\nend"
+  },
+  {
+    "id": "953",
+    "title": "Raffalang",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "TODO MUNDO FALA DE MIM \"Hello World\" BRO;"
   },
   {
     "id": "530",
@@ -4592,16 +5400,32 @@
     "code": "\/\/simple react component that renders \"Hello World\" as an H1 tag into the body \r\n \r\nReact.render(&lt;h1&gt;Hello World&lt;\/h1&gt;, document.body);"
   },
   {
+    "id": "927",
+    "title": "React360",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "import React from \"react\";\r\nimport { AppRegistry, Text, View, StyleSheet } from \"react-360\";\r\n\r\nexport default class hello_world extends React.Component {\r\n    render() {\r\n        return (\r\n            <View style={styles.panel}>\r\n                <View style={styles.greetingBox}>\r\n                    <Text style={styles.greeting}>Hello World</Text>\r\n                </View>\r\n            </View>\r\n        );\r\n    }\r\n}\r\n\r\nconst styles = StyleSheet.create({\r\n    panel: {\r\n        // Fill the entire surface\r\n        width: 1000,\r\n        height: 600,\r\n        backgroundColor: \"rgba(255, 255, 255, 0.4)\",\r\n        justifyContent: \"center\",\r\n        alignItems: \"center\",\r\n    },\r\n    greetingBox: {\r\n        padding: 20,\r\n        backgroundColor: \"#000000\",\r\n        borderColor: \"#639dda\",\r\n        borderWidth: 2,\r\n    },\r\n    greeting: {\r\n        fontSize: 30,\r\n    },\r\n});\r\n\r\nAppRegistry.registerComponent(\"hello_world\", () => hello_world);"
+  },
+  {
     "id": "531",
-    "title": "readlink",
+    "title": "Readlink",
     "description": "",
     "url": "",
     "language_short": "plaintext",
     "code": "Hello world"
   },
   {
+    "id": "928",
+    "title": "RealBasic",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Function Run(args() as String) As Integer\r\n  Print \"Hello World\"\r\n  Quit\r\nEnd Function"
+  },
+  {
     "id": "532",
-    "title": "reason",
+    "title": "Reason",
     "description": "",
     "url": "",
     "language_short": "php",
@@ -4609,7 +5433,7 @@
   },
   {
     "id": "533",
-    "title": "rebol",
+    "title": "Rebol",
     "description": "",
     "url": "",
     "language_short": "php",
@@ -4624,12 +5448,44 @@
     "code": "    Main function\r\n$###########v######################################\r\n>..9n_3n{5Av# 'H' = 9*8       # 'w' = (2*8-1)*8-1 #\r\n#vA3_[_A7_A<# 'e' = 'H'+3*8+5 # 'o' = 'W'-8       #\r\n#>_[5n{4A_[v# 'l' = 'e'+7     # 'r' = 'o'+3       #\r\n#vS1{n2[_n4<# 'l'             # 'l' = 'r'-6       #\r\n#>n{1S_8S_3v# 'o' = 'l'+3     # 'd' = 'l'-8       #\r\n#v[_S8_S6_A<# ',' = 5*8+ 4    # '!' = 4*8+1       #\r\n#>4n{1A_[..!# ' ' = 4*8       #                   <\r\n$###########^######################################\r\n \r\n    Multiply by 8 (Bidirectional)\r\nn####v#####\r\n>{8}m#m}8{<\r\nn####^#####\r\n \r\n    Push on left stack and print (Bidirectional)\r\n_##v###\r\n>{!#!{<\r\n_##^###\r\n \r\n    Add (Bidirectional)\r\nA##v###\r\n>}a#a}<\r\nA##^###\r\n \r\n    Subtract (Bidirectional)\r\nS##v###\r\n>}s#s}<\r\nS##^###"
   },
   {
+    "id": "929",
+    "title": "Red",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Red [Needs: 'View]\r\nview [text \"Hello World\"]"
+  },
+  {
+    "id": "930",
+    "title": "Redis",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "set Hello World"
+  },
+  {
+    "id": "931",
+    "title": "Refal",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "$ENTRY Go { = <Hello>;}\r\nHello {\r\n    = <Prout 'Hello World'>;\r\n}"
+  },
+  {
     "id": "535",
     "title": "reStructuredText",
     "description": "",
     "url": "",
     "language_short": "plaintext",
     "code": "============\r\nHello World!\r\n============"
+  },
+  {
+    "id": "932",
+    "title": "Retro",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "\"Hello World\" puts"
   },
   {
     "id": "536",
@@ -4641,7 +5497,7 @@
   },
   {
     "id": "537",
-    "title": "rexx",
+    "title": "Rexx",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4656,6 +5512,14 @@
     "code": "x\/%\"Hello, world!\\n\""
   },
   {
+    "id": "933",
+    "title": "Ricktea",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Print(\"Hello World\");"
+  },
+  {
     "id": "539",
     "title": "richtea",
     "description": "",
@@ -4664,8 +5528,16 @@
     "code": "Print(\"Hello World\");"
   },
   {
+    "id": "934",
+    "title": "Ride",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "throw(\"Hello World\")"
+  },
+  {
     "id": "540",
-    "title": "ring",
+    "title": "Ring",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4680,8 +5552,16 @@
     "code": "'H.'e.'l..'o.',.'!-.'w.'o.'r.'l.'d.'!._++++++++++.q"
   },
   {
+    "id": "935",
+    "title": "RiveScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "+ *\r\n- Hello World"
+  },
+  {
     "id": "542",
-    "title": "rockstar",
+    "title": "Rockstar",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4705,7 +5585,7 @@
   },
   {
     "id": "545",
-    "title": "roy",
+    "title": "Roy",
     "description": "",
     "url": "",
     "language_short": "javascript",
@@ -4713,11 +5593,19 @@
   },
   {
     "id": "546",
-    "title": "RPG-IV",
+    "title": "RPG IV (RPG-IV)",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "\/free\r\n    dsply 'Hello World!';\r\n    return;\r\n\/end-free"
+  },
+  {
+    "id": "936",
+    "title": "RPG",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "**free\r\ndsply 'Hello World';\r\nreturn;"
   },
   {
     "id": "547",
@@ -4726,6 +5614,14 @@
     "url": "https://esolangs.org/wiki/RTFM",
     "language_short": "plaintext",
     "code": "070 08C"
+  },
+  {
+    "id": "937",
+    "title": "RTL2",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "TITLE Hello World;\r\n\r\nLET NL=10;\r\n\r\nEXT PROC(REF ARRAY BYTE) TWRT;\r\n\r\nENT PROC INT RRJOB();\r\n\r\n    TWRT(\"Hello World#NL#\");\r\n    RETURN(1);\r\n\r\nENDPROC;"
   },
   {
     "id": "548",
@@ -4745,7 +5641,7 @@
   },
   {
     "id": "550",
-    "title": "ruota",
+    "title": "Ruota",
     "description": "",
     "url": "",
     "language_short": "ruby",
@@ -4761,7 +5657,7 @@
   },
   {
     "id": "552",
-    "title": "S-algol",
+    "title": "S Algol (S-Algol)",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4793,7 +5689,7 @@
   },
   {
     "id": "555",
-    "title": "sal",
+    "title": "Sal",
     "description": "SADOL (Sadistic And Damn Odd Language) is an esoteric programming language made by Martin 'nooga' Gasperowicz (User:nooga) in 2005.",
     "url": "https://esolangs.org/wiki/SADOL",
     "language_short": "c-like",
@@ -4833,7 +5729,7 @@
   },
   {
     "id": "560",
-    "title": "sass",
+    "title": "Sass",
     "description": "",
     "url": "",
     "language_short": "scss",
@@ -4841,7 +5737,7 @@
   },
   {
     "id": "561",
-    "title": "sather",
+    "title": "Sather",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4865,7 +5761,7 @@
   },
   {
     "id": "564",
-    "title": "schwift",
+    "title": "SCHWift",
     "description": "",
     "url": "",
     "language_short": "swift",
@@ -4897,7 +5793,7 @@
   },
   {
     "id": "568",
-    "title": "sed",
+    "title": "Sed",
     "description": "",
     "url": "",
     "language_short": "bash",
@@ -4912,8 +5808,24 @@
     "code": "!chr.@chr:72.$chr.@chr:101.$chr.@chr:108.$chr.@chr:111.$chr.@chr:32.$chr.@chr:119.$chr.@chr:114.$chr.@chr:100.$chr.@chr:33.$chr._"
   },
   {
+    "id": "938",
+    "title": "Seed",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "20 77698190481213510983405846204529755428212736563278528088055816123655499433757607718113585773285686740433752335768949721107461077652705328567448384490378909463204984642622585570301449419608763821501335954761638946551568252142160714228369356054944595121742743720935369219143086698092657062614382519069928478344861416117079283276656675368390764675728501797178208908097054412833019383889935034413095990596139618411133857423995278221670378808372393943846302426674985203826030563290800228881174929701934609803807325868775242909948272754141956168876233403760199007405891058308908050926690654387065882097924294620229833663324754801060691573338185912369627367088050915813931912943122729210762147280440619571047157836177316082899933374851699282897590433145623725705072835054748369992455883804733164985993447304652512229557984322495162682327137071900307763332392727562988633724175094951314863886096190608268953115914497741446723188169519334729165647294618083444761551231012944903572063441813639201051793052623561949314826491616145873848990439549320951496534538450810083853945092224500179417650727351532486362656533602860500906935826231374501097567347929533018944533000919137863885267937690665655625569011036163950983389810112758403211861147501289650757555111271813737813381172074709337306647481507917983021055643749698971365256395367215437223669891280521155247529741719633106765965869860677198632388808752014013939448563313855130972968670015202479226496876067874099463222366536167126653600056389712632892652810365218798697007191747287017174284819764736012653205048166550645507761123345279502597627995423826537299795220169894222867163817508592362092945387317777666016102146798532337718546431888424995701016828542559577710937459975677354300708252448630110787487122698124054544454425586794841157136743408274159313823745226919626156949004386804874236325506583268311452185182143521552429596087556634158778951670223004413763782647825362665491934988477225698133609360969370513836064317152213804169538880632390908441210809806024082600637872813704781431414342781727628446451808751293046212690472851527294326981763969926510021099532791692362104324026231160941956411410511639925420026544463125250979130259151326444714248961523031316570018708849878676230362246913063109584502143502908906243190007062857721367402065760878808920961082444422470813023453274563914735545463757909757689866565064353853099958949763412521666109346825939993377745919874506439752272141853783745051726268592621080457687000431023453539135927140364910898906534604541224314820195082362228787083990333757268808864746297304451768935814651205074884015268982492445996542040655715230139673520569765431617018824427859214902954216246257690105154030408059145566852643855789351907818461502260430297487602982850090037405732117988720732457199005151517240766953718440639691354185802798689950155164379549518496065038927905828230066053603755553745353618846804435103593395141938947781375633374976924393453162350331593801284839409264892975739791751842620029351535320807733966984270102067017902086335370470815153908942490581427972998999752666174807935897314584088695849094389002316139005810918748032068307783088481430339303809949409414892479892121893571274086727250767713365523021125610242269894861374297866741571608166536165735922984579027986499758294460652554897534526492251140681138244025665400003029337114012766773010641359450599171473565675885966777145500248501370644599274741842644014722083732709145488157998306684831419559774212264003518406013032514468522158218837161285401631773099549510145156007147884565387852623860047153609138110997222297132678660783411624002400927435687937355446057878202312894093195453248164648271580944753933355967626542678764854079218206499479071658357103085513937246462858404881973219571392564909528645166637501279457604649906515968389831094896970731573714836150178126997674563415266672131632765794599548356902607125568792417432226125654028873443580337866760487651905138461301986816386866811155111486155341154153322710638921116465132825486519667178335471102213200521032618562169530188826434060179505699797068436325168526618824444305122475837890944742004331675952611756641739756206337285946"
+  },
+  {
+    "id": "939",
+    "title": "Seed7",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "$ include \"seed7_05.s7i\";\r\n\r\nconst proc: main is func\r\n  begin\r\n    writeln(\"Hello World\");\r\n  end func;"
+  },
+  {
     "id": "570",
-    "title": "self",
+    "title": "Self",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4921,7 +5833,7 @@
   },
   {
     "id": "571",
-    "title": "semicolon",
+    "title": "Semicolon",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4944,8 +5856,16 @@
     "code": "!print--:#out:--:#c:#n:\/wrote--:'@output--:#out: #c:#n:\r\n!print--:#out:eol:     \/wrote- :'@output--:#out:&0a:\r\n!wrote--:'@iopair--:#out:#c:#n:\/print--:#out:#n:\r\n!wrote- :'@iopair--:#out:#c:   \/#out:\r\n \r\n!'@run-:#: \/ print--:#:\r\n--:'H:--:'e:--:'l:--:'l:--:'o:--:',:--:' :\r\n--:'w:--:'o:--:'r:--:'l:--:'d:--:'!:eol:"
   },
   {
+    "id": "940",
+    "title": "Setanta",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "scríobh(\"Hello World\")"
+  },
+  {
     "id": "574",
-    "title": "shakespeare",
+    "title": "Shakespeare",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -4976,6 +5896,14 @@
     "code": "20 PRINT \"WORLD!\"\r\n10 PRINT \"HELLO, \";\r\n20 PRINT \"SAILOR\""
   },
   {
+    "id": "941",
+    "title": "Sidekiq",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "def self.❨╯°□°❩╯︵┻━┻\r\n    puts \"Hello World\"\r\nend"
+  },
+  {
     "id": "578",
     "title": "SIL",
     "description": "",
@@ -4985,7 +5913,7 @@
   },
   {
     "id": "579",
-    "title": "simpl+",
+    "title": "Simpl+",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -4993,15 +5921,31 @@
   },
   {
     "id": "580",
-    "title": "simula",
+    "title": "Simula",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "Begin\r\n    OutText (\"Hello World!\");\r\n    Outimage;\r\nEnd;"
   },
   {
+    "id": "942",
+    "title": "Skip",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "fun main(): void {\r\n  print_string(\"Hello World\")\r\n}"
+  },
+  {
+    "id": "943",
+    "title": "Skript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "on load:\r\n    broadcast \"Hello World\""
+  },
+  {
     "id": "581",
-    "title": "slashes",
+    "title": "Slashes",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -5033,7 +5977,7 @@
   },
   {
     "id": "585",
-    "title": "Smalltalk-gnu",
+    "title": "SmallTalk GNU (Smalltalk-gnu)",
     "description": "",
     "url": "",
     "language_short": "smalltalk",
@@ -5057,7 +6001,7 @@
   },
   {
     "id": "588",
-    "title": "smil",
+    "title": "Smil",
     "description": "",
     "url": "",
     "language_short": "xml",
@@ -5137,7 +6081,7 @@
   },
   {
     "id": "597",
-    "title": "soupscript",
+    "title": "SoupScript",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -5161,7 +6105,7 @@
   },
   {
     "id": "600",
-    "title": "sparql",
+    "title": "SparQL",
     "description": "",
     "url": "",
     "language_short": "c-ile",
@@ -5209,7 +6153,7 @@
   },
   {
     "id": "606",
-    "title": "spss",
+    "title": "SPSS",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -5225,7 +6169,7 @@
   },
   {
     "id": "608",
-    "title": "squirrel",
+    "title": "Squirrel",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -5265,11 +6209,19 @@
   },
   {
     "id": "612",
-    "title": "stanza",
+    "title": "Stanza",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "println(\"Hello World\")"
+  },
+  {
+    "id": "944",
+    "title": "Starlark",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print(\"Hello World\")"
   },
   {
     "id": "613",
@@ -5288,12 +6240,28 @@
     "code": "REM HELLO WORLD IN STRELNOKOFF\r\nREM CHRIS PRESSEY MARCH 24 2001\r\nX = (X / X) * X + (X = 0) * (T =  0) * (PRINT CHAR 'H' - 'H' +  1)\r\nX = (X / X) * X + (X = 0) * (T =  1) * (PRINT CHAR 'e' - 'e' +  2)\r\nX = (X / X) * X + (X = 0) * (T =  2) * (PRINT CHAR 'l' - 'l' +  3)\r\nX = (X / X) * X + (X = 0) * (T =  3) * (PRINT CHAR 'l' - 'l' +  4)\r\nX = (X / X) * X + (X = 0) * (T =  4) * (PRINT CHAR 'o' - 'o' +  5)\r\nX = (X / X) * X + (X = 0) * (T =  5) * (PRINT CHAR ',' - ',' +  6)\r\nX = (X / X) * X + (X = 0) * (T =  6) * (PRINT CHAR ' ' - ' ' +  7)\r\nX = (X / X) * X + (X = 0) * (T =  7) * (PRINT CHAR 'w' - 'w' +  8)\r\nX = (X / X) * X + (X = 0) * (T =  8) * (PRINT CHAR 'o' - 'o' +  9)\r\nX = (X / X) * X + (X = 0) * (T =  9) * (PRINT CHAR 'r' - 'r' + 10)\r\nX = (X / X) * X + (X = 0) * (T = 10) * (PRINT CHAR 'l' - 'l' + 11)\r\nX = (X / X) * X + (X = 0) * (T = 11) * (PRINT CHAR 'd' - 'd' + 12)\r\nX = (X / X) * X + (X = 0) * (T = 12) * (PRINT CHAR '!' - '!' + 13)\r\nX = (T = X) * 0 + (X > T) * X REM RESET FLAG\r\nT = (X / X) * X + (X = 0) * T REM INCREMENT TICK"
   },
   {
+    "id": "945",
+    "title": "Streem",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "[\"Hello World\"] | stdout"
+  },
+  {
     "id": "803",
     "title": "Stuck",
     "description": "Stuck is a stack-based programming language written in Python by Shebang of the Code Golf SE site. It was inspired by CJam/GolfScript.",
     "url": "https://esolangs.org/wiki/Stuck",
     "language_short": "",
     "code": "\"Hello, world!\""
+  },
+  {
+    "id": "946",
+    "title": "Stylus",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "body::before\r\n    content: \"Hello World\""
   },
   {
     "id": "804",
@@ -5329,11 +6297,19 @@
   },
   {
     "id": "808",
-    "title": "Subleq",
+    "title": "SubleQ",
     "description": "Subleq refers to a kind of OISC where the one instruction is \"SUBtract and branch if Less-than or EQual to zero\", conventionally abbreviated to subleq.",
     "url": "https://esolangs.org/wiki/Subleq",
     "language_short": "",
     "code": "############################################\r\n# FileName: helloworld.sq\r\n# Author: Lawrence Woodman\r\n# Date: 26th March 2009\r\n#===========================================\r\n# Outputs 'hello, world'\r\n############################################\r\nloop: hello (-1) # Outputs character pointed to by hello\r\n minusOne loop # Increments character output pointer to next character\r\n minusOne checkEnd+1 # Increments end of string pointer to next character\r\ncheckEnd: Z hello (-1) # Halts program if character at pointer is zero\r\n Z Z loop # Jumps to loop\r\n \r\n# Data Storage \r\n. minusOne: -1 # Used to increment pointer\r\n. hello: \"hello, world\\n\" Z: 0 # Zero terminated string to print"
+  },
+  {
+    "id": "947",
+    "title": "SuperCollider",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "\"Hello World\".postln;"
   },
   {
     "id": "809",
@@ -5368,12 +6344,36 @@
     "code": "c0++++++++fc0[c1++++fc1[c1‑c2++c3+++c4+++c5+]c0‑c2+c3+c4‑c6+]oc2c3---oc3c3+++++++oc3oc3c3+++oc3oc5c4‑oc4oc3c3+++oc3c3------oc3fc6[c3-]oc3c5+oc5c6++oc6"
   },
   {
+    "id": "948",
+    "title": "Svelte",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "<script>\r\n  let message = 'Hello World';\r\n</script>\r\n\r\n<p>{ message }</p>"
+  },
+  {
     "id": "813",
     "title": "SVM",
     "description": "SVM is an esoteric programming language by David Catt (user:David.werecat) that works as a virtual machine with expandable memory.",
     "url": "https://esolangs.org/wiki/SVM",
     "language_short": "",
     "code": "## The hello world program in SVM code\r\nAM =0000000C\r\nCM $Hello World!,=0000000C,*00000000\r\nDD *00000000,=0000000C\r\nIC *00000000\r\nEP"
+  },
+  {
+    "id": "949",
+    "title": "SVG",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<svg width=\"240\" height=\"100\" viewBox=\"0 0 240 100\" zoomAndPan=\"disable\"\r\n      xmlns=\"http://www.w3.org/2000/svg\"  xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n  <title>Hello World</title>\r\n    <g>\r\n      <text x=\"10\" y=\"50\">Hello World</text>\r\n      <animate attributeName='opacity' values='0;1' dur='4s' fill='freeze' begin=\"0s\"/>\r\n    </g>\r\n</svg>"
+  },
+  {
+    "id": "950",
+    "title": "Swift",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print(\"Hello World\")"
   },
   {
     "id": "814",
@@ -5390,6 +6390,14 @@
     "url": "https://esolangs.org/wiki/SYCPOL",
     "language_short": "plaintext",
     "code": "COMMENT           CARD\r\nSTANDARD SYSTEM CARD I\r\n \r\nTHESE  CARDS  PROVIDED\r\nIN THIS  FILE  ARE THE\r\nIMPLEMENTATION  OF THE\r\nFAMOUS  \"HELLO  WORLD\"\r\nPROGRAM   IN   SYCPOL.\r\n \r\nTHE IMPLEMENTATION  OF\r\nTHE  \"PRINT TO STREAM\"\r\nPROCEDURE     FROM THE\r\nSTANDARD LIBRARY    IS\r\nINCLUDED FOR THOSE WHO\r\nDON'T HAVE IT ALREADY.\r\n \r\nTHESE CARDS        ARE\r\nRELEASED  IN SO CALLED\r\n\"PUBLIC DOMAIN\".\r\n \r\n \r\n \r\nCOMMENT           CARD\r\nSTANDARD SYSTEM CARD I\r\n \r\nA SHORT NOTE ABOUT THE\r\nFORMAT OF THE PROGRAM.\r\n \r\nALL  SPACES   INCLUDED\r\nARE MANDATORY.\r\n \r\nTHIS  PROGRAM  DOESN'T\r\nCONTAIN    THE   WHOLE\r\nSTANDARD LIBRARY, ONLY\r\nTHE  \"PRINT TO STREAM\"\r\nPROCEDURE.\r\n \r\nTHIS PROGRAM USES ONLY\r\nDATATYPES \"INTEGER 8\",\r\n\"STRING 8\" AND \"STRING\r\n16\".\r\n \r\n \r\n \r\nPROGRAM           CARD\r\nSTANDARD SYSTEM CARD I\r\nDOCUMENTATION DIVISION\r\n \r\nIDENTIFIER   STRING 16\r\n\"HELLO WORLD\"\r\n \r\nAUTHOR NAME  STRING 16\r\n\"GERMANYBOY\"\r\n \r\nIMPORTS       DIVISION\r\n \r\n!PS EXTERNAL PROCEDURE\r\n \r\nMODULE NAME   STRING 8\r\n\"STDIO\"\r\n \r\nIDENTIFIER   STRING 16\r\n\"PRINT TO STREAM\"\r\n \r\nINPUT OUTPUT  DIVISION\r\n \r\nPROGRAM           CARD\r\nSTANDARD SYSTEM CARD I\r\n \r\nOPEN STANDARD OUTPUT\r\nCLOSE STANDARD INPUT\r\n \r\n.STDOUT  OUTPUT STREAM\r\nOUTS STANDARD OUTPUT\r\n \r\nSTORAGE       DIVISION\r\n \r\n.TEXT        STRING 16\r\n\"HELLO WORLD!\"\r\n \r\nPROGRAM CODE  DIVISION\r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\nPROGRAM           CARD\r\nSTANDARD SYSTEM CARD I\r\n \r\nMAIN         PROCEDURE\r\n(1) PROCEED TO !PS\r\n        WITH ARGUMENTS\r\n        .TEXT\r\n        .OUTPUT\r\n(2) RETURN\r\n        WITH SUCCESS\r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\n \r\nPROGRAM           CARD\r\nSTANDARD SYSTEM CARD I\r\nDOCUMENTATION DIVISION\r\n \r\nIDENTIFIER    STRING 8\r\n\"STDIO\"\r\n \r\nAUTHOR NAME  STRING 16\r\n\"GERMANYBOY\"\r\n \r\nSTORAGE       DIVISION\r\n \r\n.ZERO        INTEGER 8\r\n0\r\n \r\nPROGRAM CODE  DIVISION\r\n \r\n \r\n \r\n \r\n \r\n \r\nPROGRAM           CARD\r\nSTANDARD SYSTEM CARD I\r\n \r\n!PRINTTS     PROCEDURE\r\n \r\nIDENTIFIER   STRING 16\r\n\"PRINT TO STREAM\"\r\n \r\nPARAMETER      SECTION\r\n \r\n$TEXT        STRING 32\r\n$STREAM  OUTPUT STREAM\r\n \r\nVARIABLE       SECTION\r\n \r\n$I           INTEGER 8\r\n0\r\n \r\n$L           INTEGER 8\r\nUNDEFINED\r\n \r\n \r\nPROGRAM           CARD\r\nSTANDARD SYSTEM CARD I\r\n \r\nPROCEDURE CODE SECTION\r\n(1) CHANGE $L\r\n        TO THE LENGTH\r\n        OF $TEXT\r\n(2) IF $I=$L       (6)\r\n(3) SEND THE CHARACTER\r\n        AT $I\r\n        IN $TEXT\r\n        TO $STREAM\r\n(4) INCREMENT $I\r\n(5) JUMP           (2)\r\n(6) RETURN\r\n        WITH SUCCESS"
+  },
+  {
+    "id": "951",
+    "title": "SystemTap",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "probe oneshot { println(\"Hello World\") }"
   },
   {
     "id": "615",
@@ -5425,7 +6433,7 @@
   },
   {
     "id": "619",
-    "title": "tcl",
+    "title": "Tcl",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -5433,7 +6441,7 @@
   },
   {
     "id": "620",
-    "title": "tcsh",
+    "title": "TCSH",
     "description": "",
     "url": "",
     "language_short": "bash",
@@ -5441,11 +6449,19 @@
   },
   {
     "id": "621",
-    "title": "telephone",
+    "title": "Telephone",
     "description": "",
     "url": "",
     "language_short": "yaml",
     "code": "#How to Spell HELLO WORLD on a standard telephone keypad\r\n43556 96753"
+  },
+  {
+    "id": "954",
+    "title": "Terra",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "print(\"Hello World\")"
   },
   {
     "id": "622",
@@ -5481,7 +6497,7 @@
   },
   {
     "id": "626",
-    "title": "thp",
+    "title": "THP",
     "description": "",
     "url": "",
     "language_short": "pgsql",
@@ -5489,7 +6505,7 @@
   },
   {
     "id": "627",
-    "title": "Thue",
+    "title": "THue",
     "description": "Thue is an esoteric programming language invented by John Colagioia in 2000. It is a matrioshka language based on nondeterministic string rewriting which the author describes as a constraint-programming version of a Turing tarpit.",
     "url": "https://esolangs.org/wiki/Thue",
     "language_short": "plaintext",
@@ -5528,8 +6544,24 @@
     "code": "1 \"Hello, world!\\n\"\r\n2 ."
   },
   {
+    "id": "955",
+    "title": "TI Hexadecimal",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "AsmPrgm\r\nEF4045\r\n111A1A\r\nED53D786\r\n21A89D\r\nEF6145\r\nC9\r\n48656C6C6F20776F726C64202100"
+  },
+  {
+    "id": "956",
+    "title": "TIBasic",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "PROGRAM:HELLOW\r\n:ClrHome\r\n:Disp \"Hello World\""
+  },
+  {
     "id": "632",
-    "title": "tk",
+    "title": "TK",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -5561,7 +6593,7 @@
   },
   {
     "id": "636",
-    "title": "tri",
+    "title": "Tri",
     "description": "Tri is an esoteric programming language by User:Madk. The language is named for the number of symbols in all its keywords.",
     "url": "https://esolangs.org/wiki/Tri",
     "language_short": "plaintext",
@@ -5585,7 +6617,7 @@
   },
   {
     "id": "639",
-    "title": "trollscript",
+    "title": "TrollScript",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -5601,7 +6633,7 @@
   },
   {
     "id": "641",
-    "title": "tsql",
+    "title": "TSQL",
     "description": "",
     "url": "",
     "language_short": "sql",
@@ -5665,7 +6697,7 @@
   },
   {
     "id": "648",
-    "title": "umajin",
+    "title": "Umajin",
     "description": "",
     "url": "",
     "language_short": "pyrhon",
@@ -5689,15 +6721,31 @@
   },
   {
     "id": "651",
-    "title": "unicomal",
+    "title": "Unicomal",
     "description": "",
     "url": "",
     "language_short": "plaintext",
     "code": "0100 PRINT \"Hello World\""
   },
   {
+    "id": "957",
+    "title": "Unicorn",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "procedure main()\r\n    write(\"Hello World\")\r\nend"
+  },
+  {
+    "id": "958",
+    "title": "Uniface",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "message \"Hello World\""
+  },
+  {
     "id": "652",
-    "title": "unlambda",
+    "title": "Unlambda",
     "description": "Unlambda, designed by David Madore in 1999, is a minimal functional esoteric programming language based on combinatory logic. Notably, it was the first functional Turing tarpit.",
     "url": "https://esolangs.org/wiki/Unlambda",
     "language_short": "plaintext",
@@ -5710,6 +6758,14 @@
     "url": "https://esolangs.org/wiki/URSL",
     "language_short": "plaintext",
     "code": "v072-w0v0101-w0v0108-w0w0v0111-w0v044-w0v032-w0v0119-w0v0111-w0v0114-w0v0108-w0v0100-w0v033-w0"
+  },
+  {
+    "id": "959",
+    "title": "Unreal Script",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "class HelloWorld extends Mutator;\r\n\r\nfunction PostBeginPlay()\r\n{\r\n  Super.PostBeginPlay();\r\n  Log(\"Hello World\");\r\n}"
   },
   {
     "id": "654",
@@ -5761,7 +6817,7 @@
   },
   {
     "id": "660",
-    "title": "velato",
+    "title": "Velato",
     "description": "Velato is an esoteric programming language by User:Rottytooth, which uses MIDI files as source code. Programs in Velato are defined by the pitch and order of notes. Velato is intended to allow for flexibility in composition, so functional programs will not necessarily sound like random notes. There is a tendency for Velato programs to have jazz-like harmonies.",
     "url": "https://esolangs.org/wiki/Velato",
     "language_short": "plaintext",
@@ -5777,7 +6833,7 @@
   },
   {
     "id": "662",
-    "title": "verbosefuck",
+    "title": "VerboseFuck",
     "description": "VerboseFuck is an esoteric programming language created by David Catt (user:David.werecat) that makes Brainfuck verbose. It's most likely the result of the author being too lazy to create a brand new language.",
     "url": "https://esolangs.org/wiki/VerboseFuck",
     "language_short": "plaintext",
@@ -5793,7 +6849,7 @@
   },
   {
     "id": "664",
-    "title": "verve",
+    "title": "Verve",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -5809,7 +6865,7 @@
   },
   {
     "id": "666",
-    "title": "vi",
+    "title": "Vi",
     "description": "",
     "url": "",
     "language_short": "vim",
@@ -5824,12 +6880,28 @@
     "code": "echo \"Hello World\""
   },
   {
+    "id": "960",
+    "title": "Virgil",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "def main() {\r\n    System.puts(\"Hello World\\n\");\r\n}"
+  },
+  {
     "id": "668",
     "title": "Visual Basic",
     "description": "",
     "url": "",
     "language_short": "vbnet",
     "code": "Module HelloWorld\r\n    Sub Main()\r\n        MsgBox(\"Hello world!\")\r\n    End Sub\r\nEnd Module"
+  },
+  {
+    "id": "961",
+    "title": "Visual Basic for Applications",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Sub HelloWorld()\r\n    Call MsgBox(\"Hello World\")\r\nEnd Sub"
   },
   {
     "id": "669",
@@ -5841,15 +6913,23 @@
   },
   {
     "id": "670",
-    "title": "visualfoxpro",
+    "title": "VisualFoxPro",
     "description": "",
     "url": "",
     "language_short": "stata",
     "code": "* Message Box:\r\nMESSAGEBOX(\"Hello World\")\r\n \r\n* Print to screen:\r\n? \"Hello World\"\r\n \r\n* GUI:\r\nloForm = CREATEOBJECT(\"HiForm\")\r\nloForm.Show(1)\r\n \r\nDEFINE CLASS HiForm AS Form\r\n    AutoCenter\t= .T.\r\n    Caption\t\t= \"Hello, World\"\r\n    \r\n    ADD OBJECT lblHi as Label ;\r\n        WITH Caption = \"Hello, World!\"\r\nENDDEFINE"
   },
   {
+    "id": "962",
+    "title": "VJass",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "struct HelloWorld extends array\r\n    private static method onInit takes nothing returns nothing\r\n        call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 0, \"Hello World\")\r\n    endmethod\r\nendstruct"
+  },
+  {
     "id": "671",
-    "title": "vms",
+    "title": "VMS",
     "description": "",
     "url": "",
     "language_short": "gams",
@@ -5873,7 +6953,7 @@
   },
   {
     "id": "674",
-    "title": "vrml",
+    "title": "VRML",
     "description": "",
     "url": "",
     "language_short": "nginx",
@@ -5904,6 +6984,14 @@
     "code": ")\"Hello, world!\""
   },
   {
+    "id": "963",
+    "title": "Wenyan",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "吾有一言。曰「「Hello World」」。書之。"
+  },
+  {
     "id": "678",
     "title": "Wheat",
     "description": "Wheat is an esolanguage designed by Keymaker in 2009. The language is based on outputting and inputting, only what has been output on a previous cycle can be input on the current one. The buffers last only one cycle; if the data of previous cycle is not read on current cycle, on the next cycle it can not be accessed, it will all be erased, replaced by the output of the current cycle (if any, otherwise the empty string is used). Reading empty buffer returns the empty character/string. (The language can not read external input, and is thus classified output-only.) There are no limits for the program sizes or the output it creates. The program runs endlessly unless terminated with the terminating instruction. By cycle it is meant the lines of the program, from top to bottom, executed once. There are 36 one-character registers, each set to empty string on every cycle. Their content may be modified only by inputting into them.",
@@ -5913,7 +7001,7 @@
   },
   {
     "id": "679",
-    "title": "whenever",
+    "title": "Whenever",
     "description": "",
     "url": "",
     "language_short": "basic",
@@ -5929,11 +7017,19 @@
   },
   {
     "id": "681",
-    "title": "whitespace",
+    "title": "Whitespace",
     "description": "",
     "url": "",
     "language_short": "plaintext",
     "code": "push 0   \r\npush 10  \t \t \r\npush 33  \t    \t\r\npush 100  \t\t  \t  \r\npush 108  \t\t \t\t  \r\npush 114  \t\t\t  \t \r\npush 111  \t\t \t\t\t\t\r\npush 119  \t\t\t \t\t\t\r\npush 32  \t     \r\npush 44  \t \t\t  \r\ncopy 3\t  \t\t\r\ncopy 6\t  \t\t \r\ndup \r\npush 101   \t\t  \t \t\r\npush 72  \t  \t   \r\n \r\nlabel 0   \r\noutchar\t\r\ndup   \r\npush 0    \r\nswap \r\nsub\t\t  \t\r\njn\t0\t  \r\nexit"
+  },
+  {
+    "id": "964",
+    "title": "WikiText",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Hello World"
   },
   {
     "id": "682",
@@ -5945,7 +7041,7 @@
   },
   {
     "id": "683",
-    "title": "wml",
+    "title": "WML",
     "description": "",
     "url": "",
     "language_short": "cs",
@@ -5960,6 +7056,14 @@
     "code": "Print[\"Hello World\"];"
   },
   {
+    "id": "965",
+    "title": "wowLang",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "wow WOw wow wow wow wow wow wow wow woW WOW Wow wOW woW wow WoW wow WOw wow woW WOW WOW WOW WOW WOW Wow wOW woW WOW WOW WoW WOW WOW WOW WOW WOW WOW WOW WoW WoW WOW WOW WOW WoW WOw wow wow wow woW WOW Wow wOW woW wow wow wow wow wow WoW wow wow wow WOw wow woW WOW WOW WOW Wow wOW woW WoW wow WOw wow wow wow woW WOW Wow wOW woW wow wow wow WoW WOW WOW WOW WoW wow wow wow wow wow wow WoW wow wow wow wow wow wow wow wow WoW"
+  },
+  {
     "id": "685",
     "title": "Word!CPU",
     "description": "I have seen the Brainfuck CPU project, and a description of a INTERCAL CPU, but here is the new one!!!! Each command is 2 bytes (4 nybbles). The memory is from 0000h to 1FFFh, and there is 2 different sets of memory, the data memory and the program memory.",
@@ -5969,7 +7073,7 @@
   },
   {
     "id": "686",
-    "title": "wren",
+    "title": "Wren",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -5977,7 +7081,7 @@
   },
   {
     "id": "687",
-    "title": "wsh",
+    "title": "WSH",
     "description": "",
     "url": "",
     "language_short": "vbnet",
@@ -6048,8 +7152,16 @@
     "code": "\/\/ XL programming language: http:\/\/xlr.sourceforge.net\r\nwriteln \"Hello, world\""
   },
   {
+    "id": "966",
+    "title": "XLisp",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "(DISPLAY \"Hello World\")\r\n(NEWLINE)"
+  },
+  {
     "id": "696",
-    "title": "xlogo",
+    "title": "Xlogo",
     "description": "",
     "url": "",
     "language_short": "lsl",
@@ -6065,7 +7177,7 @@
   },
   {
     "id": "698",
-    "title": "xpl0",
+    "title": "XPL0",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -6089,7 +7201,7 @@
   },
   {
     "id": "701",
-    "title": "xslt",
+    "title": "XSLT",
     "description": "",
     "url": "",
     "language_short": "xml",
@@ -6097,7 +7209,7 @@
   },
   {
     "id": "702",
-    "title": "xul",
+    "title": "XUL",
     "description": "",
     "url": "",
     "language_short": "xml",
@@ -6121,7 +7233,7 @@
   },
   {
     "id": "705",
-    "title": "yolang",
+    "title": "YoLang",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -6129,7 +7241,7 @@
   },
   {
     "id": "706",
-    "title": "yoptascript",
+    "title": "YoptaScript",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -6137,7 +7249,7 @@
   },
   {
     "id": "707",
-    "title": "zbd",
+    "title": "ZBD",
     "description": "",
     "url": "",
     "language_short": "plaintext",
@@ -6145,15 +7257,23 @@
   },
   {
     "id": "708",
-    "title": "zepto",
+    "title": "Zepto",
     "description": "",
     "url": "",
     "language_short": "scheme",
     "code": "(write \"Hello World\")"
   },
   {
+    "id": "967",
+    "title": "Zig",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "const std = @import(\"std\");\r\n\r\npub fn main() !void {\r\n    const stdout = std.io.getStdOut().writer();\r\n    try stdout.print(\"Hello World\", .{});\r\n}"
+  },
+  {
     "id": "709",
-    "title": "zetaplex",
+    "title": "Zetaplex",
     "description": "Zetaplex, created by poiuy_qwert in 2007 is another varient of Gammaplex created by Lode Vandevenne. The two main differences between the languages are that commands are made up of a pair of characters, and the memory is an infinite tape of infinite stacks. This language was designed to be very functional.",
     "url": "https://esolangs.org/wiki/Zetaplex",
     "language_short": "brainfuck",
@@ -6169,7 +7289,7 @@
   },
   {
     "id": "711",
-    "title": "zim",
+    "title": "Zim",
     "description": "",
     "url": "",
     "language_short": "c-like",
@@ -6177,15 +7297,23 @@
   },
   {
     "id": "712",
-    "title": "zimbu",
+    "title": "Zimbu",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "FUNC Main() int\r\n    IO.write(\"Hello, World!\\n\")\r\n    RETURN 0\r\n}"
   },
   {
+    "id": "968",
+    "title": "Zinc",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "//! zinc\r\nlibrary HelloWorld {\r\n    private function onInit() {\r\n        DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 0, \"Hello World\");\r\n    }\r\n}\r\n//! endzinc"
+  },
+  {
     "id": "713",
-    "title": "zombie",
+    "title": "Zombie",
     "description": "",
     "url": "",
     "language_short": "sqf",
@@ -6193,15 +7321,31 @@
   },
   {
     "id": "714",
-    "title": "zonnon",
+    "title": "Zonnon",
     "description": "",
     "url": "",
     "language_short": "c-like",
     "code": "module HelloWorld;\r\nbegin\r\n    writeln(\"Hello World\");\r\nend HelloWorld.  "
   },
   {
+    "id": "969",
+    "title": "ZPL",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "^XA^FDHello World^XZ~PS"
+  },
+  {
+    "id": "970",
+    "title": "ZScript",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": " version \"3.3\"\r\n\r\nvoid HelloWorld()\r\n{\r\n  A_Log(\"Hello World\");\r\n}"
+  },
+  {
     "id": "715",
-    "title": "zsh",
+    "title": "ZSH",
     "description": "",
     "url": "",
     "language_short": "bash",
