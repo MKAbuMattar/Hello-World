@@ -8,10 +8,7 @@ This app for shows ***Hello, World!*** in all programming languages.
 - Offline version.
 
 Data JSON
-- <a href="https://raw.githubusercontent.com/MKAbuMattar/Hello-World/master/data/all.json" target="__blank">All</a>
-- <a href="https://raw.githubusercontent.com/MKAbuMattar/Hello-World/master/data/programming_language_name.json" target="__blank">Programming Language Name</a>
-- <a href="https://raw.githubusercontent.com/MKAbuMattar/Hello-World/master/data/programming_language_description.json" target="__blank">Programming Language Description</a>
-- <a href="https://raw.githubusercontent.com/MKAbuMattar/Hello-World/master/data/programming_language_code.json" target="__blank">Programming Language Code</a>
+- <a href="https://raw.githubusercontent.com/MKAbuMattar/Hello-World/master/assets/data/all.json" target="__blank">All</a>
 
 > Inspired by [The Hello World Collection](https://helloworldcollection.github.io/).
 > Resources [leachim6](https://github.com/leachim6/hello-world).
