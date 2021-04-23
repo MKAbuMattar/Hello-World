@@ -9,8 +9,8 @@
   },
   {
     "id": "2",
-    "title": "μλ",
-    "description": "(μλ), is esoteric two dimensional turing-complete programming language. In this languages all instructions are letters of Greek alphabet.",
+    "title": "μλ (MiLambda)",
+    "description": "μλ (MiLambda), is esoteric two dimensional turing-complete programming language. In this languages all instructions are letters of Greek alphabet.",
     "url": "https://esolangs.org/wiki/MiLambda",
     "language_short": "brainfuck",
     "code": "<  EEEEEEEΔΔΘς       v\r\nv  ςΘΔEEEEEEEEEE     >\r\n<  EEEEEEEEEEEδδΘς   v\r\nv  ΘδδEEEEEEEEEEEς   >\r\n<  ς EEEEEEEEEEEΔΘ   v\r\nv  ΘΔΔΔΔEEEEς        >\r\n<  ςEEEΔΔΘ           v\r\nv  ΘδEEEEEEEEEEEEς   >\r\n<  ςEEEEEEEEEEEΔΘ    v\r\nv  ΘΔΔΔΔEEEEEEEEEEEς >\r\n<  ςEEEEEEEEEEEδδΘ   v\r\nv  ΘEEEEEEEEEEς      >\r\n<  ςEEEΔΔΔΘ          λ"
@@ -98,8 +98,8 @@
   {
     "id": "13",
     "title": "4GL",
-    "description": "",
-    "url": "",
+    "description": "A fourth-generation programming language (4GL) is any computer programming language that belongs to a class of languages envisioned as an advancement upon third-generation programming languages (3GL).",
+    "url": "https://en.wikipedia.org/wiki/Fourth-generation_programming_language",
     "language_short": "c-like",
     "code": "main\r\n    display \"Hello World\"\r\nend main"
   },
@@ -114,8 +114,8 @@
   {
     "id": "15",
     "title": "4ThDimension (4th Dimension)",
-    "description": "",
-    "url": "",
+    "description": "4D (4th Dimension, or Silver Surfer, as it was known during early development) is a relational database management system and IDE developed by Laurent Ribardière. 4D was created in 1984 and had a slightly delayed public release for Macintosh in 1987 with its own Programming Language.",
+    "url": "https://en.wikipedia.org/wiki/4th_Dimension_(software)",
     "language_short": "c-like",
     "code": "OPEN WINDOW (10;45;500;330;0;\"Hello Window\")\r\nWhile (True)\r\n    MESSAGE (\"Hello World!\")\r\nEnd while"
   },
@@ -146,16 +146,16 @@
   {
     "id": "18",
     "title": "ABAP",
-    "description": "",
-    "url": "",
+    "description": "ABAP (Advanced Business Application Programming, originally Allgemeiner Berichts-Aufbereitungs-Prozessor, German for \"general report creation processor\") is a high-level programming language created by the German software company SAP SE. It is extracted from the base computing languages Java, C, C++ and Python. It is currently positioned, alongside Java, as the language for programming the SAP NetWeaver Application Server, which is part of the SAP NetWeaver platform for building business applications.",
+    "url": "https://en.wikipedia.org/wiki/ABAP",
     "language_short": "c-like",
     "code": "REPORT ZHELLO_WORLD.\r\n \r\nSTART-OF-SELECTION.\r\n    WRITE: 'Hello World!'."
   },
   {
     "id": "19",
     "title": "ABC",
-    "description": "",
-    "url": "",
+    "description": "ABC is an imperative general-purpose programming language and integrated development environment (IDE) developed at Centrum Wiskunde & Informatica (CWI), Netherlands by Leo Geurts, Lambert Meertens, and Steven Pemberton. It is interactive, structured, high-level, and intended to be used instead of BASIC, Pascal, or AWK. It is intended for teaching or prototyping, but not as a systems-programming language.",
+    "url": "https://en.wikipedia.org/wiki/ABC_(programming_language)",
     "language_short": "c-like",
     "code": "WRITE \"Hello, World!\""
   },
@@ -177,9 +177,9 @@
   },
   {
     "id": "22",
-    "title": "Acpi",
-    "description": "",
-    "url": "",
+    "title": "ACPI (Advanced Configuration and Power Interface)",
+    "description": "In a computer, the Advanced Configuration and Power Interface (ACPI) provides an open standard that operating systems can use to discover and configure computer hardware components, to perform power management e.g. putting unused hardware components to sleep, to perform auto configuration e.g. Plug and Play and hot swapping, and to perform status monitoring. First released in December 1996, ACPI aims to replace Advanced Power Management (APM), the MultiProcessor Specification, the PCI BIOS specification, and the Plug and Play BIOS (PnP) Specification.",
+    "url": "https://en.wikipedia.org/wiki/Advanced_Configuration_and_Power_Interface",
     "language_short": "actionscript",
     "code": "Scope(\\) {\r\n    Method(_WAK) {\r\n        Store (\"Hello World\", Debug)\r\n        Return(Package(2){0x00000000,0})\r\n    }\t\r\n}"
   },
@@ -193,9 +193,9 @@
   },
   {
     "id": "24",
-    "title": "ACS",
-    "description": "",
-    "url": "",
+    "title": "ACS (Action Code Script)",
+    "description": "Action Code Script (ACS) is a scripting language used in video games such as HeXen and some modern Doom source ports, such as ZDoom.",
+    "url": "https://en.wikipedia.org/wiki/Action_Code_Script",
     "language_short": "c-like",
     "code": "#include \"zcommon.acs\"\r\nScript 1 OPEN\r\n{\r\n    Print(s: \"Hello, world!\");\r\n}"
   },
@@ -210,40 +210,40 @@
   {
     "id": "26",
     "title": "Actionscript",
-    "description": "",
-    "url": "",
+    "description": "ActionScript was an object-oriented programming language originally developed by Macromedia Inc. (later acquired by Adobe Systems). It is influenced by HyperTalk, the scripting language for HyperCard. It is now an implementation of ECMAScript (meaning it is a superset of the syntax and semantics of the language more widely known as JavaScript), though it originally arose as a sibling, both being influenced by HyperTalk.",
+    "url": "https://en.wikipedia.org/wiki/ActionScript",
     "language_short": "actionscript",
     "code": "package \r\n{\r\n    import flash.display.Sprite;\r\n    import flash.text.TextField;\r\n    \r\n    public class actionscript extends Sprite\r\n    {\r\n        private var hello:TextField = new TextField();\r\n        \r\n        public function actionscript(){\r\n        "
   },
   {
     "id": "27",
     "title": "Actionscript2 (ActionScript 2)",
-    "description": "",
-    "url": "",
+    "description": "ActionScript 2.0 is the second major release of the ActionScript object-oriented programming language from Macromedia, based on the ECMAScript 4 Netscape Proposal with class-based inheritance.",
+    "url": "https://adobe.fandom.com/wiki/ActionScript_2",
     "language_short": "actionscript",
     "code": "trace( \"Hello World\" );"
   },
   {
     "id": "28",
     "title": "Actionscript3 (ActionScript 3)",
-    "description": "",
-    "url": "",
+    "description": "This pages is for actionscript concepts that apply to any ActionScript 3.0 authoring environment and any runtime that supports ActionScript 3.0.",
+    "url": "http://edutechwiki.unige.ch/en/ActionScript_3_tutorials",
     "language_short": "actionscript",
     "code": "package {\r\n \r\nimport flash.display.Sprite;\r\nimport flash.text.TextField;\r\nimport flash.text.TextFieldAutoSize;\r\nimport flash.text.TextFormat;\r\n \r\n[SWF(width='800', height='600', backgroundColor='#cccccc', frameRate='30')]\r\n \r\n    public class HelloFlash e"
   },
   {
     "id": "29",
     "title": "Ada",
-    "description": "",
-    "url": "",
+    "description": "Ada is a structured, statically typed, imperative, and object-oriented high-level programming language, extended from Pascal and other languages. It has built-in language support for design by contract (DbC), extremely strong typing, explicit concurrency, tasks, synchronous message passing, protected objects, and non-determinism.",
+    "url": "https://en.wikipedia.org/wiki/Ada_(programming_language)",
     "language_short": "c-like",
     "code": "with Text_IO;\r\nprocedure Hello_World is\r\n    begin\r\n        Text_IO.Put_line(\"Hello World!\");\r\n    end Hello_World;"
   },
   {
     "id": "30",
-    "title": "Advpl",
-    "description": "",
-    "url": "",
+    "title": "AdvPL",
+    "description": "AdvPL (Advanced Protheus Language) is a proprietary programming language based on xBase. It was released in 1999 and is used for development of applications in the ERP Protheus made by TOTVS.",
+    "url": "https://en.wikipedia.org/wiki/AdvPL",
     "language_short": "c-like",
     "code": "User Function Hello()\r\nLocal cMsg := \"Hello, world!\"\r\nconout(cMsg)\r\nMsgInfo(cMsg)\r\nReturn"
   },
@@ -258,16 +258,16 @@
   {
     "id": "32",
     "title": "Agda",
-    "description": "",
-    "url": "",
+    "description": "Agda is a dependently typed functional programming language originally developed by Ulf Norell at Chalmers University of Technology with implementation described in his PhD thesis.",
+    "url": "https://en.wikipedia.org/wiki/Agda_(programming_language)",
     "language_short": "c-like",
     "code": "module agda where\r\nopen import IO\r\n \r\nmain = run (putStrLn \"Hello World\")"
   },
   {
     "id": "33",
     "title": "Aheui",
-    "description": "",
-    "url": "",
+    "description": "Aheui (아희 in Korean language) is the first esoteric programming language ever to be designed for Hangul, the Korean alphabet, designed by User:Puzzlet Chung.",
+    "url": "https://esolangs.org/wiki/Aheui",
     "language_short": "plaintext",
     "code": "밤밣따빠밣밟따뿌\r\n빠맣파빨받밤뚜뭏\r\n돋밬탕빠맣붏두붇\r\n볻뫃박발뚷투뭏붖\r\n뫃도뫃희멓뭏뭏붘\r\n뫃봌토범더벌뿌뚜\r\n뽑뽀멓멓더벓뻐뚠\r\n뽀덩벐멓뻐덕더벅"
   },
@@ -281,9 +281,9 @@
   },
   {
     "id": "35",
-    "title": "Aiml",
-    "description": "",
-    "url": "",
+    "title": "AIML",
+    "description": "AIML, or Artificial Intelligence Markup Language, is an XML dialect for creating natural language software agents.",
+    "url": "https://en.wikipedia.org/wiki/AIML",
     "language_short": "xml",
     "code": "<aiml>\r\n    <category>\r\n        <pattern>*<\/pattern>\r\n        <template>Hello World!<\/template>\r\n    <\/category>\r\n<\/aiml>"
   },
@@ -314,48 +314,48 @@
   {
     "id": "38",
     "title": "Alda",
-    "description": "",
-    "url": "",
+    "description": "Alda is a music programming language for music composition, with an emphasis on readability and a simple syntactic structure. It is written in the Clojure programming language, and can be used to generate MIDI scores.",
+    "url": "https://en.everybodywiki.com/Alda_(Programming_Language)",
     "language_short": "c-like",
     "code": "piano: c8 d e f g f e d c2."
   },
   {
     "id": "39",
     "title": "Algae",
-    "description": "",
-    "url": "",
+    "description": "Algae is a programming language for numerical analysis. We wrote it because we needed a fast and versatile tool, capable of handling large systems. Algae has been applied to interesting problems in aerospace and related fields for more than a decade.",
+    "url": "https://sourceforge.net/p/algae/wiki/Home/",
     "language_short": "c-like",
     "code": "printf(\"Hello world!\\n\");"
   },
   {
     "id": "40",
     "title": "ALGOL W",
-    "description": "",
-    "url": "",
+    "description": "ALGOL W is a programming language. It is based on a proposal for ALGOL X by Niklaus Wirth and Tony Hoare as a successor to ALGOL 60 in International Federation for Information Processing (IFIP) IFIP Working Group 2.1 on Algorithmic Languages and Calculi, which specified, maintains, and supports the languages ALGOL 60 and ALGOL 68.",
+    "url": "https://en.wikipedia.org/wiki/ALGOL_W",
     "language_short": "c-like",
     "code": "begin\r\n    write( \"Hello world!\" )\r\nend."
   },
   {
     "id": "41",
     "title": "algol60 (ALGOL 60)",
-    "description": "",
-    "url": "",
+    "description": "ALGOL 60 (short for Algorithmic Language 1960) is a member of the ALGOL family of computer programming languages.",
+    "url": "https://en.wikipedia.org/wiki/ALGOL_60",
     "language_short": "gams",
     "code": "BEGIN\r\n    FILE F(KIND=REMOTE);\r\n    EBCDIC ARRAY E[0:11];\r\n    REPLACE E BY \"HELLO WORLD!\";\r\n    WRITE(F, *, E);\r\nEND."
   },
   {
     "id": "42",
     "title": "algol68 (ALGOL 68)",
-    "description": "",
-    "url": "",
+    "description": "ALGOL 68 (short for Algorithmic Language 1968) is an imperative programming language that was conceived as a successor to the ALGOL 60 programming language, designed with the goal of a much wider scope of application and more rigorously defined syntax and semantics.",
+    "url": "https://en.wikipedia.org/wiki/ALGOL_68",
     "language_short": "gams",
     "code": "begin\r\n    print((\"Hello, world!\",newline))\r\nend"
   },
   {
     "id": "43",
     "title": "Alore",
-    "description": "",
-    "url": "",
+    "description": "Alore is an object-oriented programming language with a clean syntax that resembles Python and Lua. Alore is optionally-typed like Google Dart: it is both a dynamic scripting language and a general-purpose language with static typing. It is aimed at diverse programming tasks, from short scripts to complex applications. Alore also allows you to freely mix static and dynamic typing within a program.",
+    "url": "https://rosettacode.org/wiki/Category:Alore",
     "language_short": "c-like",
     "code": "Print('Hello world!')"
   },
@@ -378,56 +378,56 @@
   {
     "id": "45",
     "title": "Amiga E (Amiga-E)",
-    "description": "",
-    "url": "",
+    "description": "Amiga E, or very often simply E, is a programming language created by Wouter van Oortmerssen on the Amiga. He has since moved on to develop the SHEEP programming language for the new AmigaDE platform and the CryScript language (also known as DOG) used during the development of the video game Far Cry.",
+    "url": "https://en.wikipedia.org/wiki/Amiga_E",
     "language_short": "c-like",
     "code": "PROC main() IS WriteF('Hello World\\n')"
   },
   {
     "id": "46",
     "title": "Amos",
-    "description": "",
-    "url": "",
+    "description": "AMOS BASIC is a dialect of the BASIC programming language implemented on the Amiga computer. AMOS BASIC was published by Europress Software and originally written by François Lionet with Constantin Sotiropoulos.",
+    "url": "https://en.wikipedia.org/wiki/AMOS_(programming_language)",
     "language_short": "c-like",
     "code": "Print \"Hello world!\""
   },
   {
     "id": "47",
     "title": "Android",
-    "description": "",
-    "url": "",
+    "description": "Android software development is the process by which applications are created for devices running the Android operating system. Google states that \"Android apps can be written using Kotlin, Java, and C++ languages\" using the Android software development kit (SDK), while using other languages is also possible. All non-JVM languages, such as Go, JavaScript, C, C++ or assembly, need the help of JVM language code, that may be supplied by tools, likely with restricted API support.",
+    "url": "https://en.wikipedia.org/wiki/Android_software_development",
     "language_short": "java",
     "code": "package com.example.helloworld;\r\n \r\nimport android.app.Activity;\r\nimport android.os.Bundle;\r\nimport android.widget.TextView;\r\n \r\npublic class HelloWorld extends Activity {\r\n    \/** Called when the activity is first created. *\/\r\n    @Override\r\n    public v"
   },
   {
     "id": "48",
     "title": "AngelScript",
-    "description": "",
-    "url": "",
+    "description": "AngelScript features static typing, object handles (similar to C++ pointers but garbage collected via reference counting), object-orientation, single inheritance, multiple inheritance with interfaces. Allows operators to be registered and overloaded. AngelScript can be used with any C++ IDE, such as NetBeans, Geany, and Eclipse.",
+    "url": "https://en.wikipedia.org/wiki/AngelScript",
     "language_short": "angelscript",
     "code": "void main() { print(\"Hello world\\n\"); }"
   },
   {
     "id": "49",
-    "title": "Angular",
-    "description": "",
-    "url": "",
+    "title": "Angular (AngularJS)",
+    "description": "AngularJS is a JavaScript-based open-source front-end web framework mainly maintained by Google and by a community of individuals and corporations to address many of the challenges encountered in developing single-page applications. It aims to simplify both the development and the testing of such applications by providing a framework for client-side model–view–controller (MVC) and model–view–viewmodel (MVVM) architectures, along with components commonly used in web applications and progressive web applications.",
+    "url": "https://en.wikipedia.org/wiki/AngularJS",
     "language_short": "javascript",
     "code": "$scope.$log = $log;\r\n$scope.message = 'Hello World!';"
   },
   {
     "id": "50",
     "title": "Ante",
-    "description": "",
-    "url": "",
+    "description": "Ante is an esoteric programming language where all you've got is a deck of playing cards. The language was created by Michael Dvorkin in 2013. Original Ante interpreter was developed in Ruby, versions in Go, Rust, and Swift are also available.",
+    "url": "https://esolangs.org/wiki/Ante",
     "language_short": "brainfuck",
     "code": "9♦8♥J♦A♦2♣3♥7♠J♦A♦7♦J♦J♦A♦3♦J♦5♥6♦4♥J♥A♥6♠6♠J♥A♦8♦J♦A♦8♠J♦A♦3♦J♦A♦6♠J♦A♦8♠J♦A♥3♦2♠J♥A♥2♣6♠J♥"
   },
   {
     "id": "51",
     "title": "AntLang",
-    "description": "",
-    "url": "",
+    "description": "AntLang is a functional scripting language named after its creator Anthony Cipriano. Its main distinctive feature is short syntax oriented towards mathematical equations.",
+    "url": "https://gyaanipedia.fandom.com/wiki/AntLang",
     "language_short": "vim",
     "code": "\"Hello World\""
   },
@@ -458,56 +458,56 @@
   {
     "id": "55",
     "title": "APL",
-    "description": "",
-    "url": "",
+    "description": "APL (named after the book A Programming Language)[3] is a programming language developed in the 1960s by Kenneth E.",
+    "url": "https://en.wikipedia.org/wiki/APL_(programming_language)",
     "language_short": "vim",
     "code": "⎕←'Hello World!'"
   },
   {
     "id": "56",
     "title": "AppleScript",
-    "description": "",
-    "url": "",
+    "description": "AppleScript is a scripting language created by Apple Inc. that facilitates automated control over scriptable Mac applications. First introduced in System 7, it is currently included in all versions of macOS as part of a package of system automation tools.",
+    "url": "https://en.wikipedia.org/wiki/AppleScript",
     "language_short": "applescript",
     "code": "display dialog \"Hello World\""
   },
   {
     "id": "766",
     "title": "Applesoft BASIC",
-    "description": "",
-    "url": "",
+    "description": "Applesoft BASIC is a dialect of Microsoft BASIC, developed by Marc McDonald and Ric Weiland, supplied with the Apple II series of computers. It supersedes Integer BASIC and is the BASIC in ROM in all Apple II series computers after the original Apple II model. It is also referred to as FP BASIC (from \"floating point\") because of the Apple DOS command used to invoke it, instead of INT for Integer BASIC.",
+    "url": "https://en.wikipedia.org/wiki/Applesoft_BASIC",
     "language_short": "",
     "code": "10 PRINT \"HELLO WORLD\""
   },
   {
     "id": "57",
     "title": "ARC",
-    "description": "",
-    "url": "",
+    "description": "Arc is a programming language, a dialect of the language Lisp, developed by Paul Graham and Robert Morris. It is free and open-source software released under the Artistic License 2.0.",
+    "url": "https://en.wikipedia.org/wiki/Arc_(programming_language)",
     "language_short": "arcade",
     "code": "(prn \"Hello, World!\")"
   },
   {
     "id": "58",
     "title": "Arduino",
-    "description": "",
-    "url": "",
+    "description": "The Arduino Integrated Development Environment (IDE) is a cross-platform application (for Windows, macOS, Linux) that is written in functions from C and C++. It is used to write and upload programs to Arduino compatible boards, but also, with the help of third-party cores, other vendor development boards.",
+    "url": "https://en.wikipedia.org/wiki/Arduino",
     "language_short": "arduino",
     "code": "void setup() {\r\n    \/\/ put your setup code here, to run once:\r\n    \/\/ initialize serial communication at 9600 bits per second:\r\n    Serial.begin(9600);\r\n    \/\/print message serial monitor\r\n    Serial.println(\"Hello world!\");\r\n}\r\n \r\nvoid loop() {\r\n    \/\/ p"
   },
   {
     "id": "59",
     "title": "Arena",
-    "description": "",
-    "url": "",
+    "description": "Arena is a discrete event simulation and automation software developed by Systems Modeling and acquired by Rockwell Automation in 2000. It uses the SIMAN processor and simulation language. As of 2020, it is in version 16. It has been suggested that Arena may join other Rockwell software packages under the \"FactoryTalk\" brand.",
+    "url": "https://en.wikipedia.org/wiki/Arena_(software)",
     "language_short": "c-like",
     "code": "print(\"Hello World!\");"
   },
   {
     "id": "60",
-    "title": "Argh",
-    "description": "",
-    "url": "",
+    "title": "Argh (Argh!)",
+    "description": "Argh! and its successor Aargh!, both invented by Sascha Wilde, are Befunge-like esoteric programming languages, laid out in two dimensions. Each is limited to 80 columns wide, but Aargh! has an unlimited number of rows, whereas Argh! is limited to 40. The idea was to make sure Aargh! was Turing-complete.",
+    "url": "https://esolangs.org/wiki/Argh!",
     "language_short": "brainfuck",
     "code": "lppppppppppppsrfj\r\nHello World!*  j\r\n            qPh"
   },
@@ -538,8 +538,8 @@
   {
     "id": "768",
     "title": "AsciiDots",
-    "description": "",
-    "url": "",
+    "description": "AsciiDots is an esoteric programming language based on ascii art. In this language, dots, represented by periods (.), travel down ascii art paths and undergo operations.",
+    "url": "https://esolangs.org/wiki/AsciiDots",
     "language_short": "",
     "code": ".-$\"Hello World\" "
   },
@@ -586,16 +586,16 @@
   {
     "id": "66",
     "title": "Aspectj",
-    "description": "",
-    "url": "",
+    "description": "AspectJ is an aspect-oriented programming (AOP) extension created at PARC for the Java programming language. It is available in Eclipse Foundation open-source projects, both stand-alone and integrated into Eclipse.",
+    "url": "https://en.wikipedia.org/wiki/AspectJ",
     "language_short": "java",
     "code": "System.out.println(\"Hello World!\");"
   },
   {
     "id": "67",
     "title": "Assembler 6502",
-    "description": "",
-    "url": "",
+    "description": "This book is a guide to the 6502 Assembly language. This book will teach the different memory addressing modes and instructions of the 8-bit 6502 processor. You might want to learn 6502 assembly language programming if you want to do Atari 2600/8-bit family/5200/7800 Programming, Commodore PET/VIC/64/128 Programming, Acorn 8 Bit Programming, Apple I/II Programming, NES Programming or Super NES Programming.",
+    "url": "https://en.wikibooks.org/wiki/6502_Assembly",
     "language_short": "x86asm",
     "code": "; goodbyeworld.s for C= 8-bit machines, ca65 assembler format.\r\n; String printing limited to strings of 256 characters or less.\r\n    \r\na_cr\t= $0d\t\t; Carriage return.\r\nbsout\t= $ffd2\t\t; KERNAL ROM, output a character to current device.\r\n    \r\n    .code\r\n   "
   },
@@ -4056,14 +4056,6 @@
     "code": "'H>,'e>,'l>,'l>,'o>,',>,' >,'w>,'o>,'r>,'l>,'d>,'!>,10>"
   },
   {
-    "id": "396",
-    "title": "MiLambda",
-    "description": "MiLambda(μλ), is esoteric two dimensional turing-complete programming language. In this languages all instructions are letters of Greek alphabet.",
-    "url": "https://esolangs.org/wiki/MiLambda",
-    "language_short": "brainfuck",
-    "code": "<  EEEEEEEΔΔΘς       v\r\nv  ςΘΔEEEEEEEEEE     >\r\n<  EEEEEEEEEEEδδΘς   v\r\nv  ΘδδEEEEEEEEEEEς   >\r\n<  ς EEEEEEEEEEEΔΘ   v\r\nv  ΘΔΔΔΔEEEEς        >\r\n<  ςEEEΔΔΘ           v\r\nv  ΘδEEEEEEEEEEEEς   >\r\n<  ςEEEEEEEEEEEΔΘ    v\r\nv  ΘΔΔΔΔEEEEEEEEEEEς >\r\n<  ςEEEEEEEEEEEδδΘ   v\r\nv  ΘEEEEEEEEEEς      >\r\n<  ςEEEΔΔΔΘ          λ"
-  },
-  {
     "id": "397",
     "title": "Minecraft",
     "description": "",
@@ -4738,8 +4730,8 @@
   {
     "id": "971",
     "title": "PeopleCode",
-    "description": "",
-    "url": "",
+    "description": "PeopleCode is a proprietary object-oriented programming language used to express business logic for PeopleSoft applications. Syntactically, PeopleCode is similar to other programming languages, and can be found in both loosely-typed and strongly-typed forms. PeopleCode and its run-time environment is part of the larger PeopleTools framework.",
+    "url": "https://en.wikipedia.org/wiki/PeopleCode",
     "language_short": "",
     "code": "MessageBox(0, \"\", 0, 0, \"Hello World\");"
   },
@@ -4754,40 +4746,40 @@
   {
     "id": "468",
     "title": "Perl",
-    "description": "",
-    "url": "",
+    "description": "Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages. \"Perl\" refers to Perl 5, but from 2000 to 2019 it also referred to its redesigned \"sister language\", Perl 6, before the latter's name was officially changed to Raku in October 2019. Perl 7, continuing from Perl 5, not Perl 6, is also due in 2021.",
+    "url": "https://en.wikipedia.org/wiki/Perl",
     "language_short": "perl",
     "code": "   #!\/usr\/local\/bin\/perl -w\r\n    use CGI;                                # load CGI routines\r\n    $q = CGI->new;                          # create new CGI object\r\n    print $q->header,                       # create the HTTP header\r\n        $q->start_html('hello world'),      # start the HTML\r\n        $q->h1('hello world'),              # level 1 header\r\n        $q->end_html;                       # end the HTML\r\n \r\n# http:\/\/perldoc.perl.org\/CGI.html"
   },
   {
     "id": "469",
     "title": "Perl",
-    "description": "",
-    "url": "",
+    "description": "Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages. \"Perl\" refers to Perl 5, but from 2000 to 2019 it also referred to its redesigned \"sister language\", Perl 6, before the latter's name was officially changed to Raku in October 2019. Perl 7, continuing from Perl 5, not Perl 6, is also due in 2021.",
+    "url": "https://en.wikipedia.org/wiki/Perl",
     "language_short": "perl",
     "code": "#!\/usr\/bin\/perl\r\nprint \"Hello World\\n\";"
   },
   {
     "id": "470",
     "title": "Perl6",
-    "description": "",
-    "url": "",
+    "description": "Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages. \"Perl\" refers to Perl 5, but from 2000 to 2019 it also referred to its redesigned \"sister language\", Perl 6, before the latter's name was officially changed to Raku in October 2019. Perl 7, continuing from Perl 5, not Perl 6, is also due in 2021.",
+    "url": "https://en.wikipedia.org/wiki/Perl",
     "language_short": "perl",
     "code": "#!\/usr\/bin\/env perl6\r\n \r\nv6;\r\n \r\nsay \"Hello, World!\";"
   },
   {
     "id": "471",
     "title": "Perseus",
-    "description": "",
-    "url": "",
+    "description": "The Perseus Project is a digital library project of Tufts University, which assembles digital collections of humanities resources. Version 4.0 is also known as the \"Perseus Hopper\", and it is hosted by the Department of Classical Studies. The project is mirrored by the Max Planck Society in Berlin, Germany, as well as by the University of Chicago.",
+    "url": "https://en.wikipedia.org/wiki/Perseus_Project",
     "language_short": "c-like",
     "code": "link CUI entry main\r\n \r\ninclude \"Windows.inc\"\r\ninclude \"Console.inc\"\r\n \r\nfunc main()\r\n{\r\n    Console.Init(\"Console\")\r\n    Console.Write(\"Hello World!\")\r\n}"
   },
   {
     "id": "472",
     "title": "Pharo",
-    "description": "",
-    "url": "",
+    "description": "Pharo is an open source dynamic and reflective language which is inspired by the programming language Smalltalk. Pharo offers several live programming features such as immediate object manipulation, live update and hot recompiling.",
+    "url": "https://en.wikipedia.org/wiki/Pharo",
     "language_short": "plaintext",
     "code": "'Hello World' crLog"
   },
@@ -4802,16 +4794,16 @@
   {
     "id": "913",
     "title": "Phix",
-    "description": "",
-    "url": "",
+    "description": "Phix is the open source, self-hosted, interpreted and compiled programming language that emphasizes simplicity and programmer friendly error messages.",
+    "url": "https://en.everybodywiki.com/Phix_(programming_language)",
     "language_short": "",
     "code": "puts(1,\"Hello World\")"
   },
   {
     "id": "474",
     "title": "PHP",
-    "description": "",
-    "url": "",
+    "description": "PHP is a general-purpose scripting language especially suited to web development. It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1994. The PHP reference implementation is now produced by The PHP Group. PHP originally stood for Personal Home Page, but it now stands for the recursive initialism PHP: Hypertext Preprocessor.",
+    "url": "https://en.wikipedia.org/wiki/PHP",
     "language_short": "php",
     "code": "<?php\r\n \r\n    echo 'Hello World';"
   },
@@ -4826,8 +4818,8 @@
   {
     "id": "476",
     "title": "PiCat",
-    "description": "",
-    "url": "",
+    "description": "The Picat language is really cool; it's a very usable mix of logic, functional, constraint, and imperative programming. Scripts can be made quite short but also easily readable. And the built-in tabling is really cool for speeding up recursive programs. I think Picat is like a perfect Swiss army knife that you can do anything with.",
+    "url": "http://picat-lang.org/",
     "language_short": "c-like",
     "code": "main =>\r\n    println('Hello World')."
   },
@@ -4850,16 +4842,16 @@
   {
     "id": "914",
     "title": "PikaLang",
-    "description": "",
-    "url": "",
+    "description": "Pikalang is a joke esoteric programming language created by Blake Grotewold. It is identical to Brainfuck, except that the instructions are changed into the sounds made by Pikachu from Pokémon. It is one of the many trivial Brainfuck command substitutions. As such, it is a member of the TrivialBrainfuckSubstitution family of programming languages.",
+    "url": "https://esolangs.org/wiki/Pikalang",
     "language_short": "",
     "code": "pi pi pi pi pi pi pi pi pi pi pika pipi pi pi pi pi pi pi pi pipi pi pi\r\npi pi pi pi pi pi pi pi pipi pi pi pi pipi pi pichu pichu pichu pichu ka\r\nchu pipi pi pi pikachu pipi pi pikachu pi pi pi pi pi pi pi pikachu\r\npikachu pi pi pi pikachu pipi pi pi pikachu pichu pichu pi pi pi pi pi\r\npi pi pi pi pi pi pi pi pi pi pikachu pipi pikachu pi pi pi pikachu ka\r\nka ka ka ka ka pikachu ka ka ka ka ka ka ka ka pikachu pipi pi pikachu\r\npipi pikachu"
   },
   {
     "id": "479",
     "title": "Pike",
-    "description": "",
-    "url": "",
+    "description": "Pike is a dynamic interpreted language with a C-like syntax. It was created in 1994 as a GPL version of LPC (which was not licensed for commercial use). Initially it was called µLPC (for micro LPC), but later was renamed for branding purposes. Pike is an object-oriented language, with built-in garbage collection and a flexible system of data types. It is considered to be one of the fastest scripting languages existing.",
+    "url": "https://en.wikipedia.org/wiki/Pike_(programming_language)",
     "language_short": "c-like",
     "code": "int main() {\r\n    write(\"Hello World!\\n\");\r\n    return 0;\r\n}"
   },
@@ -4890,8 +4882,8 @@
   {
     "id": "483",
     "title": "Pizza",
-    "description": "",
-    "url": "",
+    "description": "Pizza is an open-source superset of Java 1.4, prior to the introduction of generics for the Java programming language. In addition to its own solution for adding generics to the language, Pizza also added function pointers and algebraic types with case classes and pattern matching.",
+    "url": "https://en.wikipedia.org/wiki/Pizza_(programming_language)",
     "language_short": "C-like",
     "code": "class HelloWorld {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello World\");\r\n    }\r\n}"
   },
@@ -4905,17 +4897,17 @@
   },
   {
     "id": "915",
-    "title": "PLI",
-    "description": "",
-    "url": "",
+    "title": "PLI (PL/I)",
+    "description": "PL/I (Programming Language One, pronounced /piː ɛl wʌn/ and sometimes written PL/1) is a procedural, imperative computer programming language developed and published by IBM. It is designed for scientific, engineering, business and system programming. It has been used by academic, commercial and industrial organizations since it was introduced in the 1960s, and is still used.",
+    "url": "https://en.wikipedia.org/wiki/PL/I",
     "language_short": "",
     "code": "Hello2: proc options(main);\r\n    put list ('Hello World');\r\nend Hello2;"
   },
   {
     "id": "485",
-    "title": "PLSQL",
-    "description": "",
-    "url": "",
+    "title": "PLSQL (PL/SQL)",
+    "description": "PL/SQL (Procedural Language for SQL) is Oracle Corporation's procedural extension for SQL and the Oracle relational database. PL/SQL is available in Oracle Database (since version 6 - stored PL/SQL procedures/functions/packages/triggers since version 7), Times Ten in-memory database (since version 11.2.1), and IBM DB 2 (since version 9.7). Oracle Corporation usually extends PL/SQL functionality with each successive release of the Oracle Database.",
+    "url": "https://en.wikipedia.org/wiki/PL/SQL",
     "language_short": "pgsql",
     "code": "begin\r\n    dbms_output.put_line('Hello World');\r\nend;\r\n\/"
   },
@@ -4970,8 +4962,8 @@
   {
     "id": "489",
     "title": "Pony",
-    "description": "",
-    "url": "",
+    "description": "Pony is an open-source, object-oriented, actor model, capabilities-secure, high-performance programming language. The actor model is particularly borrowed extensively from Erlang. The stated goals of pony are to provide concurrency protection by creating restriction keys. ",
+    "url": "https://everipedia.org/wiki/lang_en/pony-programming-language",
     "language_short": "pony",
     "code": "actor Main\r\nnew create(env: Env) =>\r\n    env.out.print(\"Hello World\")"
   },
@@ -4986,40 +4978,40 @@
   {
     "id": "916",
     "title": "PostCSS",
-    "description": "",
-    "url": "",
-    "language_short": "",
+    "description": "PostCSS is a software development tool that uses JavaScript-based plugins to automate routine CSS operations. It was designed by Andrey Sitnik with the idea taking its origin in his front-end work for Evil Martians.",
+    "url": "https://en.wikipedia.org/wiki/PostCSS",
+    "language_short": "css",
     "code": "body::before {\r\n    content: \"Hello World\";\r\n}"
   },
   {
     "id": "491",
-    "title": "Postgre SQL (PostgreSQL)",
-    "description": "",
-    "url": "",
+    "title": "Postgre SQL (PostgreSQL / PL/pgSQL)",
+    "description": "PL/pgSQL (Procedural Language/PostgreSQL) is a procedural programming language supported by the PostgreSQL ORDBMS. It closely resembles Oracle's PL/SQL language. Implemented by Jan Wieck, PL/pgSQL first appeared with PostgreSQL 6.4, released on October 30, 1998. Version 9 also implements some ISO SQL/PSM features, like overloading of SQL-invoked functions and procedures.",
+    "url": "https://en.wikipedia.org/wiki/PL/pgSQL",
     "language_short": "pgsql",
     "code": "SELECT 'Hello World' as hello_message;"
   },
   {
     "id": "492",
     "title": "PostScript Page",
-    "description": "",
-    "url": "",
+    "description": "PostScript (PS) is a page description language in the electronic publishing and desktop publishing business. It is a dynamically typed, concatenative programming language. It was created at Adobe Systems by John Warnock, Charles Geschke, Doug Brotz, Ed Taft and Bill Paxton from 1982 to 1984.",
+    "url": "https://en.wikipedia.org/wiki/PostScript",
     "language_short": "actionscript",
     "code": "% run> gs -q postscript_page.ps\r\n\/pt {72 div} def\r\n\/y 9 def\r\n\/textdraw {\/Courier findfont 12 pt scalefont setfont 8 pt y moveto show} def\r\n \r\n72 72 scale\r\n0 0 0 setrgbcolor\r\n \r\n(Hello world!) textdraw\r\nshowpage\r\nquit"
   },
   {
     "id": "493",
     "title": "PostScript",
-    "description": "",
-    "url": "",
+    "description": "PostScript (PS) is a page description language in the electronic publishing and desktop publishing business. It is a dynamically typed, concatenative programming language. It was created at Adobe Systems by John Warnock, Charles Geschke, Doug Brotz, Ed Taft and Bill Paxton from 1982 to 1984.",
+    "url": "https://en.wikipedia.org/wiki/PostScript",
     "language_short": "actionscript",
     "code": "% run> gs -q -sDEVICE=nullpage postscript.ps\r\n(Hello world!\\n) print quit"
   },
   {
     "id": "494",
     "title": "PosXML",
-    "description": "",
-    "url": "",
+    "description": "POSXML (acronym for Point Of Sale eXtended Markup Language) is a programming language, based on XML, that is used to create applications for a POS terminal. Normally the programming language used to develop such applications is C or C++. The main purpose of POSXML is to simplify the development of applications for POS terminals. It contains a set of instructions and pre-programmed commands, which allow direct interaction with the machine, resulting in a large reduction in application development time.",
+    "url": "https://en.wikipedia.org/wiki/POSXML",
     "language_short": "xml",
     "code": "<display line=\"0\" column=\"0\" message=\"Hello World\" \/>"
   },
@@ -5050,8 +5042,8 @@
   {
     "id": "497",
     "title": "PowerShell",
-    "description": "",
-    "url": "",
+    "description": "PowerShell is a task automation and configuration management framework from Microsoft, consisting of a command-line shell and the associated scripting language.",
+    "url": "https://en.wikipedia.org/wiki/PowerShell",
     "language_short": "powershell",
     "code": "'Hello World'"
   },
@@ -5074,8 +5066,8 @@
   {
     "id": "500",
     "title": "Processing",
-    "description": "",
-    "url": "",
+    "description": "Processing is a free graphical library and integrated development environment (IDE) built for the electronic arts, new media art, and visual design communities with the purpose of teaching non-programmers the fundamentals of computer programming in a visual context.",
+    "url": "https://en.wikipedia.org/wiki/Processing_(programming_language)",
     "language_short": "processing",
     "code": "size(128, 128);\r\nbackground(0);\r\ntextAlign(CENTER, CENTER);\r\nfill(255);\r\ntext(\"Hello World\", width \/ 2, height \/ 2);"
   },
@@ -5098,32 +5090,32 @@
   {
     "id": "502",
     "title": "Prolog",
-    "description": "",
-    "url": "",
+    "description": "Prolog is a logic programming language associated with artificial intelligence and computational linguistics.",
+    "url": "https://en.wikipedia.org/wiki/Prolog",
     "language_short": "prolog",
     "code": "helloWorld :-\r\n    write('Hello World').\r\n \r\n:- helloWorld."
   },
   {
     "id": "919",
     "title": "Promela",
-    "description": "",
-    "url": "",
+    "description": "PROMELA (Process or Protocol Meta Language) is a verification modeling language introduced by Gerard J. Holzmann. The language allows for the dynamic creation of concurrent processes to model, for example, distributed systems. In PROMELA models, communication via message channels can be defined to be synchronous (i.e., rendezvous), or asynchronous (i.e., buffered). PROMELA models can be analyzed with the SPIN model checker, to verify that the modeled system produces the desired behavior. An implementation verified with Isabelle/HOL is also available, as part of the Computer Aided Verification of Automata project.",
+    "url": "https://en.wikipedia.org/wiki/Promela",
     "language_short": "",
     "code": "active proctype main(){\r\n  printf(\"Hello World\")\r\n}"
   },
   {
     "id": "920",
     "title": "ProvideX",
-    "description": "",
-    "url": "",
+    "description": "ProvideX is a computer language and development environment derived from Business Basic (a business oriented derivative of BASIC) in the mid-1980s.",
+    "url": "https://en.wikipedia.org/wiki/ProvideX",
     "language_short": "",
     "code": "begin\r\n  print \"Hello World\"\r\nend"
   },
   {
     "id": "921",
     "title": "Pug",
-    "description": "",
-    "url": "",
+    "description": "Pugs is a compiler and interpreter for the Raku programming language, started on February 1, 2005, by Audrey Tang. (At the time, Raku was known as Perl 6.)",
+    "url": "https://en.wikipedia.org/wiki/Pugs_(programming)",
     "language_short": "",
     "code": "doctype html\r\nhtml\r\n    head\r\n        title Hello World\r\n    body\r\n        h1 Hello World"
   },
@@ -5138,24 +5130,24 @@
   {
     "id": "504",
     "title": "Pure Data",
-    "description": "",
-    "url": "",
+    "description": "Pure Data (Pd) is a visual programming language developed by Miller Puckette in the 1990s for creating interactive computer music and multimedia works. While Puckette is the main author of the program, Pd is an open-source project with a large developer base working on new extensions. It is released under a license similar to the BSD license. It runs on Linux, Mac OS X, iOS, Android and Windows. Ports exist for FreeBSD and IRIX.",
+    "url": "https://en.wikipedia.org/wiki/Pure_Data",
     "language_short": "plaintext",
     "code": "#N canvas 1029 457 450 300 10;\r\n#X obj 127 132 print;\r\n#X msg 127 86 Hello world!;\r\n#X connect 1 0 0 0;"
   },
   {
     "id": "505",
     "title": "PureBasic",
-    "description": "",
-    "url": "",
+    "description": "PureBasic is a commercially distributed procedural computer programming language and integrated development environment based on BASIC and developed by Fantaisie Software for Windows 32/64-bit, Linux 32/64-bit, and macOS. An Amiga version is available, although it has been discontinued and some parts of it are released as open source. The first public release of PureBasic for Windows was on 17 December 2000. It has been continually updated since.",
+    "url": "https://en.wikipedia.org/wiki/PureBasic",
     "language_short": "purebasic",
     "code": "If OpenConsole()\r\n    PrintN(\"Hello World\")\r\nEndIf"
   },
   {
     "id": "506",
     "title": "PureScript",
-    "description": "",
-    "url": "",
+    "description": "PureScript is a strongly-typed, purely-functional programming language that compiles to JavaScript. It can be used to develop web applications, server side apps, and also desktop applications with use of Electron. Its syntax is mostly comparable to that of Haskell. In addition, it introduces row polymorphism and extensible records.[2] Also, contrary to Haskell, PureScript adheres to a strict evaluation strategy.",
+    "url": "https://en.wikipedia.org/wiki/PureScript",
     "language_short": "purebasic",
     "code": "module Main where\r\n \r\nimport Debug.Trace\r\n \r\nmain = trace \"Hello, World!\"\r\n"
   },
@@ -5194,8 +5186,8 @@
   {
     "id": "511",
     "title": "pyret",
-    "description": "",
-    "url": "",
+    "description": "Pyret is a programming language designed to serve as an outstanding choice for programming education while exploring the confluence of scripting and functional programming. It's under active design and development, and free to use or modify.",
+    "url": "https://www.pyret.org/",
     "language_short": "c-like",
     "code": "print('Hello, World!')"
   },
@@ -5210,48 +5202,48 @@
   {
     "id": "922",
     "title": "Pyret",
-    "description": "",
-    "url": "",
+    "description": "Pyret is a programming language designed to serve as an outstanding choice for programming education while exploring the confluence of scripting and functional programming. It's under active design and development, and free to use or modify.",
+    "url": "https://www.pyret.org/",
     "language_short": "",
     "code": "print('Hello World')"
   },
   {
     "id": "513",
     "title": "Python",
-    "description": "",
-    "url": "",
+    "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
     "language_short": "python",
     "code": "#!\/usr\/bin\/env python\r\nprint(\"Hello World\")"
   },
   {
     "id": "514",
     "title": "Python 3",
-    "description": "",
-    "url": "",
+    "description": "Python is an interpreted high-level general-purpose programming language. Python's design philosophy emphasizes code readability with its notable use of significant indentation. Its language constructs as well as its object-oriented approach aim to help programmers write clear, logical code for small and large-scale projects.",
+    "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
     "language_short": "python",
     "code": "#!\/usr\/bin\/env python3\r\nprint \"Hello World\""
   },
   {
     "id": "515",
     "title": "Q# (QSharp)",
-    "description": "",
-    "url": "",
+    "description": "Q# (pronounced as Q sharp) is a domain-specific programming language used for expressing quantum algorithms.[1] It was initially released to the public by Microsoft as part of the Quantum Development Kit.",
+    "url": "https://en.wikipedia.org/wiki/Q_Sharp",
     "language_short": "c-like",
     "code": "namespace Quantum.HelloWorld\r\n{\r\n    operation HelloWorld () : (String)\r\n    {\r\n        body\r\n        {\r\n            return (\"Hello, World!\");\r\n        }\r\n    }\r\n}"
   },
   {
     "id": "516",
     "title": "Q",
-    "description": "",
-    "url": "",
+    "description": "Q is a programming language for array processing, developed by Arthur Whitney. It is proprietary software, commercialized by Kx Systems. Q serves as the query language for kdb+, a disk based and in-memory, column-based database. Kdb+ is based on the language k, a terse variant of the language APL. Q is a thin wrapper around k, providing a more readable, English-like interface.",
+    "url": "https://en.wikipedia.org/wiki/Q_(programming_language_from_Kx_Systems)",
     "language_short": "q",
     "code": "\"Hello World!\""
   },
   {
     "id": "517",
     "title": "QBasic",
-    "description": "",
-    "url": "",
+    "description": "QBasic is an integrated development environment (IDE) and interpreter for a variety of dialects of BASIC which are based on QuickBASIC. Code entered into the IDE is compiled to an intermediate representation (IR), and this IR is immediately interpreted on demand within the IDE.",
+    "url": "https://en.wikipedia.org/wiki/QBasic",
     "language_short": "basic",
     "code": "PRINT \"hello world\""
   },
@@ -5265,41 +5257,41 @@
   },
   {
     "id": "923",
-    "title": "QCL",
-    "description": "",
-    "url": "",
+    "title": "QCL (Quantum Computation Language)",
+    "description": "Quantum Computation Language (QCL) is one of the first implemented quantum programming languages.[1] The most important feature of QCL is the support for user-defined operators and functions. Its syntax resembles the syntax of the C programming language and its classical data types are similar to primitive data types in C. One can combine classical code and quantum code in the same program.",
+    "url": "https://en.wikipedia.org/wiki/Quantum_Computation_Language",
     "language_short": "",
     "code": "print \"Hello World\";"
   },
   {
     "id": "519",
     "title": "Qore",
-    "description": "",
-    "url": "",
+    "description": "Qore is an interpreted, high-level, general-purpose, garbage collected dynamic programming language, featuring support for code embedding and sandboxing with optional strong typing and a focus on fundamental support for multithreading and SMP scalability.",
+    "url": "https://en.wikipedia.org/wiki/Qore_(programming_language)",
     "language_short": "c-like",
     "code": "#!\/usr\/bin\/env qore\r\n%exec-class HelloWorld\r\nclass HelloWorld\r\n{\r\n    constructor()\r\n    {\r\n        background $.say(\"Hello World\");\r\n    }\r\n    private say($arg)\r\n    {\r\n        printf(\"%s\\n\", $arg);\r\n    }\r\n}"
   },
   {
     "id": "520",
     "title": "QU",
-    "description": "",
-    "url": "",
+    "description": "Qu is a computer programming language with an open-source interpreter written in C by Marc Krisnanto. It is comparable to Python, Ruby, Perl and many others. It is licensed under the GPL version 2.",
+    "url": "https://handwiki.org/wiki/Qu_(programming_language)",
     "language_short": "plaintext",
     "code": "'Hello, World!'\r\ntest"
   },
   {
     "id": "521",
     "title": "QuakeC",
-    "description": "",
-    "url": "",
+    "description": "QuakeC is a compiled language developed in 1996 by John Carmack of id Software to program parts of the video game Quake. Using QuakeC, a programmer is able to customize Quake to great extents by adding weapons, changing game logic and physics, and programming complex scenarios. It can be used to control many aspects of the game itself, such as parts of the AI, triggers, or changes in the level. The Quake engine was the only game engine to use QuakeC. Following engines used DLL game modules for customization written in C, and C++ from id Tech 4 on.",
+    "url": "https://en.wikipedia.org/wiki/QuakeC",
     "language_short": "c-like",
     "code": "bprint(\"Hello World\\n\");"
   },
   {
     "id": "522",
-    "title": "QuartzComposer",
-    "description": "",
-    "url": "",
+    "title": "Quartz Composer (QuartzComposer)",
+    "description": "Quartz Composer is a node-based visual programming language provided as part of the Xcode development environment in macOS for processing and rendering graphical data.",
+    "url": "https://en.wikipedia.org/wiki/Quartz_Composer",
     "language_short": "xml",
     "code": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<!DOCTYPE plist PUBLIC \"-\/\/Apple\/\/DTD PLIST 1.0\/\/EN\" \"http:\/\/www.apple.com\/DTDs\/PropertyList-1.0.dtd\">\r\n<plist version=\"1.0\">\r\n<dict>\r\n    <key>editorViewerWindow<\/key>\r\n    <string>202 156 512 430 0 0 1280 777 <\/string>\r\n    <key>frameworkVersion<\/key>\r\n    <string>334<\/string>\r\n    <key>rootPatch<\/key>\r\n    <dict>\r\n        <key>class<\/key>\r\n        <string>QCPatch<\/string>\r\n        <key>state<\/key>\r\n        <dict>\r\n            <key>connections<\/key>\r\n            <dict>\r\n                <key>connection_1<\/key>\r\n                <dict>\r\n                    <key>destinationNode<\/key>\r\n                    <string>Billboard_1<\/string>\r\n                    <key>destinationPort<\/key>\r\n                    <string>inputImage<\/string>\r\n                    <key>sourceNode<\/key>\r\n                    <string>TextImage_1<\/string>\r\n                    <key>sourcePort<\/key>\r\n                    <string>outputImage<\/string>\r\n                <\/dict>\r\n            <\/dict>\r\n            <key>nodes<\/key>\r\n            <array>\r\n                <dict>\r\n                    <key>class<\/key>\r\n                    <string>QCTextImage<\/string>\r\n                    <key>key<\/key>\r\n                    <string>TextImage_1<\/string>\r\n                    <key>state<\/key>\r\n                    <dict>\r\n                        <key>customInputPortStates<\/key>\r\n                        <dict>\r\n                            <key>inputGlyphSize<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>1.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputHeight<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputKerning<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputLeading<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputWidth<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                        <\/dict>\r\n                        <key>fontName<\/key>\r\n                        <string>LucidaGrande<\/string>\r\n                        <key>fontSize<\/key>\r\n                        <real>1.0<\/real>\r\n                        <key>horizontalAlignment<\/key>\r\n                        <string>Centered<\/string>\r\n                        <key>ivarInputPortStates<\/key>\r\n                        <dict>\r\n                            <key>inputFontName<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <string>LucidaGrande<\/string>\r\n                            <\/dict>\r\n                            <key>inputGlyphSize<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>1.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputHeight<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputKerning<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputLeading<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputString<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <string>Hello World!<\/string>\r\n                            <\/dict>\r\n                            <key>inputWidth<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                        <\/dict>\r\n                        <key>manualLayout<\/key>\r\n                        <false\/>\r\n                        <key>userInfo<\/key>\r\n                        <data>\r\n                        BAtzdHJlYW10eXBlZIHoA4QBQISE\r\n                        hBNOU011dGFibGVEaWN0aW9uYXJ5\r\n                        AISEDE5TRGljdGlvbmFyeQCEhAhO\r\n                        U09iamVjdACFhAFpAZKEhIQITlNT\r\n                        dHJpbmcBlYQBKwhwb3NpdGlvboaS\r\n                        hISEB05TVmFsdWUAlYQBKoSEDHtD\r\n                        R1BvaW50PWRkfZuBHwKBuQCGhg==\r\n                        <\/data>\r\n                        <key>version<\/key>\r\n                        <integer>2<\/integer>\r\n                        <key>verticalAlignment<\/key>\r\n                        <string>Centered<\/string>\r\n                    <\/dict>\r\n                <\/dict>\r\n                <dict>\r\n                    <key>class<\/key>\r\n                    <string>QCBillboard<\/string>\r\n                    <key>key<\/key>\r\n                    <string>Billboard_1<\/string>\r\n                    <key>state<\/key>\r\n                    <dict>\r\n                        <key>CIRendering<\/key>\r\n                        <false\/>\r\n                        <key>customInputPortStates<\/key>\r\n                        <dict>\r\n                            <key>inputScale<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>1.0<\/real>\r\n                            <\/dict>\r\n                        <\/dict>\r\n                        <key>ivarInputPortStates<\/key>\r\n                        <dict>\r\n                            <key>inputBlending<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <integer>1<\/integer>\r\n                            <\/dict>\r\n                            <key>inputColor<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <dict>\r\n                                    <key>alpha<\/key>\r\n                                    <real>1.0<\/real>\r\n                                    <key>blue<\/key>\r\n                                    <real>0.0<\/real>\r\n                                    <key>green<\/key>\r\n                                    <real>0.0<\/real>\r\n                                    <key>red<\/key>\r\n                                    <real>0.0<\/real>\r\n                                <\/dict>\r\n                            <\/dict>\r\n                            <key>inputPixelAligned<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputRotation<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputScale<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>1.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputX<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                            <key>inputY<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <real>0.0<\/real>\r\n                            <\/dict>\r\n                        <\/dict>\r\n                        <key>optimizedRendering<\/key>\r\n                        <false\/>\r\n                        <key>pixelAligned<\/key>\r\n                        <real>0.0<\/real>\r\n                        <key>sizeMode<\/key>\r\n                        <string>autoHeight<\/string>\r\n                        <key>systemInputPortStates<\/key>\r\n                        <dict>\r\n                            <key>_enable<\/key>\r\n                            <dict>\r\n                                <key>value<\/key>\r\n                                <true\/>\r\n                            <\/dict>\r\n                        <\/dict>\r\n                        <key>userInfo<\/key>\r\n                        <data>\r\n                        BAtzdHJlYW10eXBlZIHoA4QBQISE\r\n                        hBNOU011dGFibGVEaWN0aW9uYXJ5\r\n                        AISEDE5TRGljdGlvbmFyeQCEhAhO\r\n                        U09iamVjdACFhAFpAZKEhIQITlNT\r\n                        dHJpbmcBlYQBKwhwb3NpdGlvboaS\r\n                        hISEB05TVmFsdWUAlYQBKoSEDHtD\r\n                        R1BvaW50PWRkfZuB+gKBuQCGhg==\r\n                        <\/data>\r\n                        <key>version<\/key>\r\n                        <integer>4<\/integer>\r\n                    <\/dict>\r\n                <\/dict>\r\n            <\/array>\r\n            <key>userInfo<\/key>\r\n            <data>\r\n            BAtzdHJlYW10eXBlZIHoA4QBQISEhBNOU011dGFibGVEaWN0aW9u\r\n            YXJ5AISEDE5TRGljdGlvbmFyeQCEhAhOU09iamVjdACFhAFpA5KE\r\n            hIQITlNTdHJpbmcBlYQBKwp6b29tRmFjdG9yhpKEhIQITlNOdW1i\r\n            ZXIAhIQHTlNWYWx1ZQCVhAEqhIQBZpwBhpKEl5gJc2Nyb2xsaW5n\r\n            hpKEmpuEhAx7Q0dQb2ludD1kZH2dgwAAAAAATIBAgUYBhpKEl5gI\r\n            cG9zaXRpb26GkoSam56dAAWGhg==\r\n            <\/data>\r\n        <\/dict>\r\n    <\/dict>\r\n<\/dict>\r\n<\/plist>"
   },
@@ -5314,8 +5306,8 @@
   {
     "id": "924",
     "title": "Quorum",
-    "description": "",
-    "url": "",
+    "description": "Quorum is the first evidence-oriented programming language. Try it now free for coding games, LEGO, digital signal processing, physics, and more!",
+    "url": "https://quorumlanguage.com/",
     "language_short": "",
     "code": "output \"Hello World\""
   },
@@ -5330,24 +5322,24 @@
   {
     "id": "925",
     "title": "QWERTY",
-    "description": "",
-    "url": "",
+    "description": "QWERTY (/ˈkwɜːrti/) is a keyboard design for Latin-script alphabets. The name comes from the order of the first six keys on the top left letter row of the keyboard (Q W E R T Y). The QWERTY design is based on a layout created for the Sholes and Glidden typewriter and sold to E. Remington and Sons in 1873. It became popular with the success of the Remington No. 2 of 1878, and remains in ubiquitous use.",
+    "url": "https://en.wikipedia.org/wiki/QWERTY",
     "language_short": "",
     "code": "begin\r\n  ?hello = \"Hello World\"\r\n  if 1 == 1 then\r\n    output ?hello\r\n  fi\r\nend"
   },
   {
     "id": "525",
     "title": "R",
-    "description": "",
-    "url": "",
+    "description": "R is a programming language and free software environment for statistical computing and graphics supported by the R Foundation for Statistical Computing.[6] The R language is widely used among statisticians and data miners for developing statistical software[7] and data analysis.[8] Polls, data mining surveys, and studies of scholarly literature databases show substantial increases in popularity;[9] as of April 2021, R ranks 16th in the TIOBE index, a measure of popularity of programming languages.",
+    "url": "https://en.wikipedia.org/wiki/R_(programming_language)",
     "language_short": "r",
     "code": "cat(\"Hello world\\n\")"
   },
   {
     "id": "526",
     "title": "Racket",
-    "description": "",
-    "url": "",
+    "description": "Racket is a general-purpose, multi-paradigm programming language based on the Scheme dialect of Lisp. It is designed as a platform for programming language design and implementation. In addition to the core Racket language, Racket is also used to refer to the family of programming languages and set of tools supporting development on and with Racket. Racket is also used for scripting, computer science education, and research.",
+    "url": "https://en.wikipedia.org/wiki/Racket_(programming_language)",
     "language_short": "plaintext",
     "code": "#lang racket\r\n\"Hello world\""
   },
@@ -5378,16 +5370,16 @@
   {
     "id": "926",
     "title": "Raku",
-    "description": "",
-    "url": "",
+    "description": "Raku is a member of the Perl family of programming languages. Formerly known as Perl 6, it was renamed in October 2019. Raku introduces elements of many modern and historical languages. Compatibility with Perl was not a goal, though a compatibility mode is part of the specification. The design process for Raku began in 2000.",
+    "url": "https://en.wikipedia.org/wiki/Raku_(programming_language)",
     "language_short": "",
     "code": "say \"Hello World\";"
   },
   {
     "id": "529",
     "title": "RatFor",
-    "description": "",
-    "url": "",
+    "description": "Ratfor (short for Rational Fortran) is a programming language implemented as a preprocessor for Fortran 66. It provides modern control structures, unavailable in Fortran 66, to replace GOTOs and statement numbers.",
+    "url": "https://en.wikipedia.org/wiki/Ratfor",
     "language_short": "c-like",
     "code": "print *, 'Hello, world'\r\nend"
   },
@@ -5402,8 +5394,8 @@
   {
     "id": "530",
     "title": "React",
-    "description": "",
-    "url": "",
+    "description": "React (also known as React.js or ReactJS) is an open-source, front end, JavaScript library[3] for building user interfaces or UI components. It is maintained by Facebook and a community of individual developers and companies.[4][5][6] React can be used as a base in the development of single-page or mobile applications. However, React is only concerned with state management and rendering that state to the DOM, so creating React applications usually requires the use of additional libraries for routing, as well as certain client-side functionality.",
+    "url": "https://en.wikipedia.org/wiki/React_(JavaScript_library)",
     "language_short": "javascript",
     "code": "\/\/simple react component that renders \"Hello World\" as an H1 tag into the body \r\n \r\nReact.render(<h1>Hello World<\/h1>, document.body);"
   },
@@ -5434,16 +5426,16 @@
   {
     "id": "532",
     "title": "Reason",
-    "description": "",
-    "url": "",
+    "description": "Reason, also known as ReasonML, is a syntax extension and toolchain for OCaml created by Jordan Walke, who also created React, at Facebook. Reason offers a syntax familiar to JavaScript programmers, and transpiles to OCaml. Statically typed Reason (or OCaml) code may be compiled to dynamically typed JavaScript using the ReScript compiler.",
+    "url": "https://en.wikipedia.org/wiki/Reason_(programming_language)",
     "language_short": "php",
     "code": "print_string \"hello, world\""
   },
   {
     "id": "533",
     "title": "Rebol",
-    "description": "",
-    "url": "",
+    "description": "Rebol (/ˈrɛbəl/ REB-əl; historically REBOL) is a cross-platform[6] data exchange language and a multi-paradigm dynamic programming language designed by Carl Sassenrath for network communications and distributed computing. It introduces the concept of dialecting: small, optimized, domain-specific languages for code and data.",
+    "url": "https://en.wikipedia.org/wiki/Rebol",
     "language_short": "php",
     "code": "print \"Hello World!\""
   },
@@ -5458,32 +5450,32 @@
   {
     "id": "929",
     "title": "Red",
-    "description": "",
-    "url": "",
+    "description": "Red is a programming language designed to overcome the limitations of the programming language Rebol. Red was introduced in 2011 by Nenad Rakočević, and is both an imperative and functional programming language. Its syntax and general usage overlaps that of the interpreted Rebol language.",
+    "url": "https://en.wikipedia.org/wiki/Red_(programming_language)",
     "language_short": "",
     "code": "Red [Needs: 'View]\r\nview [text \"Hello World\"]"
   },
   {
     "id": "930",
     "title": "Redis",
-    "description": "",
-    "url": "",
+    "description": "Redis (/ˈrɛdɪs/; Remote Dictionary Server) is an in-memory data structure store, used as a distributed, in-memory key–value database, cache and message broker, with optional durability. Redis supports different kinds of abstract data structures, such as strings, lists, maps, sets, sorted sets, HyperLogLogs, bitmaps, streams, and spatial indexes. The project is developed and maintained by a project core team and as of 2015 is sponsored by Redis Labs.[8] It is open-source software released under a BSD 3-clause license.",
+    "url": "https://en.wikipedia.org/wiki/Redis",
     "language_short": "",
     "code": "set Hello World"
   },
   {
     "id": "931",
     "title": "Refal",
-    "description": "",
-    "url": "",
+    "description": "Refal (\"Recursive functions algorithmic language\"; Russian: РЕФАЛ) \"is a functional programming language oriented toward symbolic computations\", including \"string processing, language translation, [and] artificial intelligence\". It is one of the oldest members of this family, first conceived of in 1966 as a theoretical tool, with the first implementation appearing in 1968. Refal was intended to combine mathematical simplicity with practicality for writing large and sophisticated programs.",
+    "url": "https://en.wikipedia.org/wiki/Refal",
     "language_short": "",
     "code": "$ENTRY Go { = <Hello>;}\r\nHello {\r\n    = <Prout 'Hello World'>;\r\n}"
   },
   {
     "id": "535",
-    "title": "reStructuredText",
-    "description": "",
-    "url": "",
+    "title": "reStructuredText (RST, ReST, or reST)",
+    "description": "reStructuredText (RST, ReST, or reST) is a file format for textual data used primarily in the Python programming language community for technical documentation.",
+    "url": "https://en.wikipedia.org/wiki/ReStructuredText",
     "language_short": "plaintext",
     "code": "============\r\nHello World!\r\n============"
   },
@@ -5506,8 +5498,8 @@
   {
     "id": "537",
     "title": "Rexx",
-    "description": "",
-    "url": "",
+    "description": "Rexx (Restructured Extended Executor) is an interpreted programming language developed at IBM by Mike Cowlishaw. It is a structured, high-level programming language designed for ease of learning and reading. Proprietary and open source Rexx interpreters exist for a wide range of computing platforms; compilers exist for IBM mainframe computers.",
+    "url": "https://en.wikipedia.org/wiki/Rexx",
     "language_short": "plaintext",
     "code": "<<hello.rexx>>=\r\nSay \"Hello, World!\""
   },
@@ -5546,8 +5538,8 @@
   {
     "id": "540",
     "title": "Ring",
-    "description": "",
-    "url": "",
+    "description": "Ring is a dynamically typed, general-purpose programming language. It can be embedded in C/C++ projects, extended using C/C++ code and/or used as a standalone language. The supported programming paradigms are imperative, procedural, object-oriented, functional, meta, declarative using nested structures, and natural programming. The language is portable (Windows, Linux, macOS, Android, etc.) and can be used to create console, GUI, web, game and mobile applications.",
+    "url": "https://en.everybodywiki.com/Ring_(programming_language)",
     "language_short": "c-like",
     "code": "see \"Hello, World!\" "
   },
@@ -5562,18 +5554,18 @@
   {
     "id": "935",
     "title": "RiveScript",
-    "description": "",
-    "url": "",
+    "description": "RiveScript exposes a simple plain text scripting language that's easy to learn and begin writing in quickly. No need to mess with complicated opaque XML structures or random symbols and line noise like with some other chatbot languages!",
+    "url": "https://www.rivescript.com/",
     "language_short": "",
     "code": "+ *\r\n- Hello World"
   },
   {
     "id": "542",
     "title": "Rockstar",
-    "description": "",
-    "url": "",
+    "description": "Rockstar is a dynamically typed Turing-complete programming language designed for creating computer programs that are also song lyrics. Rockstar is heavily influenced by the lyrical conventions of 1980s hard rock and power ballads. It was created by Dylan Beattie in 2018, based on this tweet from Paul Stovell, which said \"To really confuse recruiters, someone should make a programming language called Rockstar.\"",
+    "url": "https://esolangs.org/wiki/Rockstar",
     "language_short": "c-like",
-    "code": "Scream \"hello world!\""
+    "code": "Say \"hello world!\""
   },
   {
     "id": "543",
@@ -5594,24 +5586,24 @@
   {
     "id": "545",
     "title": "Roy",
-    "description": "",
-    "url": "",
+    "description": "Roy is an experimental programming language that compiles to javascript developed primarily by Brian McKenna. The main motivation for Brian was that \"writing correct javascript is hard\".",
+    "url": "https://gyaanipedia.fandom.com/wiki/Roy_(programming_language)",
     "language_short": "javascript",
     "code": "console.log \"Hello world\""
   },
   {
     "id": "546",
     "title": "RPG IV (RPG-IV)",
-    "description": "",
-    "url": "",
+    "description": "RPG is a high-level programming language for business applications, introduced in 1959 for the IBM 1401. It is most well known as the primary programming language of IBM's midrange computer product line, including the IBM i operating system.[1] RPG has traditionally featured a number of distinctive concepts, such as the program cycle, and the column-oriented syntax.[2] The most recent version is RPG IV, which includes a number of modernization features, including free-form syntax.",
+    "url": "https://en.wikipedia.org/wiki/IBM_RPG",
     "language_short": "c-like",
     "code": "\/free\r\n    dsply 'Hello World!';\r\n    return;\r\n\/end-free"
   },
   {
     "id": "936",
     "title": "RPG",
-    "description": "",
-    "url": "",
+    "description": "RPG is a high-level programming language for business applications, introduced in 1959 for the IBM 1401. It is most well known as the primary programming language of IBM's midrange computer product line, including the IBM i operating system.[1] RPG has traditionally featured a number of distinctive concepts, such as the program cycle, and the column-oriented syntax.[2] The most recent version is RPG IV, which includes a number of modernization features, including free-form syntax.",
+    "url": "https://en.wikipedia.org/wiki/IBM_RPG",
     "language_short": "",
     "code": "**free\r\ndsply 'Hello World';\r\nreturn;"
   },
@@ -5625,9 +5617,9 @@
   },
   {
     "id": "937",
-    "title": "RTL2",
-    "description": "",
-    "url": "",
+    "title": "RTL2 (RTL/2)",
+    "description": "RTL/2 (Real-Time Language) is a discontinued high-level programming language for use in real-time computing, developed at Imperial Chemical Industries, Ltd. (ICI), by J.G.P. Barnes. It was originally used internally in ICI but was distributed by SPL International in 1974. It was based on concepts from ALGOL 68, and intended to be small and simple. RTL/2 was standardised in 1980 by the British Standards Institution.",
+    "url": "https://en.wikipedia.org/wiki/RTL/2",
     "language_short": "",
     "code": "TITLE Hello World;\r\n\r\nLET NL=10;\r\n\r\nEXT PROC(REF ARRAY BYTE) TWRT;\r\n\r\nENT PROC INT RRJOB();\r\n\r\n    TWRT(\"Hello World#NL#\");\r\n    RETURN(1);\r\n\r\nENDPROC;"
   },
@@ -5642,8 +5634,8 @@
   {
     "id": "549",
     "title": "Ruby",
-    "description": "",
-    "url": "",
+    "description": "Ruby is an interpreted, high-level, general-purpose programming language. It was designed and developed in the mid-1990s by Yukihiro \"Matz\" Matsumoto in Japan.",
+    "url": "https://en.wikipedia.org/wiki/Ruby_(programming_language)",
     "language_short": "ruby",
     "code": "#!\/usr\/bin\/env ruby\r\nputs \"Hello World\""
   },
@@ -5658,16 +5650,16 @@
   {
     "id": "551",
     "title": "Rust",
-    "description": "",
-    "url": "",
+    "description": "Rust is a multi-paradigm programming language designed for performance and safety, especially safe concurrency. Rust is syntactically similar to C++, but can guarantee memory safety by using a borrow checker to validate references. Rust achieves memory safety without garbage collection, and reference counting is optional.",
+    "url": "https://en.wikipedia.org/wiki/Rust_(programming_language)",
     "language_short": "rust",
     "code": "fn main() {\r\n    println!(\"Hello, world!\");\r\n}"
   },
   {
     "id": "552",
     "title": "S Algol (S-Algol)",
-    "description": "",
-    "url": "",
+    "description": "S-algol (St Andrews Algol):vii is a computer programming language derivative of ALGOL 60 developed at the University of St Andrews in 1979 by Ron Morrison and Tony Davie. The language is a modification of ALGOL to contain orthogonal data types that Morrison created for his PhD thesis. Morrison would go on to become professor at the university and head of the department of computer science. The S-algol language was used for teaching at the university at an undergraduate level until 1999. It was also the language taught for several years in the 1980s at a local school in St. Andrews, Madras College. The computer science text Recursive Descent Compiling describes a recursive descent compiler for S-algol, implemented in S-algol.",
+    "url": "https://en.wikipedia.org/wiki/S-algol",
     "language_short": "plaintext",
     "code": "write \"Hello World\"\r\n?"
   },
@@ -5690,8 +5682,8 @@
   {
     "id": "554",
     "title": "SADOL",
-    "description": "",
-    "url": "",
+    "description": "SADOL (Sadistic And Damn Odd Language) is an esoteric programming language made by Martin 'nooga' Gasperowicz (User:nooga) in 2005.",
+    "url": "https://esolangs.org/wiki/SADOL",
     "language_short": "plaintext",
     "code": "!\",212Hello world!"
   },
@@ -5722,8 +5714,8 @@
   {
     "id": "558",
     "title": "SAS",
-    "description": "",
-    "url": "",
+    "description": "The SAS language is a computer programming language used for statistical analysis, created by Anthony James Barr at North Carolina State University. It can read in data from common spreadsheets and databases and output the results of statistical analyses in tables, graphs, and as RTF, HTML and PDF documents. The SAS language runs under compilers that can be used on Microsoft Windows, Linux, and various other UNIX and mainframe computers. The SAS System and World Programming System (WPS) are SAS language compilers.",
+    "url": "https://en.wikipedia.org/wiki/SAS_language",
     "language_short": "sas",
     "code": "%macro putit( string= ); \r\n    %put &string; \r\n    %mend; \r\n%putit(string=Hello World!)"
   },
@@ -5738,32 +5730,32 @@
   {
     "id": "560",
     "title": "Sass",
-    "description": "",
-    "url": "",
+    "description": "Sass (short for syntactically awesome style sheets) is a preprocessor scripting language that is interpreted or compiled into Cascading Style Sheets (CSS). SassScript is the scripting language itself.",
+    "url": "https://en.wikipedia.org/wiki/Sass_(stylesheet_language)",
     "language_short": "scss",
     "code": "body::before\r\n    content: \"Hello World!\""
   },
   {
     "id": "561",
     "title": "Sather",
-    "description": "",
-    "url": "",
+    "description": "Sather is an object-oriented programming language. It originated circa 1990 at the International Computer Science Institute (ICSI) at the University of California, Berkeley, developed by an international team led by Steve Omohundro. It supports garbage collection and generics by subtypes.",
+    "url": "https://en.wikipedia.org/wiki/Sather",
     "language_short": "c-like",
     "code": "class MAIN is\r\n    main is \r\n        loop \r\n            #OUT + \"Hello World!\\n\" \r\n        end \r\n    end\r\nend"
   },
   {
     "id": "562",
     "title": "Scala",
-    "description": "",
-    "url": "",
+    "description": "Scala (/ˈskɑːlɑː/ SKAH-lah) is a strong statically typed general-purpose programming language which supports both object-oriented programming and functional programming. Designed to be concise, many of Scala's design decisions are aimed to address criticisms of Java.",
+    "url": "https://en.wikipedia.org/wiki/Scala_(programming_language)",
     "language_short": "scala",
     "code": "object HelloWorld extends App {\r\n    println(\"Hello World\")\r\n}"
   },
   {
     "id": "563",
     "title": "Scheme",
-    "description": "",
-    "url": "",
+    "description": "Scheme is a minimalist dialect of the Lisp family of programming languages. Scheme consists of a small standard core with several tools for language extension.",
+    "url": "https://en.wikipedia.org/wiki/Scheme_(programming_language)",
     "language_short": "scheme",
     "code": "(display \"Hello World\") (newline)"
   },
@@ -5778,8 +5770,8 @@
   {
     "id": "565",
     "title": "Scilab",
-    "description": "",
-    "url": "",
+    "description": "Scilab is a free and open-source, cross-platform numerical computational package and a high-level, numerically oriented programming language. It can be used for signal processing, statistical analysis, image enhancement, fluid dynamics simulations, numerical optimization, and modeling, simulation of explicit and implicit dynamical systems and (if the corresponding toolbox is installed) symbolic manipulations.",
+    "url": "https://en.wikipedia.org/wiki/Scilab",
     "language_short": "scilab",
     "code": "while(1)\r\n    printf(\"hello world\");\r\nend"
   },
@@ -5794,16 +5786,16 @@
   {
     "id": "567",
     "title": "SCSS",
-    "description": "",
-    "url": "",
+    "description": "\"SCSS\" (Sassy CSS), uses block formatting like that of CSS. It uses braces to denote code blocks and semicolons to separate rules within a block. The indented syntax and SCSS files are traditionally given the extensions .sass and .scss, respectively.",
+    "url": "https://en.wikipedia.org/wiki/Sass_(stylesheet_language)",
     "language_short": "scss",
     "code": "body::before {\r\n    content: \"Hello World!\"\r\n}"
   },
   {
     "id": "568",
     "title": "Sed",
-    "description": "",
-    "url": "",
+    "description": "sed (\"stream editor\") is a Unix utility that parses and transforms text, using a simple, compact programming language. sed was developed from 1973 to 1974 by Lee E. McMahon of Bell Labs, and is available today for most operating systems.",
+    "url": "https://en.wikipedia.org/wiki/Sed",
     "language_short": "bash",
     "code": "#!\/usr\/bin\/sed -f sed.sed\r\nc\\\r\nHello World\r\nq"
   },
@@ -5818,32 +5810,32 @@
   {
     "id": "938",
     "title": "Seed",
-    "description": "",
-    "url": "",
+    "description": "Seed is a language based on random seeds. Actually, programs only contain two instructions: length and random seed, separated by a space. To execute a Seed program, the seed is fed into a Mersenne twister (Wikipedia) random number generator, and the randomness obtained is converted into a string of length bytes, which will be executed by a Befunge-98 interpreter (or compiler).",
+    "url": "https://esolangs.org/wiki/Seed",
     "language_short": "",
     "code": "20 77698190481213510983405846204529755428212736563278528088055816123655499433757607718113585773285686740433752335768949721107461077652705328567448384490378909463204984642622585570301449419608763821501335954761638946551568252142160714228369356054944595121742743720935369219143086698092657062614382519069928478344861416117079283276656675368390764675728501797178208908097054412833019383889935034413095990596139618411133857423995278221670378808372393943846302426674985203826030563290800228881174929701934609803807325868775242909948272754141956168876233403760199007405891058308908050926690654387065882097924294620229833663324754801060691573338185912369627367088050915813931912943122729210762147280440619571047157836177316082899933374851699282897590433145623725705072835054748369992455883804733164985993447304652512229557984322495162682327137071900307763332392727562988633724175094951314863886096190608268953115914497741446723188169519334729165647294618083444761551231012944903572063441813639201051793052623561949314826491616145873848990439549320951496534538450810083853945092224500179417650727351532486362656533602860500906935826231374501097567347929533018944533000919137863885267937690665655625569011036163950983389810112758403211861147501289650757555111271813737813381172074709337306647481507917983021055643749698971365256395367215437223669891280521155247529741719633106765965869860677198632388808752014013939448563313855130972968670015202479226496876067874099463222366536167126653600056389712632892652810365218798697007191747287017174284819764736012653205048166550645507761123345279502597627995423826537299795220169894222867163817508592362092945387317777666016102146798532337718546431888424995701016828542559577710937459975677354300708252448630110787487122698124054544454425586794841157136743408274159313823745226919626156949004386804874236325506583268311452185182143521552429596087556634158778951670223004413763782647825362665491934988477225698133609360969370513836064317152213804169538880632390908441210809806024082600637872813704781431414342781727628446451808751293046212690472851527294326981763969926510021099532791692362104324026231160941956411410511639925420026544463125250979130259151326444714248961523031316570018708849878676230362246913063109584502143502908906243190007062857721367402065760878808920961082444422470813023453274563914735545463757909757689866565064353853099958949763412521666109346825939993377745919874506439752272141853783745051726268592621080457687000431023453539135927140364910898906534604541224314820195082362228787083990333757268808864746297304451768935814651205074884015268982492445996542040655715230139673520569765431617018824427859214902954216246257690105154030408059145566852643855789351907818461502260430297487602982850090037405732117988720732457199005151517240766953718440639691354185802798689950155164379549518496065038927905828230066053603755553745353618846804435103593395141938947781375633374976924393453162350331593801284839409264892975739791751842620029351535320807733966984270102067017902086335370470815153908942490581427972998999752666174807935897314584088695849094389002316139005810918748032068307783088481430339303809949409414892479892121893571274086727250767713365523021125610242269894861374297866741571608166536165735922984579027986499758294460652554897534526492251140681138244025665400003029337114012766773010641359450599171473565675885966777145500248501370644599274741842644014722083732709145488157998306684831419559774212264003518406013032514468522158218837161285401631773099549510145156007147884565387852623860047153609138110997222297132678660783411624002400927435687937355446057878202312894093195453248164648271580944753933355967626542678764854079218206499479071658357103085513937246462858404881973219571392564909528645166637501279457604649906515968389831094896970731573714836150178126997674563415266672131632765794599548356902607125568792417432226125654028873443580337866760487651905138461301986816386866811155111486155341154153322710638921116465132825486519667178335471102213200521032618562169530188826434060179505699797068436325168526618824444305122475837890944742004331675952611756641739756206337285946"
   },
   {
     "id": "939",
     "title": "Seed7",
-    "description": "",
-    "url": "",
+    "description": "Seed7 is an extensible general-purpose programming language designed by Thomas Mertes. It is syntactically similar to Pascal and Ada. Along with many other features, it provides an extension mechanism. Seed7 supports introducing new syntax elements and their semantics into the language, and allows new language constructs to be defined and written in Seed7. For example, programmers can introduce syntax and semantics of new statements and user defined operator symbols. The implementation of Seed7 differs significantly from that of languages with hard-coded syntax and semantics.",
+    "url": "https://en.wikipedia.org/wiki/Seed7",
     "language_short": "",
     "code": "$ include \"seed7_05.s7i\";\r\n\r\nconst proc: main is func\r\n  begin\r\n    writeln(\"Hello World\");\r\n  end func;"
   },
   {
     "id": "570",
     "title": "Self",
-    "description": "",
-    "url": "",
+    "description": "Self is an object-oriented programming language based on the concept of prototypes. Self began as a dialect of Smalltalk, being dynamically typed and using just-in-time compilation (JIT) as well as the prototype-based approach to objects: it was first used as an experimental test system for language design in the 1980s and 1990s. In 2006, Self was still being developed as part of the Klein project, which was a Self virtual machine written fully in Self. The latest version is 2017.1 released in May 2017.",
+    "url": "https://en.wikipedia.org/wiki/Self_(programming_language)",
     "language_short": "plaintext",
     "code": "'Hello World!' printLine"
   },
   {
     "id": "571",
     "title": "Semicolon",
-    "description": "",
-    "url": "",
+    "description": "The semicolon or semi-colon ; is a symbol commonly used as orthographic punctuation. In the English language, a semicolon is most commonly used to link (in a single sentence) two independent clauses that are closely related in thought. When a semicolon joins two or more ideas in one sentence, those ideas are then given equal rank. Semicolons can also be used in place of commas to separate the items in a list, particularly when the elements of that list contain commas.",
+    "url": "https://en.wikipedia.org/wiki/Semicolon",
     "language_short": "plaintext",
     "code": ";;;;⁏;;⁏;;;\r\n⁏ ;;;;;;⁏⁏;;⁏;⁏\r\n⁏ ;;;;;;⁏⁏;⁏⁏;;\r\n;;⁏⁏ ;;⁏ ;;;;;;⁏⁏;⁏⁏⁏⁏\r\n⁏ ;;;;;;⁏;;;;;\r\n⁏ ;;;;;;⁏⁏⁏;⁏⁏⁏\r\n⁏ ;;;;;;⁏⁏;⁏⁏⁏⁏\r\n;;⁏⁏ ;;;;;;⁏⁏\r\n⁏;;⁏ ;;;;;;⁏⁏;⁏⁏;;\r\n⁏ ;;;;;;⁏⁏;;⁏;;\r\n⁏ ;;;;;;⁏;;;;⁏\r\n⁏ ;;;;;;;⁏;⁏;\r\n⁏ ;;  ;"
   },
@@ -5874,24 +5866,24 @@
   {
     "id": "574",
     "title": "Shakespeare",
-    "description": "",
-    "url": "",
+    "description": "The Shakespeare Programming Language (SPL) is an esoteric programming language designed by Jon Åslund and Karl Hasselström. Like the Chef programming language, it is designed to make programs appear to be something other than programs - in this case, Shakespearean plays.",
+    "url": "https://en.wikipedia.org/wiki/Shakespeare_Programming_Language",
     "language_short": "plaintext",
     "code": "The Infamous Hello World Program.\r\n \r\nRomeo, a young man with a remarkable patience.\r\nJuliet, a likewise young woman of remarkable grace.\r\nOphelia, a remarkable woman much in dispute with Hamlet.\r\nHamlet, the flatterer of Andersen Insulting A\/S.\r\n \r\n \r\n                    Act I: Hamlet's insults and flattery.\r\n \r\n                    Scene I: The insulting of Romeo.\r\n \r\n[Enter Hamlet and Romeo]\r\n \r\nHamlet:\r\n    You lying stupid fatherless big smelly half-witted coward!\r\n    You are as stupid as the difference between a handsome rich brave\r\n    hero and thyself! Speak your mind!\r\n \r\n    You are as brave as the sum of your fat little stuffed misused dusty\r\n    old rotten codpiece and a beautiful fair warm peaceful sunny summer's\r\n    day. You are as healthy as the difference between the sum of the\r\n    sweetest reddest rose and my father and yourself! Speak your mind!\r\n \r\n    You are as cowardly as the sum of yourself and the difference\r\n    between a big mighty proud kingdom and a horse. Speak your mind.\r\n \r\n    Speak your mind!\r\n \r\n[Exit Romeo]\r\n \r\n                    Scene II: The praising of Juliet.\r\n \r\n[Enter Juliet]\r\n \r\nHamlet:\r\n    Thou art as sweet as the sum of the sum of Romeo and his horse and his\r\n    black cat! Speak thy mind!\r\n \r\n[Exit Juliet]\r\n \r\n                    Scene III: The praising of Ophelia.\r\n \r\n[Enter Ophelia]\r\n \r\nHamlet:\r\n    Thou art as lovely as the product of a large rural town and my amazing\r\n    bottomless embroidered purse. Speak thy mind!\r\n \r\n    Thou art as loving as the product of the bluest clearest sweetest sky\r\n    and the sum of a squirrel and a white horse. Thou art as beautiful as\r\n    the difference between Juliet and thyself. Speak thy mind!\r\n \r\n[Exeunt Ophelia and Hamlet]\r\n \r\n \r\n                    Act II: Behind Hamlet's back.\r\n \r\n                    Scene I: Romeo and Juliet's conversation.\r\n \r\n[Enter Romeo and Juliet]\r\n \r\nRomeo:\r\n    Speak your mind. You are as worried as the sum of yourself and the\r\n    difference between my small smooth hamster and my nose. Speak your\r\n    mind!\r\n \r\nJuliet:\r\n    Speak YOUR mind! You are as bad as Hamlet! You are as small as the\r\n    difference between the square of the difference between my little pony\r\n    and your big hairy hound and the cube of your sorry little\r\n    codpiece. Speak your mind!\r\n \r\n[Exit Romeo]\r\n \r\n                    Scene II: Juliet and Ophelia's conversation.\r\n \r\n[Enter Ophelia]\r\n \r\nJuliet:\r\n    Thou art as good as the quotient between Romeo and the sum of a small\r\n    furry animal and a leech. Speak your mind!\r\n \r\nOphelia:\r\n    Thou art as disgusting as the quotient between Romeo and twice the\r\n    difference between a mistletoe and an oozing infected blister! Speak\r\n    your mind!\r\n \r\n[Exeunt]"
   },
   {
     "id": "575",
     "title": "Shell",
-    "description": "",
-    "url": "",
+    "description": "A shell script is a computer program designed to be run by the Unix shell, a command-line interpreter.[1] The various dialects of shell scripts are considered to be scripting languages. Typical operations performed by shell scripts include file manipulation, program execution, and printing text. A script which sets up the environment, runs the program, and does any necessary cleanup, logging, etc. is called a wrapper.",
+    "url": "https://en.wikipedia.org/wiki/Shell_script",
     "language_short": "shell",
     "code": "#!\/bin\/sh\r\necho \"Hello World\""
   },
   {
     "id": "576",
     "title": "shen",
-    "description": "",
-    "url": "",
+    "description": "Shen is a cool language in the spirit of Lisp that modernizes it and is backed by cutting-edge research on programming languages. It gives very thoughtful answers to problems we, the programmers’ global tribe, are collectively facing.",
+    "url": "http://shenlanguage.org/",
     "language_short": "c-like",
     "code": "(pr \"hello world\")"
   },
@@ -5906,40 +5898,40 @@
   {
     "id": "941",
     "title": "Sidekiq",
-    "description": "",
-    "url": "",
+    "description": "Sidekiq is an open source job scheduler written in Ruby. It's important to be aware that Sidekiq by default doesn't do scheduling, it only executes jobs. The Enterprise version comes with scheduling out of the box.",
+    "url": "https://en.wikipedia.org/wiki/Sidekiq",
     "language_short": "",
     "code": "def self.❨╯°□°❩╯︵┻━┻\r\n    puts \"Hello World\"\r\nend"
   },
   {
     "id": "578",
     "title": "SIL",
-    "description": "",
-    "url": "",
+    "description": "SIL International (formerly known as the Summer Institute of Linguistics) is a Christian non-profit organization, whose main purpose is to study, develop and document languages, especially those that are lesser-known, in order to expand linguistic knowledge, promote literacy, translate the Christian Bible into local languages, and aid minority language development.",
+    "url": "https://en.wikipedia.org/wiki/SIL_International",
     "language_short": "plaintext",
     "code": "print Hello, World!"
   },
   {
     "id": "579",
     "title": "Simpl+",
-    "description": "",
-    "url": "",
+    "description": "Synchronous Interprocess Messaging Project for LINUX (SIMPL) is a free and open-source project that allows QNX-style synchronous message passing by adding a Linux library using user space techniques like shared memory and Unix pipes[3] to implement SendMssg/ReceiveMssg/ReplyMssg inter-process messaging mechanisms.",
+    "url": "https://en.wikipedia.org/wiki/SIMPL",
     "language_short": "c-like",
     "code": "\/\/ Hello World in Crestron's SIMPL+\r\nFunction Main\r\n{\r\n    Print(\"Hello World!\\n\");\r\n}"
   },
   {
     "id": "580",
     "title": "Simula",
-    "description": "",
-    "url": "",
+    "description": "Simula is the name of two simulation programming languages, Simula I and Simula 67, developed in the 1960s at the Norwegian Computing Center in Oslo, by Ole-Johan Dahl and Kristen Nygaard. Syntactically, it is a fairly faithful superset of ALGOL 60, also influenced by the design of Simscript.",
+    "url": "https://en.wikipedia.org/wiki/Simula",
     "language_short": "c-like",
     "code": "Begin\r\n    OutText (\"Hello World!\");\r\n    Outimage;\r\nEnd;"
   },
   {
     "id": "942",
     "title": "Skip",
-    "description": "",
-    "url": "",
+    "description": "Skip is a general-purpose programming language that tracks side effects to provide caching with reactive invalidation, ergonomic and safe parallelism, and efficient garbage collection. Skip is statically typed and ahead-of-time compiled using LLVM to produce highly optimized executables.",
+    "url": "http://skiplang.com/",
     "language_short": "",
     "code": "fun main(): void {\r\n  print_string(\"Hello World\")\r\n}"
   },
@@ -5970,8 +5962,8 @@
   {
     "id": "583",
     "title": "Smali",
-    "description": "",
-    "url": "",
+    "description": "smali/baksmali is an assembler/disassembler for the dex format used by dalvik, Android's Java VM implementation. The syntax is loosely based on Jasmin's/dedexer's syntax, and supports the full functionality of the dex format (annotations, debug info, line info, etc.)",
+    "url": "https://github.com/JesusFreke/smali/wiki",
     "language_short": "smali",
     "code": ".class public LHelloWorld;\r\n \r\n.super Ljava\/lang\/Object;\r\n \r\n.method public static main([Ljava\/lang\/String;)V\r\n    .registers 2\r\n \r\n    sget-object v0, Ljava\/lang\/System;->out:Ljava\/io\/PrintStream;\r\n \r\n    const-string\tv1, \"Hello World!\"\r\n \r\n    invoke-virtual {v0, v1}, Ljava\/io\/PrintStream;->println(Ljava\/lang\/String;)V\r\n \r\n    return-void\r\n.end method"
   },
@@ -5986,16 +5978,16 @@
   {
     "id": "585",
     "title": "SmallTalk GNU (Smalltalk-gnu)",
-    "description": "",
-    "url": "",
+    "description": "SmallTalk GNU is an implementation of the Smalltalk programming language by the GNU Project.",
+    "url": "https://en.wikipedia.org/wiki/GNU_Smalltalk",
     "language_short": "smalltalk",
     "code": "'Hello World' printNl !"
   },
   {
     "id": "586",
     "title": "Smalltalk",
-    "description": "",
-    "url": "",
+    "description": "Smalltalk is an object-oriented, dynamically typed reflective programming language. Smalltalk was created as the language underpinning the \"new world\" of computing exemplified by \"human–computer symbiosis\". It was designed and created in part for educational use, specifically for constructionist learning, at the Learning Research Group (LRG) of Xerox PARC by Alan Kay, Dan Ingalls, Adele Goldberg, Ted Kaehler, Diana Merry, Scott Wallace, and others during the 1970s.",
+    "url": "https://en.wikipedia.org/wiki/Smalltalk",
     "language_short": "smalltalk",
     "code": "Transcript show: 'Hello, world!'."
   },
@@ -6009,9 +6001,9 @@
   },
   {
     "id": "588",
-    "title": "Smil",
-    "description": "",
-    "url": "",
+    "title": "Smil (Synchronized Multimedia Integration Language)",
+    "description": "Synchronized Multimedia Integration Language (SMIL (/ˈsmaɪl/)) is a World Wide Web Consortium recommended Extensible Markup Language (XML) markup language to describe multimedia presentations. It defines markup for timing, layout, animations, visual transitions, and media embedding, among other things. SMIL allows presenting media items such as text, images, video, audio, links to other SMIL presentations, and files from multiple web servers. SMIL markup is written in XML, and has similarities to HTML.",
+    "url": "https://en.wikipedia.org/wiki/Synchronized_Multimedia_Integration_Language",
     "language_short": "xml",
     "code": "<smil>\r\n    <head>\r\n        <layout>\r\n            <root-layout width=\"300\" height=\"160\" background-color=\"white\"\/>\r\n            <region id=\"text_region\" left=\"115\" top=\"60\"\/>\r\n        <\/layout>\r\n    <\/head>\r\n    <body>\r\n        <text src=\"data:,Hello%20World!\" region=\"text_region\">\r\n            <param name=\"fontFace\" value=\"Arial\"\/>\r\n        <\/text>\r\n    <\/body>\r\n<\/smil>"
   },
@@ -6042,8 +6034,8 @@
   {
     "id": "591",
     "title": "SML (Standard ML)",
-    "description": "",
-    "url": "",
+    "description": "Standard ML (SML) is a general-purpose, modular, functional programming language with compile-time type checking and type inference. It is popular among compiler writers and programming language researchers, as well as in the development of theorem provers.",
+    "url": "https://en.wikipedia.org/wiki/Standard_ML",
     "language_short": "sml",
     "code": "val () = print \"Hello World\\n\""
   },
@@ -6074,8 +6066,8 @@
   {
     "id": "595",
     "title": "Solidity",
-    "description": "",
-    "url": "",
+    "description": "Solidity is an object-oriented programming language for writing smart contracts. It is used for implementing smart contracts on various blockchain platforms, most notably, Ethereum. It was developed by Christian Reitwiessner, Alex Beregszaszi, and several former Ethereum core contributors to enable writing smart contracts on blockchain platforms such as Ethereum. The programs compiled by the Solidity are intended to be run on Ethereum Virtual Machine.",
+    "url": "https://en.wikipedia.org/wiki/Solidity",
     "language_short": "c-like",
     "code": "pragma solidity ^0.4.24;\r\n \r\ncontract HelloWorld {\r\n    function render () public pure returns (string) {\r\n        return 'Hello World';\r\n    }\r\n}"
   },
@@ -6114,9 +6106,9 @@
   {
     "id": "600",
     "title": "SparQL",
-    "description": "",
-    "url": "",
-    "language_short": "c-ile",
+    "description": "SPARQL (pronounced \"sparkle\" /ˈspɑːkəl/, a recursive acronym for SPARQL Protocol and RDF Query Language) is an RDF query language—that is, a semantic query language for databases—able to retrieve and manipulate data stored in Resource Description Framework (RDF) format. It was made a standard by the RDF Data Access Working Group (DAWG) of the World Wide Web Consortium, and is recognized as one of the key technologies of the semantic web. On 15 January 2008, SPARQL 1.0 was acknowledged by W3C as an official recommendation, and SPARQL 1.1 in March, 2013.",
+    "url": "https://en.wikipedia.org/wiki/SPARQL",
+    "language_short": "c-like",
     "code": "SELECT ?h WHERE { \r\n    VALUES ?h { \"Hello World!\" } \r\n}"
   },
   {
@@ -6162,24 +6154,24 @@
   {
     "id": "606",
     "title": "SPSS",
-    "description": "",
-    "url": "",
+    "description": "SPSS Statistics is a software package used for interactive, or batched, statistical analysis. Long produced by SPSS Inc., it was acquired by IBM in 2009. Current versions (post 2015) have the brand name: IBM SPSS Statistics.",
+    "url": "https://en.wikipedia.org/wiki/SPSS",
     "language_short": "c-like",
     "code": "BEGIN PROGRAM.\r\nprint \"Hello, world!\"\r\nEND PROGRAM."
   },
   {
     "id": "607",
     "title": "SQL",
-    "description": "",
-    "url": "",
+    "description": "SQL (/ˌɛsˌkjuːˈɛl/ (About this soundlisten) S-Q-L,[4] /ˈsiːkwəl/ \"sequel\"; Structured Query Language)[5] is a domain-specific language used in programming and designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS). It is particularly useful in handling structured data, i.e. data incorporating relations among entities and variables.",
+    "url": "https://en.wikipedia.org/wiki/SQL",
     "language_short": "sql",
     "code": "CREATE TABLE HELLO (HELLO CHAR(12))\r\nINSERT INTO HELLO\r\n        VALUES ('HELLO WORLD!')\r\nSELECT * FROM HELLO"
   },
   {
     "id": "608",
     "title": "Squirrel",
-    "description": "",
-    "url": "",
+    "description": "Squirrel is a high level imperative, object-oriented programming language, designed to be a lightweight scripting language that fits in the size, memory bandwidth, and real-time requirements of applications like video games and embedded systems.",
+    "url": "https://en.wikipedia.org/wiki/Squirrel_(programming_language)",
     "language_short": "c-like",
     "code": "print(\"Hello World!\");"
   },
@@ -6210,16 +6202,16 @@
   {
     "id": "611",
     "title": "SML (Standard ML)",
-    "description": "",
-    "url": "",
+    "description": "Standard ML (SML) is a general-purpose, modular, functional programming language with compile-time type checking and type inference. It is popular among compiler writers and programming language researchers, as well as in the development of theorem provers.",
+    "url": "https://en.wikipedia.org/wiki/Standard_ML",
     "language_short": "sml",
     "code": "fun hello() = print(\"Hello world!\\n\");\r\n \r\nhello()"
   },
   {
     "id": "612",
     "title": "Stanza",
-    "description": "",
-    "url": "",
+    "description": "In computing, a stanza consists of a related group of lines in a script or configuration file. Formats depend on context.",
+    "url": "https://en.wikipedia.org/wiki/Stanza_(computing)",
     "language_short": "c-like",
     "code": "println(\"Hello World\")"
   },
@@ -6250,8 +6242,8 @@
   {
     "id": "945",
     "title": "Streem",
-    "description": "",
-    "url": "",
+    "description": "Streem is a stream based concurrent scripting language. It is based on a programming model similar to the shell, with influences from Ruby, Erlang, and other functional programming languages.",
+    "url": "https://github.com/matz/streem",
     "language_short": "",
     "code": "[\"Hello World\"] | stdout"
   },
@@ -6266,8 +6258,8 @@
   {
     "id": "946",
     "title": "Stylus",
-    "description": "",
-    "url": "",
+    "description": "Stylus is a dynamic stylesheet preprocessor language that is compiled into Cascading Style Sheets (CSS). Its design is influenced by Sass and LESS. It's regarded as the fourth most used CSS preprocessor syntax.",
+    "url": "https://en.wikipedia.org/wiki/Stylus_(stylesheet_language)",
     "language_short": "",
     "code": "body::before\r\n    content: \"Hello World\""
   },
@@ -6314,8 +6306,8 @@
   {
     "id": "947",
     "title": "SuperCollider",
-    "description": "",
-    "url": "",
+    "description": "SuperCollider is an environment and programming language originally released in 1996 by James McCartney for real-time audio synthesis and algorithmic composition.",
+    "url": "https://en.wikipedia.org/wiki/SuperCollider",
     "language_short": "",
     "code": "\"Hello World\".postln;"
   },
@@ -6354,8 +6346,8 @@
   {
     "id": "948",
     "title": "Svelte",
-    "description": "",
-    "url": "",
+    "description": "Svelte is a free and open-source front end compiler created by Rich Harris and maintained by the Svelte core team members. Svelte applications do not include framework references. Instead, building a Svelte application generates code to manipulate the DOM, which may reduce the size of transferred files as well as give better client startup and run-time performance. Svelte has its own compiler for converting app code into client-side JavaScript at build time. It is written in TypeScript. The Svelte source code is licensed under MIT License and hosted on GitHub.",
+    "url": "https://en.wikipedia.org/wiki/Svelte",
     "language_short": "",
     "code": "<script>\r\n  let message = 'Hello World';\r\n</script>\r\n\r\n<p>{ message }</p>"
   },
@@ -6370,16 +6362,16 @@
   {
     "id": "949",
     "title": "SVG",
-    "description": "",
-    "url": "",
+    "description": "Scalable Vector Graphics (SVG) is an Extensible Markup Language (XML)-based vector image format for two-dimensional graphics with support for interactivity and animation. The SVG specification is an open standard developed by the World Wide Web Consortium (W3C) since 1999.",
+    "url": "https://en.wikipedia.org/wiki/Scalable_Vector_Graphics",
     "language_short": "",
     "code": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\r\n<svg width=\"240\" height=\"100\" viewBox=\"0 0 240 100\" zoomAndPan=\"disable\"\r\n      xmlns=\"http://www.w3.org/2000/svg\"  xmlns:xlink=\"http://www.w3.org/1999/xlink\">\r\n  <title>Hello World</title>\r\n    <g>\r\n      <text x=\"10\" y=\"50\">Hello World</text>\r\n      <animate attributeName='opacity' values='0;1' dur='4s' fill='freeze' begin=\"0s\"/>\r\n    </g>\r\n</svg>"
   },
   {
     "id": "950",
     "title": "Swift",
-    "description": "",
-    "url": "",
+    "description": "Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. and the open-source community, first released in 2014. Swift was developed as a replacement for Apple's earlier programming language Objective-C, as Objective-C had been largely unchanged since the early 1980s and lacked modern language features. Swift works with Apple's Cocoa and Cocoa Touch frameworks, and a key aspect of Swift's design was the ability to interoperate with the huge body of existing Objective-C code developed for Apple products over the previous decades.",
+    "url": "https://en.wikipedia.org/wiki/Swift_(programming_language)",
     "language_short": "",
     "code": "print(\"Hello World\")"
   },
@@ -6402,8 +6394,8 @@
   {
     "id": "951",
     "title": "SystemTap",
-    "description": "",
-    "url": "",
+    "description": "In computing, SystemTap (stap) is a scripting language and tool for dynamically instrumenting running production Linux kernel-based operating systems. System administrators can use SystemTap to extract, filter and summarize data in order to enable diagnosis of complex performance or functional problems.",
+    "url": "https://en.wikipedia.org/wiki/SystemTap",
     "language_short": "",
     "code": "probe oneshot { println(\"Hello World\") }"
   },
@@ -6426,8 +6418,8 @@
   {
     "id": "617",
     "title": "Tao Presentations",
-    "description": "",
-    "url": "",
+    "description": "TAO is the French acronym for Testing Assisté par Ordinateur (Computer Based Testing).",
+    "url": "https://en.wikipedia.org/wiki/TAO_(e-Testing_platform)",
     "language_short": "angelscript",
     "code": "\/\/ ****************************************************************************\r\n\/\/  hello_world.ddd                                                 Tao project\r\n\/\/ ****************************************************************************\r\n\/\/\r\n\/\/ File Description:\r\n\/\/\r\n\/\/ Original hello world with Tao Presentations.\r\n\/\/ http:\/\/www.taodyne.com\/shop\/en\/blog\/3-getting-started-with-tao-presentations\r\n\/\/\r\n\/\/\r\n\/\/\r\n\/\/ ****************************************************************************\r\n\/\/  (C) 1992-2010 Christophe de Dinechin <christophe@taodyne.com>\r\n\/\/  (C) 2010 Jérôme Forissier <jerome@taodyne.com>\r\n\/\/  (C) 2010 Catherine Burvelle <cathy@taodyne.com>\r\n\/\/  (C) 2010 Taodyne SAS\r\n\/\/ ****************************************************************************\r\n \r\ncolor \"white\"\r\nmilkyway 10000\r\nrotatez -23\r\nearth 400\r\nhello_world 440\r\n \r\n \r\nmilkyway R ->\r\n\/\/ ----------------------------------------------------------------------------\r\n\/\/    Draw the Milky Way\r\n\/\/ ----------------------------------------------------------------------------\r\n    locally\r\n        texture_wrap true, true\r\n        texture_transform {scale 5, 5, 5}\r\n        texture \"milkyway.jpg\"\r\n        rotatey 0.02 * page_time + 100\r\n        scale 1, -1, 1\r\n        sphere R\r\n \r\n \r\nearth R ->\r\n\/\/ ----------------------------------------------------------------------------\r\n\/\/    Draw Earth\r\n\/\/ ----------------------------------------------------------------------------\r\n    locally\r\n        texture \"earth.bmp\"\r\n        texture_wrap true, true\r\n        rotatey 5 * page_time + 250\r\n        sphere 0, 0, 0, R\r\n \r\n \r\nhello_world R ->\r\n\/\/ ----------------------------------------------------------------------------\r\n\/\/    Draw \"hello world\" text\r\n\/\/ ----------------------------------------------------------------------------\r\n    locally\r\n        frame_texture 1900, 600,\r\n            color 1, 1, 1, 1\r\n            reset_transform\r\n            \/\/ If font Arial Unicode installed, it will be used.\r\n            \/\/ Otherwise, unifont will be used (unifont is packaged\r\n            \/\/ with Tao presentations).\r\n            font \"Arial Unicode MS\", \"unifont\", 72\r\n            move_to -800, -9, 0\r\n            text \"Hello World! or Καλημέρα κόσμε; or こんにちは 世界\"\r\n        rotatey -11 * page_time + 180\r\n        color 20% , 20% , 20% , 70%\r\n        sphere 0, 0, 0, R - 30\r\n        color 100% , 90% , 20% , 90%\r\n        sphere 0, 0, 0, R"
   },
@@ -6442,16 +6434,16 @@
   {
     "id": "619",
     "title": "Tcl",
-    "description": "",
-    "url": "",
+    "description": "Tcl (pronounced \"tickle\" or as an initialism) is a high-level, general-purpose, interpreted, dynamic programming language. It was designed with the goal of being very simple but powerful. Tcl casts everything into the mold of a command, even programming constructs like variable assignment and procedure definition. Tcl supports multiple programming paradigms, including object-oriented, imperative and functional programming or procedural styles.",
+    "url": "https://en.wikipedia.org/wiki/Tcl",
     "language_short": "c-like",
     "code": "puts \"Hello World\""
   },
   {
     "id": "620",
     "title": "TCSH",
-    "description": "",
-    "url": "",
+    "description": "tcsh (/ˌtiːˈsiːʃɛl/ “tee-see-shell”, /ˈtiːʃɛl/ “tee-shell”, or as “tee see ess aitch”, tcsh) is a Unix shell based on and backward compatible with the C shell (csh).",
+    "url": "https://en.wikipedia.org/wiki/Tcsh",
     "language_short": "bash",
     "code": "#!\/bin\/tcsh\r\necho \"Hello, World!\""
   },
@@ -6466,16 +6458,16 @@
   {
     "id": "954",
     "title": "Terra",
-    "description": "",
-    "url": "",
+    "description": "In Terra, we just gave in to the trend of making the meta-language of C/C++ more powerful and replaced it with a real programming language",
+    "url": "https://terralang.org/",
     "language_short": "",
     "code": "print(\"Hello World\")"
   },
   {
     "id": "622",
     "title": "TeX",
-    "description": "",
-    "url": "",
+    "description": "In 1979, Honeywell Information Systems announced a new programming language for their time-sharing service named TEX, an acronym for the Text Executive text processing system. TEX was a first generation scripting language, developed around the time of AWK and used by Honeywell initially as an in-house system test automation tool.",
+    "url": "https://en.wikipedia.org/wiki/Text_Executive_Programming_Language",
     "language_short": "latex",
     "code": "Hello World\r\n\\bye"
   },
@@ -6529,9 +6521,9 @@
   },
   {
     "id": "629",
-    "title": "tibasic",
-    "description": "",
-    "url": "",
+    "title": "TiBasic (TI-BASIC)",
+    "description": "TI-BASIC is the official[1] name of a BASIC-like language built into Texas Instruments (TI)'s graphing calculators. TI-BASIC is a language family of three different.",
+    "url": "https://en.wikipedia.org/wiki/TI-BASIC",
     "language_short": "less",
     "code": "PROGRAM:HELLOW\r\n:ClrHome\r\n:Disp \"HELLO WORLD!\""
   },
@@ -6560,18 +6552,10 @@
     "code": "AsmPrgm\r\nEF4045\r\n111A1A\r\nED53D786\r\n21A89D\r\nEF6145\r\nC9\r\n48656C6C6F20776F726C64202100"
   },
   {
-    "id": "956",
-    "title": "TIBasic",
-    "description": "",
-    "url": "",
-    "language_short": "",
-    "code": "PROGRAM:HELLOW\r\n:ClrHome\r\n:Disp \"Hello World\""
-  },
-  {
     "id": "632",
     "title": "TK",
-    "description": "",
-    "url": "",
+    "description": "Tk is a free and open-source, cross-platform widget toolkit that provides a library of basic elements of GUI widgets for building a graphical user interface (GUI) in many programming languages.",
+    "url": "https://en.wikipedia.org/wiki/Tk_(software)",
     "language_short": "plaintext",
     "code": "label .l -text \"Hello World!\"\r\npack .l"
   },
@@ -6641,25 +6625,25 @@
   },
   {
     "id": "641",
-    "title": "TSQL",
-    "description": "",
-    "url": "",
+    "title": "TSQL (Transact-SQL / T-SQL) ",
+    "description": "Transact-SQL (T-SQL) is Microsoft's and Sybase's proprietary extension to the SQL (Structured Query Language) used to interact with relational databases. T-SQL expands on the SQL standard to include procedural programming, local variables, various support functions for string processing, date processing, mathematics, etc. and changes to the DELETE and UPDATE statements.",
+    "url": "https://en.wikipedia.org/wiki/Transact-SQL",
     "language_short": "sql",
     "code": "DECLARE @message varchar(128)\r\nSELECT  @message = 'Hello World!'\r\nPRINT   @message"
   },
   {
     "id": "642",
     "title": "TTCN3",
-    "description": "",
-    "url": "",
+    "description": "TTCN-3 (Testing and Test Control Notation version 3) is a strongly typed testing language used in conformance testing of communicating systems. TTCN-3 is written by ETSI in the ES 201 873 series, and standardized by ITU-T in the Z.160 Series. TTCN-3 has its own data types and can be combined with ASN.1, IDL and XML type definitions.",
+    "url": "https://en.wikipedia.org/wiki/TTCN-3",
     "language_short": "c-like",
     "code": "module HelloWorld\r\n{\r\n    control\r\n    {\r\n        log(\"Hello, world!\");\r\n    }\r\n}"
   },
   {
     "id": "643",
     "title": "Turing",
-    "description": "",
-    "url": "",
+    "description": "Turing is a Pascal-like programming language developed in 1982 by Ric Holt and James Cordy, then of University of Toronto, in Toronto, Ontario, Canada. Turing is a descendant of Euclid, Pascal and SP/k that features a clean syntax and precise machine-independent semantics.",
+    "url": "https://en.wikipedia.org/wiki/Turing_(programming_language)",
     "language_short": "python",
     "code": "put \"Hello World\""
   },
@@ -6674,8 +6658,8 @@
   {
     "id": "645",
     "title": "TypeScript",
-    "description": "",
-    "url": "",
+    "description": "TypeScript is a programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript and adds optional static typing to the language. TypeScript is designed for the development of large applications and transcompiles to JavaScript.",
+    "url": "https://en.wikipedia.org/wiki/TypeScript",
     "language_short": "typescript",
     "code": "console.log(\"Hello, World!\");"
   },
@@ -6690,16 +6674,16 @@
   {
     "id": "646",
     "title": "Ubercode",
-    "description": "",
-    "url": "",
+    "description": "Ubercode is a high level programming language designed by Ubercode Software and released in 2005 for Microsoft Windows. Ubercode is influenced by Eiffel and BASIC.",
+    "url": "https://en.wikipedia.org/wiki/Ubercode",
     "language_short": "plaintext",
     "code": "    Ubercode 1 class HelloWorld  \r\n \r\n    public function Main()\r\n    code\r\n        call Msgbox(\"Hello World!\", \"My first program\", \"OK\")\r\n    end function\r\n \r\n    end class"
   },
   {
     "id": "647",
     "title": "ubiquity",
-    "description": "",
-    "url": "",
+    "description": "Ubiquity is the default installer for Ubuntu and its derivatives. It is run from the Live CD or USB and can be triggered to run from the options on the device or on the desktop of the Live mode. It was first introduced in Ubuntu 6.06 LTS \"Dapper Drake\" At program start, it allows the user to change the language to a local language if they prefer. It is designed to be easy to use.",
+    "url": "https://en.wikipedia.org/wiki/Ubiquity_(software)",
     "language_short": "c-like",
     "code": "function cmd_hello_world() {\r\n    displayMessage(\"Hello, World!\");\r\n}"
   },
@@ -6738,16 +6722,16 @@
   {
     "id": "957",
     "title": "Unicorn",
-    "description": "",
-    "url": "",
+    "description": "Unicon is a programming language designed by American computer scientist Clint Jeffery with collaborators including Shamim Mohamed, Jafar Al Gharaibeh, Robert Parlett and others. Unicon descended from Icon and a preprocessor for Icon called IDOL. Compared with Icon, Unicon offers better access to the operating system as well as support for object-oriented programming. Unicon began life as a merger of three popular Icon extensions: an OO preprocessor named Idol, a POSIX filesystem and networking interface, and an ODBC facility. The name is shorthand for \"Unified Extended Dialect of Icon.\"",
+    "url": "https://en.wikipedia.org/wiki/Unicon_(programming_language)",
     "language_short": "",
     "code": "procedure main()\r\n    write(\"Hello World\")\r\nend"
   },
   {
     "id": "958",
     "title": "Uniface",
-    "description": "",
-    "url": "",
+    "description": "Uniface is a low-code development and deployment platform for enterprise applications that can run in a large range of runtime environments, including mobile, mainframe, web, Service-oriented architecture (SOA), Windows, Java EE and .NET. Uniface is used to create mission-critical applications.",
+    "url": "https://en.wikipedia.org/wiki/Uniface_(programming_language)",
     "language_short": "",
     "code": "message \"Hello World\""
   },
@@ -6769,17 +6753,17 @@
   },
   {
     "id": "959",
-    "title": "Unreal Script",
-    "description": "",
-    "url": "",
+    "title": "Unreal Script (UnrealScript)",
+    "description": "UnrealScript (often abbreviated to UScript) is Unreal Engine's native scripting language used for authoring game code and gameplay events before the release of Unreal Engine 4. The language was designed for simple, high-level game programming. The UnrealScript interpreter was programmed by Tim Sweeney, who also created an earlier game scripting language, ZZT-oop.",
+    "url": "https://unreal.fandom.com/wiki/UnrealScript",
     "language_short": "",
     "code": "class HelloWorld extends Mutator;\r\n\r\nfunction PostBeginPlay()\r\n{\r\n  Super.PostBeginPlay();\r\n  Log(\"Hello World\");\r\n}"
   },
   {
     "id": "654",
     "title": "V",
-    "description": "",
-    "url": "",
+    "description": "The V programming language is a programming language designed by Alexander Medvednikov. Alexander Medvednikov initially created the V programming language for Volt[2], a desktop client for multiple messaging and communication apps.",
+    "url": "https://en.everybodywiki.com/V_(programming_language)",
     "language_short": "plaintext",
     "code": "iHello World!"
   },
@@ -6794,8 +6778,8 @@
   {
     "id": "656",
     "title": "Vala",
-    "description": "",
-    "url": "",
+    "description": "Vala is an object-oriented programming language with a self-hosting compiler that generates C code and uses the GObject system.",
+    "url": "https://en.wikipedia.org/wiki/Vala_(programming_language)",
     "language_short": "vala",
     "code": "static void main (string[] args)\r\n{\r\n    stdout.printf (\"Hello World\\n\");\r\n}"
   },
@@ -6818,8 +6802,8 @@
   {
     "id": "659",
     "title": "Visual Basic .NET (VB.net)",
-    "description": "",
-    "url": "",
+    "description": "Visual Basic .NET (VB.NET) is a multi-paradigm, object-oriented programming language, implemented on the .NET Framework. Microsoft launched VB.NET in 2002 as the successor to its original Visual Basic language. Although the \".NET\" portion of the name was dropped in 2005, this article uses \"Visual Basic [.NET]\" to refer to all Visual Basic languages released since 2002, in order to distinguish between them and the classic Visual Basic. Along with C# and F#, it is one of the three main languages targeting the .NET framework. As of March 11th, 2020, Microsoft announced that evolution of the VB.NET language has concluded.",
+    "url": "https://en.wikipedia.org/wiki/Visual_Basic_.NET",
     "language_short": "vbnet",
     "code": "Module HelloWorld\r\n    Sub Main()\r\n        System.Console.WriteLine(\"Hello World\")\r\n    End Sub\r\nEnd Module"
   },
@@ -6850,40 +6834,40 @@
   {
     "id": "663",
     "title": "Verilog",
-    "description": "",
-    "url": "",
+    "description": "Verilog, standardized as IEEE 1364, is a hardware description language (HDL) used to model electronic systems. It is most commonly used in the design and verification of digital circuits at the register-transfer level of abstraction.",
+    "url": "https://en.wikipedia.org/wiki/Verilog",
     "language_short": "verilog",
     "code": "module main;\r\n    initial\r\n        begin\r\n        $display(\"Hello World!\");\r\n        $finish;\r\n    end\r\nendmodule"
   },
   {
     "id": "664",
     "title": "Verve",
-    "description": "",
-    "url": "",
+    "description": "Verve is a research operating system developed by Microsoft Research. Verve is verified end-to-end for type safety and memory safety.",
+    "url": "https://en.wikipedia.org/wiki/Verve_(operating_system)",
     "language_short": "c-like",
     "code": "print(\"Hello World\")"
   },
   {
     "id": "665",
     "title": "VHDL",
-    "description": "",
-    "url": "",
+    "description": "The VHSIC Hardware Description Language (VHDL) is a hardware description language (HDL) that can model the behavior and structure of digital systems at multiple levels of abstraction, ranging from the system level down to that of logic gates, for design entry, documentation, and verification purposes. Since 1987, VHDL has been standardized by the Institute of Electrical and Electronics Engineers (IEEE) as IEEE Std 1076; the latest version (as of April 2020) of which is IEEE Std 1076-2019. To model analog and mixed-signal systems, an IEEE-standardized HDL based on VHDL called VHDL-AMS (officially IEEE 1076.1) has been developed.",
+    "url": "https://en.wikipedia.org/wiki/VHDL",
     "language_short": "vhdl",
     "code": "use std.textio.all;\r\n \r\nentity hello_world is\r\nend hello_world;\r\n \r\narchitecture behaviour of hello_world is\r\nbegin\r\n    process\r\n    begin\r\n        write (output, String'(\"Hello world!\"));\r\n        wait;\r\n    end process;\r\nend behaviour;"
   },
   {
     "id": "666",
     "title": "Vi",
-    "description": "",
-    "url": "",
+    "description": "vi (pronounced as distinct letters, /ˌviːˈaɪ/)is a screen-oriented text editor originally created for the Unix operating system. The portable subset of the behavior of vi and programs based on it, and the ex editor language supported within these programs, is described by (and thus standardized by) the Single Unix Specification and POSIX.",
+    "url": "https://en.wikipedia.org/wiki/Vi",
     "language_short": "vim",
     "code": "The following tab indented lines will cause a true vi with modelines\r\nactivated to infinitely loop puting \"Hello World\" in the buffer. Hit\r\n    to abort the loop and see the output. None of the vi clones\r\nsupport modelines this powerful, and modelines are diabled by default.\r\nSet the environment variable EXINIT to \"set ml\" to activate modelines.\r\n \r\n    vi: $  y a :\r\n    vi: $-1y b :\r\n    vi: @b :\r\n    put a |@b\r\n    Hello World\r\n \r\nWhitespace is largely insignificant, but these must be the last five\r\nlines in the file to work properly. Unless it is in \"vi: ... :\" or\r\n\"ex: ... :\" format, any preceeding text will be ignored."
   },
   {
     "id": "667",
     "title": "Vim Script (vim)",
-    "description": "",
-    "url": "",
+    "description": "Vim script, Vim’s built-in programming language. Many Vim plugins and extensions are also available online for free.",
+    "url": "https://simple.wikipedia.org/wiki/Vim#Vim_script",
     "language_short": "vim",
     "code": "echo \"Hello World\""
   },
@@ -6898,32 +6882,32 @@
   {
     "id": "668",
     "title": "Visual Basic",
-    "description": "",
-    "url": "",
+    "description": "Visual Basic is a third-generation event-driven programming language from Microsoft known for its Component Object Model (COM) programming model first released in 1991 and declared legacy during 2008. Microsoft intended Visual Basic to be relatively easy to learn and use.",
+    "url": "https://en.wikipedia.org/wiki/Visual_Basic",
     "language_short": "vbnet",
     "code": "Module HelloWorld\r\n    Sub Main()\r\n        MsgBox(\"Hello world!\")\r\n    End Sub\r\nEnd Module"
   },
   {
     "id": "961",
     "title": "Visual Basic for Applications",
-    "description": "",
-    "url": "",
+    "description": "Visual Basic for Applications (VBA) is an implementation of Microsoft's event-driven programming language Visual Basic 6, which was declared legacy in 2008, and is an associated integrated development environment (IDE).",
+    "url": "https://en.wikipedia.org/wiki/Visual_Basic_for_Applications",
     "language_short": "",
     "code": "Sub HelloWorld()\r\n    Call MsgBox(\"Hello World\")\r\nEnd Sub"
   },
   {
     "id": "669",
     "title": "Visual Basic Scripting\t(VBScript)",
-    "description": "",
-    "url": "",
+    "description": "Visual Basic Script (VBS) is a script language developed by Microsoft based on Visual Basic (VB) or Visual Basic for Applications (VBA). It is a reduced version of Visual Basic and is mainly used in connection with ASP (Active Server Pages) and the creation of dynamic websites. Since VBS is loaded during the runtime, it is called an interpreted script language.",
+    "url": "https://en.ryte.com/wiki/Visual_Basic_Script",
     "language_short": "vbscript",
     "code": "MsgBox \"Hello world!\""
   },
   {
     "id": "670",
     "title": "VisualFoxPro",
-    "description": "",
-    "url": "",
+    "description": "Visual FoxPro was a Microsoft data-centric procedural programming language that subsequently became object-oriented.",
+    "url": "https://en.wikipedia.org/wiki/Visual_FoxPro",
     "language_short": "stata",
     "code": "* Message Box:\r\nMESSAGEBOX(\"Hello World\")\r\n \r\n* Print to screen:\r\n? \"Hello World\"\r\n \r\n* GUI:\r\nloForm = CREATEOBJECT(\"HiForm\")\r\nloForm.Show(1)\r\n \r\nDEFINE CLASS HiForm AS Form\r\n    AutoCenter\t= .T.\r\n    Caption\t\t= \"Hello, World\"\r\n    \r\n    ADD OBJECT lblHi as Label ;\r\n        WITH Caption = \"Hello, World!\"\r\nENDDEFINE"
   },
@@ -6938,8 +6922,8 @@
   {
     "id": "671",
     "title": "VMS",
-    "description": "",
-    "url": "",
+    "description": "In computing, a virtual machine (VM) is the virtualization/emulation of a computer system. Virtual machines are based on computer architectures and provide functionality of a physical computer. Their implementations may involve specialized hardware, software, or a combination.",
+    "url": "https://en.wikipedia.org/wiki/Virtual_machine",
     "language_short": "gams",
     "code": "$top:\r\n$write sys$output \"Hello world!\"\r\n$wait 00:00:10\r\n$goto top"
   },
@@ -6954,16 +6938,16 @@
   {
     "id": "673",
     "title": "Vowels",
-    "description": "",
-    "url": "",
+    "description": "A vowel is a syllabic speech sound pronounced without any stricture in the vocal tract.[1] Vowels are one of the two principal classes of speech sounds, the other being the consonant. Vowels vary in quality, in loudness and also in quantity (length). They are usually voiced and are closely involved in prosodic variation such as tone, intonation and stress.",
+    "url": "https://en.wikipedia.org/wiki/Vowel",
     "language_short": "plaintext",
     "code": "ue\r\nyeouo\r\neuea\r\neuai\r\neuai\r\neuoa\r\neaiu\r\neaao\r\neioo\r\neuoa\r\neuou\r\neuai\r\neuee\r\neaai\r\neeoe\r\neeee\r\ny"
   },
   {
     "id": "674",
     "title": "VRML",
-    "description": "",
-    "url": "",
+    "description": "VRML (Virtual Reality Modeling Language, pronounced vermal or by its initials, originally—before 1995—known as the Virtual Reality Markup Language) is a standard file format for representing 3-dimensional (3D) interactive vector graphics, designed particularly with the World Wide Web in mind. It has been superseded by X3D.",
+    "url": "https://en.wikipedia.org/wiki/VRML",
     "language_short": "nginx",
     "code": "#VRML V2.0 utf8\r\nShape {\r\n    geometry Text {\r\n        string \"Hello World\"\r\n    }\r\n}"
   },
@@ -6977,9 +6961,9 @@
   },
   {
     "id": "676",
-    "title": "Vue",
-    "description": "",
-    "url": "",
+    "title": "Vue (Vue.js)",
+    "description": "Vue.js (commonly referred to as Vue; pronounced /vjuː/, like \"view\") is an open-source model–view–viewmodel front end JavaScript framework for building user interfaces and single-page applications. It was created by Evan You, and is maintained by him and the rest of the active core team members.",
+    "url": "https://en.wikipedia.org/wiki/Vue.js",
     "language_short": "twig",
     "code": "<div id=\"app\">\r\n    <p>{{ message }}<\/p>\r\n<\/div>\r\n<script>\r\n    new Vue({\r\n        el: '#app',\r\n        data: {\r\n            message: 'Hello World!'\r\n        }\r\n    })\r\n<\/script>"
   },
@@ -6994,8 +6978,8 @@
   {
     "id": "963",
     "title": "Wenyan",
-    "description": "",
-    "url": "",
+    "description": "Classical Chinese, also known as Literary Chinese[a] (文言文, wényánwén or 古文, gǔwén), is the language of the classic literature from the end of the Spring and Autumn period through to the end of the Han dynasty, a written form of Old Chinese (上古漢語, shànɡɡǔ hànyǔ).",
+    "url": "https://en.wikipedia.org/wiki/Wenyan",
     "language_short": "",
     "code": "吾有一言。曰「「Hello World」」。書之。"
   },
@@ -7026,16 +7010,16 @@
   {
     "id": "681",
     "title": "Whitespace",
-    "description": "",
-    "url": "",
+    "description": "Whitespace is an esoteric programming language developed by Edwin Brady and Chris Morris at the University of Durham (also developers of the Kaya and Idris programming languages). It was released on 1 April 2003 (April Fool's Day). Its name is a reference to whitespace characters. Unlike most programming languages, which ignore or assign little meaning to most whitespace characters, the Whitespace interpreter ignores any non-whitespace characters. Only spaces, tabs and linefeeds have meaning.",
+    "url": "https://en.wikipedia.org/wiki/Whitespace_(programming_language)",
     "language_short": "plaintext",
     "code": "push 0   \r\npush 10  \t \t \r\npush 33  \t    \t\r\npush 100  \t\t  \t  \r\npush 108  \t\t \t\t  \r\npush 114  \t\t\t  \t \r\npush 111  \t\t \t\t\t\t\r\npush 119  \t\t\t \t\t\t\r\npush 32  \t     \r\npush 44  \t \t\t  \r\ncopy 3\t  \t\t\r\ncopy 6\t  \t\t \r\ndup \r\npush 101   \t\t  \t \t\r\npush 72  \t  \t   \r\n \r\nlabel 0   \r\noutchar\t\r\ndup   \r\npush 0    \r\nswap \r\nsub\t\t  \t\r\njn\t0\t  \r\nexit"
   },
   {
     "id": "964",
     "title": "WikiText",
-    "description": "",
-    "url": "",
+    "description": "Wikitext, also known as Wiki markup or Wikicode, consists of the syntax and keywords used by the MediaWiki software to format a page. To learn how to see this hypertext markup, and to save an edit, see Help:Editing. Generally, coding can be copied and pasted, without writing new code. There is a short list of markup and tips at Help:Cheatsheet.",
+    "url": "https://en.wikipedia.org/wiki/Help:Wikitext",
     "language_short": "",
     "code": "Hello World"
   },
@@ -7050,16 +7034,16 @@
   {
     "id": "683",
     "title": "WML",
-    "description": "",
-    "url": "",
+    "description": "Wireless Markup Language (WML), based on XML, is a now-obsolete markup language intended for devices that implement the Wireless Application Protocol (WAP) specification, such as mobile phones.",
+    "url": "https://en.wikipedia.org/wiki/Wireless_Markup_Language",
     "language_short": "cs",
     "code": "#define HELLOWORLD\r\n    [message]\r\n        speaker=\"narrator\"\r\n        message=_\"Hello World\"\r\n    [\/message]\r\n#enddef"
   },
   {
     "id": "684",
     "title": "Wolfram Mathematica Language",
-    "description": "",
-    "url": "",
+    "description": "he Wolfram Language (/ˈwʊlfrəm/ WUUL-frəm) is a general multi-paradigm programming language developed by Wolfram Research. It emphasizes symbolic computation, functional programming, and rule-based programming and can employ arbitrary structures and data.[9] It is the programming language of the mathematical symbolic computation program Mathematica.",
+    "url": "https://en.wikipedia.org/wiki/Wolfram_Language",
     "language_short": "mathematica",
     "code": "Print[\"Hello World\"];"
   },
@@ -7082,8 +7066,8 @@
   {
     "id": "686",
     "title": "Wren",
-    "description": "",
-    "url": "",
+    "description": "Wren is small. The VM implementation is under 4,000 semicolons. You can skim the whole thing in an afternoon. It's small, but not dense. It is readable and lovingly-commented.",
+    "url": "https://wren.io/",
     "language_short": "c-like",
     "code": "IO.print(\"Hello World\")"
   },
@@ -7122,16 +7106,16 @@
   {
     "id": "691",
     "title": "xbase",
-    "description": "",
-    "url": "",
+    "description": "xBase is the generic term for all programming languages that derive from the original dBASE (Ashton-Tate) programming language and database formats.",
+    "url": "https://en.wikipedia.org/wiki/XBase",
     "language_short": "vim",
     "code": "do while .t.\r\n    ? 'Hello World'\r\nenddo"
   },
   {
     "id": "692",
     "title": "xbase++",
-    "description": "",
-    "url": "",
+    "description": "Xbase++ is an object oriented programming language which has multiple inheritance and polymorphism. It is based on the XBase language dialect and conventions. It is 100% Clipper compatible language supporting multiple inheritance, polymorphism, object oriented programming.",
+    "url": "https://en.wikipedia.org/wiki/XBase%2B%2B",
     "language_short": "c-like",
     "code": "func Main()\r\n    Qout(\"Hello World\")\r\nreturn 1"
   },
@@ -7154,8 +7138,8 @@
   {
     "id": "695",
     "title": "XL (eXtensible Language)",
-    "description": "",
-    "url": "",
+    "description": "XL (\"eXtensible Language\") is the first computer programming language designed to support concept programming.",
+    "url": "https://en.wikipedia.org/wiki/XL_(programming_language)",
     "language_short": "xl",
     "code": "\/\/ XL programming language: http:\/\/xlr.sourceforge.net\r\nwriteln \"Hello, world\""
   },
@@ -7178,24 +7162,24 @@
   {
     "id": "697",
     "title": "XML",
-    "description": "",
-    "url": "",
+    "description": "Extensible Markup Language (XML) is a markup language that defines a set of rules for encoding documents in a format that is both human-readable and machine-readable. The World Wide Web Consortium's XML 1.0 Specification[2] of 1998[3] and several other related specifications[4]—all of them free open standards—define XML.",
+    "url": "https://en.wikipedia.org/wiki/XML",
     "language_short": "xml",
     "code": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<text><![CDATA[Hello World]]><\/text>"
   },
   {
     "id": "698",
     "title": "XPL0",
-    "description": "",
-    "url": "",
+    "description": "XPL0 is a computer programming language that is essentially a cross between Pascal and C. It was created in 1976 by Peter J. R. Boyle who wanted a high-level language for his microcomputer and wanted something more sophisticated than BASIC, which was the dominant language for personal computers at the time.",
+    "url": "https://en.wikipedia.org/wiki/XPL0",
     "language_short": "plaintext",
     "code": "code Text=12;\r\nText(0, \"Hello World\")"
   },
   {
     "id": "699",
     "title": "XQuery (XML Query)",
-    "description": "",
-    "url": "",
+    "description": "XQuery (XML Query) is a query and functional programming language that queries and transforms collections of structured and unstructured data, usually in the form of XML, text and with vendor-specific extensions for other data formats (JSON, binary, etc.).",
+    "url": "https://en.wikipedia.org/wiki/XQuery",
     "language_short": "xquery",
     "code": "let $hello := \"Hello, World!\"\r\nreturn $hello"
   },
@@ -7210,16 +7194,16 @@
   {
     "id": "701",
     "title": "XSLT",
-    "description": "",
-    "url": "",
+    "description": "XSLT (Extensible Stylesheet Language Transformations) is a language for transforming XML documents into other XML documents, or other formats such as HTML for web pages, plain text or XSL Formatting Objects, which may subsequently be converted to other formats, such as PDF, PostScript and PNG. XSLT 1.0 is widely supported in modern web browsers.",
+    "url": "https://en.wikipedia.org/wiki/XSLT",
     "language_short": "xml",
     "code": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http:\/\/www.w3.org\/1999\/XSL\/Transform\">\r\n    <xsl:template match=\"\/\">\r\n        <xsl:text>Hello World!<\/xsl:text>\r\n    <\/xsl:template>\r\n<\/xsl:stylesheet>"
   },
   {
     "id": "702",
     "title": "XUL",
-    "description": "",
-    "url": "",
+    "description": "XUL (/ˈzuːl/ ZOOL), which stands for XML User Interface Language, is a user interface markup language developed by Mozilla. XUL is an XML dialect for writing graphical user interfaces, enabling developers to write user interface elements in a manner similar to web pages.",
+    "url": "https://en.wikipedia.org/wiki/XUL",
     "language_short": "xml",
     "code": "<?xml version=\"1.0\"?>\r\n<window xmlns=\"http:\/\/www.mozilla.org\/keymaster\/gatekeeper\/there.is.only.xul\">\r\n    <label value=\"Hello World\"\/>\r\n<\/window>"
   },
@@ -7234,8 +7218,8 @@
   {
     "id": "704",
     "title": "YAML",
-    "description": "",
-    "url": "",
+    "description": "YAML (a recursive acronym for \"YAML Ain't Markup Language\") is a human-readable data-serialization language. It is commonly used for configuration files and in applications where data is being stored or transmitted.",
+    "url": "https://en.wikipedia.org/wiki/YAML",
     "language_short": "yaml",
     "code": "hello: world"
   },
@@ -7274,8 +7258,8 @@
   {
     "id": "967",
     "title": "Zig",
-    "description": "",
-    "url": "",
+    "description": "Zig is an imperative, general-purpose, statically typed, compiled system programming language designed by Andrew Kelley. The language is designed for \"robustness, optimality and maintainability\" , supporting compile-time generics and reflection, cross-compilation and manual memory management. A major goal of the language is to improve upon the C language, while also taking inspiration from Rust, among others.",
+    "url": "https://en.wikipedia.org/wiki/Zig_(programming_language)",
     "language_short": "",
     "code": "const std = @import(\"std\");\r\n\r\npub fn main() !void {\r\n    const stdout = std.io.getStdOut().writer();\r\n    try stdout.print(\"Hello World\", .{});\r\n}"
   },
@@ -7298,8 +7282,8 @@
   {
     "id": "711",
     "title": "Zim",
-    "description": "",
-    "url": "",
+    "description": "Zim is a graphical text editor designed to maintain a collection of locally stored wiki-pages, a personal wiki. Each wiki-page can contain things like text with simple formatting, links to other pages, attachments, and images. Additional plugins, such as an equation editor and spell-checker, are also available. The wiki-pages are stored in a folder structure in plain text files with wiki formatting.",
+    "url": "https://en.wikipedia.org/wiki/Zim_(software)",
     "language_short": "c-like",
     "code": "output \"Hello World\""
   },
@@ -7314,32 +7298,32 @@
   {
     "id": "968",
     "title": "Zinc",
-    "description": "",
-    "url": "",
+    "description": "The Zinc Application Framework is an application framework, intended for the development of cross-platform software applications with graphical user interface (GUI), using a widget toolkit. Zinc targets both embedded (such as Wind River's VxWorks) and desktop platforms.",
+    "url": "https://en.wikipedia.org/wiki/Zinc_Application_Framework",
     "language_short": "",
     "code": "//! zinc\r\nlibrary HelloWorld {\r\n    private function onInit() {\r\n        DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 0, \"Hello World\");\r\n    }\r\n}\r\n//! endzinc"
   },
   {
     "id": "713",
     "title": "Zombie",
-    "description": "",
-    "url": "",
+    "description": "In computing, a zombie is a computer connected to the Internet that has been compromised by a hacker, computer virus, computer worm, or trojan horse program and can be used to perform malicious tasks of one sort or another under remote direction.",
+    "url": "https://en.wikipedia.org/wiki/Zombie_(computing)",
     "language_short": "sqf",
     "code": "HelloWorld is a zombie\r\nsummon\r\n    task SayHello\r\n        say \"Hello World!\"\r\n    animate\r\nanimate"
   },
   {
     "id": "714",
     "title": "Zonnon",
-    "description": "",
-    "url": "",
+    "description": "Zonnon is a general purpose programming language in the line or family of the preceding languages Pascal, Modula, and Oberon. Jürg Gutknecht is the author.",
+    "url": "https://en.wikipedia.org/wiki/Zonnon",
     "language_short": "c-like",
     "code": "module HelloWorld;\r\nbegin\r\n    writeln(\"Hello World\");\r\nend HelloWorld.  "
   },
   {
     "id": "969",
     "title": "ZPL",
-    "description": "",
-    "url": "",
+    "description": "ZPL (short for Z-level Programming Language) is an array programming language designed to replace C and C++ programming languages in engineering and scientific applications.",
+    "url": "https://en.wikipedia.org/wiki/ZPL_(programming_language)",
     "language_short": "",
     "code": "^XA^FDHello World^XZ~PS"
   },
@@ -7353,9 +7337,9 @@
   },
   {
     "id": "715",
-    "title": "ZSH",
-    "description": "",
-    "url": "",
+    "title": "ZSH (Z shell)",
+    "description": "The Z shell (Zsh) is a Unix shell that can be used as an interactive login shell and as a command interpreter for shell scripting. Zsh is an extended Bourne shell with many improvements, including some features of Bash, ksh, and tcsh.",
+    "url": "https://en.wikipedia.org/wiki/Z_shell",
     "language_short": "bash",
     "code": "#!\/bin\/zsh\r\necho \"Hello, World!\""
   },

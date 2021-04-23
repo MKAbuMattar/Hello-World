@@ -89,6 +89,7 @@ fetch(`./assets/data/all.json`)
       if (url !== ``) {
         btnLink.classList.add(`btn`)
         btnLink.href = url
+        btnLink.title = title
         btnLink.setAttribute(`target`, `__blank`)
         btnGroup.appendChild(btnLink)
       }
