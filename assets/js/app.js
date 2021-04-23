@@ -6,7 +6,7 @@ let arr = []
 let con = 0
 let conn = 0
 
-capitalize = (s) => {
+const capitalize = (s) => {
   if (typeof s !== `string`) return ``
   return s.charAt(0).toUpperCase() + s.slice(1)
 }
@@ -348,7 +348,7 @@ window.onscroll = () => {
   scrollFunction()
 }
 
-let deferredPrompt;
+let deferredPrompt
 const addBtn = document.querySelector(`.add-button`)
 addBtn.style.display = `none`
 
