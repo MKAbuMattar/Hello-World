@@ -4736,6 +4736,14 @@
     "code": "#include <pebble.h>\r\n \r\nstatic Window* main_window;\r\nstatic TextLayer* text_layer, *world_layer;\r\n \r\nstatic void main_window_load(Window* window) {\r\n    Layer *window_layer = window_get_root_layer(window);\r\n    window_set_background_color(main_window, GColorBlack);\r\n    GRect bounds = layer_get_bounds(window_layer);\r\n    text_layer = text_layer_create(\r\n        GRect(0, bounds.size.h \/ 2 - 42, bounds.size.w, 120));\r\n    text_layer_set_text(text_layer, \"Hello\");\r\n    text_layer_set_background_color(text_layer, GColorClear);\r\n    text_layer_set_text_color(text_layer, GColorWhite);\r\n    text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));\r\n    text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);\r\n \r\n    world_layer = text_layer_create(\r\n        GRect(0, bounds.size.h \/ 2, bounds.size.w, 120));\r\n    text_layer_set_background_color(world_layer, GColorClear);\r\n    text_layer_set_text(world_layer, \"World\");\r\n    text_layer_set_text_color(world_layer, GColorLightGray);\r\n    text_layer_set_font(world_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));\r\n    text_layer_set_text_alignment(world_layer, GTextAlignmentCenter);\r\n    \r\n    layer_add_child(window_layer, text_layer_get_layer(text_layer));\r\n    layer_add_child(window_layer, text_layer_get_layer(world_layer));\r\n}\r\nstatic void main_window_unload(Window* window) {\r\n    text_layer_destroy(text_layer);\r\n    text_layer_destroy(world_layer);\r\n}\r\n \r\nstatic void init() {\r\n    main_window = window_create();\r\n    window_set_window_handlers(main_window, (WindowHandlers) {\r\n        .load = main_window_load,\r\n        .unload = main_window_unload\r\n    });\r\n    window_stack_push(main_window, true);\r\n}\r\n \r\nstatic void deinit() {\r\n    window_destroy(main_window);\r\n}\r\n \r\nint main(void) {\r\n    init();\r\n    app_event_loop();\r\n    deinit();\r\n}"
   },
   {
+    "id": "971",
+    "title": "PeopleCode",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "MessageBox(0, \"\", 0, 0, \"Hello World\");"
+  },
+  {
     "id": "912",
     "title": "Perfume",
     "description": "",
