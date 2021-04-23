@@ -2426,8 +2426,8 @@
   {
     "id": "851",
     "title": "F",
-    "description": "",
-    "url": "",
+    "description": "F is a modular, compiled, numeric programming language, designed for scientific programming and scientific computation. F was developed as a modern Fortran, thus making it a subset of Fortran 95. It combines both numerical and data abstraction features from these languages. F is also backwards compatible with Fortran 77, allowing calls to Fortran 77 programs. F was first included in the g95 compiler.",
+    "url": "https://en.wikipedia.org/wiki/F_(programming_language)",
     "language_short": "",
     "code": "program hello\r\n  print *, \"Hello World\"\r\nend program hello"
   },
@@ -2458,8 +2458,8 @@
   {
     "id": "249",
     "title": "falcon",
-    "description": "",
-    "url": "",
+    "description": "Falcon is an open source, multi-paradigm programming language. Design and implementation is led by Giancarlo Niccolai,[3][4] a native of Bologna, Italy and Information Technology graduate from Pistoia.",
+    "url": "https://en.everybodywiki.com/Falcon_(programming_language)",
     "language_short": "bash",
     "code": "#!\/usr\/bin\/env falcon\r\n \r\n> \"Hello, World\""
   },
@@ -2474,24 +2474,24 @@
   {
     "id": "251",
     "title": "Fancy",
-    "description": "",
-    "url": "",
+    "description": "Fancy is a dynamic, pure object-oriented, class-based programming language with built-in support for futures and actors.",
+    "url": "http://www.fancy-lang.org/",
     "language_short": "c-like",
     "code": "\"Hello, world!\" println"
   },
   {
     "id": "252",
     "title": "Fantom",
-    "description": "",
-    "url": "",
+    "description": "Fantom is a general purpose object-oriented programming language created by Brian and Andy Frank[4] that runs on the Java Runtime Environment (JRE), JavaScript, and the .NET Common Language Runtime (CLR) (.NET support is considered \"prototype\" status). Its primary design goal is to provide a standard library API[6] that abstracts away the question of whether the code will ultimately run on the JRE or CLR. Like C# and Java, Fantom uses a curly brace syntax. The language supports functional programming through closures and concurrency through the Actor model. Fantom takes a \"middle of the road\" approach to its type system, blending together aspects of both static and dynamic typing.",
+    "url": "https://en.wikipedia.org/wiki/Fantom_(programming_language)",
     "language_short": "c-like",
     "code": "\/\/ Hello from Fantom!\r\nclass HelloWorld {\r\n    static Void main() {\r\n        echo(\"Hello, World!\")\r\n    }\r\n}"
   },
   {
     "id": "852",
     "title": "Fennel",
-    "description": "",
-    "url": "",
+    "description": "Fennel is a programming language that brings together the speed, simplicity, and reach of Lua with the flexibility of a lisp syntax and macro system.",
+    "url": "https://fennel-lang.org/",
     "language_short": "",
     "code": "(print \"Hello World\")"
   },
@@ -2506,8 +2506,8 @@
   {
     "id": "254",
     "title": "Fetlang",
-    "description": "",
-    "url": "",
+    "description": "Fetlang is a statically typed, procedural, esoteric programming language and reference implementation. It is designed such that source code looks like poorly written fetish erotica.",
+    "url": "https://esolangs.org/wiki/Fetlang",
     "language_short": "c-like",
     "code": "Make slave scream \"Hello World!\""
   },
@@ -2522,8 +2522,8 @@
   {
     "id": "256",
     "title": "Fish",
-    "description": "",
-    "url": "",
+    "description": "fish is a Unix shell with a focus on interactivity and usability. Fish is designed to give the user features by default, rather than by configuration.[4] Fish is considered an exotic shell since it does not rigorously adhere to POSIX shell standards, at the discretion of the maintainers.",
+    "url": "https://en.wikipedia.org/wiki/Fish_(Unix_shell)",
     "language_short": "bash",
     "code": "#!\/usr\/bin\/env fish\r\necho \"Hello, World!\""
   },
@@ -2537,9 +2537,9 @@
   },
   {
     "id": "258",
-    "title": "Fjoelnir",
-    "description": "",
-    "url": "",
+    "title": "Fjölnir (Fjolnir / Fjoelnir)",
+    "description": "Fjölnir (also Fjolnir or Fjoelnir) is a programming language developed by professor Snorri Agnarsson of computer science at Háskóli Íslands (University of Iceland) that was mostly used in the 1980s. The source files usually have the extension fjo or sma.",
+    "url": "https://en.wikipedia.org/wiki/Fj%C3%B6lnir_(programming_language)",
     "language_short": "c-like",
     "code": "\"hello\" < main\r\n{\r\n    main ->\r\n    stef(;)\r\n    stofn\r\n        skrifastreng(;\"Hello World!\"),\r\n    stofnlok\r\n}\r\n*\r\n\"GRUNNUR\"\r\n;"
   },
@@ -2554,8 +2554,8 @@
   {
     "id": "854",
     "title": "Flask",
-    "description": "",
-    "url": "",
+    "description": "Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries. It has no database abstraction layer, form validation, or any other components where pre-existing third-party libraries provide common functions. However, Flask supports extensions that can add application features as if they were implemented in Flask itself. Extensions exist for object-relational mappers, form validation, upload handling, various open authentication technologies and several common framework related tools.",
+    "url": "https://en.wikipedia.org/wiki/Flask_(web_framework)",
     "language_short": "",
     "code": "from flask import Flask\r\napp = Flask(__name__)\r\n\r\n@app.route(\"/\")\r\ndef hello():\r\n    return \"Hello World\"\r\n\r\nif __name__ == \"__main__\":\r\n    app.run()"
   },
@@ -2570,8 +2570,8 @@
   {
     "id": "855",
     "title": "Flutter",
-    "description": "",
-    "url": "",
+    "description": "Flutter is an open-source UI software development kit created by Google. It is used to develop applications for Android, iOS, Linux, Mac, Windows, Google Fuchsia,[4] and the web from a single codebase.",
+    "url": "https://en.wikipedia.org/wiki/Flutter_(software)",
     "language_short": "",
     "code": "import 'package:flutter/widgets.dart';\r\n\r\nvoid main() {\r\n  runApp(\r\n   Text(\r\n       'Hello World',\r\n        textDirection: TextDirection.ltr,\r\n    ),\r\n  );\r\n}"
   },
@@ -2586,16 +2586,16 @@
   {
     "id": "261",
     "title": "focal",
-    "description": "",
-    "url": "",
+    "description": "FOCAL is an interactive interpreted programming language based on JOSS and primarily used on Digital Equipment Corporation (DEC) PDP-series machines. The name is an acronym for Formulating On-Line Calculations in Algebraic Language, or for FOrmula CALculator.",
+    "url": "https://en.wikipedia.org/wiki/FOCAL_(programming_language)",
     "language_short": "plaintext",
     "code": "0.1.0.1 TYPE \"HELLO WORLD\" , !"
   },
   {
     "id": "262",
     "title": "Fog.fog",
-    "description": "",
-    "url": "",
+    "description": "Fog computing or fog networking, also known as fogging, is an architecture that uses edge devices to carry out a substantial amount of computation, storage, and communication locally and routed over the Internet backbone.",
+    "url": "https://en.wikipedia.org/wiki/Fog_computing",
     "language_short": "xml",
     "code": "<ins>Hello, World!<\/ins>"
   },
@@ -2626,8 +2626,8 @@
   {
     "id": "266",
     "title": "Forth",
-    "description": "",
-    "url": "",
+    "description": "Forth is an imperative stack-based computer programming language and environment originally designed by Chuck Moore. Language features include structured programming, reflection (the ability to examine and modify program structure during execution), concatenative programming (functions are composed with juxtaposition) and extensibility (the programmer can create new commands). Although not an acronym, the language's name is sometimes spelled with all capital letters as FORTH, following the customary usage during its earlier years.",
+    "url": "https://en.wikipedia.org/wiki/Forth_(programming_language)",
     "language_short": "plaintext",
     "code": ".( Hello, world!)"
   },
@@ -2642,16 +2642,16 @@
   {
     "id": "268",
     "title": "Fortran",
-    "description": "",
-    "url": "",
+    "description": "Fortran (/ˈfɔːrtræn/; formerly FORTRAN, derived from Formula Translation) is a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing.",
+    "url": "https://en.wikipedia.org/wiki/Fortran",
     "language_short": "c-like",
     "code": "program helloworld\r\nprint *,'Hello World'\r\nend program helloworld"
   },
   {
     "id": "269",
     "title": "Fortran77",
-    "description": "",
-    "url": "",
+    "description": "Fortran (/ˈfɔːrtræn/; formerly FORTRAN, derived from Formula Translation[2]) is a general-purpose, compiled imperative programming language that is especially suited to numeric computation and scientific computing.",
+    "url": "https://en.wikipedia.org/wiki/Fortran#FORTRAN_77",
     "language_short": "c-like",
     "code": "    PROGRAM HELLOW\r\n    WRITE(UNIT=*, FMT=*) 'Hello World'\r\n    END"
   },
@@ -2666,16 +2666,16 @@
   {
     "id": "856",
     "title": "FoxPro",
-    "description": "",
-    "url": "",
+    "description": "FoxPro was a text-based procedurally oriented programming language and database management system (DBMS), and it was also an object-oriented programming language, originally published by Fox Software and later by Microsoft, for MS-DOS, Windows, Macintosh, and UNIX. The final published release of FoxPro was 2.6. Development continued under the Visual FoxPro label, which in turn was discontinued in 2007.",
+    "url": "https://en.wikipedia.org/wiki/FoxPro",
     "language_short": "",
     "code": "? \"Hello World\""
   },
   {
     "id": "857",
     "title": "Fractran++",
-    "description": "",
-    "url": "",
+    "description": "This document describes briefly the specifications of Fractran programming language. Once the Fractran language is documented, there follows a definition of the upgraded Fractran language called Fractran++. There are described some aspects of this new language, as well as some suggestions for implementing Fractran++ compilers and interpreters. The target is to create a full functional language, by the use of just numeric notations and fractional symbols.",
+    "url": "https://esolangs.org/wiki/Fractran%2B%2B",
     "language_short": "",
     "code": "3,-1/2,(2*37)/3,0/0,<71 101 108 108 111 32 87 111 114 108 100 0>/37,4/0"
   },
@@ -2706,24 +2706,24 @@
   {
     "id": "859",
     "title": "Frink",
-    "description": "",
-    "url": "",
+    "description": "Frink is a computer programming language. It is, according to creator of the language, \"designed to make physical calculations simple, to help ensure that answers come out right, and to make a tool that's really useful in the real world. It tracks units of measure (feet, meters, kilograms, watts, etc.) through all calculations, allowing you to mix units of measure transparently, and helps you easily verify that your answers make sense.",
+    "url": "https://en.wikipedia.org/wiki/Frink_(programming_language)\"",
     "language_short": "",
     "code": "println[\"Hello World!\"]"
   },
   {
     "id": "273",
     "title": "FSharp (F#)",
-    "description": "",
-    "url": "",
+    "description": "F# (pronounced F sharp) is a functional-first, general purpose, strongly typed, multi-paradigm programming language that encompasses functional, imperative, and object-oriented programming methods. F# is most often used as a cross-platform Common Language Infrastructure (CLI) language on .NET, but it can also generate JavaScript and graphics processing unit (GPU) code.",
+    "url": "https://en.wikipedia.org/wiki/F_Sharp_(programming_language)",
     "language_short": "fsharp",
     "code": "printfn \"Hello World!\""
   },
   {
     "id": "274",
-    "title": "FStar",
-    "description": "",
-    "url": "",
+    "title": "FStar (F*)",
+    "description": "F* (pronounced F star) is a functional programming language inspired by ML and aimed at program verification. Its type system includes dependent types, monadic effects, and refinement types. This allows expressing precise specifications for programs, including functional correctness and security properties.",
+    "url": "https://en.wikipedia.org/wiki/F*_(programming_language)",
     "language_short": "c-like",
     "code": "module Hello\r\n \r\nlet main = FStar.IO.print_string \"Hello World\\n\""
   },
@@ -2778,8 +2778,8 @@
   {
     "id": "861",
     "title": "GDScript",
-    "description": "",
-    "url": "",
+    "description": "Godot is a 2D and 3D, cross-platform, free and open-source game engine released under the MIT license. It was initially developed by Argentinians Juan Linietsky and Ariel Manzur[5] for several companies in Latin America prior to its public release.[6] The development environment runs on multiple operating systems including Linux, BSDs, macOS, and Microsoft Windows. Godot can create games targeting PC, mobile, and web platforms.",
+    "url": "https://en.wikipedia.org/wiki/Godot_(game_engine)",
     "language_short": "",
     "code": "extends Node2D\r\n\r\nfunc _ready():\r\n  print(\"Hello World\")"
   },
@@ -2794,8 +2794,8 @@
   {
     "id": "862",
     "title": "Genie",
-    "description": "",
-    "url": "",
+    "description": "Genie is a modern, general-purpose high-level programming language in development since 2008. It was designed as an alternative, simpler and cleaner dialect for the Vala compiler, while preserving the same functionality of the Vala language. Genie uses the same compiler and libraries as Vala; the two can indeed be used alongside each other. The differences are only syntactic.",
+    "url": "https://en.wikipedia.org/wiki/Genie_(programming_language)",
     "language_short": "",
     "code": "[indent=2]\r\ninit\r\n  print \"Hello World\""
   },
@@ -2810,8 +2810,8 @@
   {
     "id": "282",
     "title": "GeoJSON",
-    "description": "",
-    "url": "",
+    "description": "GeoJSON is an open standard format designed for representing simple geographical features, along with their non-spatial attributes. It is based on the JSON format.",
+    "url": "https://en.wikipedia.org/wiki/GeoJSON",
     "language_short": "json",
     "code": "{\"type\":\"FeatureCollection\",\"features\":[{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-103.35937499999999,66.93006025862448],[-104.4140625,39.90973623453719],[-94.21875,39.36827914916011],[-93.8671875,50.28933925329178],[-85.78125,50.28933925329178],[-85.78125,39.639537564366684],[-75.5859375,39.639537564366684],[-77.6953125,67.06743335108298],[-86.484375,66.79190947341796],[-85.78125,57.7041472343419],[-92.8125,57.32652122521709],[-94.21875,66.51326044311188],[-103.35937499999999,66.93006025862448]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-71.3671875,67.47492238478702],[-40.42968749999999,67.60922060496382],[-40.78125,64.01449619484472],[-61.52343749999999,63.548552232036414],[-61.52343749999999,57.89149735271031],[-50.625,57.89149735271031],[-50.625,51.39920565355378],[-60.1171875,51.39920565355378],[-61.17187499999999,42.032974332441405],[-42.1875,42.293564192170095],[-42.1875,36.87962060502676],[-68.203125,34.88593094075317],[-71.3671875,67.47492238478702]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-32.6953125,67.60922060496382],[-32.34375,39.36827914916011],[-4.21875,40.713955826286046],[-4.21875,47.754097979680026],[-20.7421875,47.040182144806664],[-21.796875,67.87554134672945],[-32.6953125,67.60922060496382]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[4.5703125,68.78414378041504],[5.9765625,42.553080288955826],[37.265625,43.83452678223682],[37.265625,49.61070993807422],[18.6328125,50.28933925329178],[15.468749999999998,69.03714171275197],[4.5703125,68.78414378041504]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[41.8359375,43.068887774169625],[41.8359375,68.65655498475735],[95.625,68.65655498475735],[95.625,43.068887774169625],[41.8359375,43.068887774169625]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[50.9765625,47.27922900257082],[50.9765625,66.93006025862448],[89.296875,66.93006025862448],[89.296875,47.27922900257082],[50.9765625,47.27922900257082]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-115.6640625,18.312810846425442],[-98.7890625,18.979025953255267],[-84.72656249999999,-15.961329081596634],[-75.5859375,-4.565473550710278],[-69.2578125,-4.214943141390639],[-65.7421875,-15.284185114076433],[-53.0859375,19.973348786110602],[-39.7265625,21.28937435586041],[-65.0390625,-41.244772343082076],[-73.828125,-42.0329743324414],[-76.640625,-28.613459424004414],[-84.375,-41.50857729743933],[-94.921875,-42.0329743324414],[-115.6640625,18.312810846425442]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-34.80468749999999,-39.09596293630548],[-34.80468749999999,21.28937435586041],[14.414062499999998,21.28937435586041],[14.414062499999998,-39.09596293630548],[-34.80468749999999,-39.09596293630548]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[-28.125,-31.05293398570514],[-28.125,14.944784875088372],[8.7890625,14.944784875088372],[8.7890625,-31.05293398570514],[-28.125,-31.05293398570514]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[23.203125,21.616579336740603],[22.148437499999996,-38.27268853598096],[32.34375,-37.99616267972812],[33.75,-15.961329081596634],[45.3515625,-36.597889133070204],[59.765625,-36.03133177633187],[39.0234375,-5.266007882805485],[54.84375,-3.513421045640032],[53.0859375,23.241346102386135],[23.203125,21.616579336740603]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[28.828124999999996,2.811371193331128],[28.828124999999996,16.972741019999035],[46.7578125,16.972741019999035],[46.7578125,2.811371193331128],[28.828124999999996,2.811371193331128]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[65.0390625,22.917922936146045],[66.09375,-34.30714385628803],[111.4453125,-34.30714385628803],[110.390625,-25.79989118208832],[78.3984375,-24.206889622398023],[76.9921875,23.56398712845123],[65.0390625,22.917922936146045]]]}},{\"type\":\"Feature\",\"properties\":{},\"geometry\":{\"type\":\"Polygon\",\"coordinates\":[[[117.0703125,25.165173368663954],[121.640625,-33.13755119234615],[135.35156249999997,-31.653381399663985],[146.25,-20.3034175184893],[148.7109375,-9.79567758282973],[148.359375,0],[145.1953125,7.36246686553575],[140.2734375,14.604847155053898],[135.703125,20.632784250388028],[128.671875,24.206889622398023],[121.9921875,26.11598592533351],[117.0703125,25.165173368663954]]]}}]}"
   },
@@ -2834,24 +2834,24 @@
   {
     "id": "285",
     "title": "Glass",
-    "description": "",
-    "url": "",
+    "description": "Glass is an esoteric programming language developed by Gregor Richards in 2005. It combines an unintuitive postfix notation with heavy object-orientation, requiring extensive juggling of a main stack combined with its object-oriented structure.",
+    "url": "https://esolangs.org/wiki/Glass",
     "language_short": "brainfuck",
     "code": "+{M[m(_o)O!\"Hello World!\"(_o)o.?]}"
   },
   {
     "id": "286",
     "title": "GML (Game Maker Language)",
-    "description": "",
-    "url": "",
+    "description": "GameMaker Language is GameMaker's scripting language. It is an imperative, dynamically typed language commonly likened to JavaScript and C-like languages.",
+    "url": "https://en.wikipedia.org/wiki/GameMaker#GameMaker_Language",
     "language_short": "gml",
     "code": "\/\/ Draws \"Hello, world!\" onto the screen at position 1, 1\r\ndraw_text(1, 1, \"Hello, world!\");"
   },
   {
     "id": "287",
     "title": "Go",
-    "description": "",
-    "url": "",
+    "description": "Go is a statically typed, compiled programming language designed at Google by Robert Griesemer, Rob Pike, and Ken Thompson. Go is syntactically similar to C, but with memory safety, garbage collection, structural typing, and CSP-style concurrency. The language is often referred to as Golang because of its domain name, golang.org, but the proper name is Go.",
+    "url": "https://en.wikipedia.org/wiki/Go_(programming_language)",
     "language_short": "go",
     "code": "package main\r\n \r\nfunc main() {\r\n    println(\"Hello, World\")\r\n}"
   },
@@ -2866,8 +2866,8 @@
   {
     "id": "289",
     "title": "Golfscript",
-    "description": "",
-    "url": "",
+    "description": "GolfScript is a concatenative programming language embedded on top of Ruby, designed to allow very short programs to be written, in order to win code-golf contests. It supports a range of datatypes including arbitrary precision integers, and a wider range of standard operations than many other esoteric programming languages.",
+    "url": "https://esolangs.org/wiki/GolfScript",
     "language_short": "plaintext",
     "code": "\"Hello World\""
   },
@@ -2882,16 +2882,16 @@
   {
     "id": "291",
     "title": "Golo",
-    "description": "",
-    "url": "",
+    "description": "Golo is computer software, a programming language for the Java virtual machine (JVM). It is simple, with dynamic, weak typing. It was created in 2012 as part of the research activities of the DynaMid group of the Centre of Innovation in Telecommunications and Integration of service (CITI) Laboratory at Institut national des sciences appliquées de Lyon (INSA). It is distributed as free and open-source software under the Eclipse Public License 2.0.",
+    "url": "https://en.wikipedia.org/wiki/Golo_(programming_language)",
     "language_short": "golo",
     "code": "module hello.world\r\n \r\nfunction main = |args| { \r\n    println(\"Hello world\")\r\n}"
   },
   {
     "id": "292",
     "title": "Google Apps Script",
-    "description": "",
-    "url": "",
+    "description": "Apps Script is a scripting platform developed by Google for light-weight application development in the Google Workspace platform. Google Apps Script was initially developed by Mike Harm as a side project whilst working as a developer on Google Sheets.",
+    "url": "https://en.wikipedia.org/wiki/Google_Apps_Script",
     "language_short": "javascript",
     "code": "function helloWorld() {\r\n    Logger.log('Hello World');\r\n}"
   },
@@ -2906,16 +2906,16 @@
   {
     "id": "294",
     "title": "Gosu",
-    "description": "",
-    "url": "",
+    "description": "Gosu is a statically-typed general-purpose programming language that runs on the Java Virtual Machine. Its influences include Java, C#, and ECMAScript. Development of Gosu began in 2002 internally for Guidewire Software, and the language saw its first community release in 2010 under the Apache 2 license.",
+    "url": "https://en.wikipedia.org/wiki/Gosu_(programming_language)",
     "language_short": "c-like",
     "code": "print(\"Hello World from Gosu!!\")"
   },
   {
     "id": "863",
     "title": "GraphQL",
-    "description": "",
-    "url": "",
+    "description": "GraphQL is an open-source data query and manipulation language for APIs, and a runtime for fulfilling queries with existing data. GraphQL was developed internally by Facebook in 2012 before being publicly released in 2015. On 7 November 2018, the GraphQL project was moved from Facebook to the newly-established GraphQL Foundation, hosted by the non-profit Linux Foundation. Since 2012, GraphQL's rise has followed the adoption timeline as set out by Lee Byron, GraphQL's creator, with accuracy. Byron's goal is to make GraphQL omnipresent across web platforms.",
+    "url": "https://en.wikipedia.org/wiki/GraphQL",
     "language_short": "",
     "code": "{\r\n    \"Hello World\"\r\n}"
   },
@@ -2930,8 +2930,8 @@
   {
     "id": "864",
     "title": "GreeeeeeeeenText",
-    "description": "",
-    "url": "",
+    "description": "GreeeeeeeeenText is a joke language being worked on by User:Areallycoolusername. All code is in the format of 4chans greentext memes.",
+    "url": "https://esolangs.org/wiki/GreeeeeeeeenText",
     "language_short": "",
     "code": ">be me\r\n>says Hello World\r\n>*gets output*"
   },
@@ -2946,8 +2946,8 @@
   {
     "id": "297",
     "title": "Gri",
-    "description": "",
-    "url": "",
+    "description": "Gri is a programming language for creating scientific graphics. It is licensed under the terms of the GNU General Public License.",
+    "url": "https://en.wikipedia.org/wiki/Gri_graphical_language",
     "language_short": "c-like",
     "code": "show \"hello world\""
   },
@@ -2970,16 +2970,16 @@
   {
     "id": "300",
     "title": "Groovy",
-    "description": "",
-    "url": "",
+    "description": "Groovy is a Java-syntax-compatible object-oriented programming language for the Java platform. It is both a static and dynamic language with features similar to those of Python, Ruby, and Smalltalk. It can be used as both a programming language and a scripting language for the Java Platform, is compiled to Java virtual machine (JVM) bytecode, and interoperates seamlessly with other Java code and libraries. Groovy uses a curly-bracket syntax similar to Java's.",
+    "url": "https://en.wikipedia.org/wiki/Apache_Groovy",
     "language_short": "groovy",
     "code": "println \"Hello World\""
   },
   {
     "id": "301",
     "title": "Gui4Cli",
-    "description": "",
-    "url": "",
+    "description": "Gui4Cli is an event-driven programming language for creating GUIs that originated on the Amiga and was ported to Windows around 2001. The language itself somewhat resembles Basic. It allowed one to use native controls on Windows before Tile (Ttk) came about. GUIs built with Gui4Cli use coordinate-based widget placement (like place), which can be adjusted through a visual editor. As the name suggests, can be used to drive a console application from a GUI.",
+    "url": "http://gui4cli.com/",
     "language_short": "plaintext",
     "code": "G4C MyGui\r\nWindow 10 10 200 300 \"My window\"\r\n \r\nxOnLoad\r\n    GuiOpen MyGui\r\n \r\nxButton 10 10 100 20 \"Hello World\"\r\n    GuiQuit MyGui"
   },
@@ -2994,8 +2994,8 @@
   {
     "id": "303",
     "title": "Hack",
-    "description": "",
-    "url": "",
+    "description": "Hack is a programming language for the HipHop Virtual Machine (HHVM), created by Facebook as a dialect of PHP. The language implementation is open-source, licensed under the MIT License.",
+    "url": "https://en.wikipedia.org/wiki/Hack_(programming_language)",
     "language_short": "php",
     "code": "<?hh \r\necho 'Hello World';"
   },
@@ -3010,24 +3010,24 @@
   {
     "id": "865",
     "title": "Haml",
-    "description": "",
-    "url": "",
+    "description": "Haml (HTML Abstraction Markup Language) is a templating system that is designed to avoid writing inline code in a web document and make the HTML cleaner. Haml gives the flexibility to have some dynamic content in HTML. Similar to other web languages like PHP, ASP, JSP and template systems like eRuby, Haml also embeds some code that gets executed during runtime and generates HTML code in order to provide some dynamic content. In order to run Haml code, files need to have a .haml extension. These files are similar to .erb or eRuby files which also help to embed Ruby code while developing a web application.",
+    "url": "https://en.wikipedia.org/wiki/Haml",
     "language_short": "",
     "code": "%html\r\n  %title Hello World\r\n  %body\r\n    %h1 Hello World"
   },
   {
     "id": "305",
     "title": "Haskell",
-    "description": "",
-    "url": "",
+    "description": "Haskell /ˈhæskəl/ is a general-purpose, statically typed, purely functional programming language with type inference and lazy evaluation. Designed for teaching, research and industrial application, Haskell has pioneered a number of advanced programming language features such as type classes, which enable type-safe operator overloading. Haskell's main implementation is the Glasgow Haskell Compiler (GHC). It is named after logician Haskell Curry.",
+    "url": "https://en.wikipedia.org/wiki/Haskell_(programming_language)",
     "language_short": "haskell",
     "code": "module Main where\r\n \r\nmain = putStrLn \"Hello, World!\""
   },
   {
     "id": "306",
     "title": "Haxe",
-    "description": "",
-    "url": "",
+    "description": "Haxe is an open source high-level cross-platform programming language and compiler that can produce applications and source code, for many different computing platforms from one code-base. It is free and open-source software, released under the MIT License. The compiler, written in OCaml, is released under the GNU General Public License (GPL) version 2.",
+    "url": "https://en.wikipedia.org/wiki/Haxe",
     "language_short": "haxe",
     "code": "class HelloWorld {\r\n    static function main() {\r\n        trace(\"Hello World!\");\r\n    }\r\n}"
   },
@@ -3098,8 +3098,8 @@
   {
     "id": "314",
     "title": "Hodor",
-    "description": "",
-    "url": "",
+    "description": "Do you feel that there aren't enough programming languages or frameworks to get the job done right? We certainly do. As engineers, we want to focus on what we do best -- creating disruptive technology that just plain works. Using jumbled permutations of the word \"hodor\" over and over again we have simplified programming syntax to make it easier than ever before. We hope that you find Hodor as easy to use as we have!",
+    "url": "https://github.com/hummingbirdtech/hodor/blob/master/README.md",
     "language_short": "c-like",
     "code": "hodor.hod('Hhodor? Hodor!? Hodor!? o, Hooodorrhodor orHodor!? d!');"
   },
@@ -3114,8 +3114,8 @@
   {
     "id": "316",
     "title": "Holy C (HolyC)",
-    "description": "",
-    "url": "",
+    "description": "HolyC is a variation of C developed by Terry A. Davis. HolyC is the official programming language for The Temple Operating System (TempleOS).",
+    "url": "https://rosettacode.org/wiki/Category:HolyC",
     "language_short": "plaintext",
     "code": "\"Hello, world!\";"
   },
@@ -3130,16 +3130,16 @@
   {
     "id": "318",
     "title": "HOP",
-    "description": "",
-    "url": "",
+    "description": "Hop is a Lisp-like programming language by Manuel Serrano for web 2.0 and also the name of the web broker (server and proxy) that implements this language. It is written in Bigloo Scheme. It is a project funded by INRIA.",
+    "url": "https://en.wikipedia.org/wiki/Hop_(software)",
     "language_short": "xml",
     "code": "(define-service (hello-world)\r\n(<HTML>\r\n    (<HEAD>\r\n        (<TITLE> \"Hello, world!\"))\r\n    (<BODY>\r\n        \"Hello, world!\")))"
   },
   {
     "id": "867",
-    "title": "HP_41C",
-    "description": "",
-    "url": "",
+    "title": "HP 41C (HP-41C)",
+    "description": "The HP-41C series are programmable, expandable, continuous memory handheld RPN calculators made by Hewlett-Packard from 1979 to 1990. The original model, HP-41C, was the first of its kind to offer alphanumeric display capabilities. Later came the HP-41CV and HP-41CX, offering more memory and functionality.",
+    "url": "https://en.wikipedia.org/wiki/HP-41C",
     "language_short": "",
     "code": "01 LBL \"HELLO\"\r\n02 \"HELLO WORLD\"\r\n03 AVIEW"
   },
@@ -3154,8 +3154,8 @@
   {
     "id": "320",
     "title": "HTML",
-    "description": "",
-    "url": "",
+    "description": "The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.",
+    "url": "https://en.wikipedia.org/wiki/HTML",
     "language_short": "xml",
     "code": "<!DOCTYPE html>\r\n<html>\r\n    <head>\r\n        <title>Hello World HTML<\/titl>\r\n    <\/head>\r\n    <body>\r\n        <h1>Hello World<\/h1>\r\n    <\/body>\r\n<\/html>"
   },
@@ -3178,16 +3178,16 @@
   {
     "id": "321",
     "title": "Hy",
-    "description": "",
-    "url": "",
+    "description": "Hy is a dialect of the Lisp programming language. It is designed to interact with the language Python by translating expressions into Python's abstract syntax tree (AST). Hy was introduced at Python Conference (PyCon) 2013 by Paul Tagliamonte.",
+    "url": "https://en.wikipedia.org/wiki/Hy",
     "language_short": "hy",
     "code": "(print \"Hello World!\")"
   },
   {
     "id": "322",
     "title": "HyperTalk",
-    "description": "",
-    "url": "",
+    "description": "HyperTalk is a discontinued high-level, procedural programming language created in 1987 by Dan Winkler and used in conjunction with Apple Computer's HyperCard hypermedia program by Bill Atkinson. Because the main target audience of HyperTalk was beginning programmers, HyperTalk programmers were usually called \"authors\" and the process of writing programs was known as \"scripting\".",
+    "url": "https://en.wikipedia.org/wiki/HyperTalk",
     "language_short": "vim",
     "code": "put \"Hello, World!\""
   },
@@ -3210,8 +3210,8 @@
   {
     "id": "324",
     "title": "IBM1401",
-    "description": "",
-    "url": "",
+    "description": "The IBM 1401 is a variable-wordlength decimal computer that was announced by IBM on October 5, 1959. The first member of the highly successful IBM 1400 series, it was aimed at replacing unit record equipment for processing data stored on punched cards and at providing peripheral services for larger computers.",
+    "url": "https://en.wikipedia.org/wiki/IBM_1401",
     "language_short": "x86asm",
     "code": ",008015,022029,036043,050054,055062,063065,066077\/333\/M0762502F1.HELLO\r\nWORLD"
   },
@@ -3226,40 +3226,40 @@
   {
     "id": "326",
     "title": "ICI",
-    "description": "",
-    "url": "",
+    "description": "ICI is a general purpose interpreted, computer programming language originally developed by Tim Long in the late 1980s. It has dynamic typing and flexible data types, with the basic syntax, flow control constructs and operators of C. It can be considered broadly similar to Perl, with which it is roughly contemporary. Like Perl, it also has tight integration with regular expressions.",
+    "url": "https://en.wikipedia.org/wiki/ICI_(programming_language)",
     "language_short": "c-like",
     "code": "printf(\"Hello World\\n\");"
   },
   {
     "id": "327",
     "title": "Icon",
-    "description": "",
-    "url": "",
+    "description": "Icon is a very high-level programming language featuring goal-directed execution and many facilities for managing strings and textual patterns. It is related to SNOBOL and SL5, string processing languages. Icon is not object-oriented, but an object-oriented extension called Idol was developed in 1996 which eventually became Unicon.",
+    "url": "https://en.wikipedia.org/wiki/Icon_(programming_language)",
     "language_short": "c-like",
     "code": "procedure main()\r\n    write(\"Hello World\");\r\nend"
   },
   {
     "id": "328",
     "title": "IDL",
-    "description": "",
-    "url": "",
+    "description": "IDL, short for Interactive Data Language, is a programming language used for data analysis. It is popular in particular areas of science, such as astronomy, atmospheric physics and medical imaging.[citation needed] IDL shares a common syntax with PV-Wave and originated from the same codebase, though the languages have subsequently diverged in detail. There are also free or costless implementations, such as GNU Data Language (GDL) and Fawlty Language (FL).",
+    "url": "https://en.wikipedia.org/wiki/IDL_(programming_language)",
     "language_short": "c-like",
     "code": "print, \"Hello, world!\"\r\nend"
   },
   {
     "id": "329",
     "title": "Idris",
-    "description": "",
-    "url": "",
+    "description": "Idris is a purely-functional programming language with dependent types, optional lazy evaluation, and features such as a totality checker. Idris may be used as a proof assistant, but it is designed to be a general-purpose programming language similar to Haskell.",
+    "url": "https://en.wikipedia.org/wiki/Idris_(programming_language)",
     "language_short": "c-like",
     "code": "module Main\r\n \r\nmain : IO ()\r\nmain = putStrLn \"Hello World\""
   },
   {
     "id": "330",
-    "title": "Il",
-    "description": "",
-    "url": "",
+    "title": "Il (Instruction list)",
+    "description": "Il (Instruction list) is one of the 5 languages supported by the initial versions of IEC 61131-3 standard, and subsequently deprecated in the third edition.",
+    "url": "https://en.wikipedia.org/wiki/Instruction_list",
     "language_short": "c-like",
     "code": "\/\/ compile:\r\n\/\/ ilasm <this file's name>\r\n\/\/ (if ilasm cannot be found, it's in the .NET directory (%windir%\\Microsoft.NET\\Framework\\v4.0.30319\\ilasm.exe))\r\n \r\n\/\/ assembly references\r\n.assembly extern mscorlib\r\n{\r\n    .publickeytoken = (B7 7A 5C 56 19 34 E0 89 )                         \/\/ .z\\V.4..\r\n    .ver 4:0:0:0\r\n}\r\n \r\n\/\/ assembly manifest\r\n.assembly ilhw\r\n{"
   },
@@ -3290,24 +3290,24 @@
   {
     "id": "334",
     "title": "Inform",
-    "description": "",
-    "url": "",
+    "description": "Inform is a programming language and design system for interactive fiction originally created in 1993 by Graham Nelson. Inform can generate programs designed for the Z-code or Glulx virtual machines. Versions 1 through 5 were released between 1993 and 1996.",
+    "url": "https://en.wikipedia.org/wiki/Inform",
     "language_short": "inform7",
     "code": "\"Hello World\" by \"I.F. Author\"\r\n \r\nThe world is a room.\r\n \r\nWhen play begins, say \"Hello, world.\""
   },
   {
     "id": "335",
     "title": "Ink",
-    "description": "",
-    "url": "",
+    "description": "Ink is inkle's scripting language for writing interactive narrative, both for text-centric games as well as more graphical games that contain highly branching stories. It's designed to be easy to learn, but with powerful enough features to allow an advanced level of structuring.",
+    "url": "https://github.com/inkle/ink",
     "language_short": "plaintext",
     "code": "Hello, world!"
   },
   {
     "id": "871",
     "title": "Inkling",
-    "description": "",
-    "url": "",
+    "description": "Inkling is the language in which Inklings in the Splatoon series communicate. While individual letters, words, and the occasional phrase are often similar to real-life languages, Inkling as a whole has been confirmed by Splatoon developers to be almost entirely random.",
+    "url": "https://splatoonwiki.org/wiki/Inkling_(language)",
     "language_short": "",
     "code": "display \"Hello World\""
   },
@@ -3322,40 +3322,40 @@
   {
     "id": "337",
     "title": "Intercal",
-    "description": "",
-    "url": "",
+    "description": "The Compiler Language With No Pronounceable Acronym (INTERCAL) is an esoteric programming language that was created as a parody by Don Woods and James M. Lyon, two Princeton University students, in 1972. It satirizes aspects of the various programming languages at the time, as well as the proliferation of proposed language constructs and notations in the 1960s.",
+    "url": "https://en.wikipedia.org/wiki/INTERCAL",
     "language_short": "x86asm",
     "code": "DO ,1 <- #13\r\nPLEASE DO ,1 SUB #1 <- #238\r\nDO ,1 SUB #2 <- #108\r\nDO ,1 SUB #3 <- #112\r\nDO ,1 SUB #4 <- #0\r\nDO ,1 SUB #5 <- #64\r\nDO ,1 SUB #6 <- #194\r\nDO ,1 SUB #7 <- #48\r\nPLEASE DO ,1 SUB #8 <- #22\r\nDO ,1 SUB #9 <- #248\r\nDO ,1 SUB #10 <- #168\r\nDO ,1 SUB #11 <- #24\r\nDO ,1 SUB #12 <- #16\r\nDO ,1 SUB #13 <- #162\r\nPLEASE READ OUT ,1\r\nPLEASE GIVE UP"
   },
   {
     "id": "338",
     "title": "Io",
-    "description": "",
-    "url": "",
+    "description": "Io is a pure object-oriented programming language inspired by Smalltalk, Self, Lua, Lisp, Act1, and NewtonScript. Io has a prototype-based object model similar to the ones in Self and NewtonScript, eliminating the distinction between instance and class. Like Smalltalk, everything is an object and it uses dynamic typing. Like Lisp, programs are just data trees. Io uses actors for concurrency.",
+    "url": "https://en.wikipedia.org/wiki/Io_(programming_language)",
     "language_short": "c-like",
     "code": "\"Hello, world!\\n\" print"
   },
   {
     "id": "339",
     "title": "Ioke",
-    "description": "",
-    "url": "",
+    "description": "Ioke is a dynamic, strongly typed, prototype-based programming language targeting the Java Virtual Machine and the Common Language Runtime. It was designed by Ola Bini, a developer of JRuby. It has a very simple homoiconic syntax, somewhat similar to Io.",
+    "url": "https://handwiki.org/wiki/Ioke_(programming_language)",
     "language_short": "c-like",
     "code": "\"Hello, World!\" println"
   },
   {
     "id": "340",
     "title": "IRC",
-    "description": "",
-    "url": "",
+    "description": "IRC scripts are a way of shortening commands and responding automatically to certain events while connected to an IRC network.",
+    "url": "https://en.wikipedia.org/wiki/IRC_script",
     "language_short": "plaintext",
     "code": "\/timer 1 9999 1 Hello World"
   },
   {
     "id": "872",
     "title": "IronScheme",
-    "description": "",
-    "url": "",
+    "description": "IronScheme is an implementation of the Scheme programming language targeting the Microsoft .NET Framework. IronScheme is a complete rewrite of IronLisp, incorporating lessons learnt while developing IronLisp.",
+    "url": "https://en.wikipedia.org/wiki/IronScheme",
     "language_short": "",
     "code": "(import (rnrs))\r\n\r\n(display \"Hello World\")\r\n(newline)"
   },
@@ -3370,40 +3370,40 @@
   {
     "id": "342",
     "title": "ISLISP",
-    "description": "",
-    "url": "",
+    "description": "ISLISP (also capitalized as ISLisp) is a programming language in the Lisp family standardized by the International Organization for Standardization (ISO) and International Electrotechnical Commission (IEC) joint working group ISO/IEC JTC 1/SC 22/WG 16 [permanent dead link] (commonly termed simply SC22/WG16 or WG16). The primary output of this working group was an international standard, published by ISO.",
+    "url": "https://en.wikipedia.org/wiki/ISLISP",
     "language_short": "clojure",
     "code": "(format (standard-output) \"Hello, world!\")"
   },
   {
     "id": "343",
     "title": "J",
-    "description": "",
-    "url": "",
+    "description": "The J programming language, developed in the early 1990s by Kenneth E. Iverson and Roger Hui, is an array programming language based primarily on APL (also by Iverson).",
+    "url": "https://en.wikipedia.org/wiki/J_(programming_language)",
     "language_short": "bash",
     "code": "#!\/opt\/local\/bin\/jc\r\necho 'Hello World'\r\nexit '"
   },
   {
     "id": "344",
     "title": "Jade",
-    "description": "",
-    "url": "",
+    "description": "JADE is a proprietary object-oriented software development and deployment platform product from the New Zealand-based Jade Software Corporation, first released in 1996.[1][2] It consists of the JADE programming language, Integrated development environment and debugger, integrated application server and object database management system.",
+    "url": "https://en.wikipedia.org/wiki/JADE_(programming_language)",
     "language_short": "c-like",
     "code": "helloWorld();\r\n \r\nbegin\r\n    write \"Hello World\";\r\nend;"
   },
   {
     "id": "345",
     "title": "Jai",
-    "description": "",
-    "url": "",
+    "description": "In September 2014, Blow began work on a new programming language called \"Jai\" based on ideas he had previously expressed about video game development. It is aimed at \"low-friction\" and fluid development, while directly supporting data-oriented design for high performance. ",
+    "url": "https://en.wikipedia.org/wiki/Jonathan_Blow#Jai_language",
     "language_short": "c-like",
     "code": "#import \"Print\"\r\n \r\nmain::(){\r\n \r\n    print(\"hello world!\");\r\n \r\n}"
   },
   {
     "id": "346",
     "title": "Jasmin",
-    "description": "",
-    "url": "",
+    "description": "Jasmin is a workbench for high-assurance and high-speed cryptography. Jasmin implementations aim at being efficient, safe, correct, and secure.",
+    "url": "https://github.com/jasmin-lang/jasmin/wiki/About",
     "language_short": "java",
     "code": ".class public Jasmin\r\n.super java\/lang\/Object\r\n \r\n.method public static main([Ljava\/lang\/String;)V\r\n    .limit stack 2\r\n    getstatic java\/lang\/System\/out Ljava\/io\/PrintStream;\r\n    ldc \"Hello world!\"\r\n    invokevirtual java\/io\/PrintStream\/println(Ljava\/lang\/String;)V\r\n    return\t\r\n.end method"
   },
@@ -3418,104 +3418,104 @@
   {
     "id": "348",
     "title": "Java",
-    "description": "",
-    "url": "",
-    "language_short": "jva",
+    "description": "Java is a class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.",
+    "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+    "language_short": "java",
     "code": "public class Java {\r\n    public static void main(String[] args) {\r\n        System.out.println(\"Hello World\");\r\n    }\r\n}"
   },
   {
     "id": "349",
-    "title": "JavaScript",
-    "description": "",
-    "url": "",
+    "title": "JavaScript (JS)",
+    "description": "JavaScript (/ˈdʒɑːvəˌskrɪpt/), often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.",
+    "url": "https://en.wikipedia.org/wiki/JavaScript",
     "language_short": "javascript",
     "code": "console.log(\"Hello World\");"
   },
   {
     "id": "873",
     "title": "Jelly",
-    "description": "",
-    "url": "",
+    "description": "Jelly is a golfing language by Dennis Mitchell inspired by the J programming language. It has a free online compiler on Try It Online. It comes with its own character set (of 256 characters) and character encoding, apparently unrelated to any previous encodings.",
+    "url": "https://esolangs.org/wiki/Jelly",
     "language_short": "",
     "code": "“½,⁾ẇṭ»"
   },
   {
     "id": "350",
     "title": "Jess",
-    "description": "",
-    "url": "",
+    "description": "Jess is a rule engine for the Java platform that was developed by Ernest Friedman-Hill of Sandia National Labs.[1] It is a superset of the CLIPS programming language.[1] It was first written in late 1995.",
+    "url": "https://en.wikipedia.org/wiki/Jess_(programming_language)",
     "language_short": "lisp",
     "code": "(printout t \"Hello World\")"
   },
   {
     "id": "874",
     "title": "JSFuck",
-    "description": "",
-    "url": "",
+    "description": "JSFuck is an esoteric subset of JavaScript, where code is written using only six characters: [, ], (, ), !, and +. The name is derived from Brainfuck, an esoteric programming language that also uses a minimalistic alphabet of only punctuation. Unlike Brainfuck, which requires its own compiler or interpreter, JSFuck is valid JavaScript code, meaning that JSFuck programs can be run in any web browser or engine that interprets JavaScript. JSFuck is able to recreate all JavaScript functionality using such a limited set of characters because JavaScript is a weakly typed programming language, and it allows the evaluation of any expression as any type.",
+    "url": "https://en.wikipedia.org/wiki/JSFuck",
     "language_short": "",
     "code": "[][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]](([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (+(+!+[] + [+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + [!+[] + !+[]] + [+[]]) + [])[+!+[]] + (![] + [])[!+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]] + (![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + ([][[]] + [])[+[]] + ([][[]] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()(([] + [])[([![]] + [][[]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (![] + [])[+!+[]] + (![] + [])[!+[] + !+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]]]()[+[]])[+[]] + (!+[] + !+[] + [!+[] + !+[] + !+[] + !+[] + !+[] + !+[] + !+[]]) + []) + (+(+!+[] + [+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[]] + (![] + [])[!+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + (+(!+[] + !+[] + !+[] + [!+[] + !+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [!+[] + !+[] + !+[]]) + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]] + (![] + [])[!+[] + !+[]] + ([][[]] + [])[!+[] + !+[]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + ([][[]] + [])[+[]] + ([][[]] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]][([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]]((!![] + [])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + ([][[]] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+!+[]] + (+[![]] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+!+[]]] + (!![] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[+!+[]] + (+(!+[] + !+[] + [+!+[]] + [+!+[]]))[(!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (+![] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (+![] + [![]] + ([] + [])[([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + ([][[]] + [])[+!+[]] + (![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[+!+[]] + ([][[]] + [])[+[]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+[]] + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[+!+[] + [+[]]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]]](!+[] + !+[] + !+[] + [+!+[]])[+!+[]] + (!![] + [])[!+[] + !+[] + !+[]])()(([] + [])[([![]] + [][[]])[+!+[] + [+[]]] + (!![] + [])[+[]] + (![] + [])[+!+[]] + (![] + [])[!+[] + !+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + ([][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]] + [])[!+[] + !+[] + !+[]] + (![] + [])[!+[] + !+[] + !+[]]]()[+[]])[+[]] + (!+[] + !+[] + [!+[] + !+[] + !+[] + !+[] + !+[] + !+[] + !+[]]) + []) + (!![] + [][(![] + [])[+[]] + ([![]] + [][[]])[+!+[] + [+[]]] + (![] + [])[!+[] + !+[]] + (!![] + [])[+[]] + (!![] + [])[!+[] + !+[] + !+[]] + (!![] + [])[+!+[]]])[!+[] + !+[] + [+[]]])()"
   },
   {
     "id": "351",
     "title": "JSON (JavaScript Object Notation)",
-    "description": "",
-    "url": "",
+    "description": "JSON (JavaScript Object Notation, pronounced /ˈdʒeɪsən/; also /ˈdʒeɪˌsɒn/) is an open standard file format, and data interchange format, that uses human-readable text to store and transmit data objects consisting of attribute–value pairs and array data types (or any other serializable value). It is a very common data format, with a diverse range of applications, such as serving as a replacement for XML in AJAX systems.",
+    "url": "https://en.wikipedia.org/wiki/JSON",
     "language_short": "json",
     "code": "{ \"hello\": \"world\" }"
   },
   {
     "id": "352",
     "title": "JSONiq",
-    "description": "",
-    "url": "",
+    "description": "JSONiq is a query and functional programming language that is designed to declaratively query and transform collections of hierarchical and heterogeneous data in format of JSON, XML, as well as unstructured, textual data.",
+    "url": "https://en.wikipedia.org/wiki/JSONiq",
     "language_short": "plaintext",
     "code": "\"Hello, World!\""
   },
   {
     "id": "353",
     "title": "JSX",
-    "description": "",
-    "url": "",
+    "description": "JSX is a statically-typed, object-oriented programming language designed to run on modern web browsers. Being developed at DeNA as a research project, the language has following characteristics.",
+    "url": "https://jsx.github.io/",
     "language_short": "javascript",
     "code": "var React = require('react');\r\n \r\nvar HelloWorld = function() {\r\n    return <span>Hello World<\/span>;\r\n};\r\nHelloWorld.displayName = 'HelloWorld';\r\n \r\nconsole.log(React.renderToString(<HelloWorld \/>));"
   },
   {
     "id": "875",
     "title": "JudoScript",
-    "description": "",
-    "url": "",
+    "description": "general purpose programming languages designed primarily for scripting on the Java platform",
+    "url": "https://www.wikidata.org/wiki/Q6304189",
     "language_short": "",
     "code": ". \"Hello World\";"
   },
   {
     "id": "354",
     "title": "Julia",
-    "description": "",
-    "url": "",
+    "description": "Julia is a high-level, high-performance, dynamic programming language. While it is a general-purpose language and can be used to write any application, many of its features are well suited for numerical analysis and computational science.",
+    "url": "https://en.wikipedia.org/wiki/Julia_(programming_language)",
     "language_short": "julia",
     "code": "println(\"Hello World\")"
   },
   {
     "id": "876",
     "title": "Jython",
-    "description": "",
-    "url": "",
+    "description": "Jython is an implementation of the Python programming language designed to run on the Java platform. The implementation was formerly known as JPython until 1999.",
+    "url": "https://en.wikipedia.org/wiki/Jython",
     "language_short": "",
     "code": "print \"Hello World\""
   },
   {
     "id": "355",
     "title": "K",
-    "description": "",
-    "url": "",
+    "description": "K is a proprietary array processing programming language developed by Arthur Whitney and commercialized by Kx Systems. The language serves as the foundation for kdb+, an in-memory, column-based database, and other related financial products. The language, originally developed in 1993, is a variant of APL and contains elements of Scheme. Advocates of the language emphasize its speed, facility in handling arrays, and expressive syntax.",
+    "url": "https://en.wikipedia.org/wiki/K_(programming_language)",
     "language_short": "plaintext",
     "code": "\"Hello World\\n\""
   },
   {
     "id": "356",
     "title": "karel",
-    "description": "",
-    "url": "",
+    "description": "Karel is an educational programming language for beginners, created by Richard E. Pattis in his book Karel The Robot: A Gentle Introduction to the Art of Programming. Pattis used the language in his courses at Stanford University, California. The language is named after Karel Čapek, a Czech writer who introduced the word robot in his play R.U.R.",
+    "url": "https://en.wikipedia.org/wiki/Karel_(programming_language)",
     "language_short": "c-like",
     "code": "PROGRAM hello_world\r\nBEGIN\r\n    WRITE('Hello, world!', CR)\r\nEND hello_world"
   },
@@ -3562,24 +3562,24 @@
   {
     "id": "361",
     "title": "Kotlin",
-    "description": "",
-    "url": "",
+    "description": "Kotlin (/ˈkɒtlɪn/) is a cross-platform, statically typed, general-purpose programming language with type inference. Kotlin is designed to interoperate fully with Java, and the JVM version of Kotlin's standard library depends on the Java Class Library, but type inference allows its syntax to be more concise. Kotlin mainly targets the JVM, but also compiles to JavaScript (e.g., for frontend web applications using React) or native code (via LLVM); e.g., for native iOS apps sharing business logic with Android apps.[9 Language development costs are borne by JetBrains, while the Kotlin Foundation protects the Kotlin trademark.",
+    "url": "https://en.wikipedia.org/wiki/Kotlin_(programming_language)",
     "language_short": "kotlin",
     "code": "package hello\r\n \r\nfun main(args: Array<String>) {\r\n    println(\"Hello, world!\")\r\n}"
   },
   {
     "id": "362",
-    "title": "KSH",
-    "description": "",
-    "url": "",
+    "title": "KSH (KornShell)",
+    "description": "KornShell (ksh) is a Unix shell which was developed by David Korn at Bell Labs in the early 1980s and announced at USENIX on July 14, 1983. The initial development was based on Bourne shell source code. Other early contributors were Bell Labs developers Mike Veach and Pat Sullivan, who wrote the Emacs and vi-style line editing modes' code, respectively.",
+    "url": "https://en.wikipedia.org/wiki/KornShell",
     "language_short": "bash",
     "code": "#!\/bin\/ksh\r\necho \"Hello, World!\""
   },
   {
     "id": "878",
     "title": "Kumir",
-    "description": "",
-    "url": "",
+    "description": "Kumir is a Russian educational programming language. The purpose of this Activity -- using the Kumir in Russian OLPC summer camps.",
+    "url": "http://wiki.laptop.org/go/Kumir",
     "language_short": "",
     "code": "алг \r\nнач\r\n    вывод \"Hello World\"\r\nкон"
   },
@@ -3593,17 +3593,17 @@
   },
   {
     "id": "879",
-    "title": "LassoScript",
-    "description": "",
-    "url": "",
+    "title": "Lasso (LassoScript)",
+    "description": "Lasso is an application server and server management interface used to develop internet applications and is a general-purpose, high-level programming language. Originally a web datasource connection tool, for Filemaker and later included in Apple Computer's FileMaker 4.0 and Claris Homepage as CDML, it has since evolved into a complex language used to develop and serve large-scale internet applications and web pages.",
+    "url": "https://en.wikipedia.org/wiki/Lasso_(programming_language)",
     "language_short": "",
     "code": "<?LassoScript\r\n    Variable: 'ScreenText' = 'Hello World';\r\n    $ScreenText;\r\n  ?>"
   },
   {
     "id": "880",
     "title": "LaTeX",
-    "description": "",
-    "url": "",
+    "description": "LaTeX (/ˈlɑːtɛx/ LAH-tekh or /ˈleɪtɛx/ LAY-tekh,  often stylized as LATEX) is a software system for document preparation.  When writing, the writer uses plain text as opposed to the formatted text found in \"What You See Is What You Get\" word processors like Microsoft Word, LibreOffice Writer and Apple Pages. The writer uses markup tagging conventions to define the general structure of a document (such as article, book, and letter), to stylise text throughout a document (such as bold and italics), and to add citations and cross-references. A TeX distribution such as TeX Live or MiKTeX is used to produce an output file (such as PDF or DVI) suitable for printing or digital distribution.",
+    "url": "https://en.wikipedia.org/wiki/LaTeX",
     "language_short": "",
     "code": "\\documentclass{article}\r\n\\begin{document}\r\nHello World\r\n\\end{document}"
   },
@@ -3634,8 +3634,8 @@
   {
     "id": "883",
     "title": "Less",
-    "description": "",
-    "url": "",
+    "description": "Less (Leaner Style Sheets; sometimes stylized as LESS) is a dynamic preprocessor style sheet language that can be compiled into Cascading Style Sheets (CSS) and run on the client side or server side.",
+    "url": "https://en.wikipedia.org/wiki/Less_(stylesheet_language)",
     "language_short": "",
     "code": "body::before {\r\n    content: \"Hello World!\"\r\n}"
   },
@@ -3658,24 +3658,24 @@
   {
     "id": "884",
     "title": "LilyPond",
-    "description": "",
-    "url": "",
+    "description": "LilyPond is a computer program and file format for music engraving. One of LilyPond's major goals is to produce scores that are engraved with traditional layout rules, reflecting the era when scores were engraved by hand.",
+    "url": "https://en.wikipedia.org/wiki/LilyPond",
     "language_short": "",
     "code": "\\markup { Hello World }"
   },
   {
     "id": "885",
     "title": "Limbo",
-    "description": "",
-    "url": "",
+    "description": "Limbo is a programming language for writing distributed systems and is the language used to write applications for the Inferno operating system. It was designed at Bell Labs by Sean Dorward, Phil Winterbottom, and Rob Pike.",
+    "url": "https://en.wikipedia.org/wiki/Limbo_(programming_language)",
     "language_short": "",
     "code": "implement Hello;\r\n\r\ninclude \"sys.m\";\r\n sys: Sys;\r\ninclude \"draw.m\";\r\n\r\nHello: module\r\n{\r\n init: fn(ctxt: ref Draw->Context, argv: list of string);\r\n};\r\n\r\ninit(ctxt: ref Draw->Context, argv: list of string)\r\n{\r\n sys = load Sys Sys->PATH;\r\n sys->print(\"Hello World\\n\");\r\n}"
   },
   {
     "id": "886",
     "title": "Lingo",
-    "description": "",
-    "url": "",
+    "description": "Lingo is a verbose object-oriented (OO) scripting language developed by John H. Thompson for use in Adobe Director (formerly Macromedia Director). Lingo is used to develop desktop application software, interactive kiosks, CD-ROMs and Adobe Shockwave content.",
+    "url": "https://en.wikipedia.org/wiki/Lingo_(programming_language)",
     "language_short": "",
     "code": "on startmovie\r\n  alert \"Hello World\"\r\nend"
   },
@@ -3698,24 +3698,24 @@
   {
     "id": "888",
     "title": "Lisp",
-    "description": "",
-    "url": "",
+    "description": "Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation. Originally specified in 1958, Lisp is the second-oldest high-level.",
+    "url": "https://en.wikipedia.org/wiki/Lisp_(programming_language)",
     "language_short": "",
     "code": "; LISP\r\n(DEFUN hello ()\r\n  (PRINT (LIST 'HELLO 'WORLD))\r\n)\r\n\r\n(hello)"
   },
   {
     "id": "889",
     "title": "LiveScript",
-    "description": "",
-    "url": "",
+    "description": "LiveScript is a functional programming language that compiles to JavaScript. It was created by Jeremy Ashkenas—the creator of CoffeeScript—along with Satoshi Muramaki, George Zahariev, and many others. Not to be confused with JavaScript (for a brief period in the 1990s, LiveScript was the name of JavaScript).",
+    "url": "https://en.wikipedia.org/wiki/LiveScript",
     "language_short": "",
     "code": "console.log \"Hello World\""
   },
   {
     "id": "890",
     "title": "LLVM",
-    "description": "",
-    "url": "",
+    "description": "The LLVM compiler infrastructure project is a set of compiler and toolchain technologies, which can be used to develop a front end for any programming language and a back end for any instruction set architecture. LLVM is designed around a language-independent intermediate representation (IR) that serves as a portable, high-level assembly language that can be optimized with a variety of transformations over multiple passes.",
+    "url": "https://en.wikipedia.org/wiki/LLVM",
     "language_short": "",
     "code": "; llvm-as llvm.ll\r\n; x86 assembly: llc llvm.bc -o llvm.s -march x86\r\n; interpreter: lli llvm.bc\r\n\r\ntarget datalayout = \"e-p:32:32:32-i1:8:8-i8:8:8-i16:16:16-i32:32:32-i64:32:64-f32:32:32-f64:32:64-v64:64:64-v128:128:128-a0:0:64-f80:128:128\"\r\n@.str = internal constant [12 x i8] c\"Hello World\\00\"\r\n\r\n; puts from libc\r\ndeclare i32 @puts(i8*)\r\n\r\ndefine i32 @main(...) {\r\n call i32 @puts(i8* getelementptr([12 x i8]* @.str, i32 0, i32 0))\r\n ret i32 0\r\n}"
   },
@@ -3730,8 +3730,8 @@
   {
     "id": "891",
     "title": "Locomotive Basic",
-    "description": "",
-    "url": "",
+    "description": "Locomotive Basic is a proprietary dialect of the BASIC programming language written by Locomotive Software on the Amstrad CPC (where it was built-in on ROM) and the later Locomotive BASIC-2 as a GEM application on the Amstrad PC1512 and 1640. It was the main descendant of Mallard BASIC, the interpreter for CP/M supplied with the Amstrad PCW.",
+    "url": "https://en.wikipedia.org/wiki/Locomotive_BASIC",
     "language_short": "",
     "code": "10 print \"Hello World\"\r\nrun"
   },
@@ -3762,8 +3762,8 @@
   {
     "id": "893",
     "title": "Logo",
-    "description": "",
-    "url": "",
+    "description": "Logo is an educational programming language, designed in 1967 by Wally Feurzeig, Seymour Papert, and Cynthia Solomon. Logo is not an acronym: the name was coined by Feurzeig while he was at Bolt, Beranek and Newman,",
+    "url": "https://en.wikipedia.org/wiki/Logo_(programming_language)",
     "language_short": "",
     "code": "print [Hello World]"
   },
@@ -3778,8 +3778,8 @@
   {
     "id": "894",
     "title": "Logtalk",
-    "description": "",
-    "url": "",
+    "description": "Logtalk is an object-oriented logic programming language that extends and leverages the Prolog language with a feature set suitable for programming in the large. It provides support for encapsulation and data hiding, separation of concerns and enhanced code reuse. Logtalk uses standard Prolog syntax with the addition of a few operators and directives.",
+    "url": "https://en.wikipedia.org/wiki/Logtalk",
     "language_short": "",
     "code": "write('Hello World')"
   },
@@ -3810,8 +3810,8 @@
   {
     "id": "895",
     "title": "LotusScript",
-    "description": "",
-    "url": "",
+    "description": "LotusScript is an object oriented programming language used by Lotus Notes (since version 4.0) and other IBM Lotus Software products.",
+    "url": "https://en.wikipedia.org/wiki/LotusScript",
     "language_short": "",
     "code": "Sub Initialize\r\n    Print \"Hello World\"\r\nEnd Sub"
   },
@@ -3826,16 +3826,16 @@
   {
     "id": "376",
     "title": "LSL (Linden Scripting Language)",
-    "description": "",
-    "url": "",
+    "description": "LSL (Linden Scripting Language) is the programming language used by residents in Second Life. LSL scripts can control the behavior of in-world objects. LSL has syntax similar to C.",
+    "url": "http://wiki.secondlife.com/wiki/Linden_Scripting_Language",
     "language_short": "lsl",
     "code": "default\r\n{\r\n    state_entry()\r\n    {\r\n        llSay(0, \"Hello World\");\r\n    }\r\n}"
   },
   {
     "id": "377",
     "title": "LUA",
-    "description": "",
-    "url": "",
+    "description": "Lua (/ˈluːə/ LOO-ə; from Portuguese: lua [ˈlu.(w)ɐ] meaning moon)[a] is a lightweight, high-level, multi-paradigm programming language designed primarily for embedded use in applications. Lua is cross-platform, since the interpreter of compiled bytecode is written in ANSI C, and Lua has a relatively simple C API to embed it into applications.",
+    "url": "https://en.wikipedia.org/wiki/Lua_(programming_language)",
     "language_short": "lua",
     "code": "print(\"Hello World\")"
   },
@@ -3858,8 +3858,8 @@
   {
     "id": "898",
     "title": "Löve",
-    "description": "",
-    "url": "",
+    "description": "LÖVE (or Love2D) is an open-source cross-platform engine for developing 2D video games. The engine is written in C++ and uses Lua as its scripting language. It is published under the zlib license..",
+    "url": "https://en.wikipedia.org/wiki/L%C3%B6ve_(game_engine)",
     "language_short": "",
     "code": "function love.draw()\r\n    love.graphics.print(\"Hello World\", 400, 300)\r\nend"
   },
@@ -3874,17 +3874,17 @@
   {
     "id": "379",
     "title": "M4",
-    "description": "",
-    "url": "",
+    "description": "m4 is a general-purpose macro processor included in most Unix-like operating systems, and is a component of the POSIX standard.",
+    "url": "https://en.wikipedia.org/wiki/M4_(computer_language)",
     "language_short": "plaintext",
     "code": "Hello"
   },
   {
     "id": "899",
     "title": "MacLisp",
-    "description": "",
-    "url": "",
-    "language_short": "",
+    "description": "MacLisp or MacLISP) is a programming language, a dialect of the language Lisp. It originated at the Massachusetts Institute of Technology's (MIT) Project MAC (from which it derived its prefix) in the late 1960s and was based on Lisp 1.5. Richard Greenblatt was the main developer of the original codebase for the PDP-6; Jon L. White was responsible for its later maintenance and development. The name Maclisp began being used in the early 1970s to distinguish it from other forks of PDP-6 Lisp, notably BBN Lisp.",
+    "url": "https://en.wikipedia.org/wiki/Maclisp",
+    "language_short": "lisp",
     "code": "(comment) ;-*- Lisp -*-\r\n(progn\r\n  (defun hello-world ()\r\n    (princ \"Hello World\")\r\n    (quit))\r\n  (close (prog1 infile (inpush -1)))\r\n  (sstatus feature noldmsg)\r\n  (gctwa)\r\n  (gc)\r\n  (sstatus flush t)\r\n  (suspend \":KILL \" '(ts hello))\r\n  (hello-world))"
   },
   {
@@ -3906,16 +3906,16 @@
   {
     "id": "381",
     "title": "Macsyma",
-    "description": "",
-    "url": "",
+    "description": "Macsyma (/ˈmæksɪmə/; \"Project MAC's SYmbolic MAnipulator\") is one of the oldest general-purpose computer algebra systems still in wide use. It was originally developed from 1968 to 1982 at MIT's Project MAC.",
+    "url": "https://en.wikipedia.org/wiki/Macsyma",
     "language_short": "java",
     "code": "\/* Macsyma *\/\r\nprint(\"Hello World\");"
   },
   {
     "id": "382",
     "title": "Magic",
-    "description": "",
-    "url": "",
+    "description": "n the context of computer programming, magic is an informal term for abstraction; it is used to describe code that handles complex tasks while hiding that complexity to present a simple interface. The term is somewhat tongue-in-cheek, and often carries bad connotations, implying that the true behavior of the code is not immediately apparent.",
+    "url": "https://en.wikipedia.org/wiki/Magic_(programming)",
     "language_short": "bash",
     "code": "HELLO.WORLD\r\n \r\n\"Hello, world!\"^#;"
   },
@@ -3954,16 +3954,16 @@
   {
     "id": "901",
     "title": "Mariolang",
-    "description": "",
-    "url": "",
+    "description": "MarioLANG is a two-dimensional esoteric programming language made by User:Wh1teWolf, based on Super Mario. The source code's layout is similar to a Super Mario world, however the programs written in MarioLANG look like a completely normal application when compiled. It is even Turing-complete! This language was inspired by RubE On Conveyor Belts.",
+    "url": "https://esolangs.org/wiki/MarioLANG",
     "language_short": "",
     "code": "+>+>)+)+)+++)++++((((-[!)>->.\r\n+\"+\"===================#+\".\")\r\n+++!((+++++++++)++++++)<.---+\r\n++=#===================\")---.\r\n++((.-(.)).+++..+++++++.<---\r\n  !+======================---\r\n=#>++++++++++++++.).+++.-!>!\r\n  =======================#=#"
   },
   {
     "id": "386",
     "title": "Markdown",
-    "description": "",
-    "url": "",
+    "description": "Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files.",
+    "url": "https://en.wikipedia.org/wiki/Markdown",
     "language_short": "markdown",
     "code": "Hello, World!"
   },
@@ -3986,24 +3986,24 @@
   {
     "id": "902",
     "title": "MATLAB 1.0",
-    "description": "",
-    "url": "",
-    "language_short": "",
+    "description": "MATLAB (an abbreviation of \"matrix laboratory\") is a proprietary multi-paradigm programming language and numeric computing environment developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages.",
+    "url": "https://en.wikipedia.org/wiki/MATLAB",
+    "language_short": "matlab",
     "code": "fprintf('Hello World\\n')"
   },
   {
     "id": "389",
     "title": "Matlab",
-    "description": "",
-    "url": "",
+    "description": "MATLAB (an abbreviation of \"matrix laboratory\") is a proprietary multi-paradigm programming language and numeric computing environment developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages.",
+    "url": "https://en.wikipedia.org/wiki/MATLAB",
     "language_short": "matlab",
     "code": "disp('hello world')"
   },
   {
     "id": "390",
     "title": "MaxScript",
-    "description": "",
-    "url": "",
+    "description": "MAXScript is a built-in scripting language, and is used for a myriad of functions in 3D Studio Max. Plugin modules can be created entirely in MAXScript.",
+    "url": "https://rosettacode.org/wiki/Category:MAXScript",
     "language_short": "plaintext",
     "code": "print \"Hello, world!\"\r\n-- \"Hello, world!\"\r\n \r\n \r\n-- Note that MAXScript is expression-based, so simply writing \"Hello, world!\" is\r\n-- sufficient to echo it for the reader. Like Haskell, all MAXScript expressions\r\n-- *must* return values, even if they're unused."
   },
@@ -4018,8 +4018,8 @@
   {
     "id": "392",
     "title": "MEL (Maya Embedded Language)",
-    "description": "",
-    "url": "",
+    "description": "The Maya Embedded Language (MEL) is a scripting language used to simplify tasks in Autodesk's 3D Graphics Software Maya. Most tasks that can be achieved through Maya's GUI can be achieved with MEL, as well as certain tasks that are not available from the GUI. MEL offers a method of speeding up complicated or repetitive tasks, as well as allowing users to redistribute a specific set of commands to others that may find it useful.",
+    "url": "https://en.wikipedia.org/wiki/Maya_Embedded_Language",
     "language_short": "mel",
     "code": "proc helloWorld () {\r\n    print \"Hello World\\n\";\r\n}\r\nhelloWorld;"
   },
@@ -4034,16 +4034,16 @@
   {
     "id": "394",
     "title": "Mercury",
-    "description": "",
-    "url": "",
+    "description": "Mercury is a functional logic programming language made for real-world uses. The first version was developed at the University of Melbourne, Computer Science department, by Fergus Henderson, Thomas Conway, and Zoltan Somogyi, under Somogyi's supervision, and released on April 8, 1995.",
+    "url": "https://en.wikipedia.org/wiki/Mercury_(programming_language)",
     "language_short": "mercury",
     "code": ":- interface.\r\n:- import_module io.\r\n:- pred main(io::di, io::uo) is det.\r\n \r\n:- implementation.\r\nmain(!IO) :-\r\n    io.write_string(\"Hello, World!\\n\", !IO)."
   },
   {
     "id": "903",
     "title": "MilkScript",
-    "description": "",
-    "url": "",
+    "description": "Milk is a programming language \"that lets application developers manage memory more efficiently in programs that deal with scattered data points in large data sets.\"",
+    "url": "https://en.wikipedia.org/wiki/Milk_(programming_language)",
     "language_short": "",
     "code": "#import \"basic\"\r\nprint(\"Hello World\")"
   },
@@ -4074,8 +4074,8 @@
   {
     "id": "399",
     "title": "Mips",
-    "description": "",
-    "url": "",
+    "description": "The mIRC scripting language (often unofficially abbreviated to \"mSL\") is the scripting language embedded in mIRC, an IRC client for Windows.",
+    "url": "https://en.wikipedia.org/wiki/MIRC_scripting_language",
     "language_short": "mipsasm",
     "code": ".data\r\nhello_world: .asciiz \"Hello World!\"\r\n \r\n.text\r\nmain:\r\n    li $v0, 4            # Load syscommand print_string\r\n    la $a0, hello_world  # Load hello_world string into register $a0\r\n    syscall              # Print the string\r\n    jr $ra               # Return"
   },
@@ -4105,25 +4105,25 @@
   },
   {
     "id": "402",
-    "title": "ModiScript",
-    "description": "",
-    "url": "",
+    "title": "ModiScript (Modi script)",
+    "description": "Modi (Marathi: मोडी, 𑘦𑘻𑘚𑘲‎ Mōḍī, Marathi pronunciation: [moːɖiː]; also Mudiya) is a script used to write the Marathi language, which is the primary language spoken in the state of Maharashtra, India. There are multiple theories concerning its origin. The Modi script was used alongside the Devanagari script to write Marathi until the 20th century when the Balbodh style of the Devanagari script was promoted as the standard writing system for Marathi.",
+    "url": "https://en.wikipedia.org/wiki/Modi_script",
     "language_short": "plaintext",
     "code": "mitroon\r\nbhaiyo aur behno \"ek nambar do"
   },
   {
     "id": "403",
     "title": "Modula 2",
-    "description": "",
-    "url": "",
+    "description": "Modula-2 is a structured, procedural programming language developed between 1977 and 1985 by Niklaus Wirth at ETH Zurich. It was created as the language for the operating system and application software of the Lilith personal workstation. It was later used for programming outside the context of the Lilith.",
+    "url": "https://en.wikipedia.org/wiki/Modula-2",
     "language_short": "c-like",
     "code": "MODULE HelloWorld;\r\n \r\nFROM Terminal2 IMPORT WriteString, WriteLn;\r\n \r\nBEGIN\r\n \r\n    WriteString(\"Hello World\");\r\n    WriteLn;\r\n    \r\nEND HelloWorld."
   },
   {
     "id": "404",
     "title": "Modula 3",
-    "description": "",
-    "url": "",
+    "description": "Modula-3 is a programming language conceived as a successor to an upgraded version of Modula-2 known as Modula-2+. While it has been influential in research circles (influencing the designs of languages such as Java, C#, and Python) it has not been adopted widely in industry. It was designed by Luca Cardelli, James Donahue, Lucille Glassman, Mick Jordan (before at the Olivetti Software Technology Laboratory), Bill Kalsow and Greg Nelson at the Digital Equipment Corporation (DEC) Systems Research Center (SRC) and the Olivetti Research Center (ORC) in the late 1980s.",
+    "url": "https://en.wikipedia.org/wiki/Modula-3",
     "language_short": "c-like",
     "code": "MODULE HelloWorld;\r\nIMPORT Io;\r\nBEGIN\r\n    IO.Put (\"Hello World\\n\")\r\nEND HelloWorld."
   },
@@ -4146,16 +4146,16 @@
   {
     "id": "904",
     "title": "Monte",
-    "description": "",
-    "url": "",
+    "description": "Monte is a programming language inspired by the E and Python programming languages.",
+    "url": "https://monte.readthedocs.io/en/latest/",
     "language_short": "",
     "code": "traceln(\"Hello World\")"
   },
   {
     "id": "905",
     "title": "Moo",
-    "description": "",
-    "url": "",
+    "description": "A MOO (MUD, object-oriented) is a text-based online virtual reality system to which multiple users (players) are connected at the same time.",
+    "url": "https://en.wikipedia.org/wiki/MOO",
     "language_short": "",
     "code": "@program hello:run\r\nplayer:tell(\"Hello World\");\r\n."
   },
@@ -4170,32 +4170,32 @@
   {
     "id": "408",
     "title": "MorseCode (Morse Code)",
-    "description": "",
-    "url": "",
+    "description": "Morse code is a method used in telecommunication to encode text characters as standardized sequences of two different signal durations, called dots and dashes (or dits and dahs). Morse code is named after Samuel Morse, an inventor of the telegraph.",
+    "url": "https://en.wikipedia.org/wiki/Morse_code",
     "language_short": "brainfuck",
     "code": ".... . .-.. .-.. ---   .-- --- .-. .-.. -.."
   },
   {
     "id": "409",
     "title": "Mouse",
-    "description": "",
-    "url": "",
+    "description": "The Mouse programming language is a small computer programming language developed by Dr. Peter Grogono in the late 1970s and early 1980s.[1][2][3] It was developed as an extension of an earlier language called MUSYS, which was used to control digital and analog devices in an electronic music studio.",
+    "url": "https://en.wikipedia.org/wiki/Mouse_(programming_language)",
     "language_short": "bash",
     "code": "\"Hello, World\"\r\n'! !'\r\n$"
   },
   {
     "id": "410",
     "title": "Move",
-    "description": "",
-    "url": "",
+    "description": "Move is a programming language based on Rust that was created by Facebook for developing customizable transaction logic and smart contracts for the Libra digital currency. Every transaction submitted to the Libra blockchain uses a transaction script written in Move to encode its logic.",
+    "url": "https://golden.com/wiki/Move_(programming_language)-MNA4DZ6",
     "language_short": "javascript",
     "code": "alert 'Hello World'"
   },
   {
     "id": "411",
     "title": "Mozart",
-    "description": "",
-    "url": "",
+    "description": "The Mozart Programming System combines ongoing research in programming language design and implementation, constraint logic programming, distributed computing, and human-computer interfaces. Mozart implements the Oz language and provides both expressive power and advanced functionality.",
+    "url": "http://mozart2.org/",
     "language_short": "c-like",
     "code": "functor\r\nimport\r\n    Application\r\n    System\r\ndefine\r\n    {System.showInfo 'Hello World!'}\r\n    {Application.exit 0} \r\nend"
   },
@@ -4226,16 +4226,16 @@
   {
     "id": "414",
     "title": "Muf",
-    "description": "",
-    "url": "",
+    "description": "MUF (short for Multi-User Forth) is a Forth-based programming language used on TinyMUCK MUCK servers and their descendants, including Fuzzball MUCK, ProtoMUCK and GlowMUCK.",
+    "url": "https://mud.fandom.com/wiki/MUF_(programming_language)",
     "language_short": "c-like",
     "code": ": main\r\n    me @ \"Hello World\" notify\r\n;"
   },
   {
     "id": "415",
     "title": "Mumps",
-    "description": "",
-    "url": "",
+    "description": "MUMPS (\"Massachusetts General Hospital Utility Multi-Programming System\"), or M, is a high performance transaction processing key–value database with integrated programming language. It was originally developed at Massachusetts General Hospital for managing hospital laboratory information systems.",
+    "url": "https://en.wikipedia.org/wiki/MUMPS",
     "language_short": "plaintext",
     "code": " w \"Hello World!\",!"
   },
@@ -4258,16 +4258,16 @@
   {
     "id": "418",
     "title": "Myrddin",
-    "description": "",
-    "url": "",
+    "description": "Myrddin is a programming language. It aims for control and simplicity. It features strong type checking, generics, type inference, closures, and traits. It aims to fit into a similar niche as C, but with fewer bullets in your feet.",
+    "url": "https://myrlang.org/",
     "language_short": "c-like",
     "code": "use std\r\n \r\nconst main = {\r\n    std.put(\"Hello world!\\n\")\r\n}"
   },
   {
     "id": "419",
     "title": "MySQL",
-    "description": "",
-    "url": "",
+    "description": "MySQL (/ˌmaɪˌɛsˌkjuːˈɛl/) is an open-source relational database management system (RDBMS). Its name is a combination of \"My\", the name of co-founder Michael Widenius's daughter, and \"SQL\", the abbreviation for Structured Query Language. A relational database organizes data into one or more data tables in which data types may be related to each other; these relations help structure the data.",
+    "url": "https://en.wikipedia.org/wiki/MySQL",
     "language_short": "sql",
     "code": "SELECT 'Hello World!';"
   },
@@ -4282,8 +4282,8 @@
   {
     "id": "421",
     "title": "Mathematica",
-    "description": "",
-    "url": "",
+    "description": "Mathematica is a powerful technical programming language developed by Wolfram Research. It encompases computer algebra, numerical computation, visualization and statistics capabilities.",
+    "url": "https://en.wikibooks.org/wiki/Mathematica",
     "language_short": "mathematica",
     "code": "Print[\"Hello world\"]"
   },
@@ -4306,8 +4306,8 @@
   {
     "id": "423",
     "title": "Neko",
-    "description": "",
-    "url": "",
+    "description": "Neko programming language is a programming language created in 2005. Neko is a high-level dynamically typed programming language developed by Nicolas Cannasse as part of research and development (R&D) efforts at two indie video game firms in Bordeaux, France: first at Motion Twin and then at Shiro Games.",
+    "url": "https://codelani.com/languages/neko.html",
     "language_short": "php",
     "code": "$print(\"hello world\\n\");"
   },
@@ -4322,16 +4322,16 @@
   {
     "id": "424",
     "title": "Nemerle",
-    "description": "",
-    "url": "",
+    "description": "Nemerle is a general-purpose, high-level, statically typed programming language designed for platforms using the Common Language Infrastructure (.NET/Mono). It offers functional, object-oriented and imperative features. It has a simple C#-like syntax and a powerful metaprogramming system. In June 2012, the core developers of Nemerle were hired by the Czech software development company JetBrains. The team is focusing on developing Nitra, a framework to implement extant and new programming languages. This framework will likely be used to create future versions of Nemerle.",
+    "url": "https://en.wikipedia.org/wiki/Nemerle",
     "language_short": "c-like",
     "code": "class Hello\r\n{\r\n    static Main () : void\r\n    {\r\n        System.Console.WriteLine (\"Hello world!\");\r\n    }\r\n}"
   },
   {
     "id": "425",
     "title": "NewtonScript",
-    "description": "",
-    "url": "",
+    "description": "NewtonScript is a prototype-based programming language created to write programs for the Newton platform. It is heavily influenced by the Self programming language, but modified to be more suited to needs of mobile and embedded devices.",
+    "url": "https://en.wikipedia.org/wiki/NewtonScript",
     "language_short": "c-like",
     "code": "baseview :=\r\n{viewBounds: {left: -3, top: 71, right: 138, bottom: 137},\r\n    viewFlags: 581,\r\n    declareSelf: 'base,\r\n    _proto: protoFloatNGo,\r\n    debug: \"baseview\"\r\n};\r\n \r\ntextview := * child of baseview *\r\n{text: \"Hello World!\",\r\n    viewBounds: {left: 33, top: 24, right: 113, bottom: 46},\r\n    viewFlags: 579,\r\n    _proto: protoStaticText,\r\n    debug: \"textview\"\r\n};"
   },
@@ -4354,8 +4354,8 @@
   {
     "id": "427",
     "title": "Nim",
-    "description": "",
-    "url": "",
+    "description": "Nim is an imperative, general-purpose, multi-paradigm, statically typed, systems, compiled programming language designed and developed by Andreas Rumpf. It is designed to be \"efficient, expressive, and elegant\", supporting metaprogramming, functional, message passing, procedural, and object-oriented programming styles by providing several features such as compile time code generation, algebraic data types, a foreign function interface (FFI) with C, C++, Objective-C, and JavaScript, and supporting compiling to those same languages.",
+    "url": "https://en.wikipedia.org/wiki/Nim_(programming_language)",
     "language_short": "nim",
     "code": "echo(\"hello world\")"
   },
@@ -4378,8 +4378,8 @@
   {
     "id": "430",
     "title": "Node.js",
-    "description": "",
-    "url": "",
+    "description": "Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a \"JavaScript everywhere\" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts.",
+    "url": "https://en.wikipedia.org/wiki/Node.js",
     "language_short": "javascript",
     "code": "#!\/usr\/bin\/env node\r\n \r\nconsole.log('Hello world!');"
   },
@@ -4394,8 +4394,8 @@
   {
     "id": "908",
     "title": "NoFlo",
-    "description": "",
-    "url": "",
+    "description": "NoFlo is a JavaScript implementation of Flow-Based Programming (FBP). Separating the control flow of software from the actual software logic. Helping you organize large applications easier than traditional OOP paradigms, especially when importing and modifying large data sets.",
+    "url": "https://noflojs.org/",
     "language_short": "",
     "code": "'Hello, World' -> IN Display(Output)"
   },
@@ -4418,8 +4418,8 @@
   {
     "id": "434",
     "title": "Nu",
-    "description": "",
-    "url": "",
+    "description": "Nu is an interpreted object-oriented programming language, with a Lisp-like syntax, created by Tim Burks as an alternative scripting language to program OS X through its Cocoa application programming interface (API). Implementations also exist for iPhone and Linux.",
+    "url": "https://en.wikipedia.org/wiki/Nu_(programming_language)",
     "language_short": "vim",
     "code": "(puts \"Hello World\")\r\n"
   },
@@ -4434,8 +4434,8 @@
   {
     "id": "909",
     "title": "NWScript",
-    "description": "",
-    "url": "",
+    "description": "NWScript is the scripting language developed by BioWare for the role-playing video game Neverwinter Nights. It is based on the C programming language and is implemented in the Aurora toolset. Neverscript, an open source 3rd party editor, has been created for the Mac OS X and Linux versions of Neverwinter Nights because the Aurora toolset has not been ported to those platforms.",
+    "url": "https://en.wikipedia.org/wiki/NWScript",
     "language_short": "",
     "code": "// Place in the OnClientEnter event of the module's properties\r\n{\r\n    SendMessageToPC(GetEnteringObject(), \"Hello World\");\r\n}"
   },
@@ -4449,65 +4449,65 @@
   },
   {
     "id": "436",
-    "title": "NXC",
-    "description": "",
-    "url": "",
+    "title": "NXC (Not eXactly C)",
+    "description": "Not eXactly C, or NXC, is a high-level programming language for the Lego Mindstorms NXT designed by John Hansen in 2006. NXC, which is short for Not eXactly C, is based on Next Byte Codes, an assembly language. NXC has a syntax like C. The IDE for NXC is the Bricx Command Center.",
+    "url": "https://en.wikipedia.org/wiki/Not_eXactly_C",
     "language_short": "c-like",
     "code": "task main()\r\n{\r\n    TextOut(0, LCD_LINE1, \"Hello world!\");\r\n}"
   },
   {
     "id": "437",
     "title": "Oberon 2",
-    "description": "",
-    "url": "",
+    "description": "Oberon-2 is an extension of the original Oberon programming language that adds limited reflection and object-oriented programming facilities, open arrays as pointer base types, read-only field export, and reintroduces the FOR loop from Modula-2.",
+    "url": "https://en.wikipedia.org/wiki/Oberon-2",
     "language_short": "c-like",
     "code": "MODULE HelloWorld;\r\nIMPORT Out;\r\nBEGIN\r\n    Out.String( \"Hello World\" );\r\n    Out.Ln;\r\nEND HelloWorld."
   },
   {
     "id": "438",
     "title": "Oberon",
-    "description": "",
-    "url": "",
+    "description": "Oberon is a general-purpose programming language first published in 1987 by Niklaus Wirth and the latest member of the Wirthian family of ALGOL-like languages (Euler, ALGOL W, Pascal, Modula, and Modula-2).",
+    "url": "https://en.wikipedia.org/wiki/Oberon_(programming_language)",
     "language_short": "c-like",
     "code": "MODULE HelloWorld;\r\n \r\nIMPORT Out;\r\n \r\nBEGIN\r\n    Out.Open;\r\n    Out.String('Hello World');\r\nEND HelloWorld."
   },
   {
     "id": "439",
     "title": "Obix",
-    "description": "",
-    "url": "",
+    "description": "oBIX (for Open Building Information Exchange) is a standard for RESTful Web Services-based interfaces to building control systems. oBIX is about reading and writing data over a network of devices using XML and URIs, within a framework specifically designed for building automation.",
+    "url": "https://en.wikipedia.org/wiki/OBIX",
     "language_short": "javascript",
     "code": "system.console.write_line ( \"Hello, world!\" )"
   },
   {
     "id": "440",
     "title": "Obj",
-    "description": "",
-    "url": "",
+    "description": "OBJ is a programming language family introduced by Joseph Goguen in 1976, and further worked on by Jose Meseguer.",
+    "url": "https://en.wikipedia.org/wiki/OBJ_(programming_language)",
     "language_short": "c-like",
     "code": "stdout println:'Hello World!'."
   },
   {
     "id": "910",
     "title": "Object Pascal",
-    "description": "",
-    "url": "",
+    "description": "Object Pascal is an extension to the programming language Pascal that provides object-oriented programming (OOP) features such as classes and methods.",
+    "url": "https://en.wikipedia.org/wiki/Object_Pascal",
     "language_short": "",
     "code": "program ObjectPascalExample;\r\n\r\ntype\r\n    THelloWorld = class\r\n      procedure Put;\r\n    end;\r\n\r\nprocedure THelloWorld.Put;\r\nbegin\r\n    Writeln('Hello World');\r\nend;\r\n\r\nvar\r\n    HelloWorld: THelloWorld;\r\n\r\nbegin\r\n    HelloWorld := THelloWorld.Create;\r\n    HelloWorld.Put;\r\n    HelloWorld.Free;\r\nend."
   },
   {
     "id": "441",
     "title": "Objective C",
-    "description": "",
-    "url": "",
+    "description": "Objective-C is a general-purpose, object-oriented programming language that adds Smalltalk-style messaging to the C programming language. It was the main programming language supported by Apple for macOS, iOS, and their respective application programming interfaces (APIs), Cocoa and Cocoa Touch, until the introduction of Swift in 2014.",
+    "url": "https://en.wikipedia.org/wiki/Objective-C",
     "language_short": "objectivec",
     "code": "\/*\r\n    Build on OS X: \r\n    clang -framework Foundation -fobjc-arc objc.m -o objc\r\n \r\n    Build on Linux with GNUstep:\r\n    clang `gnustep-config --objc-flags` `gnustep-config --base-libs` -fobjc-nonfragile-abi -fobjc-arc objc.m -o objc\r\n*\/\r\n \r\n#import <Foundation\/Foundation.h>\r\n \r\nint main(void)\r\n{\r\n    NSLog(@\"Hello World\");\r\n}"
   },
   {
     "id": "442",
-    "title": "objective j",
-    "description": "",
-    "url": "",
+    "title": "Objective J",
+    "description": "Objective-J is a programming language developed as part of the Cappuccino web development framework. Its syntax is nearly identical to the Objective-C syntax and it shares with JavaScript the same relationship that Objective-C has with the C programming language: that of being a strict, but small, superset; adding traditional inheritance and Smalltalk/Objective-C style dynamic dispatch. Pure JavaScript, being a prototype-based language, already has a notion of object orientation and inheritance, but Objective-J adds the use of class-based programming to JavaScript.",
+    "url": "https://en.wikipedia.org/wiki/Objective-J",
     "language_short": "objectivec",
     "code": "document.write(\"Hello, World!\");"
   },
@@ -4522,16 +4522,16 @@
   {
     "id": "444",
     "title": "OCaml",
-    "description": "",
-    "url": "",
+    "description": "OCaml (/oʊˈkæməl/ oh-KAM-əl, formerly Objective Caml) is a general-purpose, multi-paradigm programming language which extends the Caml dialect of ML with object-oriented features. OCaml was created in 1996 by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez, and others.",
+    "url": "https://en.wikipedia.org/wiki/OCaml",
     "language_short": "ocaml",
     "code": "print_string \"Hello World\\n\""
   },
   {
     "id": "445",
     "title": "Octave",
-    "description": "",
-    "url": "",
+    "description": "GNU Octave is software featuring a high-level programming language, primarily intended for numerical computations. Octave helps in solving linear and nonlinear problems numerically, and for performing other numerical experiments using a language that is mostly compatible with MATLAB. It may also be used as a batch-oriented language. Since it is part of the GNU Project, it is free software under the terms of the GNU General Public License.",
+    "url": "https://en.wikipedia.org/wiki/GNU_Octave",
     "language_short": "php",
     "code": "#Hello World in Octave (http:\/\/www.octave.org\/)\r\nprintf(\"Hello World\\n\");"
   },
@@ -4546,8 +4546,8 @@
   {
     "id": "447",
     "title": "Ooc",
-    "description": "",
-    "url": "",
+    "description": "ooc is a small programming language with a clear and concise syntax that compiles to C99.",
+    "url": "https://ooc-lang.org/",
     "language_short": "c-like",
     "code": "main: func {\r\n    \"Hello World\" println()\r\n}"
   },
@@ -4570,32 +4570,32 @@
   {
     "id": "450",
     "title": "Opa",
-    "description": "",
-    "url": "",
+    "description": "Opa is an open-source programming language for developing scalable web applications.",
+    "url": "https://en.wikipedia.org/wiki/Opa_(programming_language)",
     "language_short": "javascript",
     "code": "jlog(\"Hello world\")"
   },
   {
     "id": "451",
     "title": "OpenLaszlo",
-    "description": "",
-    "url": "",
+    "description": "OpenLaszlo is a discontinued open-source platform for the development and delivery of rich web applications. It is released under the Open Source Initiative certified Common Public License (CPL).",
+    "url": "https://en.wikipedia.org/wiki/OpenLaszlo",
     "language_short": "xml",
     "code": "<canvas>\r\n    <text>Hello World!<\/text>\r\n<\/canvas>"
   },
   {
     "id": "452",
     "title": "Oracle SQL",
-    "description": "",
-    "url": "",
+    "description": "Oracle Database (commonly referred to as Oracle DBMS or simply as Oracle) is a multi-model[4] database management system produced and marketed by Oracle Corporation.",
+    "url": "https://en.wikipedia.org/wiki/Oracle_Database",
     "language_short": "sql",
     "code": "SELECT 'Hello World!' FROM DUAL;"
   },
   {
     "id": "453",
     "title": "Orc",
-    "description": "",
-    "url": "",
+    "description": "Orc is a concurrent, nondeterministic computer programming language created by Jayadev Misra at the University of Texas at Austin.",
+    "url": "https://en.wikipedia.org/wiki/Orc_(programming_language)",
     "language_short": "c-like",
     "code": "{- HelloWorld.orc -- Orc program HelloWorld\r\n    -\r\n    - $Id$\r\n    -\r\n    - Created by xbony2 on Nov 8, 2014 8:30:25 PM\r\n    - Licensed under public domain.\r\n-}\r\nPrintln(\"Hello World!\") >>\r\nstop"
   },
@@ -4618,8 +4618,8 @@
   {
     "id": "456",
     "title": "OX",
-    "description": "",
-    "url": "",
+    "description": "Ox is an object-oriented matrix programming language with a mathematical and statistical function library, developed by Jurgen Doornik. It has been designed for econometric programming. It is available for Windows, Mac OS X and Linux platforms.",
+    "url": "https://en.wikipedia.org/wiki/Ox_(programming_language)",
     "language_short": "json",
     "code": "{Show 'Hello World'}"
   },
@@ -4658,16 +4658,16 @@
   {
     "id": "461",
     "title": "Parser",
-    "description": "",
-    "url": "",
+    "description": "Parser is a scripting language developed by Art. Lebedev Studio used for web development and server-side scripting.",
+    "url": "https://en.wikipedia.org/wiki/Parser_(programming_language)",
     "language_short": "parser3",
     "code": "@main[]\r\n    ^rem{Will print \"Hello, World!\" when run as CGI script}\r\n    $hello[Hello, World!]\r\n    $result[$hello]"
   },
   {
     "id": "462",
     "title": "Pascal",
-    "description": "",
-    "url": "",
+    "description": "Pascal is an imperative and procedural programming language, designed by Niklaus Wirth as a small, efficient language intended to encourage good programming practices using structured programming and data structuring. It is named in honour of the French mathematician, philosopher and physicist Blaise Pascal.",
+    "url": "https://en.wikipedia.org/wiki/Pascal_(programming_language)",
     "language_short": "c-like",
     "code": "program HelloWorld(output);\r\nbegin\r\n        writeln('Hello World');\r\n        readln;\r\nend."
   },
@@ -4690,8 +4690,8 @@
   {
     "id": "464",
     "title": "Pawn",
-    "description": "",
-    "url": "",
+    "description": "Pawn was originally named \"Small\" to emphasize the size of the language specification. The language sacrifices many features found in modern languages to achieve simplicity and speed, which are required for embedded uses.",
+    "url": "https://wiki.alliedmods.net/Pawn_Tutorial",
     "language_short": "c-like",
     "code": "#include <core>\r\n \r\nmain(){\r\n    print(\"Hello World!\");   \r\n}"
   },
@@ -4713,17 +4713,17 @@
   },
   {
     "id": "466",
-    "title": "PBWin",
-    "description": "",
-    "url": "",
+    "title": "PBWin (PowerBASIC Win)",
+    "description": "PowerBASIC, formerly Turbo Basic, is the brand of several commercial compilers by PowerBASIC Inc. that compile a dialect of the BASIC programming language. There are both MS-DOS and Windows versions, and two kinds of the latter: Console and Windows. The MS-DOS version has a syntax similar to that of QBasic and QuickBASIC. The Windows versions use a BASIC syntax expanded to include many Windows functions, and the statements can be combined with calls to the Windows API.",
+    "url": "https://en.wikipedia.org/wiki/PowerBASIC",
     "language_short": "c-like",
     "code": "#COMPILE EXE\r\n#DIM ALL\r\n \r\nFUNCTION PBMAIN () AS LONG\r\n \r\n    MSGBOX \"Hello World\"\r\n \r\nEND FUNCTION"
   },
   {
     "id": "467",
     "title": "Pebble",
-    "description": "",
-    "url": "",
+    "description": "Pebble is a discontinued smartwatch developed by Pebble Technology Corporation. Funding was conducted through a Kickstarter campaign running from April 11, 2012 to May 18, 2012, which raised $10.3 million; it was the most funded project in Kickstarter history, at the time. Pebble began shipping watches to Kickstarter backers in January 2013.",
+    "url": "https://en.wikipedia.org/wiki/Pebble_(watch)",
     "language_short": "c-like",
     "code": "#include <pebble.h>\r\n \r\nstatic Window* main_window;\r\nstatic TextLayer* text_layer, *world_layer;\r\n \r\nstatic void main_window_load(Window* window) {\r\n    Layer *window_layer = window_get_root_layer(window);\r\n    window_set_background_color(main_window, GColorBlack);\r\n    GRect bounds = layer_get_bounds(window_layer);\r\n    text_layer = text_layer_create(\r\n        GRect(0, bounds.size.h \/ 2 - 42, bounds.size.w, 120));\r\n    text_layer_set_text(text_layer, \"Hello\");\r\n    text_layer_set_background_color(text_layer, GColorClear);\r\n    text_layer_set_text_color(text_layer, GColorWhite);\r\n    text_layer_set_font(text_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));\r\n    text_layer_set_text_alignment(text_layer, GTextAlignmentCenter);\r\n \r\n    world_layer = text_layer_create(\r\n        GRect(0, bounds.size.h \/ 2, bounds.size.w, 120));\r\n    text_layer_set_background_color(world_layer, GColorClear);\r\n    text_layer_set_text(world_layer, \"World\");\r\n    text_layer_set_text_color(world_layer, GColorLightGray);\r\n    text_layer_set_font(world_layer, fonts_get_system_font(FONT_KEY_BITHAM_42_BOLD));\r\n    text_layer_set_text_alignment(world_layer, GTextAlignmentCenter);\r\n    \r\n    layer_add_child(window_layer, text_layer_get_layer(text_layer));\r\n    layer_add_child(window_layer, text_layer_get_layer(world_layer));\r\n}\r\nstatic void main_window_unload(Window* window) {\r\n    text_layer_destroy(text_layer);\r\n    text_layer_destroy(world_layer);\r\n}\r\n \r\nstatic void init() {\r\n    main_window = window_create();\r\n    window_set_window_handlers(main_window, (WindowHandlers) {\r\n        .load = main_window_load,\r\n        .unload = main_window_unload\r\n    });\r\n    window_stack_push(main_window, true);\r\n}\r\n \r\nstatic void deinit() {\r\n    window_destroy(main_window);\r\n}\r\n \r\nint main(void) {\r\n    init();\r\n    app_event_loop();\r\n    deinit();\r\n}"
   },

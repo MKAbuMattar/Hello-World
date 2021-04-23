@@ -58,6 +58,7 @@ fetch(`./assets/data/all.json`)
       const cardDescription = document.createElement(`p`)
       if (description !== ``) {
         cardDescription.innerHTML = description
+        cardDescription.classList.add(`description`)
         cardTitle.appendChild(cardDescription)
       }
 

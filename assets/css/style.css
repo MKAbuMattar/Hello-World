@@ -189,6 +189,11 @@ li>a::before {
     scroll-padding-top: 1rem;
 }
 
+.card .description {
+    max-height: 240px;
+    overflow-y: auto;
+}
+
 .card div code {
     font-size: 1.1em;
     font-weight: 600;
