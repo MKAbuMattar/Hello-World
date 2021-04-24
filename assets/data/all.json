@@ -6928,6 +6928,14 @@
     "code": "* Message Box:\r\nMESSAGEBOX(\"Hello World\")\r\n \r\n* Print to screen:\r\n? \"Hello World\"\r\n \r\n* GUI:\r\nloForm = CREATEOBJECT(\"HiForm\")\r\nloForm.Show(1)\r\n \r\nDEFINE CLASS HiForm AS Form\r\n    AutoCenter\t= .T.\r\n    Caption\t\t= \"Hello, World\"\r\n    \r\n    ADD OBJECT lblHi as Label ;\r\n        WITH Caption = \"Hello, World!\"\r\nENDDEFINE"
   },
   {
+    "id": "974",
+    "title": "Visualg",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Algoritmo \" \"\r\nInicio\r\nescreva(\"Hello World\")\r\nFimalgoritmo"
+  },
+  {
     "id": "962",
     "title": "VJass",
     "description": "",
