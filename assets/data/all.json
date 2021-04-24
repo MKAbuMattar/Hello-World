@@ -1040,6 +1040,14 @@
     "code": "10 REM Hello World in BASIC\r\n20 PRINT \"Hello World\""
   },
   {
+    "id": "977",
+    "title": "batch to memory",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "@echo off\r\necho Hello World"
+  },
+  {
     "id": "112",
     "title": "Batsh",
     "description": "",
@@ -4640,6 +4648,14 @@
     "code": "{Show 'Hello World'}"
   },
   {
+    "id": "976",
+    "title": "O:XML",
+    "description": "o:XML is an open source, dynamically typed, general-purpose object-oriented programming language based on XML-syntax. It has threads, exception handling, regular expressions and namespaces. Additionally o:XML has an expression language very similar to XPath that allows functions to be invoked on nodes and node sets.",
+    "url": "https://en.wikipedia.org/wiki/O:XML",
+    "language_short": "xml",
+    "code": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\b<text><![CDATA[Hello World]]></text>"
+  },
+  {
     "id": "457",
     "title": "P0pCrn",
     "description": "P0pCrn is an esolang made by Areallycoolusername. It's based off of x86 Assembly and it has cells.",
@@ -7486,6 +7502,14 @@
     "url": "",
     "language_short": "",
     "code": "Gib \"Hallo Welt\" und eine leere Zeile aus.\r\nBeende das Programm."
+  },
+  {
+    "id": "975",
+    "title": "~Greek",
+    "description": "",
+    "url": "",
+    "language_short": "",
+    "code": "Απεικόνισε \"Γειά Κόσμε\" και μια καινούρια γραμμή.\r\nΣταμάτησε το πρόγραμμα."
   },
   {
     "id": "730",
