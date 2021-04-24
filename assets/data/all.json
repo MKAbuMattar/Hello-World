@@ -1328,6 +1328,14 @@
     "code": "$\"Hello, World!\""
   },
   {
+    "id": "973",
+    "title": "BuddyScript",
+    "description": "BuddyScript is a domain-specific language originally developed by ActiveBuddy. The main purpose of the language is to be able to process natural language queries and return results in natural language form.",
+    "url": "https://handwiki.org/wiki/BuddyScript",
+    "language_short": "",
+    "code": "=AnythingPerfect\r\n    - Hello World"
+  },
+  {
     "id": "146",
     "title": "Bucket",
     "description": "Bucket is a set of languages involving 3 basic operations invented by User:A. The language variant is described by the tuple (a,b), where a<=b.",
