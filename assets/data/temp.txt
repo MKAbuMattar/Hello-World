@@ -1,8 +1,0 @@
-{
-  "id": "975",
-  "title": "",
-  "description": "",
-  "url": "",
-  "language_short": "",
-  "code": ""
-},

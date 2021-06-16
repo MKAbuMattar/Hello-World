@@ -1,11 +1,10 @@
-const cacheName = `hello-word-v3-1-10`
+const cacheName = `hello-word-v4-00-00`
 const staticAssets = [
   `./`,
   `./index.html`,
   `./assets/css/a11y-dark.css`,
   `./assets/css/normalize.css`,
   `./assets/css/style.css`,
-  `./assets/js/app.js`,
   `./assets/data/all.json`,
   `./assets/icons/favicon.ico`,
   `./assets/icons/logo192.png`,
@@ -14,7 +13,7 @@ const staticAssets = [
   `./assets/img/edge.svg`,
   `./assets/img/firefox.svg`,
   `./assets/img/safari.svg`,
-  `./manifest.webmanifest`
+  `./manifest.webmanifest`,
 ]
 
 self.addEventListener(`install`, async e => {
