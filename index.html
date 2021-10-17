@@ -1,96 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <script>
+      if (window.navigator.userAgent.indexOf('Trident/') > 0) {
+        alert('Internet Explorer is not supported.')
+        window.location.replace('./unsupported-browser.html')
+      }
+    </script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-153421884-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || []
 
-<head>
-  <script>
-    if (window.navigator.userAgent.indexOf("Trident/") > 0) {
-      alert("Internet Explorer is not supported.");
-      window.location.replace("./unsupported-browser.html");
-    }
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-153421884-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || []
+      function gtag() {
+        dataLayer.push(arguments)
+      }
+      gtag('js', new Date())
 
-    function gtag() {
-      dataLayer.push(arguments)
-    }
-    gtag('js', new Date())
+      gtag('config', 'UA-153421884-1')
+    </script>
 
-    gtag('config', 'UA-153421884-1')
-  </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <link rel="icon" href="./assets/icons/favicon.ico" />
+    <meta
+      name="description"
+      content="This app for shows Hello, World! in programming languages."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="keywords"
+      content="programming, program, languages, languages programming, Hello World in All Programming Languages"
+    />
+    <meta name="author" content="Mohammad Khaled Abu Mattar" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href="./assets/icons/logo192.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link
+      rel="manifest"
+      href="./manifest.webmanifest"
+      crossorigin="use-credentials"
+    />
+    <title>Hello World in All Programming Languages</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="icon" href="./assets/icons/favicon.ico">
-  <meta name="description" content="This app for shows Hello, World! in programming languages.">
-  <meta name="robots" content="index, follow">
-  <meta name="keywords"
-    content="programming, program, languages, languages programming, Hello World in All Programming Languages">
-  <meta name="author" content="Mohammad Khaled Abu Mattar">
-  <meta name="theme-color" content="#000000">
-  <link rel="apple-touch-icon" href="./assets/icons/logo192.png">
-  <link rel="manifest" href="./manifest.webmanifest">
-  <link rel="manifest" href="./manifest.webmanifest" crossorigin="use-credentials">
-  <title>Hello World in All Programming Languages</title>
+    <link rel="stylesheet" href="./assets/css/normalize.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/a11y-dark.css" />
+    <style>
+      .hljs-ln td.hljs-ln-numbers {
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 
-  <link rel="stylesheet" href="./assets/css/normalize.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="stylesheet" href="./assets/css/a11y-dark.css">
-  <style>
-    .hljs-ln td.hljs-ln-numbers {
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
+        text-align: center;
+        color: #ccc;
+        border-right: 1px solid #ccc;
+        vertical-align: top;
+        padding-right: 5px;
+      }
 
-      text-align: center;
-      color: #ccc;
-      border-right: 1px solid #CCC;
-      vertical-align: top;
-      padding-right: 5px;
-    }
+      .hljs-ln td.hljs-ln-code {
+        padding-left: 10px;
+      }
 
-    .hljs-ln td.hljs-ln-code {
-      padding-left: 10px;
-    }
+      .bookmark {
+        padding-top: 0;
+      }
+    </style>
+    <script src="./assets/js/app.js" defer></script>
+    <script src="./assets/js/highlight.pack.js" defer></script>
+    <script src="./assets/js/highlightjs-line-numbers.min.js" defer></script>
+    <script defer>
+      document.addEventListener('DOMContentLoaded', (event) => {
+        hljs.initHighlightingOnLoad()
 
-    .bookmark {
-      padding-top: 0;
-    }
-  </style>
-  <script src="./assets/js/app.js" defer></script>
-  <script src="./assets/js/highlight.pack.js" defer></script>
-  <script src="./assets/js/highlightjs-line-numbers.min.js" defer></script>
-  <script defer>
-    document.addEventListener('DOMContentLoaded', (event) => {
-      hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad({
+          singleLine: true,
+        })
+      })
+    </script>
+  </head>
 
-      hljs.initLineNumbersOnLoad({
-        singleLine: true
-      });
-    });
-  </script>
-</head>
-
-<body id="app">
-  <div class="floating">
-    <a id="myBtn1" class="floating__btn add-button" title="Install App">
-      <svg height="48" width="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" id="install_app"
-          d="M8 7C8 4.23858 10.2386 2 13 2H35C37.7614 2 40 4.23858 40 7V41C40 43.7614 37.7614 46 35 46H13C10.2386 46 8 43.7614 8 41V7ZM13 6C12.4477 6 12 6.44772 12 7V41C12 41.5523 12.4477 42 13 42H35C35.5523 42 36 41.5523 36 41V7C36 6.44772 35.5523 6 35 6H13ZM18 10C18 9.44772 18.4477 9 19 9H29C29.5523 9 30 9.44772 30 10V12C30 12.5523 29.5523 13 29 13H19C18.4477 13 18 12.5523 18 12V10ZM24 39C25.6569 39 27 37.6569 27 36C27 34.3431 25.6569 33 24 33C22.3431 33 21 34.3431 21 36C21 37.6569 22.3431 39 24 39Z">
-        </path>
-      </svg>
-    </a>
-    <a id="myBtn" class="floating__btn" title="Go to top">
-      <svg height="48" width="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-        <path id="scrolltop-bg" d="M0 0h48v48h-48z"></path>
-        <path id="scrolltop-arrow" d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"></path>
-      </svg>
-    </a>
-  </div>
-</body>
-
+  <body id="app">
+    <div class="floating">
+      <a id="myBtn1" class="floating__btn add-button" title="Install App">
+        <svg
+          height="48"
+          width="48"
+          viewBox="0 0 48 48"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            id="install_app"
+            d="M8 7C8 4.23858 10.2386 2 13 2H35C37.7614 2 40 4.23858 40 7V41C40 43.7614 37.7614 46 35 46H13C10.2386 46 8 43.7614 8 41V7ZM13 6C12.4477 6 12 6.44772 12 7V41C12 41.5523 12.4477 42 13 42H35C35.5523 42 36 41.5523 36 41V7C36 6.44772 35.5523 6 35 6H13ZM18 10C18 9.44772 18.4477 9 19 9H29C29.5523 9 30 9.44772 30 10V12C30 12.5523 29.5523 13 29 13H19C18.4477 13 18 12.5523 18 12V10ZM24 39C25.6569 39 27 37.6569 27 36C27 34.3431 25.6569 33 24 33C22.3431 33 21 34.3431 21 36C21 37.6569 22.3431 39 24 39Z"
+          ></path>
+        </svg>
+      </a>
+      <a id="myBtn" class="floating__btn" title="Go to top">
+        <svg
+          height="48"
+          width="48"
+          viewBox="0 0 48 48"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path id="scrolltop-bg" d="M0 0h48v48h-48z"></path>
+          <path
+            id="scrolltop-arrow"
+            d="M14.83 30.83l9.17-9.17 9.17 9.17 2.83-2.83-12-12-12 12z"
+          ></path>
+        </svg>
+      </a>
+    </div>
+  </body>
 </html>

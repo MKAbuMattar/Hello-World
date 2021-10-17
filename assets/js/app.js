@@ -1,6 +1,9 @@
 const dom = document.getElementById('app')
 const alphabetArray = 'abcdefghijklmnopqrstuvwxyz'.split('')
-const symbolArray = 'أاإىآبتثجحخدذرزسشصضطعغفقكلمنهويءئکوردیی ناوەندیなでしこひまわり上海话文言易语言\u03bc\u03bb!\";#$%&\'()*+,-./:;<=>?@[]^_`{|}~0123456789🆒'.split('')
+const symbolArray =
+  'أاإىآبتثجحخدذرزسشصضطعغفقكلمنهويءئکوردیی ناوەندیなでしこひまわり上海话文言易语言火星文한국어\u03bc\u03bb!";#$%&\'()*+,-./:;<=>?@[]^_`{|}~ᚱᚢᚾᛅᛦ∗0123456789🆒'.split(
+    '',
+  )
 
 let arr = []
 let con = 0
@@ -11,10 +14,9 @@ const capitalize = (s) => {
   return s.charAt(0).toUpperCase() + s.slice(1)
 }
 
-fetch(`https://mk-hello-world-api.herokuapp.com/api`)
-  .then(response => response.json())
-  .then(data => {
-
+fetch(`./assets/data/data.json`)
+  .then((response) => response.json())
+  .then((data) => {
     const renderLink = (title) => {
       const headerShowli = document.createElement(`li`)
       headerShowUl.appendChild(headerShowli)
@@ -186,13 +188,11 @@ fetch(`https://mk-hello-world-api.herokuapp.com/api`)
         }
         arr[con] = conn
       }
-
     }
     conn = 0
     con++
 
     for (let i in alphabetArray) {
-
       renderAlphabet(i)
 
       for (let j in data) {
@@ -227,9 +227,10 @@ fetch(`https://mk-hello-world-api.herokuapp.com/api`)
     conn = 1
 
     for (let i in alphabetArray) {
-
       const headerShowliSpanListAlphabet = document.createElement(`span`)
-      headerShowliSpanListAlphabet.textContent = `${alphabetArray[i].toUpperCase()}`
+      headerShowliSpanListAlphabet.textContent = `${alphabetArray[
+        i
+      ].toUpperCase()}`
       headerShowliSpanListAlphabet.id = `__${alphabetArray[i].toUpperCase()}__`
       headerShowUl.appendChild(headerShowliSpanListAlphabet)
 
@@ -264,8 +265,11 @@ fetch(`https://mk-hello-world-api.herokuapp.com/api`)
       let title = ``
       searchTerm = e.target.value.toLowerCase()
       cards.forEach((card) => {
-        title = card.firstElementChild.firstElementChild.firstElementChild.textContent.toLowerCase()
-        title.includes(searchTerm) ? card.style.display = `flex` : card.style.display = `none`
+        title =
+          card.firstElementChild.firstElementChild.firstElementChild.textContent.toLowerCase()
+        title.includes(searchTerm)
+          ? (card.style.display = `flex`)
+          : (card.style.display = `none`)
       })
     })
 
@@ -280,9 +284,7 @@ fetch(`https://mk-hello-world-api.herokuapp.com/api`)
     cardSection.appendChild(container)
 
     for (let i in symbolArray) {
-
       for (let j in data) {
-
         let id = data[j].id
         let title = capitalize(data[j].title)
         let description = data[j].description
@@ -297,9 +299,7 @@ fetch(`https://mk-hello-world-api.herokuapp.com/api`)
     }
 
     for (let i in alphabetArray) {
-
       for (let j in data) {
-
         let id = data[j].id
         let title = capitalize(data[j].title)
         let description = data[j].description
@@ -314,19 +314,25 @@ fetch(`https://mk-hello-world-api.herokuapp.com/api`)
     }
 
     const footer = document.createElement(`footer`)
-    footer.innerHTML = `<p> All Copyrights Reserved &#169; 2019 ${(new Date().getFullYear() > 2019) ? (` - ` + new Date().getFullYear()) : (``)}, Made With <mark>❤</mark> & a lot ☕ By <a href="https://mkabumattar.github.io/">Mohammad Khaled Abu Mattar</a> </p>`
+    footer.innerHTML = `<p> All Copyrights Reserved &#169; 2019 ${
+      new Date().getFullYear() > 2019 ? ` - ` + new Date().getFullYear() : ``
+    }, Made With <mark>❤</mark> & a lot ☕ By <a href="https://mkabumattar.github.io/">Mohammad Khaled Abu Mattar</a> </p>`
     dom.appendChild(footer)
-
   })
 
 if (`serviceWorker` in navigator) {
   window.addEventListener(`load`, () => {
-    navigator.serviceWorker.register(`./sw.js`).then((registration) => {
-      console.log(`ServiceWorker registration successful with scope: `, registration
-        .scope)
-    }, (err) => {
-      console.log(`ServiceWorker registration failed: `, err)
-    })
+    navigator.serviceWorker.register(`./sw.js`).then(
+      (registration) => {
+        console.log(
+          `ServiceWorker registration successful with scope: `,
+          registration.scope,
+        )
+      },
+      (err) => {
+        console.log(`ServiceWorker registration failed: `, err)
+      },
+    )
   })
 }
 
@@ -338,7 +344,10 @@ mybutton.addEventListener(`click`, () => {
 })
 
 const scrollFunction = () => {
-  if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
+  if (
+    document.body.scrollTop > 500 ||
+    document.documentElement.scrollTop > 500
+  ) {
     mybutton.style.display = `block`
   } else {
     mybutton.style.display = `none`
