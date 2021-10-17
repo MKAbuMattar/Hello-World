@@ -1,11 +1,11 @@
-const cacheName = `hello-word-v4-00-00`
+const cacheName = `hello-word-v4-05-00`
 const staticAssets = [
   `./`,
   `./index.html`,
   `./assets/css/a11y-dark.css`,
   `./assets/css/normalize.css`,
   `./assets/css/style.css`,
-  `./assets/data/all.json`,
+  `./assets/data/data.json`,
   `./assets/icons/favicon.ico`,
   `./assets/icons/logo192.png`,
   `./assets/icons/logo512.png`,
@@ -16,41 +16,41 @@ const staticAssets = [
   `./manifest.webmanifest`,
 ]
 
-self.addEventListener(`install`, async e => {
-  const cache = await caches.open(cacheName);
-  await cache.addAll(staticAssets);
-  return self.skipWaiting();
-});
+self.addEventListener(`install`, async (e) => {
+  const cache = await caches.open(cacheName)
+  await cache.addAll(staticAssets)
+  return self.skipWaiting()
+})
 
-self.addEventListener(`activate`, e => {
-  self.clients.claim();
-});
+self.addEventListener(`activate`, (e) => {
+  self.clients.claim()
+})
 
-self.addEventListener(`fetch`, async e => {
-  const req = e.request;
-  const url = new URL(req.url);
+self.addEventListener(`fetch`, async (e) => {
+  const req = e.request
+  const url = new URL(req.url)
 
   if (url.origin === location.origin) {
-    e.respondWith(cacheFirst(req));
+    e.respondWith(cacheFirst(req))
   } else {
-    e.respondWith(networkAndCache(req));
+    e.respondWith(networkAndCache(req))
   }
-});
+})
 
 const cacheFirst = async (req) => {
-  const cache = await caches.open(cacheName);
-  const cached = await cache.match(req);
-  return cached || fetch(req);
+  const cache = await caches.open(cacheName)
+  const cached = await cache.match(req)
+  return cached || fetch(req)
 }
 
 const networkAndCache = async (req) => {
-  const cache = await caches.open(cacheName);
+  const cache = await caches.open(cacheName)
   try {
-    const fresh = await fetch(req);
-    await cache.put(req, fresh.clone());
-    return fresh;
+    const fresh = await fetch(req)
+    await cache.put(req, fresh.clone())
+    return fresh
   } catch (e) {
-    const cached = await cache.match(req);
-    return cached;
+    const cached = await cache.match(req)
+    return cached
   }
 }
