@@ -93,7 +93,8 @@ This app for shows **_Hello, World!_** in all programming languages.
 
 <hr/>
 <div align="center" id="#">
-<h3># 86 Languages Programming<h3>
+<h3># 91 Languages Programming<h3>
+<span>
 قلب
 کوردیی ناوەندی
 なでしこ
@@ -105,7 +106,9 @@ This app for shows **_Hello, World!_** in all programming languages.
 文言
 한국어
 Μλ (MiLambda)
-!@#$$%^&∗()_+ (!@$$%^&*()+)
+!@#$%^&*()_+
+$_$
+(?!)
 ():;#?!
 ,,,
 --Unless
@@ -114,6 +117,7 @@ This app for shows **_Hello, World!_** in all programming languages.
 ?$51=
 @tention!
 @text
+`
 ~-~!
 ~Afrikaans
 ~Bengali
@@ -167,11 +171,13 @@ This app for shows **_Hello, World!_** in all programming languages.
 05AB1E
 0815
 1+
+123
 1C Enterprise
 256
 2B
 2DFuck
 2L
+33
 420
 4D
 4GL
@@ -180,10 +186,12 @@ This app for shows **_Hello, World!_** in all programming languages.
 8051 Assembly
 8Th
 🆒
+</span>
 </div>
 <hr/>
 <div align="center" id="A">
-<h3>A 105 Languages Programming<h3>
+<h3>A 107 Languages Programming<h3>
+<span>
 A:;
 A.R.T.I.C.L.E.
 A++
@@ -201,6 +209,7 @@ Actionscript3 (ActionScript 3)
 Ada
 AdvPL
 Aeolbonn
+AEWNN
 Agda
 Aheui
 Aime
@@ -278,6 +287,7 @@ Assembler Z80 Knightos
 Assembler Z80 TI83calculator
 Assembler Z80 zxspectrum
 Assembly language
+Astridec
 ATS2
 Attache
 Aubergine
@@ -289,10 +299,12 @@ AviSynth
 Awful
 AWK
 Axe
+</span>
 </div>
 <hr/>
 <div align="center" id="B">
-<h3>B 62 Languages Programming<h3>
+<h3>B 66 Languages Programming<h3>
+<span>
 B
 Babalang
 BackFlip
@@ -316,6 +328,7 @@ Beanshell
 Beatnik
 Beef
 Befunge
+Befunk
 BennuGD
 BestFriends.js
 Beta
@@ -335,6 +348,7 @@ BlackRum
 BLC
 Blender
 Blitz3d
+Blood
 Bloop
 Blub
 Bolgefuck
@@ -343,10 +357,12 @@ Boolet
 Boolfuck
 Bosque
 Brain-Flak
+Brainflop
 Brainfuck
 Brainfuck 2D
 Brian & Chuck
 Broccoli
+Broken Calculator
 BRZRK
 Bucket
 BuddyScript
@@ -355,10 +371,12 @@ Bur
 Burlesque
 Byte Syze
 Byter
+</span>
 </div>
 <hr/>
 <div align="center" id="C">
 <h3>C 68 Languages Programming<h3>
+<span>
 C
 C Shell
 C-INTERCAL
@@ -427,10 +445,12 @@ Cuneiform
 Curry
 CypherNeo4j
 Cω
+</span>
 </div>
 <hr/>
 <div align="center" id="D">
 <h3>D 44 Languages Programming<h3>
+<span>
 D
 D♭♭
 Daoyu
@@ -475,10 +495,12 @@ DUP
 Dupdog
 Dylan
 Dyvil
+</span>
 </div>
 <hr/>
 <div align="center" id="E">
 <h3>E 31 Languages Programming<h3>
+<span>
 E
 E62qpodb593
 EBuild
@@ -510,11 +532,14 @@ Euphoria
 Evil
 Exp
 Express
+</span>
 </div>
 <hr/>
 <div align="center" id="F">
-<h3>F 41 Languages Programming<h3>
+<h3>F 44 Languages Programming<h3>
+<span>
 F
+F-PULSE
 Factor
 FakeASM
 Falcon
@@ -530,7 +555,9 @@ Fishing
 Fjölnir (Fjolnir / Fjoelnir)
 FlaScript
 Flask
+FlinnScrip
 Flip
+FlipJump
 Flutter
 Fob
 Focal
@@ -555,10 +582,12 @@ FStar (F*)
 Fueue
 Full O (Full 0)
 Funciton
+</span>
 </div>
 <hr/>
 <div align="center" id="G">
-<h3>G 33 Languages Programming<h3>
+<h3>G 34 Languages Programming<h3>
+<span>
 GAML
 Gammaplex
 GASOIL
@@ -573,6 +602,7 @@ Gibberish/JavaScript
 Glass
 GML (Game Maker Language)
 Go
+Godencode
 Goldfish
 Golfscript
 Golfuck
@@ -592,16 +622,19 @@ Groovy
 GTA3Script
 Gui4Cli
 Gulp
+</span>
 </div>
 <hr/>
 <div align="center" id="H">
-<h3>H 26 Languages Programming<h3>
+<h3>H 27 Languages Programming<h3>
+<span>
 H🌍
 Hack
 Haml
 Hanoi Love
 Haskell
 Haxe
+Heck
 Hello
 Hello++
 HEX
@@ -622,10 +655,12 @@ Hubot
 Huf
 Hy
 HyperTalk
+</span>
 </div>
 <hr/>
 <div align="center" id="I">
-<h3>I 22 Languages Programming<h3>
+<h3>I 23 Languages Programming<h3>
+<span>
 I5
 IBM1401
 IcedCoffeeScript
@@ -648,10 +683,13 @@ IRC
 IronScheme
 ISCOM
 ISLISP
+IXQUS (ΙΧΘΥΣ)
+</span>
 </div>
 <hr/>
 <div align="center" id="J">
 <h3>J 18 Languages Programming<h3>
+<span>
 J
 Jade
 Jai
@@ -670,10 +708,12 @@ JSX
 JudoScript
 Julia
 Jython
+</span>
 </div>
 <hr/>
 <div align="center" id="K">
 <h3>K 12 Languages Programming<h3>
+<span>
 K
 Karel
 Keg
@@ -686,15 +726,18 @@ Kotlin
 Kotlin Script
 KSH (KornShell)
 Kumir
+</span>
 </div>
 <hr/>
 <div align="center" id="L">
-<h3>L 37 Languages Programming<h3>
+<h3>L 38 Languages Programming<h3>
+<span>
 Labyrinth
 Lasso (LassoScript)
 LaTeX
 Lazy K (LazyK)
 LBL
+LCCBED
 LCoffee
 Less
 Leszek
@@ -727,10 +770,12 @@ LSL (Linden Scripting Language)
 LUA
 Lua Grimex
 LWC
+</span>
 </div>
 <hr/>
 <div align="center" id="M">
 <h3>M 56 Languages Programming<h3>
+<span>
 M code (M-code)
 M4
 MacLisp
@@ -787,10 +832,12 @@ MXML
 Myrddin
 MySQL
 Myth
+</span>
 </div>
 <hr/>
 <div align="center" id="N">
-<h3>N 22 Languages Programming<h3>
+<h3>N 23 Languages Programming<h3>
+<span>
 Nadeshiko
 Naz
 NDBall
@@ -806,6 +853,7 @@ Node.js
 NoFlo
 NOR
 Not Python
+NOTE
 Novice
 Nqubl
 Nu
@@ -813,10 +861,12 @@ Numberix
 NWScript
 NXC (Not eXactly C)
 NyaScript
+</span>
 </div>
 <hr/>
 <div align="center" id="O">
 <h3>O 25 Languages Programming<h3>
+<span>
 O:XML
 Oberon
 Oberon 2
@@ -842,10 +892,12 @@ Orion
 ORK
 Ouroboros
 OX
+</span>
 </div>
 <hr/>
 <div align="center" id="P">
 <h3>P 74 Languages Programming<h3>
+<span>
 P0pCrn
 Packlang
 Paintfuck
@@ -915,15 +967,17 @@ PureScript
 PureStack
 Purple
 Pxem
+Pyhton (sic)
 Pyret
 Pyth
 Python
-Python [sic]
 Python 3
+</span>
 </div>
 <hr/>
 <div align="center" id="Q">
 <h3>Q 13 Languages Programming<h3>
+<span>
 Q
 Q# (QSharp)
 QBasic
@@ -937,10 +991,12 @@ Qugord
 Quipu
 Quorum
 QWERTY
+</span>
 </div>
 <hr/>
 <div align="center" id="R">
 <h3>R 44 Languages Programming<h3>
+<span>
 R
 Racket
 Radixal (Radixal!!!!)
@@ -985,9 +1041,12 @@ Rubic
 Ruby
 Ruota
 Rust
+</span>
 </div>
+<hr/>
 <div align="center" id="S">
-<h3>S 93 Languages Programming<h3>
+<h3>S 94 Languages Programming<h3>
+<span>
 S Algol (S-Algol)
 Sabdt
 Sacred
@@ -1041,6 +1100,7 @@ SNOBOL
 Snowman
 SNUSP
 Solidity
+Something
 Sortle
 SoupScript
 Spaghetti
@@ -1081,10 +1141,12 @@ Swift
 Swordfish
 SYCPOL (System card programming language)
 SystemTap
+</span>
 </div>
 <hr/>
 <div align="center" id="T">
 <h3>T 36 Languages Programming<h3>
+<span>
 Takeover
 Taktentus
 Tao Presentations
@@ -1121,10 +1183,12 @@ Tunex
 Turing
 Turth machine (Turth-machine)
 TypeScript
+</span>
 </div>
 <hr/>
 <div align="center" id="U">
 <h3>U 13 Languages Programming<h3>
+<span>
 Ubercode
 Ubiquity
 UClang*
@@ -1138,10 +1202,12 @@ Uniface
 Unlambda
 Unreal Script (UnrealScript)
 URSL
+</span>
 </div>
 <hr/>
 <div align="center" id="V">
 <h3>V 28 Languages Programming<h3>
+<span>
 V
 V--
 Vala
@@ -1170,14 +1236,17 @@ Vowels
 VRML
 VTL
 Vue (Vue.js)
+</span>
 </div>
 <hr/>
 <div align="center" id="W">
-<h3>W 15 Languages Programming<h3>
+<h3>W 16 Languages Programming<h3>
+<span>
 WARP
 WebAssembly
 Wenyan
 Wheat
+Wheel
 Whenever
 Whirl
 Whitespace
@@ -1189,10 +1258,12 @@ Word!CPU
 WowLang
 Wren
 WSH
+</span>
 </div>
 <hr/>
 <div align="center" id="X">
 <h3>X 18 Languages Programming<h3>
+<span>
 X
 X D (x-D)
 X.so
@@ -1211,19 +1282,23 @@ XQuery (XML Query)
 XRF
 XSLT
 XUL
+</span>
 </div>
 <hr/>
 <div align="center" id="Y">
 <h3>Y 5 Languages Programming<h3>
+<span>
 Y
 YAML
 YASKC
 YoLang
 YoptaScript
+</span>
 </div>
 <hr/>
 <div align="center" id="Z">
 <h3>Z 15 Languages Programming<h3>
+<span>
 ZBD
 Zepto
 Zetaplex
@@ -1239,6 +1314,7 @@ ZScript
 ZSH (Z shell)
 Zucchini
 Zx
+</span>
 </div>
 
 > Inspired by [The Hello World Collection](https://helloworldcollection.github.io/).
