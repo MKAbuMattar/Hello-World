@@ -322,7 +322,7 @@ fetch(`./assets/data/data.json`)
 
 if (`serviceWorker` in navigator) {
   window.addEventListener(`load`, () => {
-    navigator.serviceWorker.register(`./sw.js`).then(
+    navigator.serviceWorker.register(`./sssw.js`).then(
       (registration) => {
         console.log(
           `ServiceWorker registration successful with scope: `,
