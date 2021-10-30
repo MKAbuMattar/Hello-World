@@ -14,7 +14,7 @@ const capitalize = (s) => {
   return s.charAt(0).toUpperCase() + s.slice(1)
 }
 
-fetch(`./assets/data/data.json`)
+fetch(`https://mk-hello-world-api.herokuapp.com/api`)
   .then((response) => response.json())
   .then((data) => {
     const renderLink = (title) => {
