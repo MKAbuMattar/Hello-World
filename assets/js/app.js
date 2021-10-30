@@ -14,7 +14,7 @@ const capitalize = (s) => {
   return s.charAt(0).toUpperCase() + s.slice(1)
 }
 
-fetch(`https://mk-hello-world-api.herokuapp.com/api`)
+fetch(`./assets/data/data.json`)
   .then((response) => response.json())
   .then((data) => {
     const renderLink = (title) => {
@@ -322,7 +322,7 @@ fetch(`https://mk-hello-world-api.herokuapp.com/api`)
 
 if (`serviceWorker` in navigator) {
   window.addEventListener(`load`, () => {
-    navigator.serviceWorker.register(`./sw.js`).then(
+    navigator.serviceWorker.register(`./ssw.js`).then(
       (registration) => {
         console.log(
           `ServiceWorker registration successful with scope: `,
