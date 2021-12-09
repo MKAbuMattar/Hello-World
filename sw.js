@@ -1,4 +1,4 @@
-const cacheName = `hello-word-v4-05-04`
+const cacheName = `hello-word-v4-05-05`
 const staticAssets = [
   `./`,
   `./index.html`,
