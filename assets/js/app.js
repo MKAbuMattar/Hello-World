@@ -14,7 +14,9 @@ const capitalize = (s) => {
   return s.charAt(0).toUpperCase() + s.slice(1)
 }
 
-fetch('./assets/data/data.json')
+fetch(
+  'https://raw.githubusercontent.com/MKAbuMattar/hello-world-api/main/src/controllers/data.json',
+)
   .then((response) => response.json())
   .then((data) => {
     const renderLink = (title) => {
@@ -322,7 +324,7 @@ fetch('./assets/data/data.json')
 
 if (`serviceWorker` in navigator) {
   window.addEventListener(`load`, () => {
-    navigator.serviceWorker.register(`./00sw.js`).then(
+    navigator.serviceWorker.register(`./sw.js`).then(
       (registration) => {
         console.log(
           `ServiceWorker registration successful with scope: `,

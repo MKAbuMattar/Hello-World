@@ -1,11 +1,10 @@
-const cacheName = `hello-word-v4-05-05`
+const cacheName = `hello-word-v4-05-06`
 const staticAssets = [
   `./`,
   `./index.html`,
   `./assets/css/a11y-dark.css`,
   `./assets/css/normalize.css`,
   `./assets/css/style.css`,
-  `./assets/data/data.json`,
   `./assets/icons/favicon.ico`,
   `./assets/icons/logo192.png`,
   `./assets/icons/logo512.png`,
