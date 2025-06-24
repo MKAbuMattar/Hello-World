@@ -15,7 +15,7 @@ const capitalize = (s) => {
 }
 
 fetch(
-  'https://raw.githubusercontent.com/MKAbuMattar/hello-world-api/main/src/controllers/data.json',
+  'https://raw.githubusercontent.com/MKAbuMattar/hello-world-api/refs/heads/2025/05/05/tmp/src/controllers/data.json',
 )
   .then((response) => response.json())
   .then((data) => {
